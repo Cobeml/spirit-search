@@ -229,6 +229,43 @@ verified here).
 7. Discord outbound from this CLI session requires terminal approval;
    first message attempt timed out unapproved.
 
+## Batch 1 reassessment (post-gating notes)
+
+- **Genius and Prometheus lack definite character.** Both entries now
+  read as evidence of that: the sources define the genius structurally
+  (tutelage, etymology, pairing with Juno) and Prometheus functionally
+  (giver of fire and arts). Neither tradition hands us a personality —
+  no whims, no biography beyond the one act. The profiles above should
+  be read as profiles of *abstractions with names*, and the connection
+  map treats their edges as structural, not personal. (I) A spirit with
+  a name but no character is the tradition doing classificatory, not
+  narrative, work; that distinction is now load-bearing for later
+  batches.
+- **Machaon is under-defined as a character.** Conceded and written
+  into the node: the Iliad gives him deeds and a plot-function, never a
+  personality. The hypothesis "he was less salient to history than
+  others" is an argument from silence and is flagged as such — the
+  counter-evidence is the Gerenia cult (Paus. 3.26.9–10), which shows
+  he remained salient *locally* for centuries. Salience is geography-
+  dependent, not a single number.
+- **Sandman: noted as already known to Cobe.** The entry stands as the
+  worked example of definite-character spirits, but the figure is
+  deprioritized for future passes — no new fetch rounds on Hoffmann/
+  Freud unless a stranger corner (e.g. pre-Hoffmann folk attestations)
+  turns up.
+
+## Spirit graph (v0)
+
+The log now maintains a machine-readable graph at
+`research/graph.json`: every identified spirit is a node; edges are
+documented interactions — kinship, transmission, cult geography,
+conflict, polemic — each carrying an evidence pointer. Analogy edges
+are labeled as analogy and never upgraded silently. Batch-1 subgraph:
+22 edges across 18 nodes; batch-2 candidates (Lilith, Rhiannon,
+Völundr, Washington) are registered as proposed nodes with no edges
+until evidence lands. Open questions are kept in the graph file rather
+than in prose.
+
 ## Sources
 
 [1] https://classics.mit.edu/Homer/iliad.mb.txt — Homer, Iliad, trans. Butler 1898 (MIT Classics)
