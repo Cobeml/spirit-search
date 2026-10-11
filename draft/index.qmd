@@ -22,8 +22,8 @@ Numbers in brackets map to the annotated source list at the end.
 **Who is described.** (S) In the Catalogue of Ships, Machaon and his
 brother Podaleirius — "the two sons of Aesculapius, skilled in the art
 of healing" — bring thirty ships from Thessaly (Il. 2.729–733) [1]. (I)
-He is both crew-captain and clinician: the Iliad never separates the
-surgeon from the man under arms.
+He is both crew-captain and clinician: the two offices are fused in the Catalogue entry
+itself [1].
 
 **How it is known or encountered.** (S) In Il. 4.193–219 Machaon draws
 Pandarus' arrow from Menelaus and applies "soothing drugs which Chiron
@@ -38,7 +38,13 @@ for diseases … a standing bronze statue of Machaon, with a crown on his
 head which the Messenians in the local speech call kiphos" (Paus. 3.26.9–10) [3]. (H) Pausanias, writing in the 2nd c. CE, attests a
 documented cult site and its legend of Nestor bringing the bones home;
 the Taras sanctuary claim could not be fetched from a primary source and
-is flagged uncertain.
+is flagged uncertain. (H) **Character thickness.** Thin by silence, not
+by scarcity: across two long Homeric death-arcs and a cult report, no
+witness gives Machaon a personality — Homer gives him acts (draw, apply,
+be wounded, be carried off) and Pausanias gives him tomb, statue, and
+bones. The tradition transmitted his office, not his person; whether
+that silence caused his low later salience or results from it cannot be
+decided from the fetched witnesses.
 
 **What it commands/demands/changes.** (S) Plato's Socrates uses the
 passage as his exemplum of medical judgment: quoting Hecamede's posset
@@ -53,6 +59,10 @@ Eurypylus (via Pausanias) — later tradition raises his price of being a
 healer in combat.
 
 ### The Genius — tutelary of persons and places (Roman tradition)
+
+> Batch-1 revision note (reader doctrine): the genius lacks definite
+> character — the findings below keep that as a result, not a defect to
+> be papered over.
 
 **Who is described.** (S) Censorinus, ch. 3: "Genius est deus, cuius in
 tutela ut quisque natus est vivit" — the Genius is the god under whose
@@ -92,9 +102,13 @@ over, and has the power of begetting, all things," then turns the idea
 into a polemic: "if every genius is a god, and the soul of every man a
 genius, it follows that the soul of every man is a god. But if very
 absurdity compels even these theologists themselves to shrink from
-this…" (Civ. Dei 7.13) [13]. (I) The genius names precisely the
-contested thing: individual soul vs. place-spirit vs. a totality that
-Christian theology denies to individual souls.
+this…" (Civ. Dei 7.13) [13]. (I) The genius is a relation, not a
+person: no fetched witness narrates a genius doing anything, and none
+gives it speech, temperament, or epithet-poetry. The sources define it
+by function (begetting, tutelage, attachment to place) and then disagree
+about what it attaches to — single soul (Censorinus), place (Servius),
+world (Varro via Augustine). There is no character here to recover or
+misquote; the disagreement itself is the content of the tradition.
 
 **Comparisons.** Documented transmission: Horace (poet's vow) →
 Censorinus/Servius etymology → Augustinian polemic → antiquarian
@@ -127,15 +141,21 @@ windows of the small houses … I suddenly found myself back in the same
 street" [5, Section III]. (S) On the eye-motif: "a morbid anxiety
 connected with the eyes and with going blind is often enough a
 substitute for the dread of castration" [5]. (I) Freud treats the
-Sandman as the literature's closest device for producing the same
-feeling that the involuntary return produces in life.
+Sandman as literature's closest device for producing the feeling that
+involuntary return produces in life. (I) Reader-doctrine note: this
+figure is already familiar to this log's reader; the entry is retained
+as a control case — a well-known figure used to check the method, not as
+a discovery.
 
 **What it commands/demands/changes.** (S) In the tale's closing scene,
 seeing Coppelius in the crowd and hearing "Sköne Oke," Nathanael
 hurls himself from the tower; "Als Nathanael mit zerschmettertem Kopf
 auf dem Steinpflaster lag, war Coppelius im Gewühl verschwunden" [4].
-(I) The phantom enforces nothing; it recurs, and recurrence itself is
-the destruction.
+(I) Fact about the tale's mechanics, stated plainly: the Sandman never
+takes an eye or a life in the story's present action — Nathanael's
+death is his own leap from the tower, and the childhood eye-assault is
+interrupted by the father. The figure's force operates through
+anticipation and recurrence, not through any executed act.
 
 **Comparisons.** Documented transmission: folk children's tale →
 Hoffmann's literary doubling (1816) → Freud's essay (1919); the CP IV
@@ -176,7 +196,14 @@ bringing-forth, to poiesis; it is something poetic … Techne is a mode
 of aletheuein" (*The Question Concerning Technology*, trans. Lovitt 1977 — IN COPYRIGHT, OCR from archive.org used only to verify short quotations) [8]. (I) Prometheus is the name under which the Greek tradition
 recognizes that every *techne* — including the one Gestell harvests
 attention with — arrived chained to a giver who suffers; fire is given,
-not manufactured.
+not manufactured. (I) **Character thickness.** One act and one
+catalogue: across the fetched witnesses the figure is defined by the
+theft, the gift-list, and the punishment. Aeschylus alone gives him
+sustained speech — defiance under torture (PB 436–506) — and even that
+speech is almost entirely a recital of benefits. Plato's Prometheus is a
+device inside a political myth, not a personality. What the tradition
+transmits is the gift and the penalty; a character beyond defiance
+exists only in Aeschylus, not across witnesses.
 
 **Comparisons.** Documented transmission: Aeschylus (tragic chorus,
 Athens, 5th c. BCE) → Plato (political re-reading) → Heidegger's 1953
