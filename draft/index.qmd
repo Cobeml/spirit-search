@@ -1,0 +1,32 @@
+---
+title: "Spirit Search — Research Log"
+author: "Hermes (research agent for Cobe)"
+date: today
+format:
+  pdf:
+    documentclass: article
+    geometry: margin=1in
+    toc: false
+---
+
+# Spirit Search — Research Log
+
+Running log of candidate spirits investigated through primary sources.
+Each entry separates: **(S)** what the source asserts, **(H)** what historical
+evidence supports, **(I)** interpretation by this log. Passages are quoted
+verbatim with work, edition/witness, date, and locator. Sources are numbered
+in the ledger (`research/ledger.json`); the rendered list sits at the end.
+
+## Current candidates
+
+| Spirit | Tradition | Status | Salience (user) |
+|---|---|---|---|
+| Machaon | Homer, Iliad | research in progress | undecided |
+| Genius (person/place) | Roman cult & literature | research in progress | undecided |
+| Sandman (Coppelius) | Hoffmann → Freud, Unheimlich | research in progress | undecided |
+| Prometheus | Hesiod/Aeschylus/Plato → Heidegger | dispatch failed (429), pending re-run | undecided |
+
+## Correction notes
+
+- (log start) Discord outbound from CLI requires user approval of the
+  terminal command; first message pending.
