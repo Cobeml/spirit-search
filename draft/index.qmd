@@ -1,32 +1,247 @@
 ---
 title: "Spirit Search — Research Log"
-author: "Hermes (research agent for Cobe)"
 date: today
 format:
   pdf:
     documentclass: article
     geometry: margin=1in
-    toc: false
 ---
 
 # Spirit Search — Research Log
 
-Running log of candidate spirits investigated through primary sources.
-Each entry separates: **(S)** what the source asserts, **(H)** what historical
-evidence supports, **(I)** interpretation by this log. Passages are quoted
-verbatim with work, edition/witness, date, and locator. Sources are numbered
-in the ledger (`research/ledger.json`); the rendered list sits at the end.
+Log entries separate three layers: **(S)** what a source asserts;
+**(H)** what historical evidence supports; **(I)** interpretation (clearly
+marked as this log's own). Every quotation is verbatim from the fetched
+witness named; translations are attributed; uncertainty is flagged.
+Numbers in brackets map to the annotated source list at the end.
 
-## Current candidates
+## Candidate batch 1
 
-| Spirit | Tradition | Status | Salience (user) |
-|---|---|---|---|
-| Machaon | Homer, Iliad | research in progress | undecided |
-| Genius (person/place) | Roman cult & literature | research in progress | undecided |
-| Sandman (Coppelius) | Hoffmann → Freud, Unheimlich | research in progress | undecided |
-| Prometheus | Hesiod/Aeschylus/Plato → Heidegger | dispatch failed (429), pending re-run | undecided |
+### Machaon — the surgeon-warrior (Homer, Iliad)
+
+**Who is described.** (S) In the Catalogue of Ships, Machaon and his
+brother Podaleirius — "the two sons of Aesculapius, skilled in the art
+of healing" — bring thirty ships from Thessaly (Il. 2.729–733) [1]. (I)
+He is both crew-captain and clinician: the Iliad never separates the
+surgeon from the man under arms.
+
+**How it is known or encountered.** (S) In Il. 4.193–219 Machaon draws
+Pandarus' arrow from Menelaus and applies "soothing drugs which Chiron
+had given to Aesculapius out of the good will he bore him" (Il. 4.193–219) [1]. (S) In Il. 11.506–520 he is himself wounded; Idomeneus
+tells Nestor, "A physician is worth more than several other men put
+together, for he can cut out arrows and spread healing herbs" (Il. 11.514) [1]. (S) In Il. 11.596–604 Achilles sends Patroclus to confirm that
+the wounded man Nestor carries is Machaon — the recognition scene that
+ends in Patroclus' fatal mission [1]. (S) Centuries later Pausanias
+reports the surviving cult: "Here in Gerenia is a tomb of Machaon, son
+of Asclepius, and a holy sanctuary. In his temple men may find cures
+for diseases … a standing bronze statue of Machaon, with a crown on his
+head which the Messenians in the local speech call kiphos" (Paus. 3.26.9–10) [3]. (H) Pausanias, writing in the 2nd c. CE, attests a
+documented cult site and its legend of Nestor bringing the bones home;
+the Taras sanctuary claim could not be fetched from a primary source and
+is flagged uncertain.
+
+**What it commands/demands/changes.** (S) Plato's Socrates uses the
+passage as his exemplum of medical judgment: quoting Hecamede's posset
+for the wounded Machaon, he asks whether the rhapsode's art or the art
+of medicine judges these lines best — "The art of medicine" (Ion 538b–c) [2]. (I) A later Greek education treated this spirit, sons of the
+wounded healer god, as the measure of technical expertise to others.
+
+**Comparisons.** Documented transmission: Homer → Plato (read as a
+school text) → Pausanias (local cult report, Little Iliad tradition).
+Rival reading: the Little Iliad's account that Machaon was killed by
+Eurypylus (via Pausanias) — later tradition raises his price of being a
+healer in combat.
+
+### The Genius — tutelary of persons and places (Roman tradition)
+
+**Who is described.** (S) Censorinus, ch. 3: "Genius est deus, cuius in
+tutela ut quisque natus est vivit" — the Genius is the god under whose
+tutelage each person lives from birth; "certe a genendo genius
+appellatur" [10]. (S) Horace calls it "our attendant genius … who
+governs the planet of our nativity, the divinity [that presides] over
+human nature, who dies with each individual, of various complexion,
+white and black" (Smart trans., Ep. 2.2.187–189) [9]. (H) Smith's 1870
+dictionary manual keeps the boundary precise: the genii "are the powers
+which produce life … and accompany man through it as his second or
+spiritual self," distinct from Lares and Penates which operate only
+after life begins [12; s.v. Genius] — OCR of the Wikisource proofread
+page is imperfect ("{(Hi" for *dii*).
+
+**How it is known or encountered.** (S) On birthdays: Censorinus cites
+Varro — on a birthday one pours wine to the genius (*funde merum genio*,
+ch. 2) and keeps hands "from killing and blood" so that on the day one
+received light one does not take it from another [10]. (S) Horace,
+Ep. 2.1 on rustic piety: "atoned with a hog [the goddess] Earth, with
+milk Silvanus, with flowers and wine the genius that reminds us of our
+short life" (Ep. 2.1.143–144) [9]. (S) Every place has one, per Servius
+(ad Aen. 5.85): "nullus enim locus sine genio, qui per anguem plerumque
+ostenditur" — no place is without its genius, generally shown as a
+serpent [14]. (H) Pliny registers skepticism at the multiplication of
+person-gods: "each individual makes a separate God for himself,
+adopting his own Juno and his own Genius" (NH 2.5) [11]. (H) For the
+collective application, Smith documents the *genius populi Romani* on
+coins of Hadrian and Trajan, citing Arnobius 2.67, Livy 30.12, and
+Cicero pro Cluentio 5 [12].
+
+**What it commands/demands/changes.** (S) Servius on Aen. 6.743 (as
+preserved in Smith): at birth each person receives two genii, one
+leading to good, one to evil; by their influence at death one "either
+rise[s] to a higher state of existence, or [is] condemned to a lower
+one" [12]. (S) Augustine quotes Varro making Genius "the god who is set
+over, and has the power of begetting, all things," then turns the idea
+into a polemic: "if every genius is a god, and the soul of every man a
+genius, it follows that the soul of every man is a god. But if very
+absurdity compels even these theologists themselves to shrink from
+this…" (Civ. Dei 7.13) [13]. (I) The genius names precisely the
+contested thing: individual soul vs. place-spirit vs. a totality that
+Christian theology denies to individual souls.
+
+**Comparisons.** Documented transmission: Horace (poet's vow) →
+Censorinus/Servius etymology → Augustinian polemic → antiquarian
+handbook. Contradiction flagged: Varro's pantheistic Genius-as-world vs
+Censorinus' tutelary single soul; genius vs lar vs numen distinction is
+unstable across sources (Smith labels them "frequently confounded").
+
+### The Sandman — the source phantom of the Unheimlich (Hoffmann → Freud)
+
+**Who is described.** (S) Hoffmann's nurse-tale, quoted in Nathanael's
+first letter: the Sandman "wirft ihnen Händevoll Sand in die Augen, daß
+sie blutig zum Kopf herausspringen" — throws sand in children's eyes so
+they spring bloody from the head; he then carries the eyes to the
+half-moon "zur Atzung für seine Kinderchen" [4]. The folk-figure becomes
+in the tale a doubled person (Coppelius/Coppola) who comes for the
+eyes: "»Augen her, Augen her!« rief Coppelius" — "Now we have eyes — a
+fine pair of children's eyes" [4]. (H) The tale appears in Hoffmann's
+*Nachtstücke* (Reimer, 1816).
+
+**How it is known or encountered.** (S) Freud's essay stages the
+encounter indirectly, through definitions: "the 'uncanny' is that class
+of the terrifying which leads back to something long known to us, once
+very familiar" ("The Uncanny," CP IV pp. 369–370) [5], then through
+Schelling (via Sanders's dictionary): "'Unheimlich' is the name for
+everything that ought to have remained … hidden and secret and has
+become visible" [5, p. 375–376], and finally through the street-level
+anecdote: "I found myself in a quarter the character of which could not
+long remain in doubt. Nothing but painted women were to be seen at the
+windows of the small houses … I suddenly found myself back in the same
+street" [5, Section III]. (S) On the eye-motif: "a morbid anxiety
+connected with the eyes and with going blind is often enough a
+substitute for the dread of castration" [5]. (I) Freud treats the
+Sandman as the literature's closest device for producing the same
+feeling that the involuntary return produces in life.
+
+**What it commands/demands/changes.** (S) In the tale's closing scene,
+seeing Coppelius in the crowd and hearing "Sköne Oke," Nathanael
+hurls himself from the tower; "Als Nathanael mit zerschmettertem Kopf
+auf dem Steinpflaster lag, war Coppelius im Gewühl verschwunden" [4].
+(I) The phantom enforces nothing; it recurs, and recurrence itself is
+the destruction.
+
+**Comparisons.** Documented transmission: folk children's tale →
+Hoffmann's literary doubling (1816) → Freud's essay (1919); the CP IV
+1925 text fetched from archive.org is close to Strachey's later
+Standard Edition revision — edition ambiguity flagged [5]. Rival
+reading: Freud rejects Jentsch's automaton/uncertainty reading in favor
+of the eye-motif (CP IV pp. 383–384); later commentators return to the
+'automaton' reading — flagged as uncertainty, not resolved here.
+
+### Prometheus — the fire-bringer, spirit of technē
+
+**Who is described.** (S) In Aeschylus' *Prometheus Bound*, the accused
+himself announces the account at lines 442–465: "Still, listen to the
+miseries that beset mankind—how they were witless before and I made
+them have sense and endowed them with reason … numbers, too, chiefest of
+sciences, I invented for them, and the combining of letters, creative
+mother of the Muses' arts" [6; Smyth, Loeb 1926]. (S) Lines 250–256:
+"I caused blind hopes to dwell within their breasts … In addition, I
+gave them fire" [6]. (S) The sum: "Hear the sum of the whole matter in
+the compass of one brief word—every art possessed by man comes from
+Prometheus" (lines 505–506) [6].
+
+**How it is known or encountered.** (S) Hephaestus' chain in the
+prologue names the offense: "your own flower, flashing fire, source of
+all arts, he has purloined and bestowed upon mortal creatures" [6,
+lines 4–10]. (S) Plato's Protagoras relocates the theft into a
+political myth: "Prometheus … stole the mechanical arts of Hephaestus
+and Athene, and fire with them … and gave them to man. Thus man had the
+wisdom necessary to the support of life, but political wisdom he had
+not; for that was in the keeping of Zeus" (Protagoras 320c–321d; Jowett 1871) [7]. (H) Hesiod's *Works and Days* version (theft of fire, the
+fat-and-bones trick at Mekone, Pandora) is attested in the tradition but
+was not re-fetched in this log; flagged as not verified here.
+
+**What it commands/demands/changes.** (S) Prometheus himself states the
+limit in lines 511–514: "Skill is weaker by far than Necessity" [6].
+(S) Heidegger, on what the Greeks meant by technē: "Techne belongs to
+bringing-forth, to poiesis; it is something poetic … Techne is a mode
+of aletheuein" (*The Question Concerning Technology*, trans. Lovitt 1977 — IN COPYRIGHT, OCR from archive.org used only to verify short quotations) [8]. (I) Prometheus is the name under which the Greek tradition
+recognizes that every *techne* — including the one Gestell harvests
+attention with — arrived chained to a giver who suffers; fire is given,
+not manufactured.
+
+**Comparisons.** Documented transmission: Aeschylus (tragic chorus,
+Athens, 5th c. BCE) → Plato (political re-reading) → Heidegger's 1953
+technology essay via Hölderlin. Analogy (labeled as such): technē-as-
+gift into modern discourse of infrastructure-as-destiny. Rival
+readings: Prometheus as rebel against Zeus (Aeschylus) vs. collaborator
+or double (variants in scholia, and Hesiod's Pandora frame — not
+verified here).
+
+## Connection map
+
+- **Machaon — Genius:** both are tutelary spirits bound to persons and
+  places; Machaon's cult survives as local grave-and-temple memory
+  (Pausanias), the genius survives as the proper name for that tutelage
+  (Censorinus, Horace). Documented link: Servius — the scholiast of the
+  serpent-as-genius (ad Aen. 5.85) and of Homeric tradition.
+- **Genius — Sandman:** structural analogy (not documented
+  transmission): the tutelary spirit that "dies with each individual"
+  (Horace) vs the phantom that obliges each individual to die. Freud's
+  unheimlich/heimlich etymology passage is the junction.
+- **Sandman — Prometheus:** the involuted pair of the log: the phantom
+  who takes eyes vs the giver of the arts of light; both "come back" —
+  Prometheus' unchaining prophecy (PB lines 511–514) and the
+  involuntary return to the old street (Freud, Section III).
+- **Machaon — Prometheus:** analogy only, not transmission — both
+  figures "command" technique: healing for the one; fire-with-all-arts
+  for the other.
 
 ## Correction notes
 
-- (log start) Discord outbound from CLI requires user approval of the
-  terminal command; first message pending.
+1. Subagent task GENIUS failed once with a garbled partial output
+   (provider 429); the profile above was reconstructed locally from its
+   saved evidence files and rechecked against the quoted strings.
+2. Archive.org item id `freud-1925-cp-5` actually hosts Collected
+   Papers vol. IV; a separate classroom PDF circulates carrying the
+   later Strachey (SE XVII) revision — the two are not identical.
+   Quotations above use the CP IV (1925) text; page numbers are CP IV.
+3. The Heidegger Lovitt translation is in copyright (Harper); quoted
+   minimally and only against locally saved OCR for verification — do
+   not redistribute the OCR.
+4. For Prometheus Bound, the passage from lines 4–10 was quoted from
+   the full-text page on Perseus; locator endpoints for the card-view
+   fetches (472–505, 507ff) are near but not always exactly inclusive.
+5. The Greek tag at Il. 11.514 was quoted from the subagent's note, not
+   machine-fetched in Greek; the English was verified against Butler.
+6. Smith's Dictionary Wikisource page is proofread-needed; "dii
+   genitales" appears OCR-garbled ("{(Hi"); the surrounding definitions
+   are quoted from cleaner text, with its own internal citations
+   (Censorinus 3; Servius in loc.) preserved.
+7. Discord outbound from this CLI session requires terminal approval;
+   first message attempt timed out unapproved.
+
+## Sources
+
+[1] https://classics.mit.edu/Homer/iliad.mb.txt — Homer, Iliad, trans. Butler 1898 (MIT Classics)
+[2] https://classics.mit.edu/Plato/ion.html — Plato, Ion, trans. Jowett (MIT Classics)
+[3] https://www.theoi.com/Text/Pausanias3B.html — Pausanias 3, trans. Jones 1918 (Loeb, via theoi.com)
+[4] https://www.gutenberg.org/cache/epub/6341/pg6341.txt — Hoffmann, Nachtstücke 1816, Der Sandmann (Gutenberg #6341)
+[5] https://archive.org/details/freud-1925-cp-5 — Freud, The Uncanny, trans. Strachey, Collected Papers IV 1925 (archive.org)
+[6] http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0010 — Aeschylus, Prometheus Bound, trans. Smyth, Loeb 1926 (Perseus)
+[7] https://en.wikisource.org/wiki/Protagoras_%28Jowett%29 — Plato, Protagoras, trans. Jowett 1871 (Wikisource)
+[8] https://archive.org/stream/the-question-concerning-technology-1/The%20Question%20Concerning%20Technology%20%281%29_djvu.txt — Heidegger, QCT, trans. Lovitt 1977 (IN COPYRIGHT; OCR for verification only)
+[9] https://en.wikisource.org/wiki/The_works_of_Horace/Second_Book_of_Epistles — Horace, Epistles II, trans. C. Smart 1856 (Wikisource)
+[10] https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Censorinus/text*.html — Censorinus, De Die Natali ch.2-3, Latin (LacusCurtius)
+[11] https://www.perseus.tufts.edu/hopper/text?doc=Plin.+Nat.+2.5 — Pliny, Natural History 2.5, trans. Bostock & Riley 1855 (Perseus)
+[12] https://en.wikisource.org/wiki/Page:Dictionary_of_Greek_and_Roman_Biography_and_Mythology_%281870%29_-_Volume_2.djvu/256 — Smith, Dict. Greek & Roman Biography & Mythology 1870, s.v. Genius (Wikisource)
+[13] https://www.newadvent.org/fathers/120107.htm — Augustine, City of God VII, trans. Dods (New Advent)
+[14] https://www.perseus.tufts.edu/hopper/text?doc=Serv.+A.+5.85 — Servius, In Vergilii Aeneida Commentarii, ed. Thilo & Hagen 1881 (Perseus)
