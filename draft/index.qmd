@@ -213,6 +213,185 @@ readings: Prometheus as rebel against Zeus (Aeschylus) vs. collaborator
 or double (variants in scholia, and Hesiod's Pandora frame — not
 verified here).
 
+## Candidate batch 2
+
+Reader doctrine applied: preferred are (a) figures from outside the
+Latin-Greek corridor, and (b) well-known figures whose received
+character diverges from the primary witnesses.
+
+### Lilith — from tree-phantom to first wife (Sumer → Isaiah → Ben Sira)
+
+**Who is described.** (S) The earliest fetched witness is Sumerian:
+Inana's ḫalub-tree, grown massive, houses three squatters — "At its
+roots, a snake immune to incantations made itself a nest. In its
+branches, the Anzud bird settled its young. In its trunk, the phantom
+maid built herself a dwelling, the maid who laughs with a joyful heart"
+(Gilgameš, Enkidu and the nether world, lines 36–46) [17]. (S) When
+Gilgamesh clears the tree, "The phantom maid living in its trunk left
+her dwelling and sought refuge in the wilderness" (lines 136–150) [17].
+The Sumerian *ki-sikil-líl-lá* underlies the later name; the
+identification is philological linkage, flagged as such, not an identity
+the text asserts. (S) Her second appearance is a single word in a
+desert catalogue: "the satyr shall cry to his fellow; the screech owl
+also shall rest there" — Hebrew *lilit*, KJV 1611 (Isaiah 34:14) [18].
+The Vulgate line renders her *lamia*, and Wycliffe follows: "Lamya
+schal ligge there, and foond rest there to hir silf" (Isaiah 34, Wycliffe
+numbering 34:15) [20].
+
+**What she commands/demands/changes.** (S) Only the medieval layer
+gives her a will — the Alphabet of Ben Sira narrative as transmitted by
+Ginzberg's public-domain anthology: "To banish his loneliness, Lilith
+was first given to Adam as wife. Like him she had been created out of
+the dust of the ground. But she remained with him only a short time,
+because she insisted upon enjoying full equality with her husband ...
+With the help of the Ineffable Name, which she pronounced, Lilith flew
+away from Adam" [19]. (S) At the Red Sea she refuses return under
+threat of losing a hundred demon children daily, and "takes her revenge
+by injuring babes—baby boys during the first night of their life" [19].
+(S) Ginzberg's Methuselah chapter remembers her as mother of Adam's
+demon posterity: "that she-devil of she-devils" [19].
+
+**(I) Character thickness.** Person in one stratum only. Before Ben
+Sira she is a habitat — tree-trunk, wilderness, ruins by night; the
+equality-and-exile personality comes entirely from a medieval satire,
+which pairs her claim with infant-killing (the text is not an
+endorsement). The 20th-century reading that takes the claim without
+the revenge is a selection within an already satirical source.
+
+**Comparisons.** Documented transmission: líl-spirit of the tree →
+Isaiah's desert demon → Vulgate's *lamia* conflation → Ben Sira's wife.
+Analogy only (no transmission documented here) to the Sandman: both
+are night-figures whose threat attaches to children, and both are held
+off by names/tokens rather than combat.
+
+### Rhiannon — the Mabinogi says no 'goddess' (Wales; conjecture audit)
+
+**Who is described.** (S) A lady on a grey horse whom no riding
+catches: "the more he urged his horse, the further was she from him.
+Yet she rode not faster than before" — until Pwyll simply speaks: "I
+will stay gladly," said she, "and it were better for thy horse hadst
+thou asked it long since" (Pwyll branch) [21]. (S) Falsely accused of
+killing her newborn, she accepts the penance: to sit "near unto a
+horse-block that was without the gate," telling her story and offering
+"to carry them upon her back into the palace" [21]. (S) In the Branwen
+branch, the seven survivors of Ireland are entertained at Harlech:
+"there came three birds, and began singing unto them a certain song,
+and all the songs they had ever heard were unpleasant compared thereto;
+and the birds seemed to them to be at a great distance from them over
+the sea, yet they appeared as distinct as if they were close by; and at
+this repast they continued seven years" — the birds of Rhiannon [21].
+(S) In the Manawyddan branch, Pryderi gives her in marriage with the
+seven Cantrevs; on the Gorsedd of Narberth a mist falls, and "they saw
+nothing now, neither house, nor beast, nor smoke, nor fire, nor man,
+nor dwelling" — Dyfed emptied by Llwyd's enchantment in Gwawl's feud
+[21].
+
+**(H) What the texts do not say.** The Mabinogi nowhere calls her a
+goddess, gives her no horse attribute, and records no cult. The equine
+material rides at one remove: it is Teyrnon's mare that foals on
+May-eve, and Rhiannon's horse-link is a punishment imposed by others.
+
+**(I) The conjecture chain, documented.** MacCulloch (1911) supplies
+the scholarly layer in its own register: "it is evident that Pwyll is a
+god and Rhiannon a goddess, whose early importance ... appears from
+her name, a corruption of Rigantona, 'great queen'" — and immediately,
+"We may postulate an old Rhiannon saga" [23]. The *exported* claim
+"Welsh horse goddess" adds a second step: analogy to Epona, who is
+genuinely epigraphic — "Epona (Gaul, epos, 'horse'), protectress of
+horses and asses ... Her images were placed in stables" [23], with the
+stable-shrine attested in literature at Apuleius, Met. 3 (Adlington
+1566: "the image of the goddesse Hippone, which was garnished and
+decked round about with faire and fresh roses"; Adlington's text reads
+*Hippone* — name-variant flagged) [22]. (I) Verdict: character-thick
+in the primary witness (speech, agency, penance, second marriage),
+character-thin in the modern abstraction — the inversion of the usual
+migration.
+
+### Völundr / Wayland — the revenge the retellings deleted (Germanic corridor)
+
+**Who is described.** (S) The Norse lay (Völundarkviða, Codex Regius):
+the queen reads the captive at a glance — "The glow of his eyes is
+like gleaming snakes ... Let them straightway cut his sinews of
+strength" — and "the sinews in his knee-joints were cut, and he was set
+in an island" (st. 18 + prose) [24]. (S) The revenge is workshop
+craft: "He smote off their heads, and their feet he hid / Under the
+sooty straps of the bellows. / Their skulls ... he took, / Set them in
+silver and sent them to Nithuth; / Gems full fair from their eyes he
+fashioned, / To Nithuth's wife so wise he gave them. / And from the
+teeth of the twain he wrought / A brooch for the breast, to Bothvild he
+sent it" (st. 24–26) [24]. (S) Bothvild, ring in hand: "Beer he
+brought, he was better in cunning. / Until in her seat full soon she
+slept" (st. 29) [24]; and the exit: "Laughing Volund rose aloft, /
+Weeping Bothvild went from the isle" (st. 31) [24].
+
+**(H) The English witness knows the pregnancy.** Deor (Exeter Book,
+OE): Niðhad "on nede legde, swoncre seonobende" — laid supple
+sinew-bonds on him; and of Beadohilde: the death of her brothers was
+not so sore "swa hyre sylfre þing" — "þæt heo eacen wæs," that she was
+with child [25]. (H) Bellows' editorial note documents the geography
+of the legend: "the story came to the North from Saxon regions ... the
+presence of the story in Anglo-Saxon poetry probably as early as the
+first part of the eighth century proves beyond a doubt that the legend
+cannot have been a native product of Scandinavia" [24]. (H) Not yet
+fetched from a PD witness: Þiðreks saga (Velent) English text; the
+Franks Casket. The modern softening (Scott, Kipling) is asserted from
+Bellows' note that "the name of Wayland Smith is familiar to all
+readers of Walter Scott" [24].
+
+**(I) Character thickness.** The anti-Machaon of the batch: the
+witnesses give nothing but character — the patience of the maimed, the
+craft turned instrument, the laugh at takeoff. Modern abstraction keeps
+the craftsman emblem and deletes the atrocities; the tradition's actual
+figure is a revenge-tragedy protagonist, not an artisan mascot.
+
+**Comparisons.** Documented transmission: Continental legend →
+Anglo-Saxon (Deor) → Codex Regius (Völundarkviða) → prose sagas →
+19th-c. literary softening. Analogy to Prometheus (labeled analogy):
+the two smith-spirits of the log — one gives fire and arts to men and
+is chained by Zeus; the other is chained by a king and pays back in
+skull-cups and child-gems. Both are captives whose craft outlives the
+captivity; only one forgives nothing.
+
+### George Washington — the manufacture of a tutelary (America, documented)
+
+**Who is described.** (S) Mason Locke Weems' *Life of George
+Washington* — a pedagogy addressed to "young countrymen" — delivers
+the cherry-tree anecdote under its own vouching: "It is too valuable to
+be lost, and too true to be doubted; for it was communicated to me by
+the same excellent lady to whom I am indebted for the last" [15]. (H)
+The sole authority inside Weems' own text is an unnamed "excellent
+lady"; the famous wording is not his — he has "I can't tell a lie, Pa"
+[15]. (S) The divine register is Weems' own: the received
+Washington-image gives you only "Washington, the HERO, and the Demigod
+— Washington the sun-beam in council, or the storm in war," never "the
+jupiter Conservator, the friend and benefactor of men" [15]; of the
+retirement: "Here, Cincinnatus-like, he betook him to his favorite
+plough" [15]; of the death: "IF the prayers of millions could have
+prevailed, Washington would have been immortal on earth" [15].
+
+**How it is known or encountered.** (S) The state then literally built
+the theology: Brumidi's Rotunda fresco (1865), for which the Architect
+of the Capitol glosses the title: "the raising of a person to the rank
+of a god"; in the central group "Brumidi depicted George Washington
+rising to the heavens in glory, flanked by female figures representing
+Liberty and Victory/Fame," encircled by Minerva, Neptune, Venus,
+Mercury, Vulcan, and Ceres as the faculties of the nation [16].
+
+**(I) Character thickness.** The batch's clearest case of manufacture:
+a man with abundant documentary character is replaced by a fabricated
+childhood (Weems, unattributed), a canonical wording he never had, and
+a fresco that seats him among Roman gods. The Roman comparison is not
+an analogy invented here — the federal government commissioned the
+genius-of-the-place version.
+
+**Comparisons.** Documented transmission: Weems (1800/1806) →
+schoolbook iteration → state iconography (1865). Direct Roman analogue
+to batch 1's genius: Washington as *genius loci* of the Capitol is
+exactly the Servian structure — and Brumidi's commission makes it an
+institutional fact, not an (I) flourish. Contrast (flagged): the Roman
+genius had no childhood anecdotes; the American one needed a fabricated
+childhood to found the cult.
+
 ## Connection map
 
 - **Machaon — Genius:** both are tutelary spirits bound to persons and
@@ -231,6 +410,20 @@ verified here).
 - **Machaon — Prometheus:** analogy only, not transmission — both
   figures "command" technique: healing for the one; fire-with-all-arts
   for the other.
+- **Sandman — Lilith:** analogy (not transmission): child-threatening
+  night-figures warded off by names and tokens rather than combat; the
+  folklore aperture Freud called unheimlich vs the amulet bearing three
+  angels' names.
+- **Prometheus — Völundr:** analogy (labeled): the log's two captive
+  smiths; craft that survives binding. One gifts men fire; the other
+  returns gifts of skull-cups and child-gems to the king who bound him.
+- **Genius — Washington:** documented analogue: the Capitol Rotunda as
+  genius-loci machinery — Servius' "no place without its genius" [14]
+  beside Brumidi's apotheosis fresco [16]; a tutelary created by
+  commission in 1865.
+- **Rhiannon — Epona:** scholarly analogy audited to its sources
+  (Rigantona etymology is conjecture; the Mabinogi predicates a
+  horse-penance, not a horse-nature) [21][23].
 
 ## Correction notes
 
@@ -255,6 +448,19 @@ verified here).
    (Censorinus 3; Servius in loc.) preserved.
 7. Discord outbound from this CLI session requires terminal approval;
    first message attempt timed out unapproved.
+8. Batch 2 was researched partly in-session after four subagents failed
+   on provider HTTP 429s (NIM rate limit); the dead Lilith subagent's
+   Mechon-Mamre and Rhiannon subagent's sacred-texts files were
+   Cloudflare challenge pages and were discarded in favor of direct
+   fetches.
+9. Þiðreks saga (Velent) in a PD English witness and the Franks Casket
+   were not fetched; Bothvild's pregnancy is documented here from Deor
+   (OE original) rather than the saga. Deor translation is flagged
+   (I)-level: read from the OE with glossary, not machine-verified
+   against a published PD translation.
+10. Adlington (1566) reads *Hippone* where modern Apuleius texts read
+    *Epona* (Met. 3); the stable-shrine passage is quoted as Adlington
+    has it, and the variant is flagged rather than normalized.
 
 ## Batch 1 reassessment (post-gating notes)
 
@@ -281,17 +487,16 @@ verified here).
   Freud unless a stranger corner (e.g. pre-Hoffmann folk attestations)
   turns up.
 
-## Spirit graph (v0)
+## Spirit graph (v1)
 
-The log now maintains a machine-readable graph at
-`research/graph.json`: every identified spirit is a node; edges are
-documented interactions — kinship, transmission, cult geography,
-conflict, polemic — each carrying an evidence pointer. Analogy edges
-are labeled as analogy and never upgraded silently. Batch-1 subgraph:
-22 edges across 18 nodes; batch-2 candidates (Lilith, Rhiannon,
-Völundr, Washington) are registered as proposed nodes with no edges
-until evidence lands. Open questions are kept in the graph file rather
-than in prose.
+The log maintains a machine-readable graph at `research/graph.json`:
+every identified figure is a node; edges are documented interactions —
+kinship, transmission, cult geography, conflict, polemic — each
+carrying an evidence pointer. Analogy edges are labeled as analogy and
+never upgraded silently. Batch-1 subgraph plus full batch-2 edges
+(Lilith, Rhiannon, Völundr, Washington) are now merged; edges claimed
+only where a fetched witness documents them. Open questions stay in
+the graph file, not in prose.
 
 ## Sources
 
@@ -309,3 +514,14 @@ than in prose.
 [12] https://en.wikisource.org/wiki/Page:Dictionary_of_Greek_and_Roman_Biography_and_Mythology_%281870%29_-_Volume_2.djvu/256 — Smith, Dict. Greek & Roman Biography & Mythology 1870, s.v. Genius (Wikisource)
 [13] https://www.newadvent.org/fathers/120107.htm — Augustine, City of God VII, trans. Dods (New Advent)
 [14] https://www.perseus.tufts.edu/hopper/text?doc=Serv.+A.+5.85 — Servius, In Vergilii Aeneida Commentarii, ed. Thilo & Hagen 1881 (Perseus)
+[15] https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt — Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)
+[16] http://aoc.gov/cc/art/rotunda/apotheosis/apoth_comm.cfm — Architect of the Capitol, Apotheosis of Washington (Brumidi 1865)
+[17] http://etcsl.orinst.ox.ac.uk/section1/tr1814.htm — ETCSL Gilgamesh Enkidu and the nether world (c.1.8.1.4)
+[18] https://www.gutenberg.org/cache/epub/10/pg10.txt — KJV Bible, Isaiah 34:14 (Gutenberg #10)
+[19] https://www.gutenberg.org/cache/epub/1493/pg1493.txt — Ginzberg, Legends of the Jews vol 1 1909 (Gutenberg #1493)
+[20] https://en.wikisource.org/wiki/Bible_%28Wycliffe%29/Isaiah — Wycliffe Bible, Isaiah 34 (Wikisource)
+[21] https://www.gutenberg.org/cache/epub/19976/pg19976.txt — Mabinogion vol 3, trans. Guest, ed. Edwards 1902 (Gutenberg #19976)
+[22] https://www.gutenberg.org/cache/epub/1666/pg1666.txt — Apuleius, Golden Asse, trans. Adlington 1566 (Gutenberg #1666)
+[23] https://archive.org/download/religionofancien00macc/religionofancien00macc_djvu.txt — MacCulloch, Religion of the Ancient Celts 1911 (archive.org)
+[24] https://archive.org/download/poeticedda00belluoft/poeticedda00belluoft_djvu.txt — Bellows, The Poetic Edda 1923, Volundarkvitha (archive.org)
+[25] https://en.wikisource.org/wiki/The_Exeter_Book_%28manuscript_transcription%29/Deor — Deor, OE, Exeter Book ff.100r-100v (Wikisource)
