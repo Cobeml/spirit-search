@@ -207,6 +207,12 @@ function initGraph(){
     .filter(e=>idset.has(e.frm)&&idset.has(e.to))
     .map(e=>({frm:e.frm,to:e.to,type:e.type,title:e.title,essay:e.essay,
               era:e.era,influence:e.influence, source:e.frm, target:e.to}));
+  // parallel edges between the same directed pair get alternating curvature offsets
+  const pairCount={}, pairSeen={};
+  links.forEach(l=>{ const k=l.frm+'->'+l.to; pairCount[k]=(pairCount[k]||0)+1; });
+  links.forEach(l=>{ const k=l.frm+'->'+l.to, n=pairCount[k];
+    if(n>1){ const i=(pairSeen[k]=(pairSeen[k]||0)+1); l.curvature=((i%2)?1:-1)*Math.ceil(i/2)*0.28; }
+    else l.curvature=0; });
 
   Graph = ForceGraph3D()(el)
     .width(el.clientWidth).height(el.clientHeight)
@@ -231,6 +237,7 @@ function initGraph(){
     .linkColor(l=>{ const w=edgeWeight(l,currentT()); return `rgba(122,74,31,${(0.12+0.6*w).toFixed(3)})`; })
     .linkWidth(l=> 0.4+2.6*edgeWeight(l,currentT()))
     .linkVisibility(l=> l.era<=currentT())
+    .linkCurvature(l=> l.curvature||0)
     .linkDirectionalArrowLength(3.2)
     .linkDirectionalArrowRelPos(1)
     .warmupTicks(90)
