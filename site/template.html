@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>High Drama — Spirit Graph</title>
+<script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+<script src="https://unpkg.com/3d-force-graph@1.73.3/dist/3d-force-graph.min.js"></script>
 <style>
   :root{--paper:#f6f1e7;--ink:#2b2620;--faint:#8a8175;--line:#d9d0c0;--accent:#7a4a1f;}
   *{box-sizing:border-box}
@@ -48,6 +50,8 @@
   <div class="hint">Every figure is a node; every claim is an edge with a witness. Bracketed numbers link to the fetched primary sources below. Toggle Edit to correct the language directly; your changes are recorded locally and can be exported back to the research pipeline.</div>
 </header>
 <div class="toolbar">
+  <button id="viewCards" class="on">Cards</button>
+  <button id="viewGraph">4D Graph</button>
   <input id="q" type="search" placeholder="Search figures, edges, essays…">
   <select id="datef"><option value="">All dates</option></select>
   <select id="trad"><option value="">All traditions</option></select>
@@ -56,7 +60,21 @@
   <button id="exportBtn">Export my edits</button>
   <button id="resetBtn" title="Discard all local edits">Reset edits</button>
 </div>
-<div class="wrap">
+<div id="graphControls" style="display:none;max-width:1080px;margin:.6rem auto;padding:0 1.2rem;">
+  <div style="display:flex;flex-wrap:wrap;gap:.7rem;align-items:center;border:1px solid var(--line);background:#fffdf8;border-radius:8px;padding:.6rem .8rem;">
+    <b>Time:</b>
+    <input id="year" type="range" min="-2100" max="2030" step="10" value="-2100" style="flex:1;min-width:180px;">
+    <span id="yearLabel" style="min-width:110px;font-variant-numeric:tabular-nums;">2100 BCE</span>
+    <button id="playBtn">play</button>
+    <button id="flatBtn">flatten time-axis</button>
+    <button id="camBtn">reset camera</button>
+    <span class="hint">z-axis = era of first attestation. Nodes grow with live centrality; edges decay about 0.4% per year after their last mention. Drag to orbit, scroll to zoom, click a node for its essay.</span>
+  </div>
+</div>
+<div id="graphWrap" style="display:none;max-width:1080px;margin:0 auto;padding:0 1.2rem;">
+  <div id="graph" style="border:1px solid var(--line);border-radius:8px;background:#fbf7ef;height:70vh;"></div>
+</div>
+<div class="wrap" id="cardsWrap">
   <div id="list"></div>
   <div id="panel" class="panel"><span class="empty">Select a figure to read its essay and its documented interactions.</span></div>
 </div>
@@ -216,6 +234,114 @@ const srcOl=document.getElementById('srcList');
 DATA.sources.forEach(s=>{const li=document.createElement('li'); li.innerHTML=`<a href="${s.url}" target="_blank" rel="noopener">${esc? '' : ''}</a>`; li.innerHTML=`<a href="${s.url}" target="_blank" rel="noopener">[${s.id}] ${s.title.replace(/</g,'&lt;')}</a> <span class="hint">${s.url}</span>`; srcOl.appendChild(li);});
 applyEdits();
 render();
+
+// ================= 4D GRAPH VIEW =================
+const PALETTE=['#7a4a1f','#3b6ea5','#5e7f3c','#8e3b46','#6a5a8e','#a5762b','#2f7d6d','#945e9a','#8c2f2f','#4c6b8a'];
+function tradColor(t){ let h=0; for(const c of (t||'')) h=(h*31+c.charCodeAt(0))>>>0; return PALETTE[h%PALETTE.length]; }
+let graphOn=false, flat=false, Graph=null, simReady=false;
+const ZMIN=-2100, ZMAX=2030;
+function zOf(era){ return ((era-ZMIN)/(ZMAX-ZMIN))*400-200; } // map era to z in [-200,200]
+function yearFmt(y){ return y<0? (-y)+' BCE' : y+' CE'; }
+function edgeWeight(e,T){ if(e.era>T) return 0; const age=T-e.era; return Math.exp(-age/250); } // ~0.4%/yr decay after era
+function nodeCentrality(id,T){ let s=0; DATA.edges.forEach(e=>{ if(e.frm===id||e.to===id) s+=edgeWeight(e,T); }); return s; }
+
+function initGraph(){
+  const el=document.getElementById('graph');
+  Graph=ForceGraph3D()(el)
+    .width(el.clientWidth).height(el.clientHeight)
+    .backgroundColor('#fbf7ef')
+    .nodeThreeObject(n=>{
+      const T=parseInt(document.getElementById('year').value);
+      const vis=n.era<=T;
+      const c=nodeCentrality(n.id,T);
+      const size=vis? 1.6+2.2*Math.sqrt(c) : 0.0001;
+      const geo=new THREE.SphereGeometry(size,14,14);
+      const mat=new THREE.MeshLambertMaterial({color:tradColor(n.tradition), transparent:true, opacity:vis?0.95:0});
+      const mesh=new THREE.Mesh(geo,mat);
+      const sprite=new THREE.Sprite(new THREE.SpriteMaterial({
+        map:(()=>{const cv=document.createElement('canvas');cv.width=512;cv.height=96;const cx=cv.getContext('2d');
+          cx.font='42px Georgia'; cx.fillStyle='#2b2620'; cx.textBaseline='middle';
+          cx.fillText(n.label.length>26? n.label.slice(0,25)+'…':n.label, 6, 48);
+          const tx=new THREE.CanvasTexture(cv); return tx;})(),
+        transparent:true, opacity:vis?0.9:0, depthTest:false}));
+      sprite.scale.set(26,5,1); sprite.position.y=size+4;
+      mesh.add(sprite); mesh.__label=sprite; mesh.__node=n;
+      return mesh;
+    })
+    .nodeLabel(n=>`${n.label} · ${n.tradition} · attested ${yearFmt(n.era)}`)
+    .linkColor(l=>{ const T=parseInt(document.getElementById('year').value); const w=edgeWeight(l,T);
+      const a=0.12+0.55*w; return `rgba(122,74,31,${a})`;})
+    .linkWidth(l=>{ const T=parseInt(document.getElementById('year').value); return 0.4+2.4*edgeWeight(l,T);})
+    .linkDirectionalArrowLength(3.2)
+    .linkDirectionalArrowRelPos(1)
+    .linkDirectionalParticleWidth(1.4)
+    .linkDirectionalParticles(l=>{ const T=parseInt(document.getElementById('year').value); return Math.round(edgeWeight(l,T)*3);})
+    .onNodeClick(n=>{ openNode(n.id); })
+    .onNodeHover(n=>{ document.getElementById('graph').style.cursor=n?'pointer':'grab'; });
+  // pin z to era, let x/y relax
+  Graph.d3Force('zpin', alpha=>{ DATA.nodes.forEach(n=>{ n.z=zOf(n.era); n.vz=0; }); });
+  Graph.cooldownTicks(120);
+  renderGraphData();
+  Graph.cameraPosition({x:0,y:40,z:420});
+}
+
+function currentGraphData(T){
+  const nodes=DATA.nodes.filter(n=>n.era<=T).map(n=>({...n, fz:zOf(n.era)}));
+  const ids=new Set(nodes.map(n=>n.id));
+  const links=DATA.edges.filter(e=>e.era<=T && ids.has(e.frm) && ids.has(e.to))
+    .map(e=>({...e, source:e.frm, target:e.to, __w:edgeWeight(e,T)}));
+  return {nodes, links};
+}
+
+function renderGraphData(){
+  if(!Graph) return;
+  const T=parseInt(document.getElementById('year').value);
+  const {nodes,links}=currentGraphData(T);
+  // edge "force" = link distance inversely proportional to weight (decayed edges stretch, strong ones bind)
+  Graph.graphData({nodes,links});
+  Graph.d3Force('link').distance(l=>30+140*(1-(l.__w||0)));
+  Graph.d3Force('link').strength(l=>0.15+0.85*(l.__w||0));
+  Graph.d3ReheatSimulation();
+}
+
+function flatToggle(){
+  flat=!flat; document.getElementById('flatBtn').textContent=flat?'restore time-axis':'flatten time-axis';
+  Graph.d3Force('zpin', alpha=>{ DATA.nodes.forEach(n=>{ n.z=flat?0:zOf(n.era); n.vz=0; }); });
+  Graph.d3ReheatSimulation();
+}
+
+document.getElementById('viewCards').onclick=()=>{ graphOn=false;
+  document.getElementById('viewCards').classList.add('on'); document.getElementById('viewGraph').classList.remove('on');
+  document.getElementById('cardsWrap').style.display='grid';
+  document.getElementById('graphWrap').style.display='none'; document.getElementById('graphControls').style.display='none'; };
+document.getElementById('viewGraph').onclick=()=>{ graphOn=true;
+  document.getElementById('viewGraph').classList.add('on'); document.getElementById('viewCards').classList.remove('on');
+  document.getElementById('cardsWrap').style.display='none';
+  document.getElementById('graphWrap').style.display='block'; document.getElementById('graphControls').style.display='block';
+  if(!Graph) initGraph(); else renderGraphData(); };
+document.getElementById('flatBtn').onclick=flatToggle;
+document.getElementById('camBtn').onclick=()=>{ if(Graph) Graph.cameraPosition({x:0,y:40,z:420},{x:0,y:0,z:0},800); };
+document.getElementById('year').addEventListener('input',()=>{
+  const y=parseInt(document.getElementById('year').value);
+  document.getElementById('yearLabel').textContent=yearFmt(y);
+  if(Graph){ renderGraphData(); }
+});
+let playing=false, playTimer=null;
+document.getElementById('playBtn').onclick=()=>{
+  const b=document.getElementById('playBtn');
+  playing=!playing; b.textContent=playing?'pause':'play';
+  if(playing){ playTimer=setInterval(()=>{
+    const s=document.getElementById('year'); let y=parseInt(s.value)+10;
+    if(y>2030){y=-2100;} s.value=y; s.dispatchEvent(new Event('input'));
+  },180);} else clearInterval(playTimer);
+};
+// search in graph mode: focus camera on match
+document.getElementById('q').addEventListener('change',()=>{
+  if(!graphOn||!Graph) return;
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  const n=DATA.nodes.find(n=>n.label.toLowerCase().includes(q));
+  if(n && n.era<=parseInt(document.getElementById('year').value)){ Graph.cameraPosition({x:n.x,y:n.y,z:n.z+80},{x:n.x,y:n.y,z:n.z},900); }
+});
 </script>
 </body>
 </html>
