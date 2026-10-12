@@ -67,6 +67,7 @@
     <span id="yearLabel" style="min-width:110px;font-variant-numeric:tabular-nums;">2100 BCE</span>
     <button id="playBtn">play</button>
     <button id="flatBtn">flatten time-axis</button>
+    <button id="sizeBtn">size: centrality</button>
     <button id="camBtn">reset camera</button>
     <span class="hint">z-axis = era of first attestation. Nodes grow with live centrality; edges decay about 0.4% per year after their last mention. Drag to orbit, scroll to zoom, click a node for its essay.</span>
   </div>
@@ -172,6 +173,8 @@ function openNode(id){
   const panel=document.getElementById('panel');
   panel.innerHTML=`<div class="meta">batch ${n.batch} · added ${n.date_added} · ${esc(n.tradition)}</div>
     <h2>${esc(n.label)}</h2>
+    <p class="meta" style="font-size:.88rem">⚡ commands ≈ <b>${fmtW(n.pw_t)}</b> (${fmtW(n.pw_d)} direct${n.pw_p?` + ${fmtW(n.pw_p)} by proxy`:''})${n.pw_pool?` · pool: ${esc(n.pw_pool)} × witness ${n.pw_ws}`:''}<br>
+    <span class="hint">${n.pw_why?esc(n.pw_why):'No industry pool attributed; power flows to it, if at all, by proxy (see edges).'} Method: pool × claim-share × witness-strength; single-hop proxy routing; recalc rules in research/graph.json.</span></p>
     <p id="essayNode" data-id="${n.id}" style="text-align:justify">${linkify(n.essay)}</p>
     <h4 style="margin-bottom:.2rem">Documented interactions (${rel.length})</h4>
     ${rel.map(e=>{const other=e.frm===id?byId[e.to]:byId[e.frm];const dir=e.frm===id?'→':'←';
@@ -244,6 +247,20 @@ function zOf(era){ return ((era-ZMIN)/(ZMAX-ZMIN))*400-200; } // map era to z in
 function yearFmt(y){ return y<0? (-y)+' BCE' : y+' CE'; }
 function edgeWeight(e,T){ if(e.era>T) return 0; const age=T-e.era; return Math.exp(-age/250); } // ~0.4%/yr decay after era
 function nodeCentrality(id,T){ let s=0; DATA.edges.forEach(e=>{ if(e.frm===id||e.to===id) s+=edgeWeight(e,T); }); return s; }
+let sizeMode='centrality';
+function fmtW(w){ if(!w) return '0 W';
+  if(w>=1e12) return (w/1e12).toPrecision(3)+' TW'; if(w>=1e9) return (w/1e9).toPrecision(3)+' GW';
+  if(w>=1e6) return (w/1e6).toPrecision(3)+' MW'; if(w>=1e3) return (w/1e3).toPrecision(3)+' kW';
+  return Math.round(w)+' W'; }
+function nodeSize(n,T){
+  if(n.era>T) return 0.0001;
+  if(sizeMode==='watts'){
+    // log scale: 1 W -> tiny, 1e13 -> large; floor for readability
+    return 0.8+0.9*Math.max(0,(Math.log10(Math.max(n.pw_t,1))-0));
+  }
+  const c=nodeCentrality(n.id,T);
+  return 1.6+2.2*Math.sqrt(c);
+}
 
 function initGraph(){
   const el=document.getElementById('graph');
@@ -253,8 +270,7 @@ function initGraph(){
     .nodeThreeObject(n=>{
       const T=parseInt(document.getElementById('year').value);
       const vis=n.era<=T;
-      const c=nodeCentrality(n.id,T);
-      const size=vis? 1.6+2.2*Math.sqrt(c) : 0.0001;
+      const size=nodeSize(n,T);
       const geo=new THREE.SphereGeometry(size,14,14);
       const mat=new THREE.MeshLambertMaterial({color:tradColor(n.tradition), transparent:true, opacity:vis?0.95:0});
       const mesh=new THREE.Mesh(geo,mat);
@@ -268,7 +284,7 @@ function initGraph(){
       mesh.add(sprite); mesh.__label=sprite; mesh.__node=n;
       return mesh;
     })
-    .nodeLabel(n=>`${n.label} · ${n.tradition} · attested ${yearFmt(n.era)}`)
+    .nodeLabel(n=>`${n.label} · ${n.tradition} · attested ${yearFmt(n.era)} · ${fmtW(n.pw_t)} (${fmtW(n.pw_d)} direct)`)
     .linkColor(l=>{ const T=parseInt(document.getElementById('year').value); const w=edgeWeight(l,T);
       const a=0.12+0.55*w; return `rgba(122,74,31,${a})`;})
     .linkWidth(l=>{ const T=parseInt(document.getElementById('year').value); return 0.4+2.4*edgeWeight(l,T);})
@@ -321,6 +337,11 @@ document.getElementById('viewGraph').onclick=()=>{ graphOn=true;
   if(!Graph) initGraph(); else renderGraphData(); };
 document.getElementById('flatBtn').onclick=flatToggle;
 document.getElementById('camBtn').onclick=()=>{ if(Graph) Graph.cameraPosition({x:0,y:40,z:420},{x:0,y:0,z:0},800); };
+document.getElementById('sizeBtn').onclick=()=>{
+  sizeMode = sizeMode==='centrality' ? 'watts' : 'centrality';
+  document.getElementById('sizeBtn').textContent='size: '+sizeMode;
+  if(Graph) Graph.refresh();
+};
 document.getElementById('year').addEventListener('input',()=>{
   const y=parseInt(document.getElementById('year').value);
   document.getElementById('yearLabel').textContent=yearFmt(y);
