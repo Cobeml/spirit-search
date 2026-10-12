@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>High Drama — Spirit Graph</title>
+<style>
+  :root{--paper:#f6f1e7;--ink:#2b2620;--faint:#8a8175;--line:#d9d0c0;--accent:#7a4a1f;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;line-height:1.55;}
+  header{max-width:1080px;margin:0 auto;padding:2.2rem 1.2rem 1rem;border-bottom:1px solid var(--line);}
+  h1{font-size:2.6rem;margin:0;letter-spacing:.01em;font-weight:600;}
+  .sub{font-size:1.15rem;color:var(--faint);margin-top:.15rem;font-style:italic;}
+  .toolbar{max-width:1080px;margin:1rem auto 0;display:flex;flex-wrap:wrap;gap:.6rem;padding:0 1.2rem;align-items:center;}
+  input[type=search],select{font:inherit;background:#fffdf8;border:1px solid var(--line);border-radius:6px;padding:.45rem .6rem;color:var(--ink);}
+  input[type=search]{flex:1;min-width:220px;}
+  button{font:inherit;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:.45rem .8rem;cursor:pointer;color:var(--ink);}
+  button.on{background:var(--accent);color:var(--paper);border-color:var(--accent);}
+  .wrap{max-width:1080px;margin:1.2rem auto 4rem;padding:0 1.2rem;display:grid;grid-template-columns:1.2fr .9fr;gap:1.4rem;}
+  @media(max-width:860px){.wrap{grid-template-columns:1fr;}}
+  .card{border:1px solid var(--line);background:#fffdf8;border-radius:8px;padding:.9rem 1rem;margin-bottom:.7rem;cursor:pointer;}
+  .card:hover{border-color:var(--accent);}
+  .card h3{margin:0 0 .15rem;font-size:1.12rem;font-weight:600;}
+  .meta{font-size:.82rem;color:var(--faint);}
+  .panel{position:sticky;top:1rem;border:1px solid var(--line);background:#fffdf8;border-radius:8px;padding:1.1rem 1.2rem;max-height:86vh;overflow:auto;}
+  .panel h2{margin:0;font-size:1.5rem;}
+  .empty{color:var(--faint);font-style:italic;}
+  .edge{border-top:1px dashed var(--line);padding:.65rem 0;}
+  .edge .t{font-weight:600;font-size:1.02rem;}
+  .etype{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);}
+  a.cite{color:var(--accent);text-decoration:none;}
+  a.cite:hover{text-decoration:underline;}
+  [contenteditable=true]{outline:1.5px dashed var(--accent);outline-offset:3px;background:#fffef4;}
+  .hint{font-size:.8rem;color:var(--faint);}
+  #srcs{max-width:1080px;margin:0 auto 5rem;padding:1.2rem;border-top:1px solid var(--line);}
+  #srcs li{margin-bottom:.3rem;font-size:.9rem;}
+  #srcs a{color:var(--accent);}
+  .edits{font-size:.8rem;color:var(--faint);}
+  footer{max-width:1080px;margin:0 auto;padding:0 1.2rem 2rem;color:var(--faint);font-size:.8rem;}
+  mark{background:#f0e0b8;padding:0 .1em;}
+</style>
+</head>
+<body>
+<header>
+  <h1>High Drama</h1>
+  <div class="sub">Spirit Graph</div>
+  <div class="hint">Every figure is a node; every claim is an edge with a witness. Bracketed numbers link to the fetched primary sources below. Toggle Edit to correct the language directly; your changes are recorded locally and can be exported back to the research pipeline.</div>
+</header>
+<div class="toolbar">
+  <input id="q" type="search" placeholder="Search figures, edges, essays…">
+  <select id="datef"><option value="">All dates</option></select>
+  <select id="trad"><option value="">All traditions</option></select>
+  <label class="hint"><input type="checkbox" id="edgesOnly"> edges only</label>
+  <button id="editBtn">Edit: off</button>
+  <button id="exportBtn">Export my edits</button>
+  <button id="resetBtn" title="Discard all local edits">Reset edits</button>
+</div>
+<div class="wrap">
+  <div id="list"></div>
+  <div id="panel" class="panel"><span class="empty">Select a figure to read its essay and its documented interactions.</span></div>
+</div>
+<div id="srcs"><h3>Sources (fetched witnesses)</h3><ol id="srcList"></ol></div>
+<footer><span class="edits" id="editStatus"></span></footer>
+
+<script id="data" type="application/json">/*__DATA__*/</script>
+<script>
+const DATA = JSON.parse(document.getElementById('data').textContent);
+const byId = {}; DATA.nodes.forEach(n=>byId[n.id]=n);
+const LSKEY='highdrama_edits_v1';
+let edits = JSON.parse(localStorage.getItem(LSKEY)||'[]');
+let editMode=false;
+
+// Apply stored edits into DATA at startup so the page shows user's language
+function applyEdits(){
+  edits.forEach(e=>{
+    if(e.kind==='node-essay' && byId[e.id]) byId[e.id].essay=e.new;
+    if(e.kind==='edge-title'){const ed=DATA.edges.find(x=>x.frm===e.frm&&x.to===e.to&&x.type===e.type); if(ed)ed.title=e.new;}
+    if(e.kind==='edge-essay'){const ed=DATA.edges.find(x=>x.frm===e.frm&&x.to===e.to&&x.type===e.type); if(ed)ed.essay=e.new;}
+  });
+  document.getElementById('editStatus').textContent = edits.length? `${edits.length} local edit(s) applied` : '';
+}
+
+function linkify(t){
+  // inline plaintext: [n] -> anchor; essays contain escaped HTML with <a class="cite"...> already? We stored raw text. Do inline:
+  return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+          .replace(/\[(\d+)\]/g,(m,n)=>{
+             const s=DATA.sources.find(s=>s.id==n);
+             return s? `<a class="cite" href="${s.url}" target="_blank" rel="noopener" title="${s.title.replace(/"/g,'&quot;')}">[${n}]</a>`:m;
+          });
+}
+
+function record(kind, idOrEdge, fieldEl, oldVal, newVal){
+  if(oldVal===newVal) return;
+  const rec = Object.assign({kind, old:oldVal, new:newVal, ts:new Date().toISOString()}, idOrEdge);
+  // collapse repeated edits to same field: keep old from earliest
+  const key = JSON.stringify([kind, idOrEdge]);
+  const ix = edits.findIndex(e=>JSON.stringify([e.kind, kindrec(e)])===key);
+  function kindrec(e){ return e.kind==='node-essay'? {id:e.id} : {frm:e.frm,to:e.to,type:e.type}; }
+  if(ix>=0){ rec.old = edits[ix].old; edits[ix]=rec; } else edits.push(rec);
+  localStorage.setItem(LSKEY, JSON.stringify(edits));
+  document.getElementById('editStatus').textContent = `${edits.length} local edit(s) applied`;
+}
+
+const dates=[...new Set(DATA.nodes.map(n=>n.date_added).filter(Boolean))].sort();
+const trads=[...new Set(DATA.nodes.map(n=>n.tradition).filter(Boolean))].sort();
+dates.forEach(d=>{const o=document.createElement('option');o.value=o.textContent=d;document.getElementById('datef').appendChild(o);});
+trads.forEach(t=>{const o=document.createElement('option');o.value=o.textContent=t;document.getElementById('trad').appendChild(o);});
+
+const list=document.getElementById('list');
+function highlight(t,q){ if(!q) return t; const re=new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi'); return t.replace(re,'<mark>$1</mark>');}
+function esc(t){return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+function render(){
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  const d=document.getElementById('datef').value;
+  const tr=document.getElementById('trad').value;
+  const eo=document.getElementById('edgesOnly').checked;
+  list.innerHTML='';
+  let count=0;
+  if(!eo){
+  DATA.nodes.forEach(n=>{
+    const hay=(n.label+' '+n.tradition+' '+n.essay).toLowerCase();
+    if(q && !hay.includes(q)) return;
+    if(d && n.date_added!==d) return;
+    if(tr && n.tradition!==tr) return;
+    count++;
+    const c=document.createElement('div'); c.className='card'; c.dataset.id=n.id;
+    c.innerHTML=`<h3>${highlight(esc(n.label),q)}</h3><div class="meta">${esc(n.tradition)} · batch ${n.batch} · added ${n.date_added}</div>
+      <div class="meta" style="margin-top:.25rem">${highlight(esc(n.essay.slice(0,140).split('.')[0]+'.'),q)}</div>`;
+    c.onclick=()=>openNode(n.id); list.appendChild(c);
+  });
+  }
+  // edges section
+  DATA.edges.forEach(e=>{
+    const a=byId[e.frm], b=byId[e.to];
+    const label=`${a?a.label:e.frm} → ${b?b.label:e.to}`;
+    const hay=(label+' '+e.title+' '+e.essay+' '+e.type).toLowerCase();
+    if(q && !hay.includes(q)) return;
+    if(d && e.date_added!==d) return;
+    if(tr && !(a&&a.tradition===tr) && !(b&&b.tradition===tr)) return;
+    count++;
+    const c=document.createElement('div'); c.className='card';
+    c.innerHTML=`<div class="etype">${esc(e.type)}</div><h3>${highlight(esc(label),q)}</h3><div style="font-size:.95rem"><b>${highlight(esc(e.title),q)}</b></div>
+      <div class="meta">${highlight(esc(e.essay.slice(0,120).split('.')[0]+'.'),q)}</div>`;
+    c.onclick=()=>openEdge(e); list.appendChild(c);
+  });
+  if(!count) list.innerHTML='<div class="empty">Nothing matches.</div>';
+}
+
+function openNode(id){
+  const n=byId[id]; if(!n)return;
+  const rel=DATA.edges.filter(e=>e.frm===id||e.to===id);
+  const panel=document.getElementById('panel');
+  panel.innerHTML=`<div class="meta">batch ${n.batch} · added ${n.date_added} · ${esc(n.tradition)}</div>
+    <h2>${esc(n.label)}</h2>
+    <p id="essayNode" data-id="${n.id}" style="text-align:justify">${linkify(n.essay)}</p>
+    <h4 style="margin-bottom:.2rem">Documented interactions (${rel.length})</h4>
+    ${rel.map(e=>{const other=e.frm===id?byId[e.to]:byId[e.frm];const dir=e.frm===id?'→':'←';
+      return `<div class="edge"><div class="etype">${esc(e.type)}</div>
+      <div class="t" data-et="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}">${esc(e.title)}</div>
+      <div data-ee="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}">${linkify(e.essay)} ${e.source?`<span class="hint">(${esc(e.source)})</span>`:''}</div>
+      <div class="hint">${dir} ${other?esc(other.label):''}</div></div>`;}).join('')}
+    <p class="hint">${editMode?'Edit mode is ON: click the essay or any edge title/paragraph to correct the language.':'Toggle Edit to correct the language on this page.'}</p>`;
+  if(editMode) armEditables(panel);
+}
+
+function openEdge(e){
+  const a=byId[e.frm], b=byId[e.to];
+  const panel=document.getElementById('panel');
+  panel.innerHTML=`<div class="meta">edge · added ${e.date_added}</div>
+    <div class="etype">${esc(e.type)}</div>
+    <h2>${esc(a?a.label:e.frm)} → ${esc(b?b.label:e.to)}</h2>
+    <div class="t" style="font-size:1.15rem" data-et="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}">${esc(e.title)}</div>
+    <p data-ee="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}" style="text-align:justify">${linkify(e.essay)}</p>
+    ${e.source?`<p class="hint">Witness: ${esc(e.source)}</p>`:''}`;
+}
+
+function armEditables(scope){
+  scope.querySelectorAll('[id=essayNode]').forEach(el=>{
+    el.contentEditable=true; el.dataset.orig=byId[el.dataset.id].essay;
+    el.onblur=()=>{ record('node-essay',{id:el.dataset.id},el,el.dataset.orig,el.innerText);
+      byId[el.dataset.id].essay=el.innerText; el.dataset.orig=el.innerText;
+      el.innerHTML=linkify(el.innerText); };
+  });
+  scope.querySelectorAll('[data-et]').forEach(el=>{
+    el.contentEditable=true; const [f,ty,t]=el.dataset.et.split('|');
+    const ed=DATA.edges.find(x=>x.frm===f&&x.type===ty&&x.to===t); el.dataset.orig=ed.title;
+    el.onblur=()=>{ record('edge-title',{frm:f,type:ty,to:t},el,el.dataset.orig,el.innerText); ed.title=el.innerText; el.dataset.orig=el.innerText; };
+  });
+  scope.querySelectorAll('[data-ee]').forEach(el=>{
+    el.contentEditable=true; const [f,ty,t]=el.dataset.ee.split('|');
+    const ed=DATA.edges.find(x=>x.frm===f&&x.type===ty&&x.to===t); el.dataset.orig=ed.essay;
+    el.onblur=()=>{ record('edge-essay',{frm:f,type:ty,to:t},el,el.dataset.orig,el.innerText); ed.essay=el.innerText; el.dataset.orig=el.innerText; el.innerHTML=linkify(el.innerText); };
+  });
+}
+
+document.getElementById('editBtn').onclick=()=>{
+  editMode=!editMode;
+  const b=document.getElementById('editBtn'); b.textContent='Edit: '+(editMode?'on':'off'); b.classList.toggle('on',editMode);
+  const panel=document.getElementById('panel');
+  if(editMode) armEditables(panel); else panel.querySelectorAll('[contenteditable]').forEach(el=>el.contentEditable=false);
+};
+document.getElementById('exportBtn').onclick=()=>{
+  const blob=new Blob([JSON.stringify({page:'High Drama — Spirit Graph', exported:new Date().toISOString(), edits},null,2)],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='high-drama-edits.json'; a.click();
+};
+document.getElementById('resetBtn').onclick=()=>{
+  if(confirm('Discard all your local edits?')){ edits=[]; localStorage.removeItem(LSKEY); location.reload(); }
+};
+['q','datef','trad','edgesOnly'].forEach(id=>{
+  document.getElementById(id).addEventListener('input',render);
+  document.getElementById(id).addEventListener('change',render);
+});
+const srcOl=document.getElementById('srcList');
+DATA.sources.forEach(s=>{const li=document.createElement('li'); li.innerHTML=`<a href="${s.url}" target="_blank" rel="noopener">${esc? '' : ''}</a>`; li.innerHTML=`<a href="${s.url}" target="_blank" rel="noopener">[${s.id}] ${s.title.replace(/</g,'&lt;')}</a> <span class="hint">${s.url}</span>`; srcOl.appendChild(li);});
+applyEdits();
+render();
+</script>
+</body>
+</html>
