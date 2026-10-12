@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>High Drama — Spirit Graph</title>
-<script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
-<script src="https://unpkg.com/3d-force-graph@1.73.3/dist/3d-force-graph.min.js"></script>
+<script src="./lib/three.min.js"></script>
+<script src="./lib/3d-force-graph.min.js"></script>
 <style>
   :root{--paper:#f6f1e7;--ink:#2b2620;--faint:#8a8175;--line:#d9d0c0;--accent:#7a4a1f;}
   *{box-sizing:border-box}
@@ -243,7 +243,7 @@ const PALETTE=['#7a4a1f','#3b6ea5','#5e7f3c','#8e3b46','#6a5a8e','#a5762b','#2f7
 function tradColor(t){ let h=0; for(const c of (t||'')) h=(h*31+c.charCodeAt(0))>>>0; return PALETTE[h%PALETTE.length]; }
 let graphOn=false, flat=false, Graph=null, simReady=false;
 const ZMIN=-2100, ZMAX=2030;
-function zOf(era){ return ((era-ZMIN)/(ZMAX-ZMIN))*400-200; } // map era to z in [-200,200]
+function zOf(era){ return ((era-ZMIN)/(ZMAX-ZMIN))*240-120; } // map era to z in [-120,120]
 function yearFmt(y){ return y<0? (-y)+' BCE' : y+' CE'; }
 function edgeWeight(e,T){ if(e.era>T) return 0; const age=T-e.era; return Math.exp(-age/250); } // ~0.4%/yr decay after era
 function nodeCentrality(id,T){ let s=0; DATA.edges.forEach(e=>{ if(e.frm===id||e.to===id) s+=edgeWeight(e,T); }); return s; }
@@ -256,10 +256,10 @@ function nodeSize(n,T){
   if(n.era>T) return 0.0001;
   if(sizeMode==='watts'){
     // log scale: 1 W -> tiny, 1e13 -> large; floor for readability
-    return 0.8+0.9*Math.max(0,(Math.log10(Math.max(n.pw_t,1))-0));
+    return 1.6+1.4*Math.max(0,Math.log10(Math.max(n.pw_t,1)));
   }
   const c=nodeCentrality(n.id,T);
-  return 1.6+2.2*Math.sqrt(c);
+  return 3.0+3.4*Math.sqrt(c);
 }
 
 function initGraph(){
@@ -298,7 +298,7 @@ function initGraph(){
   Graph.d3Force('zpin', alpha=>{ DATA.nodes.forEach(n=>{ n.z=zOf(n.era); n.vz=0; }); });
   Graph.cooldownTicks(120);
   renderGraphData();
-  Graph.cameraPosition({x:0,y:40,z:420});
+  Graph.cameraPosition({x:0,y:30,z:260});
 }
 
 function currentGraphData(T){
@@ -336,7 +336,7 @@ document.getElementById('viewGraph').onclick=()=>{ graphOn=true;
   document.getElementById('graphWrap').style.display='block'; document.getElementById('graphControls').style.display='block';
   if(!Graph) initGraph(); else renderGraphData(); };
 document.getElementById('flatBtn').onclick=flatToggle;
-document.getElementById('camBtn').onclick=()=>{ if(Graph) Graph.cameraPosition({x:0,y:40,z:420},{x:0,y:0,z:0},800); };
+document.getElementById('camBtn').onclick=()=>{ if(Graph) Graph.cameraPosition({x:0,y:30,z:260},{x:0,y:0,z:0},800); };
 document.getElementById('sizeBtn').onclick=()=>{
   sizeMode = sizeMode==='centrality' ? 'watts' : 'centrality';
   document.getElementById('sizeBtn').textContent='size: '+sizeMode;
