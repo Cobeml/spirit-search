@@ -58,6 +58,7 @@
     #drawer.open{transform:translateY(0);}
     input[type=range]{width:120px;}
   }
+  .scene-tooltip{color:#000 !important;background:rgba(255,253,248,.97) !important;border:1px solid var(--line);border-radius:6px;padding:.35rem .55rem;font-family:Georgia,serif !important;max-width:300px;}
 </style>
 </head>
 <body>
@@ -191,7 +192,7 @@ function applyLinkStyles(){
 function applyTimeStyles(){
   if(!Graph) return;
   const T=currentT();
-  DATA.nodes.forEach(n=>styleNode(n,T));
+  Graph.graphData().nodes.forEach(n=>styleNode(n,T));  // engine nodes carry the meshes
   applyLinkStyles();
 }
 
@@ -233,12 +234,11 @@ function initGraph(){
     .linkDirectionalArrowLength(3.2)
     .linkDirectionalArrowRelPos(1)
     .warmupTicks(90)
-    .cooldownTicks(0)
+    .cooldownTime(700)
+    .d3AlphaMin(0.004)
     .onEngineStop(()=>{
       if(simReady) return;
       simReady=true;
-      // Pin x/y once settled (z already pinned). Positions never recompute afterward.
-      Graph.graphData().nodes.forEach(n=>{ n.fx=n.x; n.fy=n.y; });
       applyTimeStyles();
       Graph.zoomToFit(600, 60);
     })
@@ -340,11 +340,24 @@ document.getElementById('sizeBtn').onclick=()=>{
   applyTimeStyles();
 };
 
+  // Retune forces for a given year: strong/fresh links bind tight, decayed ones stretch;
+  // invisible (future) nodes carry no charge; z stays era-pinned.
+  function retuneForces(T){
+    if(!simReady) return;
+    Graph.d3Force('link').distance(l=>24+150*(1-edgeWeight(l,T)))
+                        .strength(l=>0.9*edgeWeight(l,T));
+    Graph.d3Force('charge').strength(n=> (n.era<=T ? -120 : 0));
+    Graph.d3ReheatSimulation();  // safe post-init: layout exists; this is the race-free path
+  }
+
 const yearEl=document.getElementById('year'), yearLabel=document.getElementById('yearLabel');
-yearEl.addEventListener('input',()=>{
-  yearLabel.textContent=yearFmt(currentT());
-  applyTimeStyles();           // restyle only — never rebuild, never reheat
-});
+function retime(){
+  const T=currentT();
+  yearLabel.textContent=yearFmt(T);
+  applyTimeStyles();           // visibility, sizes, link paint
+  retuneForces(T);             // then let physics flow with the new weights
+}
+yearEl.addEventListener('input', retime);
 
 let playing=false, playTimer=null;
 document.getElementById('playBtn').onclick=()=>{
@@ -352,7 +365,7 @@ document.getElementById('playBtn').onclick=()=>{
   playing=!playing; b.textContent=playing?'❚❚':'▶'; b.classList.toggle('on',playing);
   if(playing){ playTimer=setInterval(()=>{
     let y=currentT()+10; if(y>2030){ y=-2100; }
-    yearEl.value=y; yearLabel.textContent=yearFmt(y); applyTimeStyles();
+    yearEl.value=y; retime();
   },200);} else clearInterval(playTimer);
 };
 
