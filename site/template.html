@@ -297,7 +297,7 @@ function initGraph(){
   // pin z to era, let x/y relax
   Graph.d3Force('zpin', alpha=>{ DATA.nodes.forEach(n=>{ n.z=zOf(n.era); n.vz=0; }); });
   Graph.cooldownTicks(120);
-  renderGraphData();
+  renderGraphData(true);
   Graph.cameraPosition({x:0,y:30,z:260});
 }
 
@@ -309,15 +309,36 @@ function currentGraphData(T){
   return {nodes, links};
 }
 
-function renderGraphData(){
+function renderGraphData(heat){
   if(!Graph) return;
   const T=parseInt(document.getElementById('year').value);
-  const {nodes,links}=currentGraphData(T);
-  // edge "force" = link distance inversely proportional to weight (decayed edges stretch, strong ones bind)
-  Graph.graphData({nodes,links});
+  // STABLE dataset: every node/link always present; time only adjusts style + forces
+  const nodes=DATA.nodes.map(n=>({...n, fz:zOf(n.era), __visT:n.era<=T, __T:T}));
+  const links=DATA.edges.map(e=>({...e, source:e.frm, target:e.to, __w:edgeWeight(e,T), __T:T}));
+  // reuse existing engine objects where possible so positions persist (no pop-in)
+  const gd=Graph.graphData();
+  if(!gd.nodes || !gd.nodes.length){
+    Graph.graphData({nodes,links});
+  } else {
+    // mutate in place: update flags only
+    const cur=gd.nodes, linksCur=gd.links;
+    nodes.forEach(n=>{
+      const old=cur.find(o=>o.id===n.id);
+      if(old){ old.__visT=n.__visT; old.__T=T; old.fz=n.fz; }
+    });
+    links.forEach(l=>{
+      const old=linksCur.find(o=>{
+        const f=(typeof o.source==='object')?o.source.id:o.source;
+        const t=(typeof o.target==='object')?o.target.id:o.target;
+        return f===l.frm&&t===l.to&&o.type===l.type;});
+      if(old){ old.__w=l.__w; old.__T=T; old.frm=l.frm; old.to=l.to; }
+    });
+    Graph._x = 1; // noop
+  }
   Graph.d3Force('link').distance(l=>30+140*(1-(l.__w||0)));
-  Graph.d3Force('link').strength(l=>0.15+0.85*(l.__w||0));
-  Graph.d3ReheatSimulation();
+  Graph.d3Force('link').strength(l=>0.85*(l.__w||0));
+  if(heat) Graph.d3ReheatSimulation();
+  Graph.refresh(); // restyle three objects, KEEP positions
 }
 
 function flatToggle(){
