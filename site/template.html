@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+<!--
+SELF-CHECK — DATA fields this template now relies on:
+  nodes[]: id,label,tradition,batch,date_added,era,pw_d,pw_p,pw_t,pw_pool,pw_why,pw_ws,essay
+  nodes[] NEW: highlights[] of {text, source_title, source_url, cluster} (essay is FALLBACK when empty)
+  nodes[] NEW: proposals[]  of {text, source_title, source_url, cluster} (+proposed:true), shown collapsed
+  edges[]: frm,to,type,title,essay,source,date_added,era
+  edges[] NEW: excerpts[] of {text, source_title, source_url, cluster} (essay is FALLBACK when empty)
+  edges[] NEW: influence (float), shown in edge detail
+  Search bar GETs http://127.0.0.1:8788/search?q=..&k=10&mode=(hybrid|bm25|vec)
+    -> {results:[{snippet, text, cluster, title, url, path}]}
+  Sanity: node 'machaon' highlights include text like "A physician is worth more than several other men put together..."
+-->
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -59,12 +71,51 @@
     input[type=range]{width:120px;}
   }
   .scene-tooltip{color:#000 !important;background:rgba(255,253,248,.97) !important;border:1px solid var(--line);border-radius:6px;padding:.35rem .55rem;font-family:Georgia,serif !important;max-width:300px;}
+  /* header layout + corpus search */
+  header{display:flex;align-items:center;justify-content:space-between;gap:1rem;}
+  #searchWrap{position:relative;display:flex;align-items:center;gap:.35rem;}
+  #searchWrap input[type=search]{font-size:.85rem;padding:.3rem .5rem;min-width:180px;flex:0 1 auto;}
+  .seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;}
+  .seg button{border:none;border-radius:0;padding:.3rem .45rem;font-size:.72rem;background:var(--panel);}
+  .seg button.on{background:var(--accent);color:var(--paper);}
+  #searchResults{position:absolute;top:calc(100% + 4px);right:0;width:min(420px,90vw);max-height:60vh;overflow:auto;
+    background:var(--panel);border:1px solid var(--line);border-radius:8px;box-shadow:0 10px 30px rgba(43,38,32,.18);
+    padding:.5rem;display:none;z-index:30;font-size:.85rem;}
+  #searchResults.open{display:block;}
+  #searchResults mark{background:#f2e2b8;color:inherit;padding:0 1px;border-radius:2px;}
+  .sr-item{border-bottom:1px dashed var(--line);padding:.45rem .2rem;}
+  .sr-item:last-child{border-bottom:none;}
+  .sr-snip{margin:.1rem 0;line-height:1.45;}
+  .sr-meta{font-size:.74rem;color:var(--faint);}
+  #searchNote{font-size:.75rem;color:var(--faint);padding:.3rem .2rem;}
+  /* highlights / excerpts */
+  h4.sec{margin:1.1rem 0 .3rem;letter-spacing:.03em;}
+  .hl{border-left:3px solid var(--accent);margin:.55rem 0;padding:.15rem 0 .15rem .8rem;}
+  .hl blockquote{margin:0;font-style:italic;}
+  .hl .cite-line{font-size:.75rem;color:var(--faint);margin-top:.15rem;}
+  .hl .cluster{font-size:.7rem;background:rgba(122,74,31,.1);border-radius:4px;padding:0 .3rem;margin-left:.3rem;}
+  .hl.proposed{border-left-style:dashed;border-left-color:var(--faint);opacity:.85;}
+  .hl .tag-proposed{font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:var(--faint);
+    border:1px dashed var(--faint);border-radius:4px;padding:0 .25rem;margin-right:.3rem;}
+  details.proposals{margin:.4rem 0;}
+  details.proposals summary{cursor:pointer;font-size:.85rem;color:var(--faint);}
 </style>
 </head>
 <body>
 <header>
-  <h1>High Drama</h1>
-  <div class="sub">Spirit Graph</div>
+  <div>
+    <h1>High Drama</h1>
+    <div class="sub">Spirit Graph</div>
+  </div>
+  <div id="searchWrap">
+    <div class="seg" id="searchModeSeg">
+      <button data-mode="hybrid" class="on" title="Hybrid search">hybrid</button>
+      <button data-mode="bm25" title="Keyword search">bm25</button>
+      <button data-mode="vec" title="Vector search">vec</button>
+    </div>
+    <input id="corpusSearch" type="search" placeholder="Search corpus…" autocomplete="off">
+    <div id="searchResults"></div>
+  </div>
 </header>
 <div class="toolbar">
   <input id="q" type="search" placeholder="Search figures…">
@@ -207,6 +258,12 @@ function initGraph(){
     .filter(e=>idset.has(e.frm)&&idset.has(e.to))
     .map(e=>({frm:e.frm,to:e.to,type:e.type,title:e.title,essay:e.essay,
               era:e.era,influence:e.influence, source:e.frm, target:e.to}));
+  // parallel edges between the same directed pair get alternating curvature offsets
+  const pairCount={}, pairSeen={};
+  links.forEach(l=>{ const k=l.frm+'->'+l.to; pairCount[k]=(pairCount[k]||0)+1; });
+  links.forEach(l=>{ const k=l.frm+'->'+l.to, n=pairCount[k];
+    if(n>1){ const i=(pairSeen[k]=(pairSeen[k]||0)+1); l.curvature=((i%2)?1:-1)*Math.ceil(i/2)*0.28; }
+    else l.curvature=0; });
 
   Graph = ForceGraph3D()(el)
     .width(el.clientWidth).height(el.clientHeight)
@@ -231,6 +288,7 @@ function initGraph(){
     .linkColor(l=>{ const w=edgeWeight(l,currentT()); return `rgba(122,74,31,${(0.12+0.6*w).toFixed(3)})`; })
     .linkWidth(l=> 0.4+2.6*edgeWeight(l,currentT()))
     .linkVisibility(l=> l.era<=currentT())
+    .linkCurvature(l=> l.curvature||0)
     .linkDirectionalArrowLength(3.2)
     .linkDirectionalArrowRelPos(1)
     .warmupTicks(90)
@@ -266,9 +324,29 @@ document.getElementById('drawerClose').onclick=closeDrawer;
 scrim.onclick=closeDrawer;
 document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeDrawer(); });
 
+/* one excerpt/highlight card: blockquote + citation line (+ optional proposed tag) */
+function excerptHtml(x, proposed){
+  const cite = x.source_url
+    ? `<a class="cite" href="${esc(x.source_url)}" target="_blank" rel="noopener">${esc(x.source_title||x.source_url)}</a>`
+    : esc(x.source_title||'');
+  return `<div class="hl${proposed?' proposed':''}">
+    ${proposed?'<span class="tag-proposed">proposed</span>':''}
+    <blockquote>${esc(x.text)}</blockquote>
+    <div class="cite-line">— ${cite}${x.cluster?`<span class="cluster">${esc(x.cluster)}</span>`:''}</div>
+  </div>`;
+}
+
 function openNode(id){
   const n=byId[id]; if(!n) return;
   const rel=DATA.edges.filter(e=>e.frm===id||e.to===id);
+  const hl=(n.highlights||[]);
+  const props=(n.proposals||[]);
+  const mainBlock = hl.length
+    ? `<h4 class="sec">Highlights (${hl.length})</h4>${hl.map(x=>excerptHtml(x,false)).join('')}`
+    : `<p id="essayNode" data-id="${esc(n.id)}">${linkify(n.essay)}</p>`;
+  const propBlock = props.length
+    ? `<details class="proposals"><summary>Proposed connections (from corpus) · ${props.length}</summary>
+         ${props.map(x=>excerptHtml(x,true)).join('')}</details>` : '';
   drawerBody.innerHTML=`
     <div class="meta">batch ${n.batch} · added ${n.date_added} · ${esc(n.tradition)} · attested ${yearFmt(n.era)}</div>
     <h2>${esc(n.label)}</h2>
@@ -276,26 +354,35 @@ function openNode(id){
       (${fmtW(n.pw_d)} direct${n.pw_p?` + ${fmtW(n.pw_p)} by proxy`:''})${n.pw_pool?` · pool: ${esc(n.pw_pool)} × witness ${n.pw_ws}`:''}<br>
       <span class="hint">${n.pw_why?esc(n.pw_why):'No industry pool attributed; power flows to it, if at all, by proxy (see edges).'}
       Method: pool × claim-share × witness-strength; single-hop proxy routing.</span></p>
-    <p id="essayNode" data-id="${esc(n.id)}">${linkify(n.essay)}</p>
+    ${mainBlock}
+    ${propBlock}
     <h4>Documented interactions (${rel.length})</h4>
     ${rel.map(e=>{const other=e.frm===id?byId[e.to]:byId[e.frm];const dir=e.frm===id?'→':'←';
+      const body=(e.excerpts&&e.excerpts.length)
+        ? e.excerpts.map(x=>excerptHtml(x,false)).join('')
+        : `<div data-ee="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}">${linkify(e.essay)} ${e.source?`<span class="hint">(${esc(e.source)})</span>`:''}</div>`;
       return `<div class="edge"><div class="etype">${esc(e.type)}</div>
         <div class="t" data-et="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}">${esc(e.title)}</div>
-        <div data-ee="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}">${linkify(e.essay)} ${e.source?`<span class="hint">(${esc(e.source)})</span>`:''}</div>
+        ${body}
         <div class="hint">${dir} ${other?esc(other.label):esc(e.frm===id?e.to:e.frm)}</div></div>`;}).join('')}
-    <p class="hint">${editMode?'Edit mode ON: click the essay or any edge title/paragraph to correct the language.':'Toggle Edit to correct the language here.'}</p>`;
+    <p class="hint">${editMode?'Edit mode ON: click an editable essay or edge title to correct the language.':'Toggle Edit to correct the language here.'}</p>`;
   if(editMode) armEditables(drawerBody);
   openDrawer();
 }
 
 function openEdge(e){
   const a=byId[e.frm], b=byId[e.to];
+  const exc=(e.excerpts||[]);
+  const body = exc.length
+    ? `<h4 class="sec">Excerpts (${exc.length})</h4>${exc.map(x=>excerptHtml(x,false)).join('')}`
+    : `<p data-ee="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}">${linkify(e.essay)}</p>`;
   drawerBody.innerHTML=`
     <div class="meta">edge · added ${e.date_added} · attested ${yearFmt(e.era)}</div>
     <div class="etype">${esc(e.type)}</div>
     <h2>${esc(a?a.label:e.frm)} → ${esc(b?b.label:e.to)}</h2>
     <div class="t" style="font-size:1.12rem" data-et="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}">${esc(e.title)}</div>
-    <p data-ee="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}">${linkify(e.essay)}</p>
+    ${e.influence!=null?`<p class="meta">influence: <b>${(+e.influence).toFixed(2)}</b></p>`:''}
+    ${body}
     ${e.source?`<p class="hint">Witness: ${esc(e.source)}</p>`:''}`;
   if(editMode) armEditables(drawerBody);
   openDrawer();
@@ -368,6 +455,56 @@ document.getElementById('playBtn').onclick=()=>{
     yearEl.value=y; retime();
   },200);} else clearInterval(playTimer);
 };
+
+/* ---------- corpus search (search server on :8788) ---------- */
+const SEARCH_API='http://127.0.0.1:8788/search';
+let searchMode='hybrid';
+const csInput=document.getElementById('corpusSearch');
+const csResults=document.getElementById('searchResults');
+document.getElementById('searchModeSeg').querySelectorAll('button').forEach(b=>{
+  b.onclick=()=>{
+    searchMode=b.dataset.mode;
+    b.parentElement.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
+    if(csInput.value.trim()) runCorpusSearch();
+  };
+});
+function markTerms(snippet, q){
+  let out=esc(snippet);
+  const terms=q.trim().split(/\s+/).filter(Boolean).slice(0,8);
+  for(const t of terms){
+    const re=new RegExp('('+esc(t).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+    out=out.replace(re,'<mark>$1</mark>');
+  }
+  return out;
+}
+let searchTimer=null;
+csInput.addEventListener('input',()=>{ clearTimeout(searchTimer); searchTimer=setTimeout(runCorpusSearch,220); });
+csInput.addEventListener('keydown',e=>{ if(e.key==='Enter'){ e.preventDefault(); runCorpusSearch(); } });
+document.addEventListener('click',e=>{
+  if(!document.getElementById('searchWrap').contains(e.target)) csResults.classList.remove('open');
+});
+async function runCorpusSearch(){
+  const q=csInput.value.trim();
+  if(!q){ csResults.classList.remove('open'); csResults.innerHTML=''; return; }
+  let data;
+  try{
+    const res=await fetch(`${SEARCH_API}?q=${encodeURIComponent(q)}&k=10&mode=${encodeURIComponent(searchMode)}`);
+    if(!res.ok) throw new Error('bad status '+res.status);
+    data=await res.json();
+  }catch(err){
+    csResults.innerHTML=`<div id="searchNote">search server offline (research/_search_server.py on :8788)</div>`;
+    csResults.classList.add('open');
+    return;
+  }
+  const items=(data&&data.results)||[];
+  csResults.innerHTML = items.length
+    ? items.map(r=>`<div class="sr-item">
+        <div class="sr-snip">${markTerms(r.snippet||r.text||'', q)}</div>
+        <div class="sr-meta">${r.url?`<a class="cite" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title||r.url)}</a>`:esc(r.title||'')}${r.cluster?` · ${esc(r.cluster)}`:''}</div>
+      </div>`).join('')
+    : `<div id="searchNote">no results</div>`;
+  csResults.classList.add('open');
+}
 
 /* search: focus camera on first matching visible node */
 document.getElementById('q').addEventListener('change',()=>{
