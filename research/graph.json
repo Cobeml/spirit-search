@@ -6422,6 +6422,348 @@
     "status": "auto-added",
     "date": "2026-10-14"
    }
+  },
+  {
+   "id": "math",
+   "label": "Math fab Mathonwy",
+   "tradition": "Welsh myth (Mabinogion)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Lord of Gwynedd in the Fourth Branch; the name-making and flower-making uncle. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "gwydion",
+   "label": "Gwydion",
+   "tradition": "Welsh myth (Mabinogion)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Math's sister's son; magician of the Fourth Branch, maker of Blodeuwedd, trickster of Pryderi. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "llew-llaw-gyffes",
+   "label": "Llew Llaw Gyffes",
+   "tradition": "Welsh myth (Mabinogion)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Aranrod's baptized son 'of the skilful hand'; Lleu. Blodeuwedd's husband, Gronw's victim. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "blodeuwedd",
+   "label": "Blodeuwedd",
+   "tradition": "Welsh myth (Mabinogion)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "The woman made of flowers for Llew; her betrayal turns her into the owl. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "dylan",
+   "label": "Dylan ail Ton",
+   "tradition": "Welsh myth (Mabinogion)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Aranrod's sea-child, baptized into the sea at birth. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "aranrod",
+   "label": "Aranrod",
+   "tradition": "Welsh myth (Mabinogion)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Aranrod in the Edwards text (=Arianrhod); Math's footholder, mother of Dylan and Llew. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "taliesin",
+   "label": "Taliesin",
+   "tradition": "Welsh myth (Mabinogion / Hanes)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "The reborn poet found in Elffin's weir; vol 3's closing tale. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "elphin",
+   "label": "Elffin",
+   "tradition": "Welsh myth (Hanes Taliesin)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "He of the unlucky weir, finder of Taliesin; prisoner of Maelgwn. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "maelgwn",
+   "label": "Maelgwn Gwynedd",
+   "tradition": "Welsh myth/history (Hanes Taliesin)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Historical king of Gwynedd cast in the Taliesin tale as captor and judge. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "nuada",
+   "label": "Nuada of the Silver Hand",
+   "tradition": "Irish myth (Tuatha De Danann)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Hand-lost king re-armed by Diancecht and Creidne in silver; witness here is MacCulloch 1911, secondary. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "diancecht",
+   "label": "Diancecht",
+   "tradition": "Irish myth (Tuatha De Danann)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Tuatha god of medicine: 'his name may mean swift in power'; silver-hand smith with Creidne. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "miach",
+   "label": "Miach",
+   "tradition": "Irish myth (Tuatha De Danann)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Diancecht's son who grew flesh where the father could only forge silver. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "goibniu",
+   "label": "Goibniu",
+   "tradition": "Irish myth (Tuatha De Danann)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Smith of the Tuatha; his weapons fail not. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "dagda",
+   "label": "The Dagda",
+   "tradition": "Irish myth (Tuatha De Danann)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "'Good god' of the Tuatha, cauldron and club. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "manannan",
+   "label": "Manannan mac Lir",
+   "tradition": "Irish myth (Tuatha De Danann)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Sea-lord named in the euhemerist lists; witness MacCulloch 1911. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "brigit",
+   "label": "Brigit",
+   "tradition": "Irish myth (Tuatha De Danann)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Daughter of the Dagda; fire and poetry; saint's shadow over the goddess. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "morrigan",
+   "label": "The Morrigan",
+   "tradition": "Irish myth (Tuatha De Danann)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Battle-crow of the Tuatha; prophecy before the second battle of Moytura. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "balor",
+   "label": "Balor",
+   "tradition": "Irish myth (Fomorians)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Death-eyed Fomorian king, slain by his grandson at Moytura. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "lugh",
+   "label": "Lugh",
+   "tradition": "Irish myth (Tuatha De Danann)",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Samildanach ('many-skilled'); Balor's grandson and slayer. Auto-added in corpus-growth wave; unpriced pending power gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
   }
  ],
  "edges": [
@@ -9374,6 +9716,305 @@
      "source_id": 15,
      "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
      "source_url": "https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "math",
+   "to": "gwydion",
+   "type": "kinship",
+   "source": "[21] Mabinogion vol 3, trans. Guest",
+   "title": "The sister's son at court",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "came to Penardd in Arvon. And at night Gwydion the son of Don, and Gilvaethwy his brother, returned to Caerdathyl; and Gilvaethwy took Math the son of Mathonwy's couch. And while he turned out the other damsels from the room discourteously, he made Goewin unwillingly remain. And when they saw the day on the morrow, they went back unto th",
+     "source_id": 21,
+     "source_title": "Mabinogion vol 3, trans. Guest, ed. Edwards 1902 (Gutenberg #19976)",
+     "source_url": "https://www.gutenberg.org/cache/epub/19976/pg19976.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "gwydion",
+   "to": "llew-llaw-gyffes",
+   "type": "interaction",
+   "source": "[21] Mabinogion vol 3, trans. Guest",
+   "title": "The name given at the fish-weir",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "t a name. And a good enough name it is. Llew Llaw Gyffes be he called henceforth.\" Then the work disappeared in sea weed and sedges, and he went on with it no further. And for that reason was he called the third Gold-shoemaker. \"Of a truth,\" said she, \"thou wilt not thrive the better for doing evil unto me.\" \"I have done thee no evil yet,",
+     "source_id": 21,
+     "source_title": "Mabinogion vol 3, trans. Guest, ed. Edwards 1902 (Gutenberg #19976)",
+     "source_url": "https://www.gutenberg.org/cache/epub/19976/pg19976.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "llew-llaw-gyffes",
+   "to": "blodeuwedd",
+   "type": "marriage",
+   "source": "[21] Mabinogion vol 3, trans. Guest",
+   "title": "Flower-bride taken home",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "se thy name, but shalt be always called Blodeuwedd.\" Now Blodeuwedd is an owl in the language of this present time, and for this reason is the owl hateful unto all birds. And even now the owl is called Blodeuwedd. Then Gronw Pebyr withdrew unto Penllyn, and he despatched thence an embassy. And the messengers he sent, asked Llew Llaw Gyffe",
+     "source_id": 21,
+     "source_title": "Mabinogion vol 3, trans. Guest, ed. Edwards 1902 (Gutenberg #19976)",
+     "source_url": "https://www.gutenberg.org/cache/epub/19976/pg19976.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "aranrod",
+   "to": "dylan",
+   "type": "kinship",
+   "source": "[21] Mabinogion vol 3, trans. Guest",
+   "title": "Baptized into the sea",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "will cause this one to be baptized, and Dylan is the name I will give him.\" So they had the boy baptized, and as they baptized him he plunged into the sea. And immediately when he was in the sea, he took its nature, and swam as well as the best fish that was therein. And for that reason was he called Dylan, the son of the Wave. Beneath hi",
+     "source_id": 21,
+     "source_title": "Mabinogion vol 3, trans. Guest, ed. Edwards 1902 (Gutenberg #19976)",
+     "source_url": "https://www.gutenberg.org/cache/epub/19976/pg19976.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "taliesin",
+   "to": "elphin",
+   "type": "interaction",
+   "source": "[21] Mabinogion vol 3, trans. Guest",
+   "title": "Found in the weir",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "ge cauldron full of gold. And then said Taliesin, \"Elphin, behold a payment and reward unto thee, for having taken me out of the weir, and for having reared me from that time until now.\" And on this spot stands a pool of water, which is to this time called Pwllbair. After all this, the king caused Taliesin to be brought before him, and he",
+     "source_id": 21,
+     "source_title": "Mabinogion vol 3, trans. Guest, ed. Edwards 1902 (Gutenberg #19976)",
+     "source_url": "https://www.gutenberg.org/cache/epub/19976/pg19976.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "gwydion",
+   "to": "pryderi",
+   "type": "conflict",
+   "source": "[21] Mabinogion vol 3, trans. Guest",
+   "title": "Pigs tricked out of Dyfed",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1350,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "ising. \"What news is there here?\" asked Gwydion. \"Pryderi is assembling one and twenty Cantrevs to pursue after you,\" answered they. \"It is marvellous that you should have journeyed so slowly.\" \"Where are the animals whereof you went in quest?\" said Math. \"They have had a sty made for them in the other Cantrev below,\" said Gwydion. Thereu",
+     "source_id": 21,
+     "source_title": "Mabinogion vol 3, trans. Guest, ed. Edwards 1902 (Gutenberg #19976)",
+     "source_url": "https://www.gutenberg.org/cache/epub/19976/pg19976.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "goibniu",
+   "to": "nuada",
+   "type": "interaction",
+   "source": "[23] MacCulloch, Religion of the Ancient Celts",
+   "title": "The smith's unfailing weapons",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "E ANCIENT CELTS Ireland. BRITAIN. Gaul. Goibniu Govannon Grannos Grannos Ler Llyr Lug Llew or Lieu (?) Lugus, Lugoves Mabon, Maponos Maponos Manannan Manawyddan Matres Matres Mider Medros (?) Modron Matrona (?) Nemon Nemetona Net Neton Nuada Nodons, Nudd Hael, Lludd (?) Ogma Ogmios Silvanus Silvanus Taran Taranis Totalis, Tutatis Teutates",
+     "source_id": 23,
+     "source_title": "MacCulloch, Religion of the Ancient Celts 1911 (archive.org)",
+     "source_url": "https://archive.org/download/religionofancien00macc/religionofancien00macc_djvu.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "manannan",
+   "to": "dagda",
+   "type": "interaction",
+   "source": "[23] MacCulloch, Religion of the Ancient Celts",
+   "title": "The sea-lord among the Tuatha",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "who was a god of the sea, is father of Manannan as well as of the personages of the beautiful story called The Children of Lir, from which we learn practically all that is known of him. He resented not being made ruler of the Tuatha Dea, but was later reconciled when the daughter of Bodb Dearg was given to him as his wife. On her death,",
+     "source_id": 23,
+     "source_title": "MacCulloch, Religion of the Ancient Celts 1911 (archive.org)",
+     "source_url": "https://archive.org/download/religionofancien00macc/religionofancien00macc_djvu.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "nuada",
+   "to": "diancecht",
+   "type": "interaction",
+   "source": "[23] MacCulloch, Religion of the Ancient Celts",
+   "title": "The silver hand",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "of medicine, and, with Creidne's help, fashioned a silver hand for Nuada.2 His son Miach replaced this by a magic restoration of the real hand, and in jealousy his father slew him — a version of the Mcirchen formula of the jealous master. Three hundred and sixty-five herbs grew from his grave, and were arranged according to their propert",
+     "source_id": 23,
+     "source_title": "MacCulloch, Religion of the Ancient Celts 1911 (archive.org)",
+     "source_url": "https://archive.org/download/religionofancien00macc/religionofancien00macc_djvu.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "miach",
+   "to": "diancecht",
+   "type": "kinship",
+   "source": "[23] MacCulloch, Religion of the Ancient Celts",
+   "title": "Flesh outgrows silver",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "m into the sockets of the spear-heads.1 Diancecht, whose name may mean \" swift in power,\" was god of medicine, and, with Creidne's help, fashioned a silver hand for Nuada.2 His son Miach replaced this by a magic restoration of the real hand, and in jealousy his father slew him — a version of the Mcirchen formula of the jealous master. Thr",
+     "source_id": 23,
+     "source_title": "MacCulloch, Religion of the Ancient Celts 1911 (archive.org)",
+     "source_url": "https://archive.org/download/religionofancien00macc/religionofancien00macc_djvu.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "dagda",
+   "to": "brigit",
+   "type": "kinship",
+   "source": "[23] MacCulloch, Religion of the Ancient Celts",
+   "title": "Daughter of the good god",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "ation of such goddesses as Morrigan and Brigit, the threefold name of Dagda's wife, or the fact that Anu, Danu, and Buanan are called \" mothers,\" while Buanan's name is sometimes rendered \" good mother,\" may suggest that such grouped goddesses were not unknown. Later legend knows of white women who assist in spinning, or three hags with p",
+     "source_id": 23,
+     "source_title": "MacCulloch, Religion of the Ancient Celts 1911 (archive.org)",
+     "source_url": "https://archive.org/download/religionofancien00macc/religionofancien00macc_djvu.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "morrigan",
+   "to": "dagda",
+   "type": "interaction",
+   "source": "[23] MacCulloch, Religion of the Ancient Celts",
+   "title": "Prophecy before Moytura",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "t the triplication of such goddesses as Morrigan and Brigit, the threefold name of Dagda's wife, or the fact that Anu, Danu, and Buanan are called \" mothers,\" while Buanan's name is sometimes rendered \" good mother,\" may suggest that such grouped goddesses were not unknown. Later legend knows of white women who assist in spinning, or thre",
+     "source_id": 23,
+     "source_title": "MacCulloch, Religion of the Ancient Celts 1911 (archive.org)",
+     "source_url": "https://archive.org/download/religionofancien00macc/religionofancien00macc_djvu.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "epona",
+   "to": "brigit",
+   "type": "analogy",
+   "source": "[23] MacCulloch, Religion of the Ancient Celts",
+   "title": "Goddess into saint, twice",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1911,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "her personality and cult in those of S. Brigit, at 1 Rh£s, Trans. 3rd Inter. Cong. Hist, of Eel. ii. 213. See Grimm, Teut. Myth. 251 ff., and p. 275, infra. 2 Rh^s, ibid. ii. 213. He finds her name in the place-name Bononia and its derivatives. s Cormac, 23. 4 Csesar, vi. 17 ; Holder, s.v. ; Stokes, TIG 33. THE TUATHA D£ DANANN 69 whose s",
+     "source_id": 23,
+     "source_title": "MacCulloch, Religion of the Ancient Celts 1911 (archive.org)",
+     "source_url": "https://archive.org/download/religionofancien00macc/religionofancien00macc_djvu.txt"
     }
    ],
    "review": {
