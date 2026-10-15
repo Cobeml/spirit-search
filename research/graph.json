@@ -8082,25 +8082,6 @@
   },
   {
    "from": "benjamin-franklin",
-   "to": "george-washington",
-   "type": "analogy",
-   "source": "[40][15]",
-   "title": "The apron and the plough, no rental",
-   "essay": "Two biographies the young republic bought in bulk. Weems stamps Washington 'Cincinnatus-like' at the plough [15], a Roman mold rented outright. Franklin needs no rental: his Autobiography liquidates the printing business on his own arithmetic, 'I flatter'd myself that, by the sufficient tho' moderate fortune I had acquir'd, I had secured leisure during the rest of my life for philosophical studies and amusements' [40]. The resemblance is enacted and contemporary, not transmitted: neither text cites Livy, and no carrier links Franklin to the Roman exemplum.",
-   "date_added": "2026-10-12",
-   "era": 1752,
-   "influence": 0.0,
-   "excerpts": [
-    {
-     "text": "As soon as any of the thunder clouds come over the kite, the pointed wire will draw the electric fire from them... At this key the phial may be charged; and from electric fire thus obtained, spirits may be kindled.",
-     "source_id": 40,
-     "source_title": "Franklin, Autobiography, Gutenberg #20203",
-     "source_url": "https://www.gutenberg.org/cache/epub/20203/pg20203.txt"
-    }
-   ]
-  },
-  {
-   "from": "benjamin-franklin",
    "to": "mercury",
    "type": "analogy",
    "source": "[40][38]",
