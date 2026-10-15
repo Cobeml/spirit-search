@@ -47,13 +47,95 @@ def quote_hl(q, src_id):
             "source_title": s.get("title", ""),
             "source_url": s.get("url", "")}
 
-def node_highlights(node, n=5, edges=None):
+STOP = set("the a an of to and or in on with for by from at as is are was were he she it its his her their them they that these those this but not no into out up down so such whom which who".split())
+
+def _tokens(text):
+    import re as _re
+    return {w for w in _re.findall(r"[A-Za-z]{3,}", (text or "").lower()) if w not in STOP}
+
+def _cite_context(node, sid, essay):
+    """essay sentence(s) containing this source's [n] mark."""
+    import re as _re
     out = []
+    for m in _re.finditer(rf"\[{sid}\]", essay or ""):
+        s = max(essay.rfind(".", 0, m.start()), essay.rfind(";", 0, m.start()))
+        out.append(essay[s + 1 : essay.find(".", m.end()) if essay.find(".", m.end()) > 0 else min(m.end() + 300, len(essay))])
+    return " ".join(out)
+
+QUOTED = re.compile(r"['\u2018\"]([^'\"\u2019]{25,300})['\u2019\"]\s*(?:\((?:[^\)]{0,80})\))?\s*(\[(\d+)\])")
+
+def _essay_anchors(node):
+    """Quoted spans in the essay tied to a [n] citation, mapped to source."""
+    essay = node.get("essay") or ""
+    out = []
+    for m in QUOTED.finditer(essay):
+        sid = int(m.group(3))
+        if sid in SRC:
+            out.append((sid, m.group(1)))
+    return out
+
+_SRCTEXT = {}
+
+def _source_text(sid):
+    if sid not in _SRCTEXT:
+        try:
+            from _fix_excerpts import load_text
+            s = SRC[sid]
+            _SRCTEXT[sid] = load_text({"url": s.get("url", ""), "title": s.get("title", "")})
+        except Exception:
+            _SRCTEXT[sid] = None
+    return _SRCTEXT[sid]
+
+def _expand_in_source(sid, frag):
+    t = _source_text(sid)
+    if not t:
+        return None
+    try:
+        from _fix_excerpts import fix_quote
+        out = fix_quote(frag, t)
+        return out if out != frag and 40 <= len(out) <= 3000 else None
+    except Exception:
+        return None
+
+def node_highlights(node, n=5, edges=None):
+    essay = node.get("essay") or ""
+    out = []
+    # 1. quoted spans inside the essay, located and sentence-expanded in the source
+    seen_src = set()
+    for sid, frag in _essay_anchors(node):
+        full = _expand_in_source(sid, frag)
+        if full:
+            s = SRC[sid]
+            out.append({"text": full, "source_id": sid,
+                        "source_title": s.get("title", ""), "source_url": s.get("url", "")})
+            seen_src.add(sid)
+        if len(out) >= n:
+            break
+    # 2. ledger quotes of cited sources, scored by label/proper-noun overlap
+    label_toks = _tokens(node["label"]) | _tokens(node.get("power_rationale"))
     for sid in node_cited_ids(node):
-        for q in (SRC[sid].get("quotes") or [])[:2]:
+        if sid in seen_src or len(out) >= n:
+            continue
+        ctx = label_toks | _tokens(_cite_context(node, sid, essay))
+        cands = []
+        for q in (SRC[sid].get("quotes") or []):
+            qt = _tokens(q["text"])
+            lab = len(_tokens(node["label"]) & qt)
+            ov = len(ctx & qt)
+            cands.append((2 * lab + ov, q))
+        cands.sort(key=lambda c: -c[0])
+        picked = 0
+        for score, q in cands:
+            lab = len(_tokens(node["label"]) & _tokens(q["text"]))
+            if lab == 0 and score < 5:
+                continue  # without this node's name or strong context, skip
             h = quote_hl(q, sid)
             if 40 <= len(h["text"]) <= 1200:
+                h["relevance"] = score
                 out.append(h)
+                picked += 1
+            if picked >= 2 or len(out) >= n:
+                break
         if len(out) >= n:
             break
     if (REPO / "evidence" / node["id"]).is_dir() and len(out) < n:
