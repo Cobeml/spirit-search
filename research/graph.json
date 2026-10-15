@@ -6350,6 +6350,78 @@
      "proposed": true
     }
    ]
+  },
+  {
+   "id": "alexander-hamilton",
+   "label": "Alexander Hamilton",
+   "tradition": "American flesh record",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1800,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "First Secretary of the Treasury; Weems: 'a gigantic genius — a statesman fit to rule the mightiest monarchy' [15]. Auto-added in Weems cabinet wave; power unpriced pending Cobe's gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "thomas-jefferson",
+   "label": "Thomas Jefferson",
+   "tradition": "American flesh record",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1800,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Secretary of State (Weems: 'Secretary of Foreign Affairs') in Washington's first cabinet [15]. Auto-added in Weems cabinet wave; power unpriced pending Cobe's gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "henry-knox",
+   "label": "Henry Knox",
+   "tradition": "American flesh record",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1800,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Secretary of War in Washington's first cabinet [15]. Auto-added in Weems cabinet wave; power unpriced pending Cobe's gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "id": "john-jay",
+   "label": "John Jay",
+   "tradition": "American flesh record",
+   "batch": null,
+   "date_added": "2026-10-14",
+   "era": 1800,
+   "notes": [
+    {
+     "date": "2026-10-14",
+     "text": "Chief Justice named in Weems' roster of the wise rallied by Washington [15]. Auto-added in Weems cabinet wave; power unpriced pending Cobe's gate."
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
   }
  ],
  "edges": [
@@ -9181,6 +9253,133 @@
      "source_url": "https://classics.mit.edu/Virgil/aeneid.mb.txt"
     }
    ]
+  },
+  {
+   "from": "george-washington",
+   "to": "alexander-hamilton",
+   "type": "interaction",
+   "source": "[15] Weems, Life of Washington, 1800",
+   "title": "The pilot hires able seamen",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1800,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "f all, as, in a crazy ship at sea, tossed by furious winds, no pilot can save without the aid of able sea men, Washington prudently rallied around him the wisest of all his countrymen. Mr. Jefferson, Secretary of Foreign Affairs. Col. Hamilton, Secretary of the Treasury. Gen. Knox, Secretary of War. Edmund Randolph, At",
+     "source_id": 15,
+     "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
+     "source_url": "https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt"
+    },
+    {
+     "text": "ize Wash- ington, he chose to retreat and disgrace himself. There was the gallant general Hamilton also — a gigantic genius — a statesman fit to rule the mightiest monarchy — a soldier \" fit to stand by Washington and give command.\" But alas ! for lack of religion, see LIFF OF WASHINGTON. 191 how all was lost ! preferr",
+     "source_id": 15,
+     "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
+     "source_url": "https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "george-washington",
+   "to": "thomas-jefferson",
+   "type": "interaction",
+   "source": "[15] Weems, Life of Washington, 1800",
+   "title": "Foreign affairs handed down",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1800,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "f all, as, in a crazy ship at sea, tossed by furious winds, no pilot can save without the aid of able sea men, Washington prudently rallied around him the wisest of all his countrymen. Mr. Jefferson, Secretary of Foreign Affairs. Col. Hamilton, Secretary of the Treasury. Gen. Knox, Secretary of War. Edmund Randolph, At",
+     "source_id": 15,
+     "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
+     "source_url": "https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "george-washington",
+   "to": "henry-knox",
+   "type": "interaction",
+   "source": "[15] Weems, Life of Washington, 1800",
+   "title": "War office in the seamen's roster",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1800,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "f all, as, in a crazy ship at sea, tossed by furious winds, no pilot can save without the aid of able sea men, Washington prudently rallied around him the wisest of all his countrymen. Mr. Jefferson, Secretary of Foreign Affairs. Col. Hamilton, Secretary of the Treasury. Gen. Knox, Secretary of War. Edmund Randolph, At",
+     "source_id": 15,
+     "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
+     "source_url": "https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "george-washington",
+   "to": "john-jay",
+   "type": "interaction",
+   "source": "[15] Weems, Life of Washington, 1800",
+   "title": "The bench in the seamen's roster",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1800,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "f all, as, in a crazy ship at sea, tossed by furious winds, no pilot can save without the aid of able sea men, Washington prudently rallied around him the wisest of all his countrymen. Mr. Jefferson, Secretary of Foreign Affairs. Col. Hamilton, Secretary of the Treasury. Gen. Knox, Secretary of War. Edmund Randolph, At",
+     "source_id": 15,
+     "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
+     "source_url": "https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
+  },
+  {
+   "from": "benjamin-franklin",
+   "to": "george-washington",
+   "type": "interaction",
+   "source": "[15] Weems, Life of Washington, 1800",
+   "title": "The colony agent in Britain",
+   "essay": null,
+   "date_added": "2026-10-14",
+   "era": 1800,
+   "influence": null,
+   "excerpts": [
+    {
+     "text": "all her islands, \" gave signs of woe, that all was lost !\" Doctor Franklin, who was then in England as a colony agent, on hearing that this most iniquitous bill had actually passed both houses, and was ratified by the king, wrote to a friend in America in these words — \" The sun of our liberty is set. You must all now",
+     "source_id": 15,
+     "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
+     "source_url": "https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt"
+    },
+    {
+     "text": "ployed, for the American three and six months enlistments — the old man with his cap and iron rod, for Doctor Franklin — the shoe-like vessel which he reached to Washington, for the Sabot or wooden-shoed nation, the French, whom Franklin courted a long time for America — and the new roof proposed by Washington, for a s",
+     "source_id": 15,
+     "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
+     "source_url": "https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt"
+    }
+   ],
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-14"
+   }
   }
  ],
  "title": "High Drama",
