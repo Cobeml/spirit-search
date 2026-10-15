@@ -516,12 +516,37 @@ async function runCorpusSearch(){
   }
   const items=(data&&data.results)||[];
   csResults.innerHTML = items.length
-    ? items.map(r=>`<div class="sr-item">
+    ? items.map((r,i)=>`<div class="sr-item" data-cid="${r.chunk_id}" style="cursor:pointer">
         <div class="sr-snip">${markTerms(r.snippet||r.text||'', q)}</div>
-        <div class="sr-meta">${r.url?`<a class="cite" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title||r.url)}</a>`:esc(r.title||'')}${r.cluster?` · ${esc(r.cluster)}`:''}</div>
+        <div class="sr-meta">${r.url?`<a class="cite" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title||r.url)}</a>`:esc(r.title||'')}${r.cluster?` · ${esc(r.cluster)}`:''} · <span class="hint">click for context</span></div>
       </div>`).join('')
     : `<div id="searchNote">no results</div>`;
   csResults.classList.add('open');
+  csResults.querySelectorAll('.sr-item').forEach(el=>{
+    el.onclick=ev=>{
+      if(ev.target.closest('a')) return;
+      showChunkContext(+el.dataset.cid, q);
+    };
+  });
+}
+
+/* show a search hit in its surrounding text (neighboring chunks) */
+async function showChunkContext(cid, q){
+  let d;
+  try{
+    const res=await fetch(`${SEARCH_API.replace('/search','')}/chunk?id=${cid}`);
+    d=await res.json();
+  }catch(e){ return; }
+  if(d.error) return;
+  const win=document.getElementById('ctxModal')||(()=>{
+    const m=document.createElement('div'); m.id='ctxModal';
+    m.style.cssText='position:fixed;inset:8% 15%;background:#141008f2;color:#e8e0d0;padding:1.4rem 1.6rem;overflow:auto;'
+      +'border:1px solid #4a4030;border-radius:8px;z-index:60;font-family:Georgia,serif;line-height:1.55;';
+    document.body.appendChild(m); return m; })();
+  win.innerHTML=`<div style="display:flex;justify-content:space-between;margin-bottom:.6rem">
+      <span class="hint">${esc(d.title||'')} · ${esc(d.cluster||'')} — context around your match</span>
+      <button onclick="this.closest('#ctxModal').remove()" style="background:none;border:none;color:#c9b;font-size:1.2rem;cursor:pointer">×</button></div>
+    ${d.chunks.map(c=>`<p style="${c.center?'background:#3a2f18;border-radius:6px;padding:.5rem;':''}">${c.center?markTerms(c.text,q||''):esc(c.text)}</p>`).join('')}`;
 }
 
 /* search: focus camera on first matching visible node */

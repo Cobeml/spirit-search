@@ -8,11 +8,31 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _search_lib import search
+from _search_lib import search, _conn
+
+def chunk_context(cid, radius=2):
+    """Return the chunk centered with neighbors from the same source."""
+    con = _conn()
+    row = con.execute("SELECT source_id, seq, text FROM chunks WHERE id=?", (cid,)).fetchone()
+    if not row:
+        return {"error": "not found"}
+    sid, seq, text = row
+    rows = con.execute(
+        "SELECT id, seq, text FROM chunks WHERE source_id=? AND seq BETWEEN ? AND ? ORDER BY seq",
+        (sid, seq - radius, seq + radius)).fetchall()
+    meta = con.execute("SELECT cluster, title, url, path FROM sources WHERE id=?", (sid,)).fetchone()
+    return {"cluster": meta[0], "title": meta[1], "url": meta[2], "path": meta[3],
+            "center_id": cid,
+            "chunks": [{"id": r[0], "seq": r[1], "text": r[2], "center": r[1] == seq} for r in rows]}
 
 class H(BaseHTTPRequestHandler):
     def do_GET(self):
         u = urlparse(self.path)
+        if u.path == "/chunk":
+            p = parse_qs(u.query)
+            cid = int(p.get("id", [0])[0])
+            self._send(chunk_context(cid))
+            return
         if u.path != "/search":
             self.send_response(404); self.end_headers(); return
         p = parse_qs(u.query)
