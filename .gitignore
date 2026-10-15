@@ -2,3 +2,5 @@ research/
 evidence/
 draft/*.pdf
 _export/
+*.db
+research/search.db
