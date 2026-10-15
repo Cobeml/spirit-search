@@ -47,7 +47,7 @@ def quote_hl(q, src_id):
             "source_title": s.get("title", ""),
             "source_url": s.get("url", "")}
 
-def node_highlights(node, n=5):
+def node_highlights(node, n=5, edges=None):
     out = []
     for sid in node_cited_ids(node):
         for q in (SRC[sid].get("quotes") or [])[:2]:
@@ -63,6 +63,13 @@ def node_highlights(node, n=5):
             if p:
                 p["algorithmic"] = True
                 out.append(p)
+            if len(out) >= n:
+                break
+    # fallback for essay-less wave nodes: reuse their edges' excerpts
+    if not out and edges:
+        for e in edges:
+            if node["id"] in (e["from"], e["to"]) and e.get("excerpts"):
+                out.extend(x for x in e["excerpts"] if 40 <= len(x["text"]) <= 1200)
             if len(out) >= n:
                 break
     return out[:n]
@@ -124,7 +131,7 @@ def main():
     g = json.load(open(GRAPH))
     work = g["nodes"][: a.limit] if a.limit else g["nodes"]
     for nd in work:
-        nd["highlights"] = node_highlights(nd)
+        nd["highlights"] = node_highlights(nd, edges=g["edges"])
         nd["proposals"] = node_proposals(nd)
         if a.limit:
             print(nd["id"], len(nd["highlights"]), "hl,", len(nd["proposals"]), "prop.")

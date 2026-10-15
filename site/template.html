@@ -119,6 +119,7 @@ SELF-CHECK — DATA fields this template now relies on:
 </header>
 <div class="toolbar">
   <input id="q" type="search" placeholder="Search figures…">
+  <button id="reviewBtn" title="List auto-added nodes awaiting review">Review: 0</button>
   <div class="tgroup">
     <button id="playBtn" title="Play the timeline">▶</button>
     <input id="year" type="range" min="-2100" max="2030" step="10" value="2030">
@@ -321,6 +322,23 @@ const drawerBody=document.getElementById('drawerBody');
 function openDrawer(){ drawer.classList.add('open'); scrim.classList.add('open'); drawer.setAttribute('aria-hidden','false'); }
 function closeDrawer(){ drawer.classList.remove('open'); scrim.classList.remove('open'); drawer.setAttribute('aria-hidden','true'); }
 document.getElementById('drawerClose').onclick=closeDrawer;
+
+/* review mode: surface auto-added nodes awaiting Cobe's inspection */
+(function(){
+  const btn=document.getElementById('reviewBtn');
+  const pending=()=>DATA.nodes.filter(n=>n.review&&n.review.status==='auto-added');
+  function refresh(){ btn.textContent='Review: '+pending().length; }
+  btn.onclick=()=>{
+    const p=pending();
+    drawerBody.innerHTML=`<div class="meta">${p.length} auto-added nodes and their edges awaiting review (from the 2026-10-14 corpus-growth waves)</div>
+      <h2>Review queue</h2>
+      ${p.map(n=>`<div class="edge"><div class="etype">${esc(n.tradition||'')}</div>
+        <div class="t" data-reviewgo="${esc(n.id)}" style="cursor:pointer">${esc(n.label)} <span class="hint">· ${esc(n.id)}</span></div></div>`).join('')}`;
+    drawerBody.querySelectorAll('[data-reviewgo]').forEach(el=>el.onclick=()=>{ if(window.byId) {}; document.getElementById('q').value=el.dataset.reviewgo; document.getElementById('q').dispatchEvent(new Event('change',{bubbles:true})); });
+    openDrawer();
+  };
+  refresh();
+})();
 scrim.onclick=closeDrawer;
 document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeDrawer(); });
 
@@ -348,7 +366,7 @@ function openNode(id){
     ? `<details class="proposals"><summary>Proposed connections (from corpus) · ${props.length}</summary>
          ${props.map(x=>excerptHtml(x,true)).join('')}</details>` : '';
   drawerBody.innerHTML=`
-    <div class="meta">batch ${n.batch} · added ${n.date_added} · ${esc(n.tradition)} · attested ${yearFmt(n.era)}</div>
+    <div class="meta">batch ${n.batch} · added ${n.date_added} · ${esc(n.tradition)} · attested ${yearFmt(n.era)}${n.review?' · <b style=\"color:#ffb020\">auto-added, needs review</b>':''}</div>
     <h2>${esc(n.label)}</h2>
     <p class="meta" style="font-size:.86rem">⚡ commands ≈ <b>${fmtW(n.pw_t)}</b>
       (${fmtW(n.pw_d)} direct${n.pw_p?` + ${fmtW(n.pw_p)} by proxy`:''})${n.pw_pool?` · pool: ${esc(n.pw_pool)} × witness ${n.pw_ws}`:''}<br>
