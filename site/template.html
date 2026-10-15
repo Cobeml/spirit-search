@@ -55,6 +55,12 @@ SELF-CHECK — DATA fields this template now relies on:
   #drawerBody{overflow:auto;padding:1.4rem 1.3rem 2.2rem;}
   #drawerBody h2{margin:.2rem 0 .2rem;font-size:1.55rem;}
   #drawerBody h4{margin:1.1rem 0 .2rem;}
+  details.wattWhy{margin:.15rem 0 .9rem}
+  details.wattWhy summary{list-style:none;cursor:pointer;font-size:1.05rem}
+  details.wattWhy summary::-webkit-details-marker{display:none}
+  details.wattWhy summary b:hover{text-decoration:underline dotted}
+  details.wattWhy .hint{margin-top:.45rem;line-height:1.5}
+  details.wattWhy .method{opacity:.75;font-size:.82rem}
   .meta{font-size:.82rem;color:var(--faint);}
   .etype{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);}
   .edge{border-top:1px dashed var(--line);padding:.6rem 0;}
@@ -365,13 +371,19 @@ function openNode(id){
   const propBlock = props.length
     ? `<details class="proposals"><summary>Proposed connections (from corpus) · ${props.length}</summary>
          ${props.map(x=>excerptHtml(x,true)).join('')}</details>` : '';
+  const pwDetail = `
+    <details class="wattWhy">
+      <summary class="meta">⚡ <b>${fmtW(n.pw_t)}</b></summary>
+      <div class="hint">
+        ${fmtW(n.pw_d)} direct${n.pw_p?` + ${fmtW(n.pw_p)} by proxy`:''}${n.pw_pool?` · pool: ${esc(n.pw_pool)} × witness ${n.pw_ws}`:''}<br>
+        ${n.pw_why?esc(n.pw_why):'No industry pool attributed; power flows to it, if at all, by proxy (see edges).'}<br>
+        <span class="method">Method: pool × claim-share × witness-strength; single-hop proxy routing.</span>
+      </div>
+    </details>`;
   drawerBody.innerHTML=`
-    <div class="meta">batch ${n.batch} · added ${n.date_added} · ${esc(n.tradition)} · attested ${yearFmt(n.era)}${n.review?' · <b style=\"color:#ffb020\">auto-added, needs review</b>':''}</div>
+    <div class="meta">attested ${yearFmt(n.era)}${n.review?' · <b style=\"color:#ffb020\">auto-added, needs review</b>':''}</div>
     <h2>${esc(n.label)}</h2>
-    <p class="meta" style="font-size:.86rem">⚡ commands ≈ <b>${fmtW(n.pw_t)}</b>
-      (${fmtW(n.pw_d)} direct${n.pw_p?` + ${fmtW(n.pw_p)} by proxy`:''})${n.pw_pool?` · pool: ${esc(n.pw_pool)} × witness ${n.pw_ws}`:''}<br>
-      <span class="hint">${n.pw_why?esc(n.pw_why):'No industry pool attributed; power flows to it, if at all, by proxy (see edges).'}
-      Method: pool × claim-share × witness-strength; single-hop proxy routing.</span></p>
+    ${pwDetail}
     ${mainBlock}
     ${propBlock}
     <h4>Documented interactions (${rel.length})</h4>
@@ -383,7 +395,7 @@ function openNode(id){
         <div class="t" data-et="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}">${esc(e.title)}</div>
         ${body}
         <div class="hint">${dir} ${other?esc(other.label):esc(e.frm===id?e.to:e.frm)}</div></div>`;}).join('')}
-    <p class="hint">${editMode?'Edit mode ON: click an editable essay or edge title to correct the language.':'Toggle Edit to correct the language here.'}</p>`;
+    ${editMode?'<p class="hint">Edit mode ON: click an editable essay or edge title to correct the language.</p>':''}`;
   if(editMode) armEditables(drawerBody);
   openDrawer();
 }
