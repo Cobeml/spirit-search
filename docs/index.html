@@ -262,9 +262,13 @@ function currentT(){ return parseInt(document.getElementById('year').value,10); 
 function edgeWeight(e,T){ if(e.era>T) return 0; return Math.exp(-(T-e.era)/250); }
 function nodeCentrality(id,T){ let s=0; for(const e of DATA.edges){ if(e.frm===id||e.to===id) s+=edgeWeight(e,T); } return s; }
 let sizeMode='centrality';
+/* Sphere scale K=4 (Cobe ruling 2026-10-16: 'scale spheres up'): the old radii
+   (3.0+3.4*sqrt(c) world units) had shrunk to ~1px spheres at the fitted
+   camera distance once the graph grew to 200 nodes / x-y spread +-1050. */
+const SIZE_K=4;
 function nodeSize(n,T){
-  if(sizeMode==='watts') return 1.8+1.5*Math.max(0,Math.log10(Math.max(n.pw_t,1)));
-  return 3.0+3.4*Math.sqrt(nodeCentrality(n.id,T));
+  if(sizeMode==='watts') return SIZE_K*(1.8+1.5*Math.max(0,Math.log10(Math.max(n.pw_t,1))));
+  return SIZE_K*(3.0+3.4*Math.sqrt(nodeCentrality(n.id,T)));
 }
 
 /* ---------- colors ---------- */
@@ -319,20 +323,8 @@ function applyTimeStyles(){
   applyLinkStyles();
 }
 
-/* phone: a portrait whole-graph fit pushes the camera ~2x farther than desktop
-   (horizontal fov is the binding constraint) and nodes shrink to subpixel dust;
-   start on the readable core instead — pinch/zoom-out still shows the whole shape */
-function phoneStartCam(){
-  const el=document.getElementById('graph');
-  const cam=Graph.camera();
-  let R=0;
-  Graph.graphData().nodes.forEach(n=>{ if(n.x!=null) R=Math.max(R, Math.hypot(n.x,n.y,n.z)); });
-  const fovY=cam.fov*Math.PI/180;
-  const aspect=el.clientWidth/el.clientHeight;
-  const dFit=R/Math.tan(fovY/2)/Math.min(1,aspect||1);
-  const d=Math.max(1400, dFit*0.36);
-  Graph.cameraPosition({x:0, y:0.55*d, z:0.85*d}, {x:0,y:0,z:0}, 900);
-}
+/* phone: spheres carry their own legibility now (SIZE_K), so phones use the
+   same whole-graph zoomToFit as desktop — one behavior, pinch to explore */
 
 function initGraph(){
   const el=document.getElementById('graph');
@@ -386,7 +378,6 @@ function initGraph(){
       simReady=true;
       applyTimeStyles();
       Graph.zoomToFit(600, 60);
-      if(mqMobile.matches) phoneStartCam();
     })
     .onNodeClick(n=> openNode(n.id))
     .onLinkClick(l=>{ const e=DATA.edges.find(x=>x.frm===l.frm&&x.to===l.to&&x.type===l.type); if(e) openEdge(e); })
