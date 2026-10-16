@@ -338,14 +338,24 @@ document.getElementById('drawerClose').onclick=closeDrawer;
 (function(){
   const btn=document.getElementById('reviewBtn');
   const pending=()=>DATA.nodes.filter(n=>n.review&&n.review.status==='auto-added');
-  function refresh(){ btn.textContent='Review: '+pending().length; }
+  const flaggedEdges=()=>DATA.edges.filter(e=>e.audit&&!e.audit.ok);
+  function refresh(){ btn.textContent='Review: '+(pending().length+flaggedEdges().length); }
   btn.onclick=()=>{
     const p=pending();
-    drawerBody.innerHTML=`<div class="meta">${p.length} auto-added nodes and their edges awaiting review (from the 2026-10-14 corpus-growth waves)</div>
+    const fe=flaggedEdges();
+    drawerBody.innerHTML=`<div class="meta">${p.length} auto-added nodes · ${fe.length} edges whose quote does not substantiate both endpoints</div>
       <h2>Review queue</h2>
       ${p.map(n=>`<div class="edge"><div class="etype">${esc(n.tradition||'')}</div>
-        <div class="t" data-reviewgo="${esc(n.id)}" style="cursor:pointer">${esc(n.label)} <span class="hint">· ${esc(n.id)}</span></div></div>`).join('')}`;
-    drawerBody.querySelectorAll('[data-reviewgo]').forEach(el=>el.onclick=()=>{ if(window.byId) {}; document.getElementById('q').value=el.dataset.reviewgo; document.getElementById('q').dispatchEvent(new Event('change',{bubbles:true})); });
+        <div class="t" data-reviewgo="${esc(n.id)}" style="cursor:pointer">${esc(n.label)} <span class="hint">· ${esc(n.id)}</span></div></div>`).join('')}
+      ${fe.length?'<h4 class="sec">Quotes pending a ruling (a: two-sided / b: fetch witness / c: delete)</h4>':''}
+      ${fe.map(e=>`<div class="edge"><div class="etype">${esc(e.type)} · ${e.audit.mode||''}</div>
+        <div class="t" data-edgego="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}" style="cursor:pointer">${esc(byId[e.frm]?byId[e.frm].label:e.frm)} → ${esc(byId[e.to]?byId[e.to].label:e.to)} <span class="hint">· ${esc(e.title)}</span></div></div>`).join('')}`;
+    drawerBody.querySelectorAll('[data-reviewgo]').forEach(el=>el.onclick=()=>{ document.getElementById('q').value=el.dataset.reviewgo; document.getElementById('q').dispatchEvent(new Event('change',{bubbles:true})); });
+    drawerBody.querySelectorAll('[data-edgego]').forEach(el=>el.onclick=()=>{
+      const [f,ty,t2]=el.dataset.edgego.split('|');
+      const ed=DATA.edges.find(x=>x.frm===f&&x.type===ty&&x.to===t2);
+      if(ed&&window.openEdge) openEdge(ed);
+    });
     openDrawer();
   };
   refresh();
@@ -354,12 +364,13 @@ scrim.onclick=closeDrawer;
 document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeDrawer(); });
 
 /* one excerpt/highlight card: blockquote + citation line (+ optional proposed tag) */
-function excerptHtml(x, proposed){
+function excerptHtml(x, proposed, sideLabel){
   const cite = x.source_url
     ? `<a class="cite" href="${esc(x.source_url)}" target="_blank" rel="noopener">${esc(x.source_title||x.source_url)}</a>`
-    : esc(x.source_title||'');
+    : esc(x.source_title||x.source_url||'');
   return `<div class="hl${proposed?' proposed':''}">
     ${proposed?'<span class="tag-proposed">proposed</span>':''}
+    ${sideLabel?`<span class="tag-proposed" style="background:#23304a;color:#9db4e8">${esc(sideLabel)}</span>`:''}
     <blockquote>${esc(x.text)}</blockquote>
     <div class="cite-line">— ${cite}${x.cluster?`<span class="cluster">${esc(x.cluster)}</span>`:''}</div>
   </div>`;
@@ -416,15 +427,18 @@ function openNode(id){
 function openEdge(e){
   const a=byId[e.frm], b=byId[e.to];
   const exc=(e.excerpts||[]);
+  const twoSided = exc.some(x=>x.side);
   const body = exc.length
-    ? `<h4 class="sec">Excerpts (${exc.length})</h4>${exc.map(x=>excerptHtml(x,false)).join('')}`
+    ? `<h4 class="sec">${twoSided?'Witnesses per side':'Excerpts'} (${exc.length})</h4>${exc.map(x=>excerptHtml(x,false, x.side==='from'?(a?'witness for '+a.label:'witness for source figure'):(b?'witness for '+b.label:'witness for target figure'))).join('')}`
     : `<p data-ee="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}">${linkify(e.essay)}</p>`;
+  const note = e.pairing_note?`<p class="hint" style="margin:.3rem 0 .4rem;font-style:italic">${esc(e.pairing_note)}.</p>`:'';
   drawerBody.innerHTML=`
     <div class="meta">edge · added ${e.date_added} · attested ${yearFmt(e.era)}</div>
     <div class="etype">${esc(e.type)}</div>
     <h2>${esc(a?a.label:e.frm)} → ${esc(b?b.label:e.to)}</h2>
     <div class="t" style="font-size:1.12rem" data-et="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}">${esc(e.title)}</div>
     ${e.influence!=null?`<p class="meta">influence: <b>${(+e.influence).toFixed(2)}</b></p>`:''}
+    ${note}
     ${body}
     ${e.source?`<p class="hint">Witness: ${esc(e.source)}</p>`:''}`;
   if(editMode) armEditables(drawerBody);

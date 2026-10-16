@@ -54,7 +54,7 @@ ALIASES = {
     "genius": ["genius"],
     "lares-penates": ["lares", "penates", "lar familiaris"],
     "victory": ["victory", "victoria", "nice victor"],
-    "fama": ["fama", "rumour", "rumor"],
+    "fama": ["fama", "rumour", "rumor", "fame"],
     "tiberinus": ["tiberinus", "tiber"],
     "erinyes": ["erinyes", "furies", "eumenides"],
     "sibyl": ["sibyl"],
@@ -80,7 +80,7 @@ ALIASES = {
     "edward-braddock": ["braddock"],
     "james-wilson": ["james wilson", "wilson"],
     "james-watt": ["james watt", "mr watt"],
-    "matthew-boulton": ["boulton"],
+    "matthew-boulton": ["boulton", "bolton"],
     "mason-weems": ["weems", "parson weems", "mason locke weems"],
     "nathanael": ["nathanael", "greene"],
     "fdr": ["roosevelt", "franklin delano roosevelt", "f d roosevelt"],
@@ -147,7 +147,7 @@ ALIASES = {
     "cupid": ["cupid", "amor", "eros"],
     # Hoffmann / Freud
     "sandman": ["sandman", "sandmann", "coppelius", "coppola"],
-    "lilith": ["lilith", "lilit", "screech owl", "night monster", "lamia"],
+    "lilith": ["lilith", "lilit", "screech owl", "night monster", "lamia", "phantom maid"],
     # Scientists
     "newton": ["newton", "sir isaac newton"],
     "faraday": ["faraday"],

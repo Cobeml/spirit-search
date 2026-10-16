@@ -256,13 +256,13 @@
   {
    "id": "lilith",
    "label": "Lilith / phantom maid / lamia",
-   "mode": "partial",
-   "mentions": 3,
+   "mode": "clean",
+   "mentions": 5,
    "total": 5,
    "flags": [
     true,
-    false,
-    false,
+    true,
+    true,
     true,
     true
    ]
@@ -543,10 +543,11 @@
   {
    "id": "mason-weems",
    "label": "Mason Locke Weems",
-   "mode": "partial",
+   "mode": "first_not_direct",
    "mentions": 1,
-   "total": 2,
+   "total": 3,
    "flags": [
+    false,
     true,
     false
    ]
@@ -689,9 +690,11 @@
    "id": "victory",
    "label": "Nike / Victory",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
+    true,
     true,
     false,
     true
@@ -767,10 +770,12 @@
   {
    "id": "james-watt",
    "label": "James Watt",
-   "mode": "none_mention",
-   "mentions": 0,
-   "total": 1,
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 3,
    "flags": [
+    false,
+    true,
     false
    ]
   },
@@ -937,9 +942,10 @@
    "id": "sibyl",
    "label": "The Cumaean Sibyl",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -981,21 +987,23 @@
   {
    "id": "adam-smith",
    "label": "Adam Smith",
-   "mode": "none_mention",
-   "mentions": 0,
-   "total": 1,
+   "mode": "partial",
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
+    true,
     false
    ]
   },
   {
    "id": "matthew-boulton",
    "label": "Matthew Boulton",
-   "mode": "none_mention",
-   "mentions": 0,
+   "mode": "clean",
+   "mentions": 1,
    "total": 1,
    "flags": [
-    false
+    true
    ]
   },
   {
@@ -1084,9 +1092,12 @@
    "id": "fama",
    "label": "Fama (Rumor)",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
+    true,
+    true,
     true,
     false
    ]
@@ -1095,9 +1106,10 @@
    "id": "tiberinus",
    "label": "Tiberinus",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -1116,10 +1128,11 @@
   {
    "id": "fdr",
    "label": "Franklin Delano Roosevelt",
-   "mode": "none_mention",
-   "mentions": 0,
-   "total": 2,
+   "mode": "partial",
+   "mentions": 1,
+   "total": 3,
    "flags": [
+    true,
     false,
     false
    ]
@@ -1304,9 +1317,10 @@
    "id": "newton",
    "label": "Isaac Newton",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -1315,9 +1329,11 @@
    "id": "faraday",
    "label": "Michael Faraday",
    "mode": "partial",
-   "mentions": 1,
-   "total": 3,
+   "mentions": 3,
+   "total": 5,
    "flags": [
+    true,
+    true,
     true,
     false,
     false
@@ -1327,9 +1343,10 @@
    "id": "ampere",
    "label": "André-Marie Ampère",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -1337,10 +1354,12 @@
   {
    "id": "joule",
    "label": "James Prescott Joule",
-   "mode": "none_mention",
-   "mentions": 0,
-   "total": 1,
+   "mode": "partial",
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
+    true,
     false
    ]
   },
@@ -2519,8 +2538,8 @@
    "frm": "gilgamesh",
    "to": "lilith",
    "type": "conflict",
-   "mode": "none_both",
-   "dist": null
+   "mode": "clean",
+   "dist": 372
   },
   {
    "frm": "lilith",
@@ -2635,11 +2654,18 @@
    "dist": 11
   },
   {
+   "frm": "volundr",
+   "to": "prometheus",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
    "frm": "mason-weems",
    "to": "george-washington",
    "type": "transmission",
-   "mode": "none_both",
-   "dist": null
+   "mode": "clean",
+   "dist": 329
   },
   {
    "frm": "cincinnatus",
@@ -2841,8 +2867,8 @@
    "frm": "inana",
    "to": "lilith",
    "type": "interaction",
-   "mode": "none_both",
-   "dist": null
+   "mode": "clean",
+   "dist": 87
   },
   {
    "frm": "gilgamesh",
@@ -2871,13 +2897,6 @@
    "type": "kinship",
    "mode": "clean",
    "dist": 376
-  },
-  {
-   "frm": "eve",
-   "to": "agrimus",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
   },
   {
    "frm": "pwyll",
@@ -3128,8 +3147,8 @@
    "frm": "sibyl",
    "to": "apollo",
    "type": "transmission",
-   "mode": "none_both",
-   "dist": null
+   "mode": "clean",
+   "dist": 99
   },
   {
    "frm": "evander",
@@ -3293,20 +3312,6 @@
    "dist": 10
   },
   {
-   "frm": "thor",
-   "to": "volundr",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
-   "frm": "baldr",
-   "to": "machaon",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "loki",
    "to": "thor",
    "type": "conflict",
@@ -3335,25 +3340,11 @@
    "dist": 229
   },
   {
-   "frm": "sulla",
-   "to": "cincinnatus",
-   "type": "conflict",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "galen",
    "to": "hippocrates",
    "type": "transmission",
    "mode": "clean",
    "dist": 33
-  },
-  {
-   "frm": "newton",
-   "to": "minerva",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
   },
   {
    "frm": "faraday",
@@ -3373,8 +3364,8 @@
    "frm": "joule",
    "to": "james-watt",
    "type": "transmission",
-   "mode": "none_both",
-   "dist": null
+   "mode": "clean",
+   "dist": 11
   },
   {
    "frm": "zeus",
@@ -3429,8 +3420,8 @@
    "frm": "juno",
    "to": "erinyes",
    "type": "interaction",
-   "mode": "none_both",
-   "dist": null
+   "mode": "clean",
+   "dist": 77
   },
   {
    "frm": "george-washington",
@@ -4010,8 +4001,8 @@
    "frm": "anzud-bird",
    "to": "lilith",
    "type": "interaction",
-   "mode": "none_both",
-   "dist": null
+   "mode": "clean",
+   "dist": 46
   },
   {
    "frm": "themis",
@@ -4029,21 +4020,18 @@
     []
    ],
    "none_mention": [
-    5,
-    [
-     "james-watt",
-     "adam-smith",
-     "matthew-boulton",
-     "fdr",
-     "joule"
-    ]
-   ],
-   "first_not_direct": [
     0,
     []
    ],
+   "first_not_direct": [
+    2,
+    [
+     "mason-weems",
+     "james-watt"
+    ]
+   ],
    "partial": [
-    136,
+    137,
     [
      "machaon",
      "asclepius",
@@ -4052,7 +4040,6 @@
      "olympia",
      "zeus",
      "hephaestus",
-     "lilith",
      "gilgamesh",
      "adam",
      "methuselah",
@@ -4067,7 +4054,6 @@
      "nithuths-queen",
      "bothvild",
      "george-washington",
-     "mason-weems",
      "brumidi",
      "cincinnatus",
      "pandora",
@@ -4084,11 +4070,13 @@
      "aphrodite",
      "styx",
      "janus",
-     "mars"
+     "mars",
+     "vesta",
+     "quirinus"
     ]
    ],
    "clean": [
-    59,
+    61,
     [
      "podaleirius",
      "chiron",
@@ -4103,6 +4091,7 @@
      "epimetheus",
      "athene",
      "heracles",
+     "lilith",
      "inana",
      "anzud-bird",
      "eve",
@@ -4121,32 +4110,25 @@
      "poseidon",
      "iris",
      "dionysus",
+     "matthew-boulton",
      "thetis",
      "ares",
      "priam",
      "hecate",
      "nereus",
      "castor-polydeuces",
-     "yggdrasil",
-     "odin",
-     "loki"
+     "yggdrasil"
     ]
    ]
   },
-  "edges_total": 234,
+  "edges_total": 229,
   "edge_modes": {
    "no_excerpts": [
-    1,
-    [
-     [
-      "volundr",
-      "prometheus",
-      "analogy"
-     ]
-    ]
+    0,
+    []
    ],
    "none_both": [
-    36,
+    25,
     [
      [
       "olympia",
@@ -4159,33 +4141,18 @@
       "analogy"
      ],
      [
-      "gilgamesh",
-      "lilith",
-      "conflict"
-     ],
-     [
       "rhiannon",
       "epona",
       "analogy"
      ],
      [
-      "mason-weems",
-      "george-washington",
-      "transmission"
+      "volundr",
+      "prometheus",
+      "analogy"
      ],
      [
       "zeus",
       "cincinnatus",
-      "analogy"
-     ],
-     [
-      "inana",
-      "lilith",
-      "interaction"
-     ],
-     [
-      "eve",
-      "agrimus",
       "analogy"
      ],
      [
@@ -4244,11 +4211,6 @@
       "analogy"
      ],
      [
-      "sibyl",
-      "apollo",
-      "transmission"
-     ],
-     [
       "hippocrates",
       "asclepius",
       "transmission"
@@ -4284,26 +4246,6 @@
       "transmission"
      ],
      [
-      "thor",
-      "volundr",
-      "analogy"
-     ],
-     [
-      "baldr",
-      "machaon",
-      "analogy"
-     ],
-     [
-      "sulla",
-      "cincinnatus",
-      "conflict"
-     ],
-     [
-      "newton",
-      "minerva",
-      "analogy"
-     ],
-     [
       "faraday",
       "benjamin-franklin",
       "transmission"
@@ -4312,21 +4254,6 @@
       "ampere",
       "faraday",
       "transmission"
-     ],
-     [
-      "joule",
-      "james-watt",
-      "transmission"
-     ],
-     [
-      "juno",
-      "erinyes",
-      "interaction"
-     ],
-     [
-      "anzud-bird",
-      "lilith",
-      "interaction"
      ]
     ]
    ],
@@ -4335,7 +4262,7 @@
     []
    ],
    "clean": [
-    197,
+    204,
     [
      [
       "asclepius",
@@ -4402,6 +4329,10 @@
       "prometheus"
      ],
      [
+      "gilgamesh",
+      "lilith"
+     ],
+     [
       "lilith",
       "adam"
      ],
@@ -4462,6 +4393,10 @@
       "bothvild"
      ],
      [
+      "mason-weems",
+      "george-washington"
+     ],
+     [
       "cincinnatus",
       "george-washington"
      ],
@@ -4488,14 +4423,6 @@
      [
       "epimetheus",
       "prometheus"
-     ],
-     [
-      "pandora",
-      "pyrrha"
-     ],
-     [
-      "prometheus",
-      "deucalion"
      ]
     ]
    ]

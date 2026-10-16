@@ -1633,7 +1633,7 @@
      "source_url": "http://etcsl.orinst.ox.ac.uk/section1/tr1814.htm",
      "relevance": 12,
      "audit": {
-      "name_mention": false
+      "name_mention": true
      }
     },
     {
@@ -1643,7 +1643,7 @@
      "source_url": "http://etcsl.orinst.ox.ac.uk/section1/tr1814.htm",
      "relevance": 12,
      "audit": {
-      "name_mention": false
+      "name_mention": true
      }
     },
     {
@@ -1691,8 +1691,8 @@
     }
    ],
    "audit": {
-    "mode": "partial",
-    "mentions": 3,
+    "mode": "clean",
+    "mentions": 5,
     "total": 5
    }
   },
@@ -3413,6 +3413,18 @@
    "power_watts_at_era": 118312358997.226,
    "highlights": [
     {
+     "text": "Cincinnatus-like, he l)ctook him to his favorite plough",
+     "source_id": 15,
+     "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
+     "source_url": "https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt",
+     "direct": false,
+     "via": "authorial",
+     "note": "authors do not name themselves; witness is Weems' own book",
+     "audit": {
+      "name_mention": false
+     }
+    },
+    {
      "text": "'-\"& ■■(^^^^^^™«b*w* ib it - hfi jiu- ja.n 2 s i 10 no. 513 ' digitized by the internet archive in 2011 with funding from university of north carolina at chapel hil http://www.archive.org/details/lifeofgeorgewashweem ©o w^sainjsycbhposyo the life , \\y| 2 \\a or george washington; \\ \\j ^r\\y/' with c~ cus.xot7s atjscdotes, equally honourable to himself, and exemplary to his young countrymen. a life how useful to his country led ! how loved ! while living ! — how revered ! now dead ! lisp ! lisp ! his name, ye children yet unborn ! and with like deeds your own great names adorn. embellished with six engravings. by m. l. weems, formerly rector of mount yerno",
      "source_id": 15,
      "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
@@ -3457,9 +3469,9 @@
     }
    ],
    "audit": {
-    "mode": "partial",
+    "mode": "first_not_direct",
     "mentions": 1,
-    "total": 2
+    "total": 3
    }
   },
   {
@@ -4308,6 +4320,28 @@
    "power_watts_at_era": 406442279.497,
    "highlights": [
     {
+     "text": ". (ll. 383-403) and styx the daughter of ocean was joined to pallas and bare zelus (emulation) and trim-ankled nike (victory) in the house. also she brought forth cratos (strength) and bia (force), wonderful children. these have no house apart from zeus, nor any dwelling nor path except that wherein god leads them, but they dwell always with zeus the loud-thunderer. for so did styx the deathless daughter of ocean plan on that day when the olympian lightener called all the deathless gods to great olympus, and said that whosoever of the gods would fight with him against the titans, he would not cast him out from his rights, but each should have the office which he had before amongst the deathless gods. and he declared that he who was without office and rights under cronos, should be raised to both office and rights as is just. so deathless styx came first to o",
+     "source_id": 26,
+     "source_title": "Hesiod, Works and Days + Theogony, trans. Evelyn-White 1914 (Gutenberg #348)",
+     "source_url": "https://www.gutenberg.org/cache/epub/348/pg348.txt",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
+     "text": "(ll. 378-382) and eos bare to astraeus the strong-hearted winds, brightening zephyrus, and boreas, headlong in his course, and notus,—a goddess mating in love with a god. and after these erigenia 1616 bare the star eosphorus (dawn-bringer), and the gleaming stars with which heaven is crowned. (ll. 383-403) and styx the daughter of ocean was joined to pallas and bare zelus (emulation) and trim-ankled nike (victory) in the house. also she brought forth cratos (strength) and bia (force), wonderful children. these have no house apart from zeus, nor any dwelling nor path except that wherein god leads them, but they dwell always with zeus the loud-thunderer. for so did styx the deathless daughter of ocean plan on that day when the olympian lightener called all the deathless gods to great olympus, and said that whosoever of the gods would fight with him against the titans, he would not cast him out from his rights, but each should have the office which he had before amongst the deathless gods. and he declared that he who was without office and rights under cronos, should be raised to both office and rights as is just. so deathless styx came first to o",
+     "source_id": 26,
+     "source_title": "Hesiod, Works and Days + Theogony, trans. Evelyn-White 1914 (Gutenberg #348)",
+     "source_url": "https://www.gutenberg.org/cache/epub/348/pg348.txt",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
      "text": "ght him a glorious song”—doubtless the _works and days_. the only other personal reference is to his victory in a poetical contest at the funeral games of amphidamas at chalcis in euboea, where he won the prize, a tripod, which he dedicated to the muses of helicon (_works and days_, 651-9). before we go on to the story of hesiod’s death, it will be well to inquire how far the “autobiographical” notices can be treated as historical, especially as many critics treat some, or all of them, as spurio",
      "source_id": 26,
      "source_title": "Hesiod, Works and Days + Theogony, trans. Evelyn-White 1914 (Gutenberg #348)",
@@ -4361,8 +4395,8 @@
    ],
    "audit": {
     "mode": "partial",
-    "mentions": 2,
-    "total": 3
+    "mentions": 4,
+    "total": 5
    }
   },
   {
@@ -4774,6 +4808,28 @@
    "power_watts_at_era": 310794842950.935,
    "highlights": [
     {
+     "text": "watt, james (1756-1819), scottish engineer, the inventor of the modern condensing steam-engine, was born at greenock on the 19th of january 1736. his father was a small merchant there, who lost his trade and fortune by unsuccessful speculation, and james was early thrown on his own resources. having a taste for mechanics he made his way to london, at the age of nineteen, to learn the business of a philosophical-instrument maker, and became apprenticed to one john morgan, in whose service he remained for twelve months. from a child he had been extremely delicate, and the hard work and frugal living of his london pupilage taxed his strength so severely that he was forced at the end of a year to seek rest at home, not, however, ​ until he had gained a fair knowledge of the trade and become handy in the use of tools. before going to london he",
+     "source_id": 220,
+     "source_title": "Evidence file eb1911-watt (local, unregistered witness)",
+     "source_url": "",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": false
+     }
+    },
+    {
+     "text": "h:100%}.mw-parser-output .wst-header-left{float:left} ← watson, william (poet) 1911 encyclopædia britannica , volume 28 watt, james by james alfred ewing watteau, antoine → .mw-parser-output .plainsister{display:block;font-size:93%;line-height:normal;list-style-type:none;list-style-image:none;list-style-position:outside;border:1px solid var(--border-color-interactive--hover,#aaa);float:right;clear:right;margin:0.5ex 0 0.5ex 0.5ex;padding:0;background:var(--background-color-base,#ffffff);color:var(--color-base,#202122)}.mw-parser-output .sisicon,.mw-parser-output .dabicon{padding-right:1ex} sister projects : wikipedia article , quotes , wikidata item see also james watt on wikipedia ; and our 1911 encyclopædia britannica disclaimer . 2070093 1911 encyclopædia britannica , volume 28 — watt, james james alfred ewing .mw-parser-output .prp-pages-output ._tablegridhdborder,.mw-parser-output .prp-pages-output ._tablecolhdborder{border-collapse:collapse;border:1p",
+     "source_id": 212,
+     "source_title": "Evidence file eb1911-watt (local, unregistered witness)",
+     "source_url": "",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
      "text": "I shall never forget Mr. Bolton's expression to me: 'I sell here, Sir, what all the world desires to have--POWER.' He had about seven hundred people at work. I contemplated him as an iron chieftain, and he seemed to be a father to his tribe.",
      "source_id": 39,
      "source_title": "Boswell, Life of Johnson, Vol 2 (1776 Soho visit), Gutenberg #9072",
@@ -4808,9 +4864,9 @@
     }
    ],
    "audit": {
-    "mode": "none_mention",
-    "mentions": 0,
-    "total": 1
+    "mode": "first_not_direct",
+    "mentions": 1,
+    "total": 3
    }
   },
   {
@@ -5750,6 +5806,17 @@
    "power_watts_at_era": 0,
    "highlights": [
     {
+     "text": "the sacred hill where phoebus is ador'd; and seeks the shade which hides from sight his venerable maid. deep in a cave the sibyl makes abode; thence full of fate returns, and of the god. thro' trivia's grove they walk; and now behold, and enter now, the temple roof'd with gold. when daedalus, to fly the cretan shore, his heavy limbs on jointed pinions bore, (the first who sail'd in air,) 't is sung by fame, to the cumaean coast at length he came, and here alighting, built this costly frame. inscrib'd to phoebus, here he hung on high the steerage of his wings, that cut the sky: then o'er the lofty gate his art emboss'd androgeos' death, and off'rings to his ghost; sev'n youths from athens yearly sent, to meet the fate appointed by revengeful crete. and next to those the dreadful urn was plac'd, in which the destin'd names by lots were cast: the mournful parents stand around in tears, and rising crete against their shore appears. there too, in living sculpt",
+     "source_id": 35,
+     "source_title": "Vergil, Aeneid, trans. Dryden (MIT Classics)",
+     "source_url": "https://classics.mit.edu/Virgil/aeneid.mb.txt",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
      "text": "the bladder will not fail so swim on the waves that compass him. which oracle, they say, one of the sibyls long after did in a manner repeat to the athenians, in this verse, the bladder may be dipt, but not be drowned. farther yet designing to enlarge his city, he invited all strangers to come and enjoy equal privileges with the natives, and it is said that the common form, come hither all ye people, was the words that theseus proclaimed when he thus set up a commonwealth, in a manner, for all",
      "source_id": 35,
      "source_title": "Vergil, Aeneid, trans. Dryden (MIT Classics)",
@@ -5794,8 +5861,8 @@
    ],
    "audit": {
     "mode": "partial",
-    "mentions": 1,
-    "total": 2
+    "mentions": 2,
+    "total": 3
    }
   },
   {
@@ -6010,6 +6077,28 @@
    "power_watts_at_era": 0,
    "highlights": [
     {
+     "text": "smith, adam (1723–1790), english economist, was the only child of adam smith, comptroller of the customs at kirkcaldy in fifeshire, scotland, and of margaret douglas, daughter of mr douglas of strathendry, near leslie. he was born at kirkcaldy on the 5th of june 1723, some months after the death of his father. when he was three years old he was taken on a visit to his uncle at strathendry, and when playing alone was carried off by a party of \" tinkers.\" he was at once missed, and the vagrants pursued and overtaken in leslie wood. he received his early education in the school of kirkcaldy under david miller, amongst whose pupils were many who were afterwards distinguished men. smith showed great fondness for books and remarkable powers of memory; and he was popular among his schoolfellows. he was sent in 1737 to the university of glasgow,",
+     "source_id": 43,
+     "source_title": "Adam Smith, Wealth of Nations (Gutenberg #3300)",
+     "source_url": "https://www.gutenberg.org/cache/epub/3300/pg3300.txt",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
+     "text": "con,.mw-parser-output .dabicon{padding-right:1ex} sister projects : wikipedia article , quotes , wikidata item see also adam smith on wikipedia ; and our 1911 encyclopædia britannica disclaimer . 2232711 1911 encyclopædia britannica , volume 25 — smith, adam john kells ingram .mw-parser-output .prp-pages-output ._tablegridhdborder,.mw-parser-output .prp-pages-output ._tablecolhdborder{border-collapse:collapse;border:1px solid;margin-left:auto;margin-right:auto}.mw-parser-output .prp-pages-output ._tablecolhdborder th{border-bottom:1px solid;border-left:1px solid;text-align:center}.mw-parser-output .prp-pages-output ._tablegridhdborder th{border:1px solid;text-align:center}.mw-parser-output .prp-pages-output ._tablegridhdborder th{border-left:1px solid;border-right:1px solid;border-bottom:1px solid}.mw-parser-output .prp-pages-output ._tablecolhdborder td{border-left:1px solid;padding-left:5px}.mw-parser-output .prp-pages-output ._tablegridhdborder td{borde",
+     "source_id": 43,
+     "source_title": "Adam Smith, Wealth of Nations (Gutenberg #3300)",
+     "source_url": "https://www.gutenberg.org/cache/epub/3300/pg3300.txt",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
      "text": "He intends only his own gain; and he is in this, as in many other cases, led by an invisible hand to promote an end which was no part of his intention.",
      "source_id": 43,
      "source_title": "Adam Smith, Wealth of Nations (Gutenberg #3300)",
@@ -6044,9 +6133,9 @@
     }
    ],
    "audit": {
-    "mode": "none_mention",
-    "mentions": 0,
-    "total": 1
+    "mode": "partial",
+    "mentions": 2,
+    "total": 3
    }
   },
   {
@@ -6069,7 +6158,7 @@
      "source_url": "https://www.gutenberg.org/cache/epub/9072/pg9072.txt",
      "relevance": 16,
      "audit": {
-      "name_mention": false
+      "name_mention": true
      }
     }
    ],
@@ -6097,8 +6186,8 @@
     }
    ],
    "audit": {
-    "mode": "none_mention",
-    "mentions": 0,
+    "mode": "clean",
+    "mentions": 1,
     "total": 1
    }
   },
@@ -6602,6 +6691,39 @@
    "power_watts_at_era": 0,
    "highlights": [
     {
+     "text": "eil the crime and sanctify the shame. the loud report thro' libyan cities goes. fame, the great ill, from small beginnings grows: swift from the first; and ev'ry moment brings new vigor to her flights, new pinions to her wings. soon grows the pigmy to gigantic size; her feet on earth, her forehead in the skies. inrag'd against the gods, revengeful earth produc'd her last of the titanian birth. swift is her walk, more swift her winged haste: a monstrous phantom, horrible and vast. as many plumes as raise her lofty flight, so many piercing eyes inlarge her sight; millions of opening mouths to fame belong, and ev'ry mouth is furnish'd with a tongue, and round with list'ning ears the flying plague is hung. she fills the peaceful universe with cries; no slumbers ever close her wakeful eyes; by day, from lofty tow'rs her head she shews, and spreads thro' trembling crowds disastrous news; with court informers haunts, and royal spies; things done relates, not done she feigns, and mingles truth with lies. talk is her business, and her chief delight to tell of prodigies and cause affright. she fills the people's ears with",
+     "source_id": 35,
+     "source_title": "Vergil, Aeneid, trans. Dryden (MIT Classics)",
+     "source_url": "https://classics.mit.edu/Virgil/aeneid.mb.txt",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
+     "text": "were kind, the seat of awful empire she design'd. yet she had heard an ancient rumor fly, (long cited by the people of the sky,) that times to come should see the trojan race her carthage ruin, and her tow'rs deface; nor thus confin'd, the yoke of sov'reign sway should on the necks of all the nations lay. she ponder'd this, and fear'd it was in fate; nor could forget the war she wag'd of late for conqu'ring greece against the trojan state. besides, long causes working in her mind, and secret seeds of envy, lay behind; deep graven in her heart the doom remain'd of partial paris, and her form disdain'd; the grace bestow'd on ravish'd ganymed, electra's glories, and her injur'd bed. each was a cause alone; and all combin'd to kindle vengeance in her haughty mind. for this, far distant from the latian coast she drove the remnants of the trojan host; and sev'n long years th' unhappy wand'ring train were toss'd by storms, and scatter'd thro' the main. such time, such toil, requir'd the roman name, such length of labor for so vast a frame. now scarce the trojan fleet, with sails and oars, had left behind the fair sicilian shores, ent'ring with cheerful shouts the wat'",
+     "source_id": 35,
+     "source_title": "Vergil, Aeneid, trans. Dryden (MIT Classics)",
+     "source_url": "https://classics.mit.edu/Virgil/aeneid.mb.txt",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
+     "text": "here stood her chariot; here, if heav'n were kind, the seat of awful empire she design'd. yet she had heard an ancient rumor fly, (long cited by the people of the sky,) that times to come should see the trojan race her carthage ruin, and her tow'rs deface; nor thus confin'd, the yoke of sov'reign sway should on the necks of all the nations lay. she ponder'd this, and fear'd it was in fate; nor could forget the war she wag'd of late for conqu'ring greece against the trojan state. besides, long causes working in her mind, and secret seeds of envy, lay behind; deep graven in her heart the doom remain'd of partial paris, and her form disdain'd; the grace bestow'd on ravish'd ganymed, electra's glories, and her injur'd bed. each was a cause alone; and all combin'd to kindle vengeance in her haughty mind. for this, far distant from the latian coast she drove the remnants of the trojan host; and sev'n long years th' unhappy wand'ring train were toss'd by storms,",
+     "source_id": 35,
+     "source_title": "Vergil, Aeneid, trans. Dryden (MIT Classics)",
+     "source_url": "https://classics.mit.edu/Virgil/aeneid.mb.txt",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
      "text": "being never found either living or dead. a foul suspicion presently attached to the patricians, and rumors were current among the people as if that they, weary of kingly government, and exasperated of late by the imperious deportment of romulus towards them, had plotted against his life and made him away, that so they might assume the authority and government into their own hands. this suspicion they sought to turn aside by decreeing divine honors to romulus, as to one not dead but translated t",
      "source_id": 35,
      "source_title": "Vergil, Aeneid, trans. Dryden (MIT Classics)",
@@ -6646,8 +6768,8 @@
    ],
    "audit": {
     "mode": "partial",
-    "mentions": 1,
-    "total": 2
+    "mentions": 4,
+    "total": 5
    }
   },
   {
@@ -6663,6 +6785,17 @@
    "power_watts_proxy": 0.0,
    "power_watts_at_era": 0,
    "highlights": [
+    {
+     "text": "mmon to all the remaining kings of alba, each of whom succeeded his father. their names are alba, atys, capys, capetus, tiberinus, who was drowned in crossing the albula, and his name transferred to the river, which became henceforth the famous tiber. then came his son agrippa, after him his son romulus silvius. he was struck by lightning and left the crown to his son aventinus, whose shrine was on the hill which bears his name and is now a part of the city of rome. he was succeeded by proca, who had two sons, numitor and amulius. to numitor, the elder, he bequeathed the ancient throne of the silvian house. violence, however, proved stronger than either the father's will or the respect due to the brother's seniority; for amulius expelled his brother and seized the crown. adding crime to crime, he murdered his brother's sons and made the daughter, rea silvia, a vestal virgin; thus, under the pretence of honouring her, depriving her of all hopes of issue. 4",
+     "source_id": 213,
+     "source_title": "Evidence file livy1-roberts (local, unregistered witness)",
+     "source_url": "",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
     {
      "text": "1 cf. section vii. of die tvaumdeutung, which is based upon ideas developed by j. breuer in studien tiber hysterie. iz0 metapsychology vi let us sum up: exemption from mutual contradiction, primary process (motility of cathexis), témelessness, and substitution of psychic for external reality—these are the characteristics which we may expect to find in processes belonging to the system ucs.! unconscious processes can only be observed by us under the conditions of dreaming and of neurosis; that i",
      "source_id": 108,
@@ -6708,8 +6841,8 @@
    ],
    "audit": {
     "mode": "partial",
-    "mentions": 1,
-    "total": 2
+    "mentions": 2,
+    "total": 3
    }
   },
   {
@@ -6792,6 +6925,17 @@
    "power_watts_at_era": 84354274085.928,
    "highlights": [
     {
+     "text": "{{header | title = franklin delano roosevelt's [[portal:inaugural speeches by united states presidents#20th_century|first inaugural address]] | author = franklin d. roosevelt | year = 1933 | section = | previous = [[herbert hoover's inaugural address]] | next = [[franklin d. roosevelt's second inaugural address]] | wikipedia= first inauguration of franklin d. roosevelt | notes = delivered on the east portico of the united states capitol building in washington, d.c. on 4 march 1933. }} [[image:franklin d. roosevelt, eleanor roosevelt, and joseph robinson in washington, washington, d.c.jpg|thumb|right|franklin and eleanor roosevelt during the presidential parade with joseph robinson]] president hoover, mr. chief justice, my friends, this is a day of national consecration, and i am certain that my fellow americans expect that on my induction into the presidenc",
+     "source_id": 45,
+     "source_title": "Franklin D. Roosevelt, First Inaugural Address, 1933 (Avalon Project)",
+     "source_url": "https://avalon.law.yale.edu/20th_century/froos1.asp",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
      "text": "I shall ask the Congress for the one remaining instrument to meet the crisis--broad Executive power to wage a war against the emergency, as great as the power that would be given to me if we were in fact invaded by a foreign foe.",
      "source_id": 45,
      "source_title": "Franklin D. Roosevelt, First Inaugural Address, 1933 (Avalon Project)",
@@ -6836,9 +6980,9 @@
     }
    ],
    "audit": {
-    "mode": "none_mention",
-    "mentions": 0,
-    "total": 2
+    "mode": "partial",
+    "mentions": 1,
+    "total": 3
    }
   },
   {
@@ -7856,6 +8000,17 @@
    "power_watts_at_era": 0,
    "highlights": [
     {
+     "text": "newton, sir isaac (1642–1727), english natural philosopher, was born on the 25th of december 1642 ( o.s. ), at woolsthorpe, a hamlet in the parish of colsterworth, lincolnshire, about 6 m. from grantham. his father (also isaac newton) who farmed a small freehold property of his own, died before his son’s birth, a few months after his marriage to hannah ayscough, a daughter of james ayscough of market-overton. when newton was little more than two years old his mother married barnabas smith, rector of north witham. of this marriage there was issue, benjamin, mary and hannah smith, and to their children sir isaac newton subsequently left the greater part of his property. after having acquired the rudiments of education at two small schools in hamlets close to woolsthorpe, newton was sent at the age of twelve to the grammar school of grantham",
+     "source_id": 48,
+     "source_title": "EB1911, \"Sulla, Lucius Cornelius\" (Wikisource)",
+     "source_url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sulla,_Lucius_Cornelius",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
      "text": "ompanion tc the bible; rorming a cheap and compact library of religious knowledge. edited by rev. j. newton brorvn. illustrated by wood-cuts, maps, ar 1 engravings on copper and steel in one volume, royal s»o. pnr«. $-1 00. 6 lippincott, grambo & co.'s publications. lippincott's standard editions of the book of common prayer. in six different sizes, illustrated with a number of steel plates and illuminations. somprehendino the most varied and splendid assortment in thk united states. the illumin",
      "source_id": 15,
      "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
@@ -7900,8 +8055,8 @@
    ],
    "audit": {
     "mode": "partial",
-    "mentions": 1,
-    "total": 2
+    "mentions": 2,
+    "total": 3
    }
   },
   {
@@ -7917,6 +8072,28 @@
    "power_watts_proxy": 20000000000.0,
    "power_watts_at_era": 15249881712.696,
    "highlights": [
+    {
+     "text": "faraday, michael (1791–1867), english chemist and physicist, was born at newington, surrey, on the 22nd of september 1791. his parents had migrated from yorkshire to london, where his father worked as a blacksmith. faraday himself became apprenticed to a bookbinder. the letters written to his friend benjamin abbott at this time give a lucid account of his aims in life, and of his methods of self-culture, when his mind was beginning to turn to the experimental study of nature. in 1812 mr dance, a customer of his master, took him to hear four lectures by sir humphry davy. faraday took notes of these lectures, and afterwards wrote them out in a fuller form. under the encouragement of mr dance, he wrote to sir h. davy, enclosing these notes.",
+     "source_id": 51,
+     "source_title": "EB1911, \"Faraday, Michael\" (Wikisource)",
+     "source_url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Faraday,_Michael",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
+     "text": "con,.mw-parser-output .dabicon{padding-right:1ex} sister projects : wikipedia article , quotes , wikidata item see also michael faraday on wikipedia ; and our 1911 encyclopædia britannica disclaimer . 937341 1911 encyclopædia britannica , volume 10 — faraday, michael james clerk maxwell .mw-parser-output .prp-pages-output ._tablegridhdborder,.mw-parser-output .prp-pages-output ._tablecolhdborder{border-collapse:collapse;border:1px solid;margin-left:auto;margin-right:auto}.mw-parser-output .prp-pages-output ._tablecolhdborder th{border-bottom:1px solid;border-left:1px solid;text-align:center}.mw-parser-output .prp-pages-output ._tablegridhdborder th{border:1px solid;text-align:center}.mw-parser-output .prp-pages-output ._tablegridhdborder th{border-left:1px solid;border-right:1px solid;border-bottom:1px solid}.mw-parser-output .prp-pages-output ._tablecolhdborder td{border-left:1px solid;padding-left:5px}.mw-parser-output .prp-pages-output ._tablegridhdbord",
+     "source_id": 51,
+     "source_title": "EB1911, \"Faraday, Michael\" (Wikisource)",
+     "source_url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Faraday,_Michael",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
     {
      "text": "perhaps for a similar reason a cult of the dead may have occurred at the midsummer festival. 3 miss faraday, folk-lore, xvii. 398 f. 4 bede, de temp. eat. c. xv. 6 vigfusson-powell, i. 419. 170 the religion of the ancient celts decay was the season when the dead, her children, would be commemorated. whatever be the reason, celts, teutons, and others have commemorated the dead at the beginning of winter, which was the beginning of a new year, while a similar festival of the dead at new year is he",
      "source_id": 23,
@@ -7971,8 +8148,8 @@
    ],
    "audit": {
     "mode": "partial",
-    "mentions": 1,
-    "total": 3
+    "mentions": 3,
+    "total": 5
    }
   },
   {
@@ -7988,6 +8165,17 @@
    "power_watts_proxy": 0.0,
    "power_watts_at_era": 0,
    "highlights": [
+    {
+     "text": "ampère, andré marie (1775–1836), french physicist, was born at polémieux, near lyons, on the 22nd of january 1775. he took a passionate delight in the pursuit of knowledge from his very infancy, and is reported to have worked out long arithmetical sums by means of pebbles and biscuit crumbs before he knew the figures. his father began to teach him latin, but ceased on discovering the boy’s greater inclination and aptitude for mathematical studies. the young ampère, however, soon resumed his latin lessons, to enable him to master the works of euler and bernouilli . in later life he was accustomed to say that he knew as much about mathematics when he was eighteen as ever he knew; but his reading embraced nearly the whole round of knowledge—history, travels, poetry, philosophy and the natural sciences. when lyons was taken by the army of the",
+     "source_id": 219,
+     "source_title": "Evidence file eb1911-ampere (local, unregistered witness)",
+     "source_url": "",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
     {
      "text": "of tenderness and sensuality duly fused into one; the man almost always feels his sexual activity hampered by his respect for the woman and only develops full sexual potency when he finds himself in the presence of a lower type of sexual object; and this again is partly conditioned by the circumstance that his sexual aims include those of perverse sexual components, which he does not like to gratify with a woman he respects. full sexual satisfaction only comes when he can give himself up wholeh",
      "source_id": 109,
@@ -8034,8 +8222,8 @@
    ],
    "audit": {
     "mode": "partial",
-    "mentions": 1,
-    "total": 2
+    "mentions": 2,
+    "total": 3
    }
   },
   {
@@ -8051,6 +8239,28 @@
    "power_watts_proxy": 60000000000.0,
    "power_watts_at_era": 46778940111.892,
    "highlights": [
+    {
+     "text": "joule, james prescott (1818–1889), english physicist, was born on the 24th of december 1818, at salford, near manchester. although he received some instruction from john dalton in chemistry, most of his scientific knowledge was self-taught, and this was especially the case with regard to electricity and electro-magnetism, the subjects in which his earliest researches were carried out. from the first he appreciated the importance of accurate measurement, and all through his life the attainment of exact quantitative data was one of his chief considerations. at the age of nineteen he invented an electro-magnetic engine, and in the course of examining its performance dissatisfaction with vague and arbitrary methods of specifying electrical quantities caused him to adopt a convenient and scientific unit, which he took to be the amount of elect",
+     "source_id": 52,
+     "source_title": "EB1911, \"Joule, James Prescott\" (Wikisource)",
+     "source_url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Joule,_James_Prescott",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
+    {
+     "text": "uto 4px auto;width:100%}.mw-parser-output .wst-header-left{float:left} ← jougs 1911 encyclopædia britannica , volume 15 joule, james prescott jourdan, jean baptiste, count → .mw-parser-output .plainsister{display:block;font-size:93%;line-height:normal;list-style-type:none;list-style-image:none;list-style-position:outside;border:1px solid var(--border-color-interactive--hover,#aaa);float:right;clear:right;margin:0.5ex 0 0.5ex 0.5ex;padding:0;background:var(--background-color-base,#ffffff);color:var(--color-base,#202122)}.mw-parser-output .sisicon,.mw-parser-output .dabicon{padding-right:1ex} sister projects : wikipedia article , quotes , wikidata item see also james prescott joule on wikipedia ; and our 1911 encyclopædia britannica disclaimer . 896738 1911 encyclopædia britannica , volume 15 — joule, james prescott .mw-parser-output .prp-pages-output ._tablegridhdborder,.mw-parser-output .prp-pages-output ._tablecolhdborder{border-collapse:collapse;border:1",
+     "source_id": 52,
+     "source_title": "EB1911, \"Joule, James Prescott\" (Wikisource)",
+     "source_url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Joule,_James_Prescott",
+     "direct": true,
+     "manual": true,
+     "audit": {
+      "name_mention": true
+     }
+    },
     {
      "text": "This inquiry yielded (in 1867) the result 783... repeated with every precaution, and again indicated 772.55 foot-pounds.",
      "source_id": 52,
@@ -8085,9 +8295,9 @@
     }
    ],
    "audit": {
-    "mode": "none_mention",
-    "mentions": 0,
-    "total": 1
+    "mode": "partial",
+    "mentions": 2,
+    "total": 3
    }
   },
   {
@@ -15235,21 +15445,35 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "I will say at once that both courses lead to the same result: the uncanny is that class of the frightening which leads back to what is known of old and long familiar.",
-     "source_id": 5,
+     "text": "'i'hat, as we have said, would quickly dissipate the freud, “the uncanny” peculiar emotional effect of the thing. e. t. a. hoffmann has repeatedly employed this psychological artifice with success in his fantastic narratives.’ this observation, undoubtedly a correct one, refers primarily to the story of the sand-man\" in hoffmann’s nachtstücken, which contains the original of olympia, the doll that appears in the first act of offenbach’s opera, tales of hoffmann. but i cannot think — and i hope most readers of the story will agree with me — that the theme of the doll olympia, who is to all appearances a living being, is by any means the only, or indeed the most important, element that must be held responsible for the quite unparalleled atmosphere of uncanniness evoked",
      "source_title": "Freud, The Uncanny, trans. Strachey, Collected Papers IV 1925 (archive.org)",
      "source_url": "https://archive.org/details/freud-1925-cp-5",
+     "source_id": 5,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "e ‘sand-man’ who tears out children’s eyes. this fantastic tale begins with the childhood- recollections of the student nathaniel: in spite of his present happiness, he cannot banish the memories associated with the mysterious and terrifying death of the father he loved. on certain evenings his mother used to send the children to bed early, warning them that “the sand-man was coming’; and sure enough nathaniel would not fail to hear the heavy tread of a visitor with whom his father would then be occupied that evening. when questioned about the sand-man, his mother, it is true, denied that such a person existed except as a form of speech; but his nurse could give him more definite information: ‘ he is a wicked man who comes when children won’t go to bed, and throws handfuls of sand in their eyes so that they jump out of their heads all bleeding. then he puts the eyes in a sack and carries them off to the moon to feed his children. they sit up there in their",
+     "source_title": "Evidence file freud-cp4-1925-full-djvu (local, unregistered witness)",
+     "source_url": "",
+     "source_id": 211,
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "sandman",
@@ -15263,10 +15487,23 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "Of two brothers, why one prefers lounging, play, and perfume, to Herod’s rich palm-tree groves; [ 53 ] why the other, rich and uneasy, from the rising of the light to the evening shade, subdues his woodland with fire and steel: our attendant genius knows, who governs the planet of our nativity, the divinity [that presides] over human nature, who dies with each individual, of various complexion, white and black. I will use, and take out from my moderate stock, as much as my exigence demands: nor will I be under any apprehensions what opinion my heir shall hold concerning me, when he shall, find [I have left him] no more than I had given me.",
-     "source_id": 9,
-     "source_title": "Horace, Epistles II, trans. C. Smart 1856 (Wikisource)",
-     "source_url": "https://en.wikisource.org/wiki/The_works_of_Horace/Second_Book_of_Epistles",
+     "text": "Nathaniel looks at this thing through Coppola’s spy-glass, which he finds in his pocket, and falls into a new attack of madness. Shouting ‘Spin about, wooden doll!’ he tries to throw -7- the girl into the gulf below. Her brother, brought to her side by her cries, rescues her and hastens down with her to safety. On the tower above, the madman rushes round, shrieking ‘Ring of fire, spin about!’ — and we know the origin of the words. Among the people who begin to gather below there comes forward the figure of the lawyer Coppelius, who has suddenly returned.",
+     "source_title": "Freud, The Uncanny, trans. Strachey, Collected Papers IV 1925 (archive.org)",
+     "source_url": "https://archive.org/details/freud-1925-cp-5",
+     "source_id": 5,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "Genius est deus, cuius in tutela ut quisque natus est vivit. Hic sive quod ut genamur curat, sive quod una genitur nobiscum, sive etiam quod nos genitos suscipit ac tutatur, certe a genendo genius appellatur. 2 [![ [ALT imaginis: Legamen ad hanc sectionem in lingua gallica] ](https://penelope.uchicago.edu/Thayer/Images/Utility/Flags/link/France.gif)](https://penelope.uchicago.edu/Thayer/F/Roman/Texts/Censorinus/text*.html#3.2) Eundem esse genium et larem multi veteres memoriae p7 prodiderunt, in quis etiam Granius Flaccus in libro, quem ad Caesarem de indigitamentis scriptum reliquit.",
+     "source_title": "Censorinus, De Die Natali ch.2-3, Latin (LacusCurtius)",
+     "source_url": "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Censorinus/text*.html",
+     "source_id": 10,
+     "side": "to",
      "audit": {
       "has_from": false,
       "has_to": true,
@@ -15275,9 +15512,10 @@
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "prometheus",
@@ -15437,7 +15675,7 @@
    "from": "gilgamesh",
    "to": "lilith",
    "type": "conflict",
-   "source": "[17] lines 136-150 (philological linkage flagged)",
+   "source": "[17] ETCSL Gilgamesh Enkidu and the nether world (c.1.8.1.4)",
    "title": "Dispossessed by the hero's axe",
    "essay": "When Gilgamesh kills the snake and the Anzud flees with its young, 'the phantom maid living in its trunk left her dwelling and sought refuge in the wilderness' [17]. Her only recorded act in Sumer is a retreat. The name-link to later Lilith is philology, and stays only that.",
    "date_added": "2026-10-12",
@@ -15445,21 +15683,23 @@
    "influence": 0.5,
    "excerpts": [
     {
-     "text": "In its trunk, the phantom maid built herself a dwelling, the maid who laughs with a joyful heart.",
+     "text": "a snake immune to incantations made itself a nest. in its branches, the anzud bird settled its young. in its trunk, the phantom maid built herself a dwelling, the maid who laughs with a joyful heart. but holy inana cried!\" her brother, the young warrior utu , however, did not stand by her in the matter. 91-113. when dawn was breaking, when the horizon became bright, when the little birds, at the break of dawn, began to clamour, when utu had left his bedchamber, his sister holy inana said to the warrior gilgamesh : \"my brother, in those days when destiny was determined, when abundance overflowed in the land, when an had taken the heavens for himself, when enlil had taken the earth for himself, when the nether world had been given to ereshkigala as a gift; when he set sail, when he set sail, when the father set sail for the nether world, when enki set sail for the nether world -- against the lord a storm of small hailstones arose, against enki a storm of lar",
      "source_id": 17,
      "source_title": "ETCSL Gilgamesh Enkidu and the nether world (c.1.8.1.4)",
      "source_url": "http://etcsl.orinst.ox.ac.uk/section1/tr1814.htm",
      "audit": {
-      "has_from": false,
-      "has_to": false,
-      "dist": null
+      "has_from": true,
+      "has_to": true,
+      "dist": 372
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "clean",
+    "dist": 372
+   },
+   "pairing_note": "the witness says 'the phantom maid'; Lilith is this graph's identification"
   },
   {
    "from": "lilith",
@@ -15854,21 +16094,35 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "Else- where we hear of her magic birds whose song charmed Bran's companions for seven years, and of her marriage to Manawyddan — an old myth in which Manawyddan may have been Pryderi's father, while possibly in some other myth Pryderi may have been child of Eigantona and Teyrnon ( = Tigernonos, \" king \").3 We may postulate an old Ehiannon saga, fragments of which 1 Rhiannon is daughter of Heveidd Hen or \"the Ancient,\" probably an old divinity. 2 In the Mabinogi and in Fionn tales a mysterious hand snatches away newly-born children.",
-     "source_id": 23,
-     "source_title": "MacCulloch, Religion of the Ancient Celts 1911 (archive.org)",
-     "source_url": "https://archive.org/download/religionofancien00macc/religionofancien00macc_djvu.txt",
+     "text": "as garnished and they went to meat, and thus did they sit; heveydd hen was on one side of pwyll, and rhiannon on the other. and all the rest according to their rank. and they eat and feasted and talked one with another, and at the beginning of the carousal after the meat, there entered a tall auburn-haired youth, of royal bearing, clothed in a garment of satin. and when he came into the hall, he saluted pwyll and his companions.",
+     "source_title": "Evidence file guest-mabinogion-vol3-gutenberg (local, unregistered witness)",
+     "source_url": "",
+     "source_id": 147,
+     "side": "from",
      "audit": {
       "has_from": true,
       "has_to": false,
       "dist": null
      }
+    },
+    {
+     "text": "Kosmerta with Mercury in Eastern Gaul, others have remained separate, like Epona, perhaps a river-goddess merged with an animal divinity, and known from inscriptions as a horse-goddess.4 But the most striking instance is found in the grouped goddesses. 1 Anwyl, Celt.",
+     "source_title": "MacCulloch, Religion of the Ancient Celts 1911 (archive.org)",
+     "source_url": "https://archive.org/download/religionofancien00macc/religionofancien00macc_djvu.txt",
+     "source_id": 23,
+     "side": "to",
+     "audit": {
+      "has_from": false,
+      "has_to": true,
+      "dist": null
+     }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "nithuth",
@@ -15976,11 +16230,37 @@
    "date_added": "2026-10-12",
    "era": 1923,
    "influence": 0.0,
-   "excerpts": [],
+   "excerpts": [
+    {
+     "text": "es, and came back no more. then egil set forth on his snowshoes to follow olrun, and slagfith followed swan- white, but volund stayed in ulfdalir. he was a most skillful man, as men know from old tales. king nithuth had him taken by force, as the poem here tells. i. maids from the south through myrkwood flew. fair and young, their fate to follow; on the shore of the sea to rest them they sat, the maids of the south, and flax they spun. the poet never conceived of his swan-maidens as valkyries at all. however, this identification of swan-maidens with valkyries was not uncommon; cf. helre'tth brynhildar, 7. the three maidens' names, hlathguth, hervor, and olrun, do not appear in the lists of valkyries. king hloth'ver: this name suggests the southern origin of the story, as it is the northern form of ludwig; the name appears again in guthrunarkzitha ii, 26, and that of kjar is found in atlakvitha, 7, both of these poems being based on german stories. it is wo",
+     "source_title": "Bellows, The Poetic Edda 1923, Volundarkvitha (archive.org)",
+     "source_url": "https://archive.org/download/poeticedda00belluoft/poeticedda00belluoft_djvu.txt",
+     "source_id": 24,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "Thus man had the wisdom necessary to the support of life, but political wisdom he had not; for that was in the keeping of Zeus, and the power of Prometheus did not extend to entering into the citadel of heaven, where Zeus dwelt, who moreover had terrible sentinels; but he did enter by stealth into the common workshop of Athene and Hephaestus, in which they used to practise their favourite arts, and carried off Hephaestus' art of working by fire, and also the art of Athene, and gave them to man.",
+     "source_title": "Plato, Protagoras, trans. Jowett 1871 (Wikisource)",
+     "source_url": "https://en.wikisource.org/wiki/Protagoras_%28Jowett%29",
+     "source_id": 7,
+     "side": "to",
+     "audit": {
+      "has_from": false,
+      "has_to": true,
+      "dist": null
+     }
+    }
+   ],
    "audit": {
-    "ok": false,
-    "mode": "no_excerpts"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "mason-weems",
@@ -15994,21 +16274,36 @@
    "influence": 0.9,
    "excerpts": [
     {
-     "text": "It is too valuable to be lost, and too true to be doubted ; for it. was communicated to me by the same excellent lady to whom I am indebted for the last.",
-     "source_id": 15,
+     "text": "'-\"& ■■(^^^^^^™«b*w* ib it - hfi jiu- ja.n 2 s i 10 no. 513 ' digitized by the internet archive in 2011 with funding from university of north carolina at chapel hil http://www.archive.org/details/lifeofgeorgewashweem ©o w^sainjsycbhposyo the life , \\y| 2 \\a or george washington; \\ \\j ^r\\y/' with c~ cus.xot7s atjscdotes, equally honourable to himself, and exemplary to his young countrymen. a life how useful to his country led ! how loved ! while living ! — how revered ! now dead ! lisp ! lisp ! his name, ye children yet unborn ! and with like deeds your own great names adorn. embellished with six engravings. by m. l. weems, formerly rector of mount yerno",
      "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
      "source_url": "https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt",
+     "source_id": 15,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 329
+     }
+    },
+    {
+     "text": "repair, and, with !motions imutterable, looking at the weather- beat(!n mansion, exclaim, '• here's the house where ihe great washington was born !\" 13 jjfe of washington. but it is all a mistake ; for lie was born, as i said, at pope's creek, in vveslmoreland county, near the margin of his own roaring potomac. the first place of education to wliich george was ever sent, was a little '-old field school,\" kept by one of his father's tenants, named hobby; an honest, poor old man, who acted in the doublecharacter of sexton and schoolmaster. on his skill as a grave-digger, tradition is silent j but for a teacher of youth, his qualifications were certainly of the humbler sort; making what is generally called an a. b. c. school- master. such was the preceptor who first taught washington the knowledge of letters ! hobby lived to see his young pupil in all his glory, and rejoiced exceedingly. in his cups — for though a sexton, he would sometimes drink, particularl",
+     "source_title": "Evidence file weems-life-of-washington-1800s-archive-full (local, unregistered witness)",
+     "source_url": "",
+     "source_id": 205,
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "clean",
+    "dist": 329
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "cincinnatus",
@@ -16397,21 +16692,35 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "lyre. But from Zeus come kings; for nothing is diviner than the kings of Zeus. Wherefore thou didst choose them for thine own lot, and gavest them cities to guard. And thou didst seat thyself in the high places of the cities, watching who rule th",
-     "source_id": 29,
-     "source_title": "Callimachus, Hymn 1 to Zeus, trans. Mair 1921 (theoi.com)",
-     "source_url": "https://www.theoi.com/Text/CallimachusHymns1.html",
+     "text": "e which is not described. cronos is forced to vomit up the children he had swallowed, and these with zeus divide the universe between them, like a human estate. two events mark the early reign of zeus, the war with the titans and the overthrow of typhoeus, and as zeus is still reigning the poet can only go on to give a list of gods born to zeus by various goddesses. after this he formally bids farewell to the cosmic and olympian deities and enumerates the sons born of goddess to mortals. the poe",
+     "source_title": "Hesiod, Works and Days + Theogony, trans. Evelyn-White 1914 (Gutenberg #348)",
+     "source_url": "https://www.gutenberg.org/cache/epub/348/pg348.txt",
+     "source_id": 26,
+     "side": "from",
      "audit": {
       "has_from": true,
       "has_to": false,
       "dist": null
      }
+    },
+    {
+     "text": "did nothing equal to the emergency, they decided to appoint a dictator to retrieve the threatening position of affairs. by universal consent l. quinctius cincinnatus was called to the office. it is worth while for those who despise all human interests in comparison with riches, and think that there is no scope for high honours or for virtue except where lavish wealth abounds, to listen to this story. the one hope of rome, l. quinctius, used to cultivate a four-acre field on the other side of the tiber, just opposite the place where the dockyard and arsenal are now situated; it bears the name of the \" quinctian meadows.\" there he was found by the deputation from the senate either digging out a ditch or ploughing, at all events, as is generally agreed, intent on his husbandry. after mutual salutations he was requested to put on his toga that he might hear the mandate of the senate, and they expressed the hope that it might turn out well for him and for the s",
+     "source_title": "Livy, Ab Urbe Condita Book 3, trans. Canon Roberts 1905 (Wikisource raw)",
+     "source_url": "https://en.wikisource.org/wiki/From_the_Founding_of_the_City/Book_3?action=raw",
+     "source_id": 33,
+     "side": "to",
+     "audit": {
+      "has_from": false,
+      "has_to": true,
+      "dist": null
+     }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "zeus",
@@ -16891,7 +17200,7 @@
    "from": "inana",
    "to": "lilith",
    "type": "interaction",
-   "source": "[17] GEN t.1.8.1.4, 123-135",
+   "source": "[17] ETCSL Gilgamesh Enkidu and the nether world (c.1.8.1.4)",
    "title": "The phantom maid expelled",
    "essay": "The earliest stratum of the Lilith-file anchors here: Inana's garden harbors 'the phantom maid built herself a dwelling' in the tree's trunk [17], and Gilgamec's clearing work drives her to the desolate places. No name is spoken; the label 'ki-sikil-lil-la' comes through this text's apparatus and our batch-2 reading of Isaiah [18]. ([17] GEN t.1.8.1.4, 123-135)",
    "date_added": "2026-10-12",
@@ -16899,21 +17208,23 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "In its trunk, the phantom maid built herself a dwelling, the maid who laughs with a joyful heart.",
+     "text": "a snake immune to incantations made itself a nest. in its branches, the anzud bird settled its young. in its trunk, the phantom maid built herself a dwelling, the maid who laughs with a joyful heart. but holy inana cried! 47-69. when dawn was breaking, when the horizon became bright, when the little birds, at the break of dawn, began to clamour, when utu had left his bedchamber, his sister holy inana said to the young warrior utu : \"my brother, in those days when destiny was determined, when abundance overflowed in the land, when an had taken the heavens for himself, when enlil had taken the earth for himself, when the nether world had been given to ereshkigala as a gift; when he set sail, when he set sail, when the father set sail for the nether world, when enki set sail for the nether world -- against the lord a storm of small hailstones arose, against enki a storm of large hailstones arose. the small ones were light hammers, the large ones were like sto",
      "source_id": 17,
      "source_title": "ETCSL Gilgamesh Enkidu and the nether world (c.1.8.1.4)",
      "source_url": "http://etcsl.orinst.ox.ac.uk/section1/tr1814.htm",
      "audit": {
-      "has_from": false,
-      "has_to": false,
-      "dist": null
+      "has_from": true,
+      "has_to": true,
+      "dist": 87
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "clean",
+    "dist": 87
+   },
+   "pairing_note": "the witness says 'the phantom maid'; Lilith is this graph's identification"
   },
   {
    "from": "gilgamesh",
@@ -17044,34 +17355,6 @@
    }
   },
   {
-   "from": "eve",
-   "to": "agrimus",
-   "type": "analogy",
-   "source": "[19] Legends I ch.1-2",
-   "title": "Label housekeeping",
-   "essay": "Eve's 'angel of the Lord' exclamation [19] and Agrimus' census-handing [19] mark the two ends of the same story about paternity-contamination. No text in our corpus connects them; the link is structural (each ancestral mother gets a shadow sire), not transmission.",
-   "date_added": "2026-10-12",
-   "era": 900,
-   "influence": 0.0,
-   "excerpts": [
-    {
-     "text": "Yet man must work the earth to earn his food.[38] The Divine resolution to bestow a companion on Adam met the wishes of man, who had been overcome by a feeling of isolation when the animals came to him in pairs to be named.[39] To banish his loneliness, Lilith was first given to Adam as wife.",
-     "source_id": 19,
-     "source_title": "Ginzberg, Legends of the Jews vol 1 1909 (Gutenberg #1493)",
-     "source_url": "https://www.gutenberg.org/cache/epub/1493/pg1493.txt",
-     "audit": {
-      "has_from": false,
-      "has_to": false,
-      "dist": null
-     }
-    }
-   ],
-   "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
-  },
-  {
    "from": "pwyll",
    "to": "arawn",
    "type": "interaction",
@@ -17139,7 +17422,7 @@
    "from": "llwyd",
    "to": "manawyddan",
    "type": "conflict",
-   "source": "[21] Manawyddan (Mab. III)",
+   "source": "[216] Evidence file guest-mabinogion-vol3-gutenberg (local, unregistered witness)",
    "title": "The mouse, ransomed",
    "essay": "Llwyd strips every field Manawyddan sows; Manawyddan answers by hanging one pregnant mouse and refusing three ransoms until the terms are read aloud [21]. Then Llwyd confesses and swears friendship: vengeance paid by the disclosure rather than the deed [21]. Vengeance is discharged by disclosure, enforcement by trade-settlement.",
    "date_added": "2026-10-12",
@@ -17147,21 +17430,35 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "more he urged his horse, the further was she from him. Yet she rode not faster than before",
-     "source_id": 21,
-     "source_title": "Mabinogion vol 3, trans. Guest, ed. Edwards 1902 (Gutenberg #19976)",
-     "source_url": "https://www.gutenberg.org/cache/epub/19976/pg19976.txt",
+     "text": "\"she is my wife.\" \"even though she be, i will not set her free. wherefore came she to me?\" \"to despoil thee,\" he answered. \"i am llwyd the son of kilcoed, and i cast the charm over the seven cantrevs of dyved. and it was to avenge gwawl the son of clud, from the friendship i had towards him, that i cast the charm. and upon pryderi did i revenge gwawl the son of clud, for the game of badger in the bag, that pwyll pen annwn played upon him, which he did unadvisedly in the court of heveydd hen. and when it was known that thou wast come to dwell in the land, my household came and besought me to transform them into mice, that they might destroy thy corn. and it was my own household that went the first night. and the second night also they went, and they destroyed thy two crofts. and the third night came unto me my wif",
+     "source_id": 216,
+     "source_title": "Evidence file guest-mabinogion-vol3-gutenberg (local, unregistered witness)",
+     "source_url": "",
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "\"as thou wilt, lord,\" he answered, \"except that i would not see a man of rank equal to thine touching such a reptile, i care nought.\" and the scholar went his way. and as he was placing the cross-beam upon the two forks, behold a priest came towards him upon a horse covered with trappings. \"good day to thee, lord,\" said he. \"heaven prosper thee,\" said manawyddan; \"thy blessing.\" \"the blessing of heaven be upon thee. and what, lord, art thou doing?",
+     "source_id": 216,
+     "source_title": "Evidence file guest-mabinogion-vol3-gutenberg (local, unregistered witness)",
+     "source_url": "",
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "one scene in Guest's translation; the two speeches sit 2,600 characters apart"
   },
   {
    "from": "manawyddan",
@@ -17268,21 +17565,35 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "The realms of ocean and the fields of air are mine, not his. By fatal lot to me the liquid empire fell, and trident of the sea.",
-     "source_id": 35,
+     "text": "\"the apotheosis of washington,\" his most ambitious work at the capitol building, was painted in 11 months at the end of the civil war, soon after the new dome was completed, for $40,000. in the central group of the fresco, brumidi depicted george washington rising to the heavens in glory, flanked by female figures representing liberty and victory/fame. a rainbow arches at his feet, and thirteen maidens symbolizing the original states flank the three central figures.",
+     "source_title": "Architect of the Capitol, Apotheosis of Washington (Brumidi 1865)",
+     "source_url": "http://aoc.gov/cc/art/rotunda/apotheosis/apoth_comm.cfm",
+     "source_id": 16,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "ealed the true parentage of theseus, and a report was given out by pittheus that he was begotten by neptune; for the troezenians pay neptune the highest veneration. he is their tutelar god, to him they offer all their first-fruits, and in his honor stamp their money with a trident. theseus displaying not only great strength of body, but equal bravery, and a quickness alike and force of understanding, his mother aethra, conducting him to the stone, and informing him who was his true father, comma",
      "source_title": "Vergil, Aeneid, trans. Dryden (MIT Classics)",
      "source_url": "https://classics.mit.edu/Virgil/aeneid.mb.txt",
+     "source_id": 35,
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "neptune",
@@ -17328,21 +17639,35 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "But his people, though they felt his loss were not leaderless, for Medon, the bastard son of Oileus by Rhene, set them in array. Those, again, of Tricca and the stony region of Ithome, and they that held Oechalia, the city of Oechalian Eurytus, these were commanded by the two sons of Aesculapius, skilled in the art of healing, Podalirius and Machaon. And with them there came thirty ships.",
-     "source_id": 1,
+     "text": "\"the apotheosis of washington,\" his most ambitious work at the capitol building, was painted in 11 months at the end of the civil war, soon after the new dome was completed, for $40,000. in the central group of the fresco, brumidi depicted george washington rising to the heavens in glory, flanked by female figures representing liberty and victory/fame. a rainbow arches at his feet, and thirteen maidens symbolizing the original states flank the three central figures.",
+     "source_title": "Architect of the Capitol, Apotheosis of Washington (Brumidi 1865)",
+     "source_url": "http://aoc.gov/cc/art/rotunda/apotheosis/apoth_comm.cfm",
+     "source_id": 16,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "e and tended me.\" juno smiled at this, and as she smiled she took the cup from her son's hands. then vulcan drew sweet nectar from the mixing-bowl, and served it round among the gods, going from left to right; and the blessed gods laughed out a loud applause as they saw him ing bustling about the heavenly mansion. thus through the livelong day to the going down of the sun they feasted, and every one had his full share, so that all were satisfied. apollo struck his lyre, and the muses lifted up t",
      "source_title": "Homer, Iliad, trans. Butler 1898 (MIT Classics)",
      "source_url": "https://classics.mit.edu/Homer/iliad.mb.txt",
+     "source_id": 1,
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "vulcan",
@@ -17388,10 +17713,23 @@
    "influence": 0.0,
    "excerpts": [
     {
+     "text": "\"the apotheosis of washington,\" his most ambitious work at the capitol building, was painted in 11 months at the end of the civil war, soon after the new dome was completed, for $40,000. in the central group of the fresco, brumidi depicted george washington rising to the heavens in glory, flanked by female figures representing liberty and victory/fame. a rainbow arches at his feet, and thirteen maidens symbolizing the original states flank the three central figures.",
+     "source_title": "Architect of the Capitol, Apotheosis of Washington (Brumidi 1865)",
+     "source_url": "http://aoc.gov/cc/art/rotunda/apotheosis/apoth_comm.cfm",
+     "source_id": 16,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
      "text": "And now there is no need for you, bargainer though you are, to be furiously angry.’ (ll. 496-502) When Hermes had said this, he held out the lyre: and Phoebus Apollo took it, and readily put his shining whip in Hermes’ hand, and ordained him keeper of herds.",
-     "source_id": 38,
      "source_title": "Homeric Hymn 4 to Hermes, trans. Evelyn-White 1914 (theoi.com)",
      "source_url": "https://www.theoi.com/Text/HomericHymns2.html",
+     "source_id": 38,
+     "side": "to",
      "audit": {
       "has_from": false,
       "has_to": true,
@@ -17400,9 +17738,10 @@
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "mercury",
@@ -17448,10 +17787,23 @@
    "influence": 0.0,
    "excerpts": [
     {
+     "text": "\"the apotheosis of washington,\" his most ambitious work at the capitol building, was painted in 11 months at the end of the civil war, soon after the new dome was completed, for $40,000. in the central group of the fresco, brumidi depicted george washington rising to the heavens in glory, flanked by female figures representing liberty and victory/fame. a rainbow arches at his feet, and thirteen maidens symbolizing the original states flank the three central figures.",
+     "source_title": "Architect of the Capitol, Apotheosis of Washington (Brumidi 1865)",
+     "source_url": "http://aoc.gov/cc/art/rotunda/apotheosis/apoth_comm.cfm",
+     "source_id": 16,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
      "text": "Because he traced his descent from her through many generations: he willed that the place of the second month should belong to Venus.",
-     "source_id": 37,
      "source_title": "Ovid, Fasti Book 4, trans. Frazer 1931 (theoi.com)",
      "source_url": "https://www.theoi.com/Text/OvidFasti4.html",
+     "source_id": 37,
+     "side": "to",
      "audit": {
       "has_from": false,
       "has_to": true,
@@ -17460,9 +17812,10 @@
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "venus",
@@ -17508,21 +17861,35 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "Because he traced his descent from her through many generations: he willed that the place of the second month should belong to Venus.",
-     "source_id": 37,
-     "source_title": "Ovid, Fasti Book 4, trans. Frazer 1931 (theoi.com)",
-     "source_url": "https://www.theoi.com/Text/OvidFasti4.html",
+     "text": "\"the apotheosis of washington,\" his most ambitious work at the capitol building, was painted in 11 months at the end of the civil war, soon after the new dome was completed, for $40,000. in the central group of the fresco, brumidi depicted george washington rising to the heavens in glory, flanked by female figures representing liberty and victory/fame. a rainbow arches at his feet, and thirteen maidens symbolizing the original states flank the three central figures.",
+     "source_title": "Architect of the Capitol, Apotheosis of Washington (Brumidi 1865)",
+     "source_url": "http://aoc.gov/cc/art/rotunda/apotheosis/apoth_comm.cfm",
+     "source_id": 16,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "d zeus made him immortal. adrastus alone was saved by his horse arion. that horse poseidon begot on demeter, when in the likeness of a fury she consorted with him. 114 [3.7.1] having succeeded to the kingdom of thebes, creon cast out the argive dead unburied, issued a proclamation that none should bury them, and set watchmen. but antigone, one of the daughters of oedipus, stole the body of polynices, and secretly buried it, and having been detected by creon himself, she was interred alive in the",
+     "source_title": "Pseudo-Apollodorus, Bibliotheca Book 3, trans. Frazer 1921 (theoi.com)",
+     "source_url": "https://www.theoi.com/Text/Apollodorus3.html",
+     "source_id": 34,
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "ceres",
@@ -17568,10 +17935,23 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "Thyself dost see that fierce wars are waged by Minerva's hands. Is she for that the less at leisure for the liberal arts?",
-     "source_id": 36,
-     "source_title": "Ovid, Fasti Book 3, trans. Frazer 1931 (theoi.com)",
-     "source_url": "https://www.theoi.com/Text/OvidFasti3.html",
+     "text": "\"the apotheosis of washington,\" his most ambitious work at the capitol building, was painted in 11 months at the end of the civil war, soon after the new dome was completed, for $40,000. in the central group of the fresco, brumidi depicted george washington rising to the heavens in glory, flanked by female figures representing liberty and victory/fame. a rainbow arches at his feet, and thirteen maidens symbolizing the original states flank the three central figures.",
+     "source_title": "Architect of the Capitol, Apotheosis of Washington (Brumidi 1865)",
+     "source_url": "http://aoc.gov/cc/art/rotunda/apotheosis/apoth_comm.cfm",
+     "source_id": 16,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "h, three months after the birth of our saviour. san. ↑ festis quinquairibtis. according to the mythological traditions, minerva came into the world the 19th of march, and therefore that day was consecrated to her. four days afterward there was another festival, called tubilustrium sacrorum, the purification of the musical instruments used in the sacrifices. these two festivals were afterward united, by including the three days which separated thorn, and they were from thence called quinquatrus or quinquatria. this festival was a joyful vacation for school-boys, and some of them diverted themselves at their master’s expense, by spending their minerval, a present sent to him, in money by their parents. dac. san.",
+     "source_title": "Horace, Epistles II, trans. C. Smart 1856 (Wikisource)",
+     "source_url": "https://en.wikisource.org/wiki/The_works_of_Horace/Second_Book_of_Epistles",
+     "source_id": 9,
+     "side": "to",
      "audit": {
       "has_from": false,
       "has_to": true,
@@ -17580,9 +17960,10 @@
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "minerva",
@@ -17661,20 +18042,34 @@
    "excerpts": [
     {
      "text": "I shall never forget Mr. Bolton's expression to me: 'I sell here, Sir, what all the world desires to have--POWER.' He had about seven hundred people at work. I contemplated him as an iron chieftain, and he seemed to be a father to his tribe.",
-     "source_id": 39,
      "source_title": "Boswell, Life of Johnson, Vol 2 (1776 Soho visit), Gutenberg #9072",
      "source_url": "https://www.gutenberg.org/cache/epub/9072/pg9072.txt",
+     "source_id": 39,
+     "side": "from",
      "audit": {
       "has_from": false,
       "has_to": false,
       "dist": null
      }
+    },
+    {
+     "text": "Thus man had the wisdom necessary to the support of life, but political wisdom he had not; for that was in the keeping of Zeus, and the power of Prometheus did not extend to entering into the citadel of heaven, where Zeus dwelt, who moreover had terrible sentinels; but he did enter by stealth into the common workshop of Athene and Hephaestus, in which they used to practise their favourite arts, and carried off Hephaestus' art of working by fire, and also the art of Athene, and gave them to man.",
+     "source_title": "Plato, Protagoras, trans. Jowett 1871 (Wikisource)",
+     "source_url": "https://en.wikisource.org/wiki/Protagoras_%28Jowett%29",
+     "source_id": 7,
+     "side": "to",
+     "audit": {
+      "has_from": false,
+      "has_to": true,
+      "dist": null
+     }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "benjamin-franklin",
@@ -17688,21 +18083,35 @@
    "influence": 0.01,
    "excerpts": [
     {
-     "text": "As soon as any of the thunder clouds come over the kite, the pointed wire will draw the electric fire from them... At this key the phial may be charged; and from electric fire thus obtained, spirits may be kindled.",
-     "source_id": 40,
-     "source_title": "Franklin, Autobiography, Gutenberg #20203",
-     "source_url": "https://www.gutenberg.org/cache/epub/20203/pg20203.txt",
+     "text": "oyed, for the american three and six months enlistments — the old man with his cap and iron rod, for doctor franklin — the shoe-like vessel which he reached to washington, for the sabot or wooden-shoed nation, the french, whom franklin courted a long time for america — and the new roof proposed by washington, for a staunch honest republic — that \"equal govern- ment,\" which, by guarding alike the welfare of all, ought by all to be so heartily beloved as to endure for ever. had it been appointed u",
+     "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
+     "source_url": "https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt",
+     "source_id": 15,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "Thus man had the wisdom necessary to the support of life, but political wisdom he had not; for that was in the keeping of Zeus, and the power of Prometheus did not extend to entering into the citadel of heaven, where Zeus dwelt, who moreover had terrible sentinels; but he did enter by stealth into the common workshop of Athene and Hephaestus, in which they used to practise their favourite arts, and carried off Hephaestus' art of working by fire, and also the art of Athene, and gave them to man.",
+     "source_title": "Plato, Protagoras, trans. Jowett 1871 (Wikisource)",
+     "source_url": "https://en.wikisource.org/wiki/Protagoras_%28Jowett%29",
+     "source_id": 7,
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "benjamin-franklin",
@@ -17972,21 +18381,35 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "Thyself dost see that fierce wars are waged by Minerva's hands. Is she for that the less at leisure for the liberal arts?",
-     "source_id": 36,
-     "source_title": "Ovid, Fasti Book 3, trans. Frazer 1931 (theoi.com)",
-     "source_url": "https://www.theoi.com/Text/OvidFasti3.html",
+     "text": "udaeus, chthonius, hyperenor, and pelorus. 33 [3.4.2] but cadmus, to atone for the slaughter, served ares for an eternal year; and the year was then equivalent to eight years of our reckoning. 34 after his servitude athena procured for him the kingdom, and zeus gave him to wife harmonia, daughter of aphrodite and ares. and all the gods quitted the sky, and feasting in the cadmea celebrated the marriage with hymns. 35 cadmus gave her a robe and the necklace wrought by hephaestus, which some say w",
+     "source_title": "Pseudo-Apollodorus, Bibliotheca Book 3, trans. Frazer 1921 (theoi.com)",
+     "source_url": "https://www.theoi.com/Text/Apollodorus3.html",
+     "source_id": 34,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "did nothing equal to the emergency, they decided to appoint a dictator to retrieve the threatening position of affairs. by universal consent l. quinctius cincinnatus was called to the office. it is worth while for those who despise all human interests in comparison with riches, and think that there is no scope for high honours or for virtue except where lavish wealth abounds, to listen to this story. the one hope of rome, l. quinctius, used to cultivate a four-acre field on the other side of the tiber, just opposite the place where the dockyard and arsenal are now situated; it bears the name of the \" quinctian meadows.\" there he was found by the deputation from the senate either digging out a ditch or ploughing, at all events, as is generally agreed, intent on his husbandry. after mutual salutations he was requested to put on his toga that he might hear the mandate of the senate, and they expressed the hope that it might turn out well for him and for the s",
+     "source_title": "Livy, Ab Urbe Condita Book 3, trans. Canon Roberts 1905 (Wikisource raw)",
+     "source_url": "https://en.wikisource.org/wiki/From_the_Founding_of_the_City/Book_3?action=raw",
+     "source_id": 33,
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "vesta",
@@ -18032,21 +18455,35 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "Thyself dost see that fierce wars are waged by Minerva's hands. Is she for that the less at leisure for the liberal arts?",
-     "source_id": 36,
-     "source_title": "Ovid, Fasti Book 3, trans. Frazer 1931 (theoi.com)",
-     "source_url": "https://www.theoi.com/Text/OvidFasti3.html",
+     "text": "re non dubium est, ut ex aetna vulcanoque et aliis locis ardentibus datur intellegi. remo cum fratre quirinus ivra dabunt] hic dissimulat de parricidio, quod et iungit eos, et quia non romulum, sed quirinum appellat, ut non potuerit parricidium facere qui meruerit deus fieri. remo cum fratre quirinus ivra dabunt multi sic intellegere volunt ut superius diximus, quia post pestilentiam ad placandos fratris manes geminis omnibus usus est romulus: unde est viden ut geminae stent vertice cristae? s",
+     "source_title": "Servius, In Vergilii Aeneida Commentarii, ed. Thilo & Hagen 1881 (Perseus)",
+     "source_url": "https://www.perseus.tufts.edu/hopper/text?doc=Serv.+A.+5.85",
+     "source_id": 14,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "did nothing equal to the emergency, they decided to appoint a dictator to retrieve the threatening position of affairs. by universal consent l. quinctius cincinnatus was called to the office. it is worth while for those who despise all human interests in comparison with riches, and think that there is no scope for high honours or for virtue except where lavish wealth abounds, to listen to this story. the one hope of rome, l. quinctius, used to cultivate a four-acre field on the other side of the tiber, just opposite the place where the dockyard and arsenal are now situated; it bears the name of the \" quinctian meadows.\" there he was found by the deputation from the senate either digging out a ditch or ploughing, at all events, as is generally agreed, intent on his husbandry. after mutual salutations he was requested to put on his toga that he might hear the mandate of the senate, and they expressed the hope that it might turn out well for him and for the s",
+     "source_title": "Livy, Ab Urbe Condita Book 3, trans. Canon Roberts 1905 (Wikisource raw)",
+     "source_url": "https://en.wikisource.org/wiki/From_the_Founding_of_the_City/Book_3?action=raw",
+     "source_id": 33,
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "diana",
@@ -18148,7 +18585,7 @@
    "from": "sibyl",
    "to": "apollo",
    "type": "transmission",
-   "source": "[35]",
+   "source": "[35] Vergil, Aeneid, trans. Dryden (MIT Classics)",
    "title": "The oracle with the filing system",
    "essay": "The Sibyl speaks Apollo's lines and keeps the state manual; the Sibylline books were Rome's constitutional panic button for centuries. The connection is a standard oracle-priestess routing: the god lends the voice, the woman keeps the password.",
    "date_added": "2026-10-12",
@@ -18156,20 +18593,21 @@
    "influence": 0.3,
    "excerpts": [
     {
-     "text": "The realms of ocean and the fields of air are mine, not his. By fatal lot to me the liquid empire fell, and trident of the sea.",
+     "text": "ys the discover'd floods. thus, while their sev'ral charges they fulfil, the pious prince ascends the sacred hill where phoebus is ador'd; and seeks the shade which hides from sight his venerable maid. deep in a cave the sibyl makes abode; thence full of fate returns, and of the god. thro' trivia's grove they walk; and now behold, and enter now, the temple roof'd with gold. when daedalus, to fly the cretan shore, his heavy limbs on jointed pinions bore, (the first who sail'd in air,) 't is sung by fame, to the cumaean coast at length he came, and here alighting, built this costly frame. inscrib'd to phoebus, here he hung on high the steerage of his wings, that cut the sky: then o'er the lofty gate his art emboss'd androgeos' death, and off'rings to his ghost; sev'n youths from athens yearly sent, to meet the fate appointed by revengeful crete. and next to those the dreadful urn was plac'd, in which the destin'd names by lots were cast: the mournful parents",
      "source_id": 35,
      "source_title": "Vergil, Aeneid, trans. Dryden (MIT Classics)",
      "source_url": "https://classics.mit.edu/Virgil/aeneid.mb.txt",
      "audit": {
-      "has_from": false,
-      "has_to": false,
-      "dist": null
+      "has_from": true,
+      "has_to": true,
+      "dist": 99
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
+    "ok": true,
+    "mode": "clean",
+    "dist": 99
    }
   },
   {
@@ -18240,7 +18678,7 @@
    "from": "hippocrates",
    "to": "asclepius",
    "type": "transmission",
-   "source": "[42][3]",
+   "source": "[217] Evidence file hippocratic-oath (local, unregistered witness)",
    "title": "The guild keeps the name",
    "essay": "Hippocrates' flesh house called itself Asclepiadae [3] and sold a discipline whose first aphorism is a disclaimer [42]. The hero-god's name operates the way a license operates: inheritable by the house, revocable by results.",
    "date_added": "2026-10-12",
@@ -18248,21 +18686,22 @@
    "influence": 0.5,
    "excerpts": [
     {
-     "text": "Life is short, and Art long; the crisis fleeting; experience perilous, and decision difficult. The physician must not only be prepared to do what is right himself, but also to make the patient, the attendants, and externals cooperate.",
-     "source_id": 42,
-     "source_title": "Hippocrates, Aphorisms, trans. Adams (MIT Classics)",
-     "source_url": "https://classics.mit.edu/Hippocrates/aphorisms.mb.txt",
+     "text": "i swear by apollo the physician, and aesculapius, and health, and all-heal, and all the gods and goddesses, that, according to my ability and judgment, i will keep this oath and this stipulation– to reckon him who taught me this art equally dear to me as my parents, to share my substance with him, and relieve his necessities if required; to look upon his offspring in the same footing as my own brothers, and to teach them this art, if they shall wish to learn it, without fee or stipulation; and that by precept, lecture, and every other mode of instruction, i will impart a knowledge of the art to my own sons, and those of my teachers, and to disciples bound by a stipulation and oath according to the law of medicine, but to none others. i will follow that system of regimen which, according to my ability and judgment, i consider for the benefit of my patients, and abstain from whatever is de",
+     "source_id": 217,
+     "source_title": "Evidence file hippocratic-oath (local, unregistered witness)",
+     "source_url": "",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "the Oath is Hippocrates' own text; it names Aesculapius (Asclepius)"
   },
   {
    "from": "adam-smith",
@@ -18277,26 +18716,40 @@
    "excerpts": [
     {
      "text": "He intends only his own gain; and he is in this, as in many other cases, led by an invisible hand to promote an end which was no part of his intention.",
-     "source_id": 43,
      "source_title": "Adam Smith, Wealth of Nations (Gutenberg #3300)",
      "source_url": "https://www.gutenberg.org/cache/epub/3300/pg3300.txt",
+     "source_id": 43,
+     "side": "from",
      "audit": {
       "has_from": false,
       "has_to": false,
       "dist": null
      }
+    },
+    {
+     "text": "And now there is no need for you, bargainer though you are, to be furiously angry.’ (ll. 496-502) When Hermes had said this, he held out the lyre: and Phoebus Apollo took it, and readily put his shining whip in Hermes’ hand, and ordained him keeper of herds.",
+     "source_title": "Homeric Hymn 4 to Hermes, trans. Evelyn-White 1914 (theoi.com)",
+     "source_url": "https://www.theoi.com/Text/HomericHymns2.html",
+     "source_id": 38,
+     "side": "to",
+     "audit": {
+      "has_from": false,
+      "has_to": true,
+      "dist": null
+     }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "matthew-boulton",
    "to": "james-watt",
    "type": "transmission",
-   "source": "[39]",
+   "source": "[218] Evidence file eb1911-watt (local, unregistered witness)",
    "title": "The partner holds the pen",
    "essay": "Watt improved the engine; Boulton named the product. 'I sell here, Sir, what all the world desires to have--POWER' was Boulton's voice to Boswell, 'father to his tribe' of seven hundred [39]. The fire goes retail through the partnership, and the salesman collects history's commission.",
    "date_added": "2026-10-12",
@@ -18304,21 +18757,22 @@
    "influence": 0.4,
    "excerpts": [
     {
-     "text": "I shall never forget Mr. Bolton's expression to me: 'I sell here, Sir, what all the world desires to have--POWER.' He had about seven hundred people at work. I contemplated him as an iron chieftain, and he seemed to be a father to his tribe.",
-     "source_id": 39,
-     "source_title": "Boswell, Life of Johnson, Vol 2 (1776 Soho visit), Gutenberg #9072",
-     "source_url": "https://www.gutenberg.org/cache/epub/9072/pg9072.txt",
+     "text": "doned his civil engineering work and had settled in birmingham, where the manufacture of steam-engines was begun by the firm of boulton & watt. the partnership was a singularly happy one. boulton had the good sense to leave the work of inventing to watt, in whose ​ genius he had the fullest faith; on the other hand, his substantial means, his enterprise, resolution and business capacity supplied what was wanting to bring the invention to commercial success. during the next ten years we find watt assiduously engaged in developing and introducing the engine. its first and for a time its only application was in pumping; it was at once put to this use in the mines of cornwall, where watt was now frequently engaged in superintending the erection of engines. further inventions were required to lit it for other uses, and these followed in quick succession. watt's second steam-engine patent is dated 1781. it describes five different methods of converting the recip",
+     "source_id": 218,
+     "source_title": "Evidence file eb1911-watt (local, unregistered witness)",
+     "source_url": "",
      "audit": {
-      "has_from": false,
+      "has_from": true,
       "has_to": false,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "hector",
@@ -18556,21 +19010,35 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "The realms of ocean and the fields of air are mine, not his. By fatal lot to me the liquid empire fell, and trident of the sea.",
-     "source_id": 35,
+     "text": "being never found either living or dead. a foul suspicion presently attached to the patricians, and rumors were current among the people as if that they, weary of kingly government, and exasperated of late by the imperious deportment of romulus towards them, had plotted against his life and made him away, that so they might assume the authority and government into their own hands. this suspicion they sought to turn aside by decreeing divine honors to romulus, as to one not dead but translated t",
      "source_title": "Vergil, Aeneid, trans. Dryden (MIT Classics)",
      "source_url": "https://classics.mit.edu/Virgil/aeneid.mb.txt",
+     "source_id": 35,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "repair, and, with !motions imutterable, looking at the weather- beat(!n mansion, exclaim, '• here's the house where ihe great washington was born !\" 13 jjfe of washington. but it is all a mistake ; for lie was born, as i said, at pope's creek, in vveslmoreland county, near the margin of his own roaring potomac. the first place of education to wliich george was ever sent, was a little '-old field school,\" kept by one of his father's tenants, named hobby; an honest, poor old man, who acted in the doublecharacter of sexton and schoolmaster. on his skill as a grave-digger, tradition is silent j but for a teacher of youth, his qualifications were certainly of the humbler sort; making what is generally called an a. b. c. school- master. such was the preceptor who first taught washington the knowledge of letters ! hobby lived to see his young pupil in all his glory, and rejoiced exceedingly. in his cups — for though a sexton, he would sometimes drink, particularl",
+     "source_title": "Evidence file weems-life-of-washington-1800s-archive-full (local, unregistered witness)",
+     "source_url": "",
+     "source_id": 205,
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "tiberinus",
@@ -18584,21 +19052,35 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "Because he traced his descent from her through many generations: he willed that the place of the second month should belong to Venus.",
-     "source_id": 37,
-     "source_title": "Ovid, Fasti Book 4, trans. Frazer 1931 (theoi.com)",
-     "source_url": "https://www.theoi.com/Text/OvidFasti4.html",
+     "text": "1 cf. section vii. of die tvaumdeutung, which is based upon ideas developed by j. breuer in studien tiber hysterie. iz0 metapsychology vi let us sum up: exemption from mutual contradiction, primary process (motility of cathexis), témelessness, and substitution of psychic for external reality—these are the characteristics which we may expect to find in processes belonging to the system ucs.! unconscious processes can only be observed by us under the conditions of dreaming and of neurosis; that i",
+     "source_title": "Evidence file freud-cp4-1925-full-djvu (local, unregistered witness)",
+     "source_url": "",
+     "source_id": 108,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "repair, and, with !motions imutterable, looking at the weather- beat(!n mansion, exclaim, '• here's the house where ihe great washington was born !\" 13 jjfe of washington. but it is all a mistake ; for lie was born, as i said, at pope's creek, in vveslmoreland county, near the margin of his own roaring potomac. the first place of education to wliich george was ever sent, was a little '-old field school,\" kept by one of his father's tenants, named hobby; an honest, poor old man, who acted in the doublecharacter of sexton and schoolmaster. on his skill as a grave-digger, tradition is silent j but for a teacher of youth, his qualifications were certainly of the humbler sort; making what is generally called an a. b. c. school- master. such was the preceptor who first taught washington the knowledge of letters ! hobby lived to see his young pupil in all his glory, and rejoiced exceedingly. in his cups — for though a sexton, he would sometimes drink, particularl",
+     "source_title": "Evidence file weems-life-of-washington-1800s-archive-full (local, unregistered witness)",
+     "source_url": "",
+     "source_id": 205,
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "pericles",
@@ -18644,21 +19126,35 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "The only thing we have to fear is fear itself--nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.",
-     "source_id": 45,
+     "text": "I shall ask the Congress for the one remaining instrument to meet the crisis--broad Executive power to wage a war against the emergency, as great as the power that would be given to me if we were in fact invaded by a foreign foe.",
      "source_title": "Franklin D. Roosevelt, First Inaugural Address, 1933 (Avalon Project)",
      "source_url": "https://avalon.law.yale.edu/20th_century/froos1.asp",
+     "source_id": 45,
+     "side": "from",
      "audit": {
       "has_from": false,
       "has_to": false,
       "dist": null
      }
+    },
+    {
+     "text": "did nothing equal to the emergency, they decided to appoint a dictator to retrieve the threatening position of affairs. by universal consent l. quinctius cincinnatus was called to the office. it is worth while for those who despise all human interests in comparison with riches, and think that there is no scope for high honours or for virtue except where lavish wealth abounds, to listen to this story. the one hope of rome, l. quinctius, used to cultivate a four-acre field on the other side of the tiber, just opposite the place where the dockyard and arsenal are now situated; it bears the name of the \" quinctian meadows.\" there he was found by the deputation from the senate either digging out a ditch or ploughing, at all events, as is generally agreed, intent on his husbandry. after mutual salutations he was requested to put on his toga that he might hear the mandate of the senate, and they expressed the hope that it might turn out well for him and for the s",
+     "source_title": "Livy, Ab Urbe Condita Book 3, trans. Canon Roberts 1905 (Wikisource raw)",
+     "source_url": "https://en.wikisource.org/wiki/From_the_Founding_of_the_City/Book_3?action=raw",
+     "source_id": 33,
+     "side": "to",
+     "audit": {
+      "has_from": false,
+      "has_to": true,
+      "dist": null
+     }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "fdr",
@@ -18672,21 +19168,35 @@
    "influence": 0.2,
    "excerpts": [
     {
-     "text": "The only thing we have to fear is fear itself--nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.",
-     "source_id": 45,
+     "text": "I shall ask the Congress for the one remaining instrument to meet the crisis--broad Executive power to wage a war against the emergency, as great as the power that would be given to me if we were in fact invaded by a foreign foe.",
      "source_title": "Franklin D. Roosevelt, First Inaugural Address, 1933 (Avalon Project)",
      "source_url": "https://avalon.law.yale.edu/20th_century/froos1.asp",
+     "source_id": 45,
+     "side": "from",
      "audit": {
       "has_from": false,
       "has_to": false,
       "dist": null
      }
+    },
+    {
+     "text": "repair, and, with !motions imutterable, looking at the weather- beat(!n mansion, exclaim, '• here's the house where ihe great washington was born !\" 13 jjfe of washington. but it is all a mistake ; for lie was born, as i said, at pope's creek, in vveslmoreland county, near the margin of his own roaring potomac. the first place of education to wliich george was ever sent, was a little '-old field school,\" kept by one of his father's tenants, named hobby; an honest, poor old man, who acted in the doublecharacter of sexton and schoolmaster. on his skill as a grave-digger, tradition is silent j but for a teacher of youth, his qualifications were certainly of the humbler sort; making what is generally called an a. b. c. school- master. such was the preceptor who first taught washington the knowledge of letters ! hobby lived to see his young pupil in all his glory, and rejoiced exceedingly. in his cups — for though a sexton, he would sometimes drink, particularl",
+     "source_title": "Evidence file weems-life-of-washington-1800s-archive-full (local, unregistered witness)",
+     "source_url": "",
+     "source_id": 205,
+     "side": "to",
+     "audit": {
+      "has_from": false,
+      "has_to": true,
+      "dist": null
+     }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "hecate",
@@ -18881,62 +19391,6 @@
    }
   },
   {
-   "from": "thor",
-   "to": "volundr",
-   "type": "analogy",
-   "source": "[46][24]",
-   "title": "Tools against the costs of flesh",
-   "essay": "Thor's entire function is the hammer that answers the giants,and Völund's smith-work is the Edda's other documented product line of tool-power [24][46]. The tradition's arms makers and arms wielders sit closer together than the saga's axes say.",
-   "date_added": "2026-10-12",
-   "era": 1100,
-   "influence": 0.0,
-   "excerpts": [
-    {
-     "text": "I know that I hung, on a wind-rocked tree, nine whole nights, with a spear wounded, and to Odin offered, myself to myself; on that tree, of which no one knows from what root it springs.",
-     "source_id": 46,
-     "source_title": "Bellows, The Poetic Edda (Völuspá, Hávamál, Vafþrúðnismál, Lokasenna, Gylfaginning; Gutenberg #14726)",
-     "source_url": "https://www.gutenberg.org/cache/epub/14726/pg14726.txt",
-     "audit": {
-      "has_from": false,
-      "has_to": false,
-      "dist": null
-     }
-    }
-   ],
-   "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
-  },
-  {
-   "from": "baldr",
-   "to": "machaon",
-   "type": "analogy",
-   "source": "[46][1]",
-   "title": "The one death the healers cannot bill",
-   "essay": "Baldr falls to the plant overlooked in the inventory [46]; Machaon's line ends under the same arithmetic of the one wound no healer was counted worth [3]. Both gods store the lesson that the healable world stops at its chosen exception.",
-   "date_added": "2026-10-12",
-   "era": -750,
-   "influence": 0.0,
-   "excerpts": [
-    {
-     "text": "I know that I hung, on a wind-rocked tree, nine whole nights, with a spear wounded, and to Odin offered, myself to myself; on that tree, of which no one knows from what root it springs.",
-     "source_id": 46,
-     "source_title": "Bellows, The Poetic Edda (Völuspá, Hávamál, Vafþrúðnismál, Lokasenna, Gylfaginning; Gutenberg #14726)",
-     "source_url": "https://www.gutenberg.org/cache/epub/14726/pg14726.txt",
-     "audit": {
-      "has_from": false,
-      "has_to": false,
-      "dist": null
-     }
-    }
-   ],
-   "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
-  },
-  {
    "from": "loki",
    "to": "thor",
    "type": "conflict",
@@ -19062,34 +19516,6 @@
    }
   },
   {
-   "from": "sulla",
-   "to": "cincinnatus",
-   "type": "conflict",
-   "source": "[48][33]",
-   "title": "The resignation that proves nothing",
-   "essay": "Both men leave the dictatorship alive, and that is the entire contrast: the office returned at day sixteen is the Republic's founding proof of the rule [33]; the office returned after the proscriptions is the counter-proof that the office itself had already changed the man holding it [48]. Each resignation narrates the other.",
-   "date_added": "2026-10-12",
-   "era": -82,
-   "influence": 0.0,
-   "excerpts": [
-    {
-     "text": "In 79 Sulla resigned his dictatorship and retired to Puteoli, where he died in the following year.",
-     "source_id": 48,
-     "source_title": "EB1911, \"Sulla, Lucius Cornelius\" (Wikisource)",
-     "source_url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sulla,_Lucius_Cornelius",
-     "audit": {
-      "has_from": true,
-      "has_to": false,
-      "dist": null
-     }
-    }
-   ],
-   "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
-  },
-  {
    "from": "galen",
    "to": "hippocrates",
    "type": "transmission",
@@ -19122,34 +19548,6 @@
    }
   },
   {
-   "from": "newton",
-   "to": "minerva",
-   "type": "analogy",
-   "source": "[50][36]",
-   "title": "The desk half of war extended",
-   "essay": "Minerva's fasti file includes the school-fees line and the hundred crafts; the Royal Society register is the same office, motions recorded 'as well as' campaigns further south and war-machines unwritten [50][36]. The goddess who collects the pennies also collects the calculus.",
-   "date_added": "2026-10-12",
-   "era": 1687,
-   "influence": 0.0,
-   "excerpts": [
-    {
-     "text": "This treatise De Motu was the germ of the Principia.",
-     "source_id": 50,
-     "source_title": "EB1911, \"Newton, Sir Isaac\" (Wikisource)",
-     "source_url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Newton,_Sir_Isaac",
-     "audit": {
-      "has_from": false,
-      "has_to": false,
-      "dist": null
-     }
-    }
-   ],
-   "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
-  },
-  {
    "from": "faraday",
    "to": "benjamin-franklin",
    "type": "transmission",
@@ -19161,21 +19559,35 @@
    "influence": 0.2,
    "excerpts": [
     {
-     "text": "He still persevered, and on the 29th of August 1831 he obtained the first evidence that an electric current can produce another in a different circuit.",
-     "source_id": 51,
-     "source_title": "EB1911, \"Faraday, Michael\" (Wikisource)",
-     "source_url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Faraday,_Michael",
+     "text": "perhaps for a similar reason a cult of the dead may have occurred at the midsummer festival. 3 miss faraday, folk-lore, xvii. 398 f. 4 bede, de temp. eat. c. xv. 6 vigfusson-powell, i. 419. 170 the religion of the ancient celts decay was the season when the dead, her children, would be commemorated. whatever be the reason, celts, teutons, and others have commemorated the dead at the beginning of winter, which was the beginning of a new year, while a similar festival of the dead at new year is he",
+     "source_title": "MacCulloch, Religion of the Ancient Celts 1911 (archive.org)",
+     "source_url": "https://archive.org/download/religionofancien00macc/religionofancien00macc_djvu.txt",
+     "source_id": 23,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "oyed, for the american three and six months enlistments — the old man with his cap and iron rod, for doctor franklin — the shoe-like vessel which he reached to washington, for the sabot or wooden-shoed nation, the french, whom franklin courted a long time for america — and the new roof proposed by washington, for a staunch honest republic — that \"equal govern- ment,\" which, by guarding alike the welfare of all, ought by all to be so heartily beloved as to endure for ever. had it been appointed u",
+     "source_title": "Weems, Life of George Washington (archive.org lifeofgeorgewash00weem2)",
+     "source_url": "https://archive.org/download/lifeofgeorgewash00weem2/lifeofgeorgewash00weem2_djvu.txt",
+     "source_id": 15,
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "ampere",
@@ -19189,27 +19601,41 @@
    "influence": 0.3,
    "excerpts": [
     {
-     "text": "He took a passionate delight in the pursuit of knowledge from his very infancy, and is reported to have worked out long arithmetical sums by means of pebbles and biscuit crumbs before he knew the figures.",
-     "source_id": 49,
-     "source_title": "EB1911, \"Ampère, André Marie\" (Wikisource)",
-     "source_url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Amp%C3%A8re,_Andr%C3%A9_Marie",
+     "text": "of tenderness and sensuality duly fused into one; the man almost always feels his sexual activity hampered by his respect for the woman and only develops full sexual potency when he finds himself in the presence of a lower type of sexual object; and this again is partly conditioned by the circumstance that his sexual aims include those of perverse sexual components, which he does not like to gratify with a woman he respects. full sexual satisfaction only comes when he can give himself up wholeh",
+     "source_title": "Evidence file freud-cp4-1925-full-djvu (local, unregistered witness)",
+     "source_url": "",
+     "source_id": 109,
+     "side": "from",
+     "audit": {
+      "has_from": true,
+      "has_to": false,
+      "dist": null
+     }
+    },
+    {
+     "text": "perhaps for a similar reason a cult of the dead may have occurred at the midsummer festival. 3 miss faraday, folk-lore, xvii. 398 f. 4 bede, de temp. eat. c. xv. 6 vigfusson-powell, i. 419. 170 the religion of the ancient celts decay was the season when the dead, her children, would be commemorated. whatever be the reason, celts, teutons, and others have commemorated the dead at the beginning of winter, which was the beginning of a new year, while a similar festival of the dead at new year is he",
+     "source_title": "MacCulloch, Religion of the Ancient Celts 1911 (archive.org)",
+     "source_url": "https://archive.org/download/religionofancien00macc/religionofancien00macc_djvu.txt",
+     "source_id": 23,
+     "side": "to",
      "audit": {
       "has_from": false,
-      "has_to": false,
+      "has_to": true,
       "dist": null
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "two_sided"
+   },
+   "pairing_note": "witnesses describe each figure separately; the pairing is the essay's claim"
   },
   {
    "from": "joule",
    "to": "james-watt",
    "type": "transmission",
-   "source": "[52][39]",
+   "source": "[52] EB1911, \"Joule, James Prescott\" (Wikisource)",
    "title": "The audit of power",
    "essay": "Five hundred-plus foot-pounds per unit of heat [52]; power sold 'what all the world desires' [39]. Joule provides the conversion table in which Watt's retail commodity is denominated; the two units are conjugate in every modern bill of lading for heat and work.",
    "date_added": "2026-10-12",
@@ -19217,20 +19643,21 @@
    "influence": 0.3,
    "excerpts": [
     {
-     "text": "This inquiry yielded (in 1867) the result 783... repeated with every precaution, and again indicated 772.55 foot-pounds.",
+     "text": "nsation, one of the most important improvements of the steam engine, especially for marine use, since the days of james watt. joule died at sale on the 11th of october 1889. his scientific papers were collected and published by the physical society of london: the first volume, which appeared in 1884, contained the researches for which he was alone responsible, and the second, dated 1887, those which he carried out in association with other workers.",
      "source_id": 52,
      "source_title": "EB1911, \"Joule, James Prescott\" (Wikisource)",
      "source_url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Joule,_James_Prescott",
      "audit": {
-      "has_from": false,
-      "has_to": false,
-      "dist": null
+      "has_from": true,
+      "has_to": true,
+      "dist": 11
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
+    "ok": true,
+    "mode": "clean",
+    "dist": 11
    }
   },
   {
@@ -19461,7 +19888,7 @@
    "from": "juno",
    "to": "erinyes",
    "type": "interaction",
-   "source": "[35] Aen. 7",
+   "source": "[35] Vergil, Aeneid, trans. Dryden (MIT Classics)",
    "title": "The queen rents Allecto",
    "essay": "When fate will not bar the Trojan from Italy, Juno procures the war from below: she descends to the Stygian flood, raises the Fury Allecto, and the poem sneers its own receipt, 'An act that well became the wife of Jove' [35]. The tutelary of women financing a vendetta with the underworld's barrister: the Greek curse-demons at Roman state retainers. ([35] Aen. 7.286ff, 7.323ff)",
    "date_added": "2026-10-12",
@@ -19469,20 +19896,21 @@
    "influence": 0.0,
    "excerpts": [
     {
-     "text": "The realms of ocean and the fields of air are mine, not his. By fatal lot to me the liquid empire fell, and trident of the sea.",
+     "text": "e of my shame, had fall'n upon the pile, to mend the fun'ral flame. thou sun, who view'st at once the world below; thou juno, guardian of the nuptial vow; thou hecate hearken from thy dark abodes! ye furies, fiends, and violated gods, all pow'rs invok'd with dido's dying breath, attend her curses and avenge her death! if so the fates ordain, jove commands, th' ungrateful wretch should find the latian lands, yet let a race untam'd, and haughty foes, his peaceful entrance with dire arms oppose: oppress'd with numbers in th' unequal field, his men discourag'd, and himself expell'd, let him for succor sue from place to place, torn from his subjects, and his son's embrace. first, let him see his friends in battle slain, and their untimely fate lament in vain; and when, at length, the cruel war shall cease, on hard conditions may he buy his peace: nor let him then enjoy supreme command; but fall, untimely, by some hostile hand, and lie unburied on the barren san",
      "source_id": 35,
      "source_title": "Vergil, Aeneid, trans. Dryden (MIT Classics)",
      "source_url": "https://classics.mit.edu/Virgil/aeneid.mb.txt",
      "audit": {
-      "has_from": false,
-      "has_to": false,
-      "dist": null
+      "has_from": true,
+      "has_to": true,
+      "dist": 77
      }
     }
    ],
    "audit": {
-    "ok": false,
-    "mode": "none_both"
+    "ok": true,
+    "mode": "clean",
+    "dist": 77
    }
   },
   {
@@ -22276,7 +22704,7 @@
    "from": "anzud-bird",
    "to": "lilith",
    "type": "interaction",
-   "source": "[17] ETCSL Gilgamesh Enkidu and the Nether World",
+   "source": "[17] ETCSL Gilgamesh Enkidu and the nether world (c.1.8.1.4)",
    "title": "Nesting beside the phantom maid",
    "essay": null,
    "date_added": "2026-10-14",
@@ -22284,14 +22712,14 @@
    "influence": null,
    "excerpts": [
     {
-     "text": "In its trunk, the phantom maid built herself a dwelling, the maid who laughs with a joyful heart.",
+     "text": "a snake immune to incantations made itself a nest. in its branches, the anzud bird settled its young. in its trunk, the phantom maid built herself a dwelling, the maid who laughs with a joyful heart. but holy inana cried! 47-69. when dawn was breaking, when the horizon became bright, when the little birds, at the break of dawn, began to clamour, when utu had left his bedchamber, his sister holy inana said to the young warrior utu : \"my brother, in those days when destiny was determined, when abundance overflowed in the land, when an had taken the heavens for himself, when enlil had taken the earth for himself, when the nether world had been given to ereshkigala as a gift; when he set sail, when he set sail, when the father set sail for the nether world, when enki set sail for the nether world -- against the lord a storm of small hailstones arose, against enki a storm of large hailstones arose. the small ones were light hammers, the large ones were like sto",
      "source_id": 17,
      "source_title": "ETCSL Gilgamesh Enkidu and the nether world (c.1.8.1.4)",
      "source_url": "http://etcsl.orinst.ox.ac.uk/section1/tr1814.htm",
      "audit": {
-      "has_from": false,
-      "has_to": false,
-      "dist": null
+      "has_from": true,
+      "has_to": true,
+      "dist": 46
      }
     }
    ],
@@ -22300,9 +22728,11 @@
     "date": "2026-10-14"
    },
    "audit": {
-    "ok": false,
-    "mode": "none_both"
-   }
+    "ok": true,
+    "mode": "clean",
+    "dist": 46
+   },
+   "pairing_note": "the witness says 'the phantom maid'; Lilith is this graph's identification"
   },
   {
    "from": "themis",
