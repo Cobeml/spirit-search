@@ -1,0 +1,2783 @@
+{
+ "nodes": {
+  "machaon": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 4,
+    "evidence/genius/serviusaeneid.txt": 5,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 28,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 7,
+    "evidence/machaon/plato-ion-jowett-mit.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 1
+   }
+  },
+  "asclepius": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 5,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 14,
+    "evidence/genius/serviusaeneid.txt": 7,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 1,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 9,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 40,
+    "evidence/machaon/plato-ion-jowett-mit.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 5,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 1,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 5,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 1,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 3
+   }
+  },
+  "eurypylus-telephid": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 6,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 33,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 1,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 1,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 4,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 2
+   }
+  },
+  "juno": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 8,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 1,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 23,
+    "evidence/genius/pliny_NH_2.5_perseus.txt": 1,
+    "evidence/genius/smith_dictionary_genius_wikisource.txt": 1,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 75,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 3,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 5,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 8,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 4,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 9,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 8,
+    "evidence/genius/augustine_city_of_god_7.html": 14,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 4,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 11,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 1
+   }
+  },
+  "nathanael": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 15,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 9,
+    "evidence/rhiannon/guest-mabinogion-vol1-gutenberg.txt": 2,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 2,
+    "evidence/sandmann/hoffmann-der-sandmann-gutenberg-6341.txt": 23,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 12,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 11
+   }
+  },
+  "olympia": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 68,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 16,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 8,
+    "evidence/genius/serviusaeneid.txt": 2,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 10,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 15,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 1,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 21,
+    "evidence/sandmann/freud-on-the-uncanny-strachey-1925.txt": 11,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 2,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 4,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 7,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 4,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 12,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 2,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 3,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 1
+   }
+  },
+  "zeus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 140,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 14,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 256,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 1,
+    "evidence/genius/censorinus_de_die_natali_lacuscurtius.txt": 1,
+    "evidence/genius/horace-epistles2-smart-wikisource.txt": 3,
+    "evidence/genius/horace_epistles_smart_wikisource.txt": 3,
+    "evidence/genius/serviusaeneid.txt": 1,
+    "evidence/genius/smith_dictionary_genius_wikisource.txt": 1,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 2,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 3,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 261,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 13,
+    "evidence/prometheus/aeschylus_pb_lines507.txt": 2,
+    "evidence/prometheus/plato_protagoras_jowett.txt": 5,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 32,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 10,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 2,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 3,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 50,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 15,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 42,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 56,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 35,
+    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 4,
+    "evidence/genius/augustine_city_of_god_7.html": 110,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 29,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 24,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 13
+   }
+  },
+  "hephaestus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 35,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 1,
+    "evidence/genius/censorinus_de_die_natali_lacuscurtius.txt": 1,
+    "evidence/genius/serviusaeneid.txt": 59,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 64,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 4,
+    "evidence/prometheus/plato_protagoras_jowett.txt": 5,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 3,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 6,
+    "evidence/washington/brumidi-apotheosis-aoc.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 9,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 15,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 4,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 2,
+    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 4,
+    "evidence/genius/augustine_city_of_god_7.html": 4,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 9,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 4,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 4
+   }
+  },
+  "athene": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 27,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 133,
+    "evidence/genius/horace_epist2_latin.txt": 2,
+    "evidence/genius/serviusaeneid.txt": 68,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 4,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 10,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 43,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 42,
+    "evidence/machaon/plato-ion-jowett-mit.txt": 1,
+    "evidence/prometheus/plato_protagoras_jowett.txt": 6,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 6,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 1,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 3,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 1,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 47,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 117,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 18,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 19,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 9,
+    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 4,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 24,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 24,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 5
+   }
+  },
+  "lilith": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 6,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 11,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 2
+   }
+  },
+  "gilgamesh": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/etcsl-gen-1-8-1-4.html": 21
+   }
+  },
+  "adam": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 180,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 20,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 2,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 4,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 5
+   }
+  },
+  "eve": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 2,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 68,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 2,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 1,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 6,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 3,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1
+   }
+  },
+  "methuselah": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 41,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 11
+   }
+  },
+  "agrimus": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 1
+   }
+  },
+  "rhiannon": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 77,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 4,
+    "evidence/rhiannon/pwyll-branch.txt": 49
+   }
+  },
+  "pwyll": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 1,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 34,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 11,
+    "evidence/rhiannon/pwyll-branch.txt": 30
+   }
+  },
+  "gwawl": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 10,
+    "evidence/rhiannon/pwyll-branch.txt": 8
+   }
+  },
+  "llwyd": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 1
+   }
+  },
+  "teyrnon": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 7
+   }
+  },
+  "manawyddan": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 2,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 54,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 27,
+    "evidence/rhiannon/pwyll-branch.txt": 15
+   }
+  },
+  "volundr": {
+   "fixable": true,
+   "files": {
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 170
+   }
+  },
+  "nithuth": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 5,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 2,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 1,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 2,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 2,
+    "evidence/rhiannon/guest-mabinogion-vol1-gutenberg.txt": 3,
+    "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 1,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 1,
+    "evidence/rhiannon/pwyll-branch.txt": 1,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 60,
+    "evidence/volundr/deor-exeterbook-oe-wikisource.txt": 1,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 1
+   }
+  },
+  "nithuths-queen": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 22,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 1,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 10,
+    "evidence/genius/serviusaeneid.txt": 2,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 2,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 46,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 11,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 1,
+    "evidence/rhiannon/guest-mabinogion-vol1-gutenberg.txt": 1,
+    "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 4,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 1,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 23,
+    "evidence/rhiannon/pwyll-branch.txt": 1,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 3,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 12,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 9,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 9,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 1,
+    "evidence/genius/augustine_city_of_god_7.html": 2,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 3,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 2,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 2
+   }
+  },
+  "bothvild": {
+   "fixable": true,
+   "files": {
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 28
+   }
+  },
+  "george-washington": {
+   "fixable": true,
+   "files": {
+    "evidence/washington/brumidi-apotheosis-aoc.txt": 12,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 833,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 907
+   }
+  },
+  "mason-weems": {
+   "fixable": false,
+   "files": {}
+  },
+  "brumidi": {
+   "fixable": true,
+   "files": {
+    "evidence/washington/brumidi-apotheosis-aoc.txt": 10
+   }
+  },
+  "cincinnatus": {
+   "fixable": true,
+   "files": {
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 70,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 1,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1
+   }
+  },
+  "pandora": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 6,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 1,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 1,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 6
+   }
+  },
+  "metis": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 2,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 2
+   }
+  },
+  "erinyes": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 4,
+    "evidence/genius/serviusaeneid.txt": 5,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 9,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 3,
+    "evidence/prometheus/aeschylus_pb_lines507.txt": 1,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 9,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 2,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 1,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 3,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 40,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 3,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 4,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 4,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 2,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 2,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 2
+   }
+  },
+  "hera": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 8,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 1,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 23,
+    "evidence/genius/pliny_NH_2.5_perseus.txt": 1,
+    "evidence/genius/smith_dictionary_genius_wikisource.txt": 1,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 75,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 3,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 5,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 8,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 4,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 9,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 8,
+    "evidence/genius/augustine_city_of_god_7.html": 14,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 4,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 11,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 1
+   }
+  },
+  "apollo": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 144,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 2,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 343,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 2,
+    "evidence/genius/censorinus_de_die_natali_lacuscurtius.txt": 2,
+    "evidence/genius/horace-epistles2-smart-wikisource.txt": 3,
+    "evidence/genius/horace_epistles_smart_wikisource.txt": 3,
+    "evidence/genius/serviusaeneid.txt": 156,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 11,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 316,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 36,
+    "evidence/machaon/plato-ion-jowett-mit.txt": 1,
+    "evidence/prometheus/plato_protagoras_jowett.txt": 5,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 11,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 38,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 49,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 99,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 46,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 11,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 4,
+    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 3,
+    "evidence/genius/augustine_city_of_god_7.html": 7,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 1,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 33,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 19,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 114
+   }
+  },
+  "achilles": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 26,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 62,
+    "evidence/genius/horace-epistles2-smart-wikisource.txt": 2,
+    "evidence/genius/horace_epist2_latin.txt": 1,
+    "evidence/genius/horace_epistles_smart_wikisource.txt": 2,
+    "evidence/genius/serviusaeneid.txt": 41,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 780,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 29,
+    "evidence/machaon/plato-ion-jowett-mit.txt": 2,
+    "evidence/prometheus/plato_protagoras_jowett.txt": 1,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 7,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 2,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 14,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 3,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 2,
+    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 1,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 2,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 2,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 3
+   }
+  },
+  "victory": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 505,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 26,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 31,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 2,
+    "evidence/genius/censorinus_de_die_natali_lacuscurtius.txt": 2,
+    "evidence/genius/horace_epistles_smart_wikisource.txt": 1,
+    "evidence/genius/serviusaeneid.txt": 101,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 10,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 17,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 76,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 21,
+    "evidence/prometheus/plato_protagoras_jowett.txt": 2,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 8,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 2,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 25,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 4,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 41,
+    "evidence/washington/brumidi-apotheosis-aoc.txt": 1,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 27,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 28,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 2,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 7,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 3,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 9,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 2,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 3,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 3,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 2
+   }
+  },
+  "neptune": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 18,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 44,
+    "evidence/genius/serviusaeneid.txt": 2,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 112,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 21,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 6,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 1,
+    "evidence/washington/brumidi-apotheosis-aoc.txt": 2,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 1,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 41,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 34,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 5,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 2,
+    "evidence/genius/augustine_city_of_god_7.html": 16,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 9,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 42,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 1
+   }
+  },
+  "vulcan": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 35,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 1,
+    "evidence/genius/censorinus_de_die_natali_lacuscurtius.txt": 1,
+    "evidence/genius/serviusaeneid.txt": 59,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 64,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 4,
+    "evidence/prometheus/plato_protagoras_jowett.txt": 5,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 3,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 4,
+    "evidence/washington/brumidi-apotheosis-aoc.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 9,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 1,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 15,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 4,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 2,
+    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 4,
+    "evidence/genius/augustine_city_of_god_7.html": 4,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 9,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 4,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 4
+   }
+  },
+  "ceres": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 12,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 84,
+    "evidence/genius/serviusaeneid.txt": 6,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 1,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 2,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 13,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 3,
+    "evidence/rhiannon/guest-mabinogion-vol1-gutenberg.txt": 15,
+    "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 2,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 12,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 2,
+    "evidence/washington/brumidi-apotheosis-aoc.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 8,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 13,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 3,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 9,
+    "evidence/genius/augustine_city_of_god_7.html": 7,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 7,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 5,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 3
+   }
+  },
+  "minerva": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 56,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 1,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 25,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 1,
+    "evidence/genius/censorinus_de_die_natali_lacuscurtius.txt": 1,
+    "evidence/genius/horace-epistles2-smart-wikisource.txt": 1,
+    "evidence/genius/horace_epistles_smart_wikisource.txt": 4,
+    "evidence/genius/serviusaeneid.txt": 169,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 312,
+    "evidence/prometheus/plato_protagoras_jowett.txt": 1,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 5,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 17,
+    "evidence/washington/brumidi-apotheosis-aoc.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 6,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 20,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 5,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 7,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 2,
+    "evidence/genius/augustine_city_of_god_7.html": 15,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 1,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 6,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 2
+   }
+  },
+  "james-watt": {
+   "fixable": false,
+   "files": {}
+  },
+  "benjamin-franklin": {
+   "fixable": true,
+   "files": {
+    "evidence/washington/brumidi-apotheosis-aoc.txt": 2,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 21,
+    "evidence/washington/weems_life_of_washington.txt": 4,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 21
+   }
+  },
+  "aphrodite": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 11,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 1,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 112,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 3,
+    "evidence/genius/serviusaeneid.txt": 66,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 1,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 30,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 22,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 32,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 2,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 8,
+    "evidence/washington/brumidi-apotheosis-aoc.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 15,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 8,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 20,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 3,
+    "evidence/genius/augustine_city_of_god_7.html": 6,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 1,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 49
+   }
+  },
+  "styx": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 7,
+    "evidence/genius/serviusaeneid.txt": 7,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 1,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 5,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 3
+   }
+  },
+  "janus": {
+   "fixable": true,
+   "files": {
+    "evidence/genius/horace-epistles2-smart-wikisource.txt": 3,
+    "evidence/genius/horace_epistles_smart_wikisource.txt": 3,
+    "evidence/genius/augustine_city_of_god_7.html": 29
+   }
+  },
+  "mars": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 1,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 23,
+    "evidence/genius/serviusaeneid.txt": 12,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 61,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 1,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 1,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 6,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 1,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 2,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 3,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 2,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 1,
+    "evidence/genius/augustine_city_of_god_7.html": 5,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 1,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 3,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 5
+   }
+  },
+  "vesta": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 2,
+    "evidence/genius/serviusaeneid.txt": 5,
+    "evidence/genius/augustine_city_of_god_7.html": 1
+   }
+  },
+  "quirinus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 8,
+    "evidence/genius/horace-epistles2-smart-wikisource.txt": 1,
+    "evidence/genius/horace_epistles_smart_wikisource.txt": 1,
+    "evidence/genius/serviusaeneid.txt": 21
+   }
+  },
+  "diana": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 22,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 48,
+    "evidence/genius/serviusaeneid.txt": 13,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 3,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 10,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 47,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 3,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 14,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 20,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 21,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 4,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 14,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 6,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 59
+   }
+  },
+  "aeneas": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 16,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 16,
+    "evidence/genius/horace_epist2_latin.txt": 1,
+    "evidence/genius/serviusaeneid.txt": 490,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 2,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 137,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 3,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 2,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 2,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 3
+   }
+  },
+  "dido": {
+   "fixable": true,
+   "files": {
+    "evidence/genius/serviusaeneid.txt": 49
+   }
+  },
+  "sibyl": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 3
+   }
+  },
+  "evander": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 6,
+    "evidence/genius/serviusaeneid.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 1
+   }
+  },
+  "camilla": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 1,
+    "evidence/genius/serviusaeneid.txt": 62
+   }
+  },
+  "hippocrates": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 12,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 6,
+    "evidence/genius/censorinus_de_die_natali_lacuscurtius.txt": 5,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 1,
+    "evidence/prometheus/plato_protagoras_jowett.txt": 30,
+    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 21
+   }
+  },
+  "adam-smith": {
+   "fixable": false,
+   "files": {}
+  },
+  "matthew-boulton": {
+   "fixable": false,
+   "files": {}
+  },
+  "hector": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 10,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 13,
+    "evidence/genius/serviusaeneid.txt": 69,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 873,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 1,
+    "evidence/machaon/plato-ion-jowett-mit.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 3
+   }
+  },
+  "xanthus-balius": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 3,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 3,
+    "evidence/genius/serviusaeneid.txt": 4,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 36,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 5,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 1
+   }
+  },
+  "latinus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 13,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 4,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 2,
+    "evidence/genius/serviusaeneid.txt": 103,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 2
+   }
+  },
+  "iopas": {
+   "fixable": true,
+   "files": {
+    "evidence/genius/serviusaeneid.txt": 2
+   }
+  },
+  "fama": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 30,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 8,
+    "evidence/genius/serviusaeneid.txt": 37,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 2,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 24,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 1,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 2,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 5
+   }
+  },
+  "tiberinus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 5,
+    "evidence/genius/serviusaeneid.txt": 25,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 7
+   }
+  },
+  "pericles": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 272,
+    "evidence/prometheus/plato_protagoras_jowett.txt": 9,
+    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 7
+   }
+  },
+  "fdr": {
+   "fixable": false,
+   "files": {}
+  },
+  "mnemosyne": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 7,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 6
+   }
+  },
+  "themis": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 237,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 30,
+    "evidence/genius/horace-epistles2-smart-wikisource.txt": 1,
+    "evidence/genius/horace_epistles_smart_wikisource.txt": 1,
+    "evidence/genius/serviusaeneid.txt": 5,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 16,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 30,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 8,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 1,
+    "evidence/machaon/plato-ion-jowett-mit.txt": 1,
+    "evidence/prometheus/aeschylus_pb_lines436.txt": 1,
+    "evidence/prometheus/heidegger_qct_archive.txt": 1,
+    "evidence/prometheus/plato_protagoras_jowett.txt": 5,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 21,
+    "evidence/rhiannon/guest-mabinogion-vol1-gutenberg.txt": 2,
+    "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 12,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 7,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 37,
+    "evidence/rhiannon/pwyll-branch.txt": 1,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 9,
+    "evidence/sandmann/hoffmann-der-sandmann-gutenberg-6341.txt": 2,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 30,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 12,
+    "evidence/washington/weems_life_of_washington.txt": 2,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 17,
+    "evidence/washington/weems_life_of_washington_gutenberg682.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 3,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 7,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 10,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 1,
+    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 3,
+    "evidence/genius/augustine_city_of_god_7.html": 2,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 4,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 2
+   }
+  },
+  "castor-polydeuces": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 67,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 45,
+    "evidence/genius/horace-epistles2-smart-wikisource.txt": 4,
+    "evidence/genius/horace_epist2_latin.txt": 2,
+    "evidence/genius/horace_epistles_smart_wikisource.txt": 4,
+    "evidence/genius/serviusaeneid.txt": 28,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 3,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 3,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 30,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 5,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 30,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 36,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 10,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 1,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 14,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 5,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 3
+   }
+  },
+  "typhoeus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 21,
+    "evidence/genius/serviusaeneid.txt": 15,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 4,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 3,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 12,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 14,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 4,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 10
+   }
+  },
+  "thor": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 1,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 101
+   }
+  },
+  "heimdall": {
+   "fixable": true,
+   "files": {
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 117
+   }
+  },
+  "galen": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 1
+   }
+  },
+  "newton": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 1,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 2
+   }
+  },
+  "faraday": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1
+   }
+  },
+  "ampere": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 8,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 2,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 1,
+    "evidence/genius/serviusaeneid.txt": 4,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 1,
+    "evidence/rhiannon/guest-mabinogion-vol1-gutenberg.txt": 2,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 2
+   }
+  },
+  "joule": {
+   "fixable": false,
+   "files": {}
+  },
+  "alexander-hamilton": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 6,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 11
+   }
+  },
+  "thomas-jefferson": {
+   "fixable": true,
+   "files": {
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 6,
+    "evidence/washington/weems_life_of_washington.txt": 28,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 9
+   }
+  },
+  "henry-knox": {
+   "fixable": true,
+   "files": {
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 1,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1
+   }
+  },
+  "john-jay": {
+   "fixable": true,
+   "files": {
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 1,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1
+   }
+  },
+  "math": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 35,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 9,
+    "evidence/washington/weems_life_of_washington.txt": 1
+   }
+  },
+  "gwydion": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 87,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 49
+   }
+  },
+  "llew-llaw-gyffes": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 41,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 19
+   }
+  },
+  "blodeuwedd": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 22,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 14
+   }
+  },
+  "dylan": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 2,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 7
+   }
+  },
+  "aranrod": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 2,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 19
+   }
+  },
+  "taliesin": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/guest-mabinogion-vol1-gutenberg.txt": 2,
+    "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 2,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 58,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 67,
+    "evidence/rhiannon/pwyll-branch.txt": 1
+   }
+  },
+  "elphin": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 3,
+    "evidence/genius/serviusaeneid.txt": 17,
+    "evidence/rhiannon/guest-mabinogion-vol1-gutenberg.txt": 2,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 84,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 3
+   }
+  },
+  "nuada": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 14
+   }
+  },
+  "diancecht": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 20
+   }
+  },
+  "miach": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1
+   }
+  },
+  "goibniu": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 19
+   }
+  },
+  "dagda": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 25
+   }
+  },
+  "manannan": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 98
+   }
+  },
+  "brigit": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 40
+   }
+  },
+  "morrigan": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 29
+   }
+  },
+  "lugh": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 28
+   }
+  },
+  "cronos": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 165,
+    "evidence/genius/serviusaeneid.txt": 2,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 12,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 1,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 1,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 16,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 48,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 23,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 24,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 8
+   }
+  },
+  "rhea": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 9,
+    "evidence/genius/serviusaeneid.txt": 3,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 4,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 2,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 1
+   }
+  },
+  "oceanus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 32,
+    "evidence/genius/serviusaeneid.txt": 2,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 3,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 34,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 1,
+    "evidence/prometheus/plato_protagoras_jowett.txt": 1,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 4,
+    "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 1,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 3,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 1,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 3,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 3,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 3,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 21,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 1,
+    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 1,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 5,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 2,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 8
+   }
+  },
+  "hyperion": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 15,
+    "evidence/genius/serviusaeneid.txt": 1,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 1,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 3,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 5,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 5
+   }
+  },
+  "iapetus": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 19,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 3,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 13,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 4
+   }
+  },
+  "phoebe": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 4,
+    "evidence/genius/serviusaeneid.txt": 13,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 2,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 3,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 4,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 1,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 2
+   }
+  },
+  "coeus": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 1,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 1,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 1
+   }
+  },
+  "helios": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 1,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 33,
+    "evidence/genius/serviusaeneid.txt": 1,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 8,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 1,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 9,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 8,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 2
+   }
+  },
+  "selene": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 16,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 1,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 3,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 11
+   }
+  },
+  "eos": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 8,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 8,
+    "evidence/genius/censorinus_de_die_natali_lacuscurtius.txt": 2,
+    "evidence/genius/serviusaeneid.txt": 134,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 4,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 10,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 3
+   }
+  },
+  "leto": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 3,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 30,
+    "evidence/genius/serviusaeneid.txt": 22,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 7,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 5,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 6,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 1,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 1,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 1,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 2
+   }
+  },
+  "asteria": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 2,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 2,
+    "evidence/genius/serviusaeneid.txt": 1,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 7,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 2,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 1
+   }
+  },
+  "pontus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 45,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 1,
+    "evidence/genius/serviusaeneid.txt": 8,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 3,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 1,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 5
+   }
+  },
+  "ceto": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 4,
+    "evidence/genius/serviusaeneid.txt": 3,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 1,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 4
+   }
+  },
+  "phorcys": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 6,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 7,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 5
+   }
+  },
+  "tartarus": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 24,
+    "evidence/genius/serviusaeneid.txt": 2,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 4,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 1,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 9,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 15,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 2
+   }
+  },
+  "charles-lee": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 1,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 1,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 8,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 7
+   }
+  },
+  "aaron-burr": {
+   "fixable": true,
+   "files": {
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 1,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 1,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1
+   }
+  },
+  "edward-braddock": {
+   "fixable": true,
+   "files": {
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 30,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 39
+   }
+  },
+  "valerius-publicola": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 153,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 72,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 4,
+    "evidence/genius/serviusaeneid.txt": 9,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 2,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 2,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 2,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 2,
+    "evidence/genius/augustine_city_of_god_7.html": 9,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 2,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 2,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 2,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 2
+   }
+  },
+  "fabius-maximus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 247,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 36,
+    "evidence/genius/serviusaeneid.txt": 15,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 1,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1
+   }
+  },
+  "marcius-coriolanus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 179,
+    "evidence/genius/serviusaeneid.txt": 3
+   }
+  },
+  "marcellus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 243,
+    "evidence/genius/serviusaeneid.txt": 6,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 1,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 2
+   }
+  },
+  "cato-elder": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 299,
+    "evidence/genius/serviusaeneid.txt": 36,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 2
+   }
+  },
+  "aemilius-paullus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 144,
+    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 4,
+    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 2
+   }
+  },
+  "agamemnon": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 16,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 36,
+    "evidence/genius/serviusaeneid.txt": 42,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 359,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 9,
+    "evidence/prometheus/aeschylus_pb_lines436.txt": 1,
+    "evidence/prometheus/aeschylus_pb_lines472.txt": 1,
+    "evidence/prometheus/aeschylus_pb_lines507.txt": 1,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 9,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 12,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 5,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 5,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 5,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 5,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 5,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 8
+   }
+  },
+  "menelaus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 6,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 42,
+    "evidence/genius/serviusaeneid.txt": 12,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 269,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 12,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 8
+   }
+  },
+  "odysseus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 13,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 66,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 206,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 9,
+    "evidence/machaon/plato-ion-jowett-mit.txt": 2,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 5,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 2,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 2,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 9,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 1,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 4,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 2,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 1
+   }
+  },
+  "ajax-telamonian": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 3,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 13,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 180,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 5,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 1
+   }
+  },
+  "diomedes": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 9,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 20,
+    "evidence/genius/serviusaeneid.txt": 127,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 184,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 3,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 5,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 16,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 9
+   }
+  },
+  "patroclus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 5,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 8,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 272,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 4,
+    "evidence/machaon/plato-ion-jowett-mit.txt": 1,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 6,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 1
+   }
+  },
+  "sarpedon": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 13,
+    "evidence/genius/serviusaeneid.txt": 21,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 80,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 6,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 1
+   }
+  },
+  "helen": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 6,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 14,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 24,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 11,
+    "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 7,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 7,
+    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 1,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 1,
+    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 1,
+    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 1,
+    "evidence/heracles/apollodorus2-frazer-theoi.html": 2,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 2
+   }
+  },
+  "calchas": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 14,
+    "evidence/genius/serviusaeneid.txt": 3,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 13,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 2
+   }
+  },
+  "idomeneus": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 17,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 4,
+    "evidence/genius/serviusaeneid.txt": 7,
+    "evidence/machaon/homer-iliad-butler-mb.txt": 131,
+    "evidence/asclepius/apollodorus3-frazer-theoi.html": 3,
+    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 4
+   }
+  },
+  "enoch": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 53,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 8,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 2
+   }
+  },
+  "noah": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 84,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 29,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 1
+   }
+  },
+  "abraham": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 2,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 1213,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 427,
+    "evidence/lilith/wycliffe-isaiah-wikisource.txt": 5,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 11
+   }
+  },
+  "isaac": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 199,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 78,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 2,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 2,
+    "evidence/washington/weems_life_of_washington_gutenberg682.txt": 1
+   }
+  },
+  "jacob": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 551,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 4099,
+    "evidence/lilith/wycliffe-isaiah-wikisource.txt": 143,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 6,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 7,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 3,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 12,
+    "evidence/washington/weems_life_of_washington.txt": 121,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 12
+   }
+  },
+  "joseph": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 33,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 385,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 4,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 2,
+    "evidence/sandmann/freud-on-the-uncanny-strachey-1925.txt": 1,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 10,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 15
+   }
+  },
+  "sigurd": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 809
+   }
+  },
+  "fafnir": {
+   "fixable": true,
+   "files": {
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 156
+   }
+  },
+  "regin": {
+   "fixable": true,
+   "files": {
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 93
+   }
+  },
+  "brynhild": {
+   "fixable": true,
+   "files": {
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 288
+   }
+  },
+  "hel": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 1,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 10
+   }
+  },
+  "fenrir": {
+   "fixable": true,
+   "files": {
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 55
+   }
+  },
+  "tyr": {
+   "fixable": true,
+   "files": {
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 7
+   }
+  },
+  "atli": {
+   "fixable": true,
+   "files": {
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 155
+   }
+  },
+  "psyche": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 100,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 12
+   }
+  },
+  "cupid": {
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 2,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 2,
+    "evidence/genius/serviusaeneid.txt": 30,
+    "evidence/machaon/pausanias-3b-jones-theoi.txt": 1,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 23,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
+    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 1,
+    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 1
+   }
+  },
+  "cain": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 38,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 11,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 1
+   }
+  },
+  "abel": {
+   "fixable": true,
+   "files": {
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 23,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 9,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 6
+   }
+  },
+  "guthrun": {
+   "fixable": true,
+   "files": {
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 520
+   }
+  },
+  "mimir": {
+   "fixable": true,
+   "files": {
+    "evidence/volundr/bellows-poetic-edda-1923-full.txt": 12
+   }
+  },
+  "dione": {
+   "fixable": true,
+   "files": {
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 1,
+    "evidence/genius/serviusaeneid.txt": 1,
+    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 1
+   }
+  },
+  "james-wilson": {
+   "fixable": true,
+   "files": {
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
+    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 2,
+    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 2,
+    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 5
+   }
+  }
+ },
+ "edges": {
+  "chiron|asclepius|transmission": {
+   "fixable": true,
+   "dist": 19,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "paris-alexandrus|machaon|conflict": {
+   "fixable": true,
+   "dist": 37,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "nestor|machaon|interaction": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "genius|lares-penates|comparison": {
+   "fixable": true,
+   "dist": 88,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "silvanus|genius|interaction": {
+   "fixable": true,
+   "dist": 35,
+   "file": "evidence/genius/horace-epistles2-smart-wikisource.txt"
+  },
+  "sandman|nathanael|conflict": {
+   "fixable": true,
+   "dist": 8,
+   "file": "evidence/sandmann/hoffmann-der-sandmann-gutenberg-6341.txt"
+  },
+  "olympia|nathanael|interaction": {
+   "fixable": false
+  },
+  "sandman|genius|analogy": {
+   "fixable": false
+  },
+  "prometheus|zeus|conflict": {
+   "fixable": true,
+   "dist": 29,
+   "file": "evidence/heracles/apollodorus2-frazer-theoi.html"
+  },
+  "epimetheus|prometheus|kinship+interaction": {
+   "fixable": true,
+   "dist": 14,
+   "file": "evidence/prometheus/plato_protagoras_jowett.txt"
+  },
+  "heracles|prometheus|interaction": {
+   "fixable": true,
+   "dist": 19,
+   "file": "evidence/heracles/apollodorus2-frazer-theoi.html"
+  },
+  "gilgamesh|lilith|conflict": {
+   "fixable": false
+  },
+  "eve|adam|kinship": {
+   "fixable": true,
+   "dist": 9,
+   "file": "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+  },
+  "lilith|agrimus|kinship+conflict": {
+   "fixable": true,
+   "dist": 386,
+   "file": "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+  },
+  "methuselah|agrimus|conflict": {
+   "fixable": true,
+   "dist": 151,
+   "file": "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+  },
+  "pwyll|rhiannon|interaction+marriage": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt"
+  },
+  "arawn|pwyll|interaction": {
+   "fixable": true,
+   "dist": 14,
+   "file": "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt"
+  },
+  "gwawl|rhiannon|conflict": {
+   "fixable": true,
+   "dist": 13,
+   "file": "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt"
+  },
+  "llwyd|rhiannon|conflict": {
+   "fixable": true,
+   "dist": 496,
+   "file": "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt"
+  },
+  "teyrnon|pryderi|interaction": {
+   "fixable": true,
+   "dist": 44,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "rhiannon|pryderi|kinship": {
+   "fixable": true,
+   "dist": 11,
+   "file": "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt"
+  },
+  "rhiannon|manawyddan|marriage": {
+   "fixable": true,
+   "dist": 14,
+   "file": "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt"
+  },
+  "bran|rhiannon|interaction": {
+   "fixable": true,
+   "dist": 207,
+   "file": "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt"
+  },
+  "rhiannon|epona|analogy": {
+   "fixable": false
+  },
+  "nithuth|volundr|conflict": {
+   "fixable": true,
+   "dist": 18,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "volundr|nithuth|conflict": {
+   "fixable": true,
+   "dist": 18,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "volundr|bothvild|conflict+interaction": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "volundr|prometheus|analogy": {
+   "fixable": false
+  },
+  "mason-weems|george-washington|transmission": {
+   "fixable": false
+  },
+  "cincinnatus|george-washington|analogy": {
+   "fixable": true,
+   "dist": 128,
+   "file": "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt"
+  },
+  "george-washington|genius|analogy": {
+   "fixable": true,
+   "dist": 76,
+   "file": "evidence/washington/weems-life-of-washington-1800s-archive-full.txt"
+  },
+  "zeus|pandora|creation": {
+   "fixable": true,
+   "dist": 29,
+   "file": "evidence/epimetheus/hesiod-wd-ew-theoi.html"
+  },
+  "pandora|epimetheus|interaction": {
+   "fixable": true,
+   "dist": 15,
+   "file": "evidence/epimetheus/apollodorus1-frazer-theoi.html"
+  },
+  "pandora|pyrrha|kinship": {
+   "fixable": true,
+   "dist": 39,
+   "file": "evidence/epimetheus/apollodorus1-frazer-theoi.html"
+  },
+  "prometheus|deucalion|kinship": {
+   "fixable": true,
+   "dist": 12,
+   "file": "evidence/asclepius/apollodorus3-frazer-theoi.html"
+  },
+  "deucalion|pyrrha|kinship": {
+   "fixable": true,
+   "dist": 12,
+   "file": "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt"
+  },
+  "zeus|athene|kinship": {
+   "fixable": true,
+   "dist": 7,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "zeus|metis|conflict": {
+   "fixable": true,
+   "dist": 75,
+   "file": "evidence/epimetheus/apollodorus1-frazer-theoi.html"
+  },
+  "zeus|cincinnatus|analogy": {
+   "fixable": false
+  },
+  "zeus|hephaestus|conflict": {
+   "fixable": true,
+   "dist": 7,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "athene|erinyes|interaction": {
+   "fixable": true,
+   "dist": 6,
+   "file": "evidence/athene/aeschylus-eumenides-smyth-theoi.html"
+  },
+  "zeus|erinyes|analogy": {
+   "fixable": true,
+   "dist": 29,
+   "file": "evidence/prometheus/aeschylus_pb_lines507.txt"
+  },
+  "zeus|heracles|kinship": {
+   "fixable": true,
+   "dist": 20,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "nithuths-queen|volundr|conflict": {
+   "fixable": true,
+   "dist": 19,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "nithuth|nithuths-queen|kinship": {
+   "fixable": true,
+   "dist": 98,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "nithuth|bothvild|kinship": {
+   "fixable": true,
+   "dist": 28,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "volundr|bothvild|agency": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "apollo|asclepius|kinship": {
+   "fixable": true,
+   "dist": 6,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "zeus|asclepius|conflict": {
+   "fixable": true,
+   "dist": 30,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "athene|asclepius|interaction": {
+   "fixable": true,
+   "dist": 54,
+   "file": "evidence/machaon/pausanias-3b-jones-theoi.txt"
+  },
+  "chiron|achilles|transmission": {
+   "fixable": true,
+   "dist": 20,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "podaleirius|eurypylus-telephid|interaction": {
+   "fixable": true,
+   "dist": 72,
+   "file": "evidence/asclepius/apollodorus3-frazer-theoi.html"
+  },
+  "inana|lilith|interaction": {
+   "fixable": false
+  },
+  "gilgamesh|enkidu|kinship": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/lilith/etcsl-gen-1-8-1-4.html"
+  },
+  "inana|gilgamesh|interaction": {
+   "fixable": true,
+   "dist": 26,
+   "file": "evidence/lilith/etcsl-gen-1-8-1-4.html"
+  },
+  "lilith|methuselah|conflict": {
+   "fixable": true,
+   "dist": 134,
+   "file": "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+  },
+  "lilith|agrimus|kinship": {
+   "fixable": true,
+   "dist": 386,
+   "file": "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+  },
+  "eve|agrimus|analogy": {
+   "fixable": false
+  },
+  "pwyll|arawn|interaction": {
+   "fixable": true,
+   "dist": 14,
+   "file": "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt"
+  },
+  "teyrnon|pryderi|kinship": {
+   "fixable": true,
+   "dist": 44,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "llwyd|manawyddan|conflict": {
+   "fixable": false
+  },
+  "manawyddan|bran|kinship": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "brumidi|victory|transmission": {
+   "fixable": true,
+   "dist": 118,
+   "file": "evidence/washington/brumidi-apotheosis-aoc.txt"
+  },
+  "brumidi|neptune|transmission": {
+   "fixable": false
+  },
+  "neptune|george-washington|transmission": {
+   "fixable": true,
+   "dist": 307,
+   "file": "evidence/washington/brumidi-apotheosis-aoc.txt"
+  },
+  "brumidi|vulcan|transmission": {
+   "fixable": false
+  },
+  "vulcan|george-washington|transmission": {
+   "fixable": true,
+   "dist": 462,
+   "file": "evidence/washington/brumidi-apotheosis-aoc.txt"
+  },
+  "brumidi|mercury|transmission": {
+   "fixable": false
+  },
+  "mercury|george-washington|transmission": {
+   "fixable": true,
+   "dist": 395,
+   "file": "evidence/washington/brumidi-apotheosis-aoc.txt"
+  },
+  "brumidi|venus|transmission": {
+   "fixable": false
+  },
+  "venus|george-washington|transmission": {
+   "fixable": true,
+   "dist": 339,
+   "file": "evidence/washington/brumidi-apotheosis-aoc.txt"
+  },
+  "brumidi|ceres|transmission": {
+   "fixable": false
+  },
+  "ceres|george-washington|transmission": {
+   "fixable": true,
+   "dist": 552,
+   "file": "evidence/washington/brumidi-apotheosis-aoc.txt"
+  },
+  "brumidi|minerva|transmission": {
+   "fixable": false
+  },
+  "minerva|george-washington|transmission": {
+   "fixable": true,
+   "dist": 218,
+   "file": "evidence/washington/brumidi-apotheosis-aoc.txt"
+  },
+  "vulcan|hephaestus|analogy": {
+   "fixable": true,
+   "dist": 0,
+   "file": "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt"
+  },
+  "james-watt|prometheus|transmission": {
+   "fixable": false
+  },
+  "benjamin-franklin|prometheus|transmission": {
+   "fixable": false
+  },
+  "benjamin-franklin|mercury|analogy": {
+   "fixable": true,
+   "dist": 150,
+   "file": "evidence/washington/brumidi-apotheosis-aoc.txt"
+  },
+  "atlas|zeus|transmission": {
+   "fixable": true,
+   "dist": 57,
+   "file": "evidence/heracles/apollodorus2-frazer-theoi.html"
+  },
+  "poseidon|neptune|analogy": {
+   "fixable": true,
+   "dist": 0,
+   "file": "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt"
+  },
+  "iris|zeus|transmission": {
+   "fixable": true,
+   "dist": 11,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "dionysus|zeus|kinship": {
+   "fixable": true,
+   "dist": 12,
+   "file": "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt"
+  },
+  "aphrodite|venus|analogy": {
+   "fixable": true,
+   "dist": 0,
+   "file": "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt"
+  },
+  "styx|zeus|transmission": {
+   "fixable": true,
+   "dist": 36,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "janus|zeus|analogy": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/genius/augustine_city_of_god_7.html"
+  },
+  "mars|cincinnatus|analogy": {
+   "fixable": false
+  },
+  "vesta|genius|analogy": {
+   "fixable": true,
+   "dist": 463,
+   "file": "evidence/genius/augustine_city_of_god_7.html"
+  },
+  "quirinus|cincinnatus|analogy": {
+   "fixable": false
+  },
+  "diana|juno|analogy": {
+   "fixable": true,
+   "dist": 15,
+   "file": "evidence/asclepius/apollodorus3-frazer-theoi.html"
+  },
+  "aeneas|venus|kinship": {
+   "fixable": true,
+   "dist": 12,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "dido|aeneas|conflict": {
+   "fixable": true,
+   "dist": 25,
+   "file": "evidence/genius/serviusaeneid.txt"
+  },
+  "sibyl|apollo|transmission": {
+   "fixable": false
+  },
+  "evander|athene|analogy": {
+   "fixable": true,
+   "dist": 6,
+   "file": "evidence/genius/serviusaeneid.txt"
+  },
+  "camilla|athene|analogy": {
+   "fixable": true,
+   "dist": 246,
+   "file": "evidence/genius/serviusaeneid.txt"
+  },
+  "hippocrates|asclepius|transmission": {
+   "fixable": false
+  },
+  "adam-smith|mercury|transmission": {
+   "fixable": false
+  },
+  "matthew-boulton|james-watt|transmission": {
+   "fixable": false
+  },
+  "hector|paris-alexandrus|conflict": {
+   "fixable": true,
+   "dist": 22,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "thetis|zeus|transmission": {
+   "fixable": true,
+   "dist": 18,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "xanthus-balius|achilles|kinship": {
+   "fixable": true,
+   "dist": 35,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "ares|athene|conflict": {
+   "fixable": true,
+   "dist": 9,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "priam|hector|kinship": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "latinus|aeneas|transmission": {
+   "fixable": true,
+   "dist": 11,
+   "file": "evidence/genius/serviusaeneid.txt"
+  },
+  "iopas|atlas|transmission": {
+   "fixable": true,
+   "dist": 124,
+   "file": "evidence/genius/serviusaeneid.txt"
+  },
+  "fama|george-washington|analogy": {
+   "fixable": false
+  },
+  "tiberinus|george-washington|analogy": {
+   "fixable": false
+  },
+  "pericles|athene|transmission": {
+   "fixable": true,
+   "dist": 129,
+   "file": "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt"
+  },
+  "fdr|cincinnatus|analogy": {
+   "fixable": false
+  },
+  "fdr|george-washington|transmission": {
+   "fixable": false
+  },
+  "hecate|zeus|transmission": {
+   "fixable": true,
+   "dist": 11,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "mnemosyne|zeus|kinship": {
+   "fixable": true,
+   "dist": 47,
+   "file": "evidence/epimetheus/hesiod-theogony-ew-theoi.html"
+  },
+  "thetis|xanthus-balius|transmission": {
+   "fixable": true,
+   "dist": 51,
+   "file": "evidence/asclepius/apollodorus3-frazer-theoi.html"
+  },
+  "castor-polydeuces|paris-alexandrus|conflict": {
+   "fixable": true,
+   "dist": 111,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "typhoeus|zeus|conflict": {
+   "fixable": true,
+   "dist": 12,
+   "file": "evidence/epimetheus/apollodorus1-frazer-theoi.html"
+  },
+  "odin|yggdrasil|transmission": {
+   "fixable": true,
+   "dist": 11,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "thor|volundr|analogy": {
+   "fixable": false
+  },
+  "baldr|machaon|analogy": {
+   "fixable": false
+  },
+  "loki|thor|conflict": {
+   "fixable": true,
+   "dist": 12,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "freyr|freyja|kinship": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "heimdall|odin|transmission": {
+   "fixable": true,
+   "dist": 23,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "sulla|cincinnatus|conflict": {
+   "fixable": false
+  },
+  "galen|hippocrates|transmission": {
+   "fixable": true,
+   "dist": 34,
+   "file": "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+  },
+  "newton|minerva|analogy": {
+   "fixable": false
+  },
+  "faraday|benjamin-franklin|transmission": {
+   "fixable": false
+  },
+  "ampere|faraday|transmission": {
+   "fixable": false
+  },
+  "joule|james-watt|transmission": {
+   "fixable": false
+  },
+  "zeus|hera|marriage": {
+   "fixable": true,
+   "dist": 8,
+   "file": "evidence/genius/augustine_city_of_god_7.html"
+  },
+  "hera|hephaestus|kinship": {
+   "fixable": true,
+   "dist": 9,
+   "file": "evidence/machaon/pausanias-3b-jones-theoi.txt"
+  },
+  "hephaestus|aphrodite|marriage": {
+   "fixable": true,
+   "dist": 36,
+   "file": "evidence/genius/serviusaeneid.txt"
+  },
+  "hephaestus|ares|conflict": {
+   "fixable": true,
+   "dist": 53,
+   "file": "evidence/genius/serviusaeneid.txt"
+  },
+  "ares|aphrodite|interaction": {
+   "fixable": true,
+   "dist": 8,
+   "file": "evidence/genius/serviusaeneid.txt"
+  },
+  "apollo|achilles|conflict": {
+   "fixable": true,
+   "dist": 30,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "erinyes|xanthus-balius|interaction": {
+   "fixable": true,
+   "dist": 87,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "juno|erinyes|interaction": {
+   "fixable": false
+  },
+  "george-washington|alexander-hamilton|interaction": {
+   "fixable": true,
+   "dist": 112,
+   "file": "evidence/washington/weems-life-of-washington-1800s-archive-full.txt"
+  },
+  "george-washington|thomas-jefferson|interaction": {
+   "fixable": true,
+   "dist": 78,
+   "file": "evidence/washington/weems-life-of-washington-1800s-archive-full.txt"
+  },
+  "george-washington|henry-knox|interaction": {
+   "fixable": true,
+   "dist": 19,
+   "file": "evidence/washington/weems-life-of-washington-1800s-archive-full.txt"
+  },
+  "george-washington|john-jay|interaction": {
+   "fixable": true,
+   "dist": 171,
+   "file": "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt"
+  },
+  "benjamin-franklin|george-washington|interaction": {
+   "fixable": true,
+   "dist": 52,
+   "file": "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt"
+  },
+  "math|gwydion|kinship": {
+   "fixable": true,
+   "dist": 9,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "gwydion|llew-llaw-gyffes|interaction": {
+   "fixable": true,
+   "dist": 15,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "llew-llaw-gyffes|blodeuwedd|marriage": {
+   "fixable": true,
+   "dist": 35,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "aranrod|dylan|kinship": {
+   "fixable": true,
+   "dist": 23,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "taliesin|elphin|interaction": {
+   "fixable": true,
+   "dist": 11,
+   "file": "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt"
+  },
+  "gwydion|pryderi|conflict": {
+   "fixable": true,
+   "dist": 8,
+   "file": "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt"
+  },
+  "goibniu|nuada|interaction": {
+   "fixable": true,
+   "dist": 195,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "manannan|dagda|interaction": {
+   "fixable": true,
+   "dist": 50,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "nuada|diancecht|interaction": {
+   "fixable": true,
+   "dist": 34,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "miach|diancecht|kinship": {
+   "fixable": true,
+   "dist": 140,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "dagda|brigit|kinship": {
+   "fixable": true,
+   "dist": 545,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "morrigan|dagda|interaction": {
+   "fixable": true,
+   "dist": 96,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "epona|brigit|analogy": {
+   "fixable": true,
+   "dist": 92,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "cronos|zeus|kinship": {
+   "fixable": true,
+   "dist": 11,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "rhea|zeus|kinship": {
+   "fixable": true,
+   "dist": 71,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "iapetus|prometheus|kinship": {
+   "fixable": true,
+   "dist": 16,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "hyperion|helios|kinship": {
+   "fixable": true,
+   "dist": 8,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "hyperion|selene|kinship": {
+   "fixable": true,
+   "dist": 46,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "phoebe|leto|kinship": {
+   "fixable": true,
+   "dist": 28,
+   "file": "evidence/epimetheus/apollodorus1-frazer-theoi.html"
+  },
+  "coeus|leto|kinship": {
+   "fixable": true,
+   "dist": 39,
+   "file": "evidence/epimetheus/apollodorus1-frazer-theoi.html"
+  },
+  "leto|apollo|kinship": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "asteria|hecate|kinship": {
+   "fixable": true,
+   "dist": 16,
+   "file": "evidence/epimetheus/apollodorus1-frazer-theoi.html"
+  },
+  "phorcys|ceto|marriage": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "zeus|tartarus|conflict": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "iapetus|atlas|kinship": {
+   "fixable": true,
+   "dist": 568,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "hyperion|eos|kinship": {
+   "fixable": true,
+   "dist": 64,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "oceanus|styx|kinship": {
+   "fixable": true,
+   "dist": 21,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "oceanus|metis|kinship": {
+   "fixable": true,
+   "dist": 60,
+   "file": "evidence/epimetheus/hesiod-theogony-ew-theoi.html"
+  },
+  "pontus|nereus|kinship": {
+   "fixable": true,
+   "dist": 46,
+   "file": "evidence/epimetheus/apollodorus1-frazer-theoi.html"
+  },
+  "charles-lee|george-washington|conflict": {
+   "fixable": true,
+   "dist": 18,
+   "file": "evidence/washington/weems-life-of-washington-1800s-archive-full.txt"
+  },
+  "aaron-burr|alexander-hamilton|conflict": {
+   "fixable": true,
+   "dist": 13,
+   "file": "evidence/washington/weems-life-of-washington-1800s-archive-full.txt"
+  },
+  "edward-braddock|george-washington|interaction": {
+   "fixable": true,
+   "dist": 17,
+   "file": "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt"
+  },
+  "romulus|quirinus|transmission": {
+   "fixable": true,
+   "dist": 18,
+   "file": "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt"
+  },
+  "cincinnatus|valerius-publicola|analogy": {
+   "fixable": true,
+   "dist": 55,
+   "file": "evidence/cincinnatus/livy3-roberts-wikisource.txt"
+  },
+  "fabius-maximus|cincinnatus|analogy": {
+   "fixable": true,
+   "dist": 9,
+   "file": "evidence/cincinnatus/livy3-roberts-wikisource.txt"
+  },
+  "marcellus|fabius-maximus|comparison": {
+   "fixable": true,
+   "dist": 25,
+   "file": "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt"
+  },
+  "marcius-coriolanus|fabius-maximus|contrast": {
+   "fixable": true,
+   "dist": 17,
+   "file": "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt"
+  },
+  "cato-elder|aemilius-paullus|conflict": {
+   "fixable": true,
+   "dist": 92,
+   "file": "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt"
+  },
+  "aemilius-paullus|pericles|analogy": {
+   "fixable": true,
+   "dist": 92,
+   "file": "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt"
+  },
+  "agamemnon|menelaus|kinship": {
+   "fixable": true,
+   "dist": 8,
+   "file": "evidence/genius/serviusaeneid.txt"
+  },
+  "menelaus|machaon|interaction": {
+   "fixable": true,
+   "dist": 65,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "odysseus|agamemnon|interaction": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "ajax-telamonian|hector|conflict": {
+   "fixable": true,
+   "dist": 11,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "diomedes|ares|conflict": {
+   "fixable": true,
+   "dist": 21,
+   "file": "evidence/heracles/apollodorus2-frazer-theoi.html"
+  },
+  "patroclus|achilles|kinship": {
+   "fixable": true,
+   "dist": 12,
+   "file": "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt"
+  },
+  "sarpedon|zeus|kinship": {
+   "fixable": true,
+   "dist": 17,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "helen|priam|interaction": {
+   "fixable": true,
+   "dist": 22,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "calchas|apollo|interaction": {
+   "fixable": true,
+   "dist": 8,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "idomeneus|machaon|interaction": {
+   "fixable": true,
+   "dist": 61,
+   "file": "evidence/machaon/homer-iliad-butler-mb.txt"
+  },
+  "enoch|noah|kinship": {
+   "fixable": true,
+   "dist": 22,
+   "file": "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+  },
+  "noah|abraham|kinship": {
+   "fixable": true,
+   "dist": 9,
+   "file": "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+  },
+  "abraham|isaac|kinship": {
+   "fixable": true,
+   "dist": 11,
+   "file": "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+  },
+  "isaac|jacob|kinship": {
+   "fixable": true,
+   "dist": 6,
+   "file": "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+  },
+  "jacob|joseph|kinship": {
+   "fixable": true,
+   "dist": 7,
+   "file": "evidence/lilith/kjv-isaiah-gutenberg.txt"
+  },
+  "regin|sigurd|interaction": {
+   "fixable": true,
+   "dist": 9,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "sigurd|fafnir|conflict": {
+   "fixable": true,
+   "dist": 7,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "brynhild|sigurd|interaction": {
+   "fixable": true,
+   "dist": 8,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "hel|odin|interaction": {
+   "fixable": true,
+   "dist": 21,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "fenrir|odin|conflict": {
+   "fixable": true,
+   "dist": 17,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "tyr|fenrir|conflict": {
+   "fixable": true,
+   "dist": 19,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "atli|brynhild|kinship": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "psyche|cupid|marriage": {
+   "fixable": true,
+   "dist": 11,
+   "file": "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt"
+  },
+  "psyche|venus|conflict": {
+   "fixable": true,
+   "dist": 13,
+   "file": "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt"
+  },
+  "cain|abel|conflict": {
+   "fixable": true,
+   "dist": 8,
+   "file": "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+  },
+  "abel|adam|kinship": {
+   "fixable": true,
+   "dist": 18,
+   "file": "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+  },
+  "guthrun|sigurd|marriage": {
+   "fixable": true,
+   "dist": 9,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "mimir|odin|interaction": {
+   "fixable": true,
+   "dist": 9,
+   "file": "evidence/volundr/bellows-poetic-edda-1923-full.txt"
+  },
+  "dione|aphrodite|kinship": {
+   "fixable": true,
+   "dist": 13,
+   "file": "evidence/epimetheus/apollodorus1-frazer-theoi.html"
+  },
+  "george-washington|james-wilson|interaction": {
+   "fixable": true,
+   "dist": 125,
+   "file": "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt"
+  },
+  "maelgwn|taliesin|interaction": {
+   "fixable": true,
+   "dist": 21,
+   "file": "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt"
+  },
+  "balor|lugh|kinship": {
+   "fixable": true,
+   "dist": 8,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "lugh|nuada|succession": {
+   "fixable": true,
+   "dist": 55,
+   "file": "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt"
+  },
+  "oceanus|tethys|marriage": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "hyperion|theia|marriage": {
+   "fixable": true,
+   "dist": 21,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "benedict-arnold|aaron-burr|comparison": {
+   "fixable": true,
+   "dist": 35,
+   "file": "evidence/washington/weems-life-of-washington-1800s-archive-full.txt"
+  },
+  "crius|phoebe|kinship": {
+   "fixable": true,
+   "dist": 86,
+   "file": "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt"
+  },
+  "anzud-bird|lilith|interaction": {
+   "fixable": false
+  },
+  "themis|zeus|kinship": {
+   "fixable": true,
+   "dist": 10,
+   "file": "evidence/heracles/apollodorus2-frazer-theoi.html"
+  }
+ }
+}

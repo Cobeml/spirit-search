@@ -1,0 +1,4197 @@
+{
+ "nodes": [
+  {
+   "id": "machaon",
+   "label": "Machaon",
+   "mode": "first_not_direct",
+   "mentions": 3,
+   "total": 5,
+   "flags": [
+    false,
+    true,
+    true,
+    true,
+    false
+   ]
+  },
+  {
+   "id": "asclepius",
+   "label": "Asclepius",
+   "mode": "first_not_direct",
+   "mentions": 3,
+   "total": 5,
+   "flags": [
+    false,
+    false,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "podaleirius",
+   "label": "Podaleirius",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "chiron",
+   "label": "Chiron",
+   "mode": "clean",
+   "mentions": 5,
+   "total": 5,
+   "flags": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "paris-alexandrus",
+   "label": "Paris/Alexandrus",
+   "mode": "clean",
+   "mentions": 4,
+   "total": 4,
+   "flags": [
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "nestor",
+   "label": "Nestor",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "eurypylus-telephid",
+   "label": "Eurypylus son of Telephus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "genius",
+   "label": "Genius (tutelary)",
+   "mode": "clean",
+   "mentions": 5,
+   "total": 5,
+   "flags": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "lares-penates",
+   "label": "Lares & Penates",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "juno",
+   "label": "Juno (as female counterpart-genius)",
+   "mode": "partial",
+   "mentions": 3,
+   "total": 4,
+   "flags": [
+    true,
+    true,
+    true,
+    false
+   ]
+  },
+  {
+   "id": "silvanus",
+   "label": "Silvanus",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "sandman",
+   "label": "The Sandman / Coppelius / Coppola",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "nathanael",
+   "label": "Nathanael",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 3,
+   "flags": [
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "id": "olympia",
+   "label": "Olympia the automaton",
+   "mode": "partial",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    true,
+    false
+   ]
+  },
+  {
+   "id": "prometheus",
+   "label": "Prometheus",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "epimetheus",
+   "label": "Epimetheus",
+   "mode": "clean",
+   "mentions": 5,
+   "total": 5,
+   "flags": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "zeus",
+   "label": "Zeus",
+   "mode": "first_not_direct",
+   "mentions": 4,
+   "total": 5,
+   "flags": [
+    false,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "hephaestus",
+   "label": "Hephaestus",
+   "mode": "first_not_direct",
+   "mentions": 3,
+   "total": 4,
+   "flags": [
+    false,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "athene",
+   "label": "Athene",
+   "mode": "partial",
+   "mentions": 4,
+   "total": 5,
+   "flags": [
+    true,
+    true,
+    true,
+    true,
+    false
+   ]
+  },
+  {
+   "id": "heracles",
+   "label": "Heracles (as unbinder, prophesied)",
+   "mode": "clean",
+   "mentions": 3,
+   "total": 3,
+   "flags": [
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "lilith",
+   "label": "Lilith / phantom maid / lamia",
+   "mode": "first_not_direct",
+   "mentions": 2,
+   "total": 5,
+   "flags": [
+    false,
+    false,
+    true,
+    true,
+    false
+   ]
+  },
+  {
+   "id": "gilgamesh",
+   "label": "Gilgamesh",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 3,
+   "flags": [
+    false,
+    false,
+    true
+   ]
+  },
+  {
+   "id": "inana",
+   "label": "Inana",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "anzud-bird",
+   "label": "Anzud bird",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "adam",
+   "label": "Adam",
+   "mode": "first_not_direct",
+   "mentions": 2,
+   "total": 4,
+   "flags": [
+    false,
+    true,
+    true,
+    false
+   ]
+  },
+  {
+   "id": "eve",
+   "label": "Eve",
+   "mode": "partial",
+   "mentions": 3,
+   "total": 4,
+   "flags": [
+    true,
+    true,
+    false,
+    true
+   ]
+  },
+  {
+   "id": "methuselah",
+   "label": "Methuselah",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 3,
+   "flags": [
+    false,
+    false,
+    true
+   ]
+  },
+  {
+   "id": "agrimus",
+   "label": "Agrimus",
+   "mode": "partial",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    true,
+    false
+   ]
+  },
+  {
+   "id": "rhiannon",
+   "label": "Rhiannon",
+   "mode": "partial",
+   "mentions": 3,
+   "total": 5,
+   "flags": [
+    true,
+    true,
+    true,
+    false,
+    false
+   ]
+  },
+  {
+   "id": "pwyll",
+   "label": "Pwyll",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    false,
+    true
+   ]
+  },
+  {
+   "id": "arawn",
+   "label": "Arawn",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "gwawl",
+   "label": "Gwawl",
+   "mode": "partial",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    true,
+    false
+   ]
+  },
+  {
+   "id": "llwyd",
+   "label": "Llwyd",
+   "mode": "partial",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    true,
+    false
+   ]
+  },
+  {
+   "id": "teyrnon",
+   "label": "Teyrnon",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "pryderi",
+   "label": "Pryderi",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "manawyddan",
+   "label": "Manawyddan fab Llyr",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "bran",
+   "label": "Bran the Blessed",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "epona",
+   "label": "Epona",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "volundr",
+   "label": "Volundr / Wayland / Velent",
+   "mode": "partial",
+   "mentions": 4,
+   "total": 5,
+   "flags": [
+    true,
+    true,
+    true,
+    true,
+    false
+   ]
+  },
+  {
+   "id": "nithuth",
+   "label": "Nithuth/Niðhad",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 3,
+   "flags": [
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "id": "nithuths-queen",
+   "label": "Nithuth's queen",
+   "mode": "indirect_expected",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "bothvild",
+   "label": "Bothvild / Beadohild",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    false,
+    true
+   ]
+  },
+  {
+   "id": "george-washington",
+   "label": "George Washington",
+   "mode": "partial",
+   "mentions": 2,
+   "total": 3,
+   "flags": [
+    true,
+    false,
+    true
+   ]
+  },
+  {
+   "id": "mason-weems",
+   "label": "Mason Locke Weems",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "brumidi",
+   "label": "Constantino Brumidi",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    false,
+    true
+   ]
+  },
+  {
+   "id": "cincinnatus",
+   "label": "Cincinnatus",
+   "mode": "partial",
+   "mentions": 3,
+   "total": 5,
+   "flags": [
+    true,
+    true,
+    false,
+    true,
+    false
+   ]
+  },
+  {
+   "id": "pandora",
+   "label": "Pandora",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 3,
+   "flags": [
+    false,
+    false,
+    true
+   ]
+  },
+  {
+   "id": "pyrrha",
+   "label": "Pyrrha",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "deucalion",
+   "label": "Deucalion",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "metis",
+   "label": "Metis (Thought)",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "erinyes",
+   "label": "The Erinyes (Spirits of Wrath/Blessing)",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 3,
+   "flags": [
+    false,
+    false,
+    true
+   ]
+  },
+  {
+   "id": "hera",
+   "label": "Hera",
+   "mode": "partial",
+   "mentions": 3,
+   "total": 5,
+   "flags": [
+    true,
+    true,
+    false,
+    false,
+    true
+   ]
+  },
+  {
+   "id": "apollo",
+   "label": "Apollo",
+   "mode": "partial",
+   "mentions": 4,
+   "total": 5,
+   "flags": [
+    true,
+    false,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "achilles",
+   "label": "Achilles",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "enkidu",
+   "label": "Enkidu",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "victory",
+   "label": "Nike / Victory",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    false,
+    true
+   ]
+  },
+  {
+   "id": "neptune",
+   "label": "Neptune",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "vulcan",
+   "label": "Vulcan",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "mercury",
+   "label": "Mercury",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "venus",
+   "label": "Venus",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "ceres",
+   "label": "Ceres",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "minerva",
+   "label": "Minerva",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    false,
+    true
+   ]
+  },
+  {
+   "id": "james-watt",
+   "label": "James Watt",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "benjamin-franklin",
+   "label": "Benjamin Franklin",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "atlas",
+   "label": "Atlas",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "poseidon",
+   "label": "Poseidon",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "iris",
+   "label": "Iris",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "dionysus",
+   "label": "Dionysus",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "aphrodite",
+   "label": "Aphrodite",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 3,
+   "flags": [
+    false,
+    true,
+    false
+   ]
+  },
+  {
+   "id": "styx",
+   "label": "Styx",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "janus",
+   "label": "Janus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "mars",
+   "label": "Mars",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "vesta",
+   "label": "Vesta",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "quirinus",
+   "label": "Quirinus (Romulus)",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "diana",
+   "label": "Diana",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "aeneas",
+   "label": "Aeneas",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 3,
+   "flags": [
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "id": "dido",
+   "label": "Dido",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "sibyl",
+   "label": "The Cumaean Sibyl",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "evander",
+   "label": "Evander",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "camilla",
+   "label": "Camilla",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "hippocrates",
+   "label": "Hippocrates",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "adam-smith",
+   "label": "Adam Smith",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "matthew-boulton",
+   "label": "Matthew Boulton",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "hector",
+   "label": "Hector",
+   "mode": "partial",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    true,
+    false
+   ]
+  },
+  {
+   "id": "thetis",
+   "label": "Thetis",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "xanthus-balius",
+   "label": "Xanthus and Balius",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "ares",
+   "label": "Ares",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "priam",
+   "label": "Priam",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "latinus",
+   "label": "Latinus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "iopas",
+   "label": "Iopas",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "fama",
+   "label": "Fama (Rumor)",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "tiberinus",
+   "label": "Tiberinus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "pericles",
+   "label": "Pericles",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "fdr",
+   "label": "Franklin Delano Roosevelt",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "hecate",
+   "label": "Hecate",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "nereus",
+   "label": "Nereus (Old Man of the Sea)",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "mnemosyne",
+   "label": "Mnemosyne (Memory)",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "themis",
+   "label": "Themis",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "castor-polydeuces",
+   "label": "Castor and Pollux (Dioscuri)",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "yggdrasil",
+   "label": "Yggdrasil",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "typhoeus",
+   "label": "Typhoeus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "odin",
+   "label": "Odin",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "thor",
+   "label": "Thor",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    false,
+    true
+   ]
+  },
+  {
+   "id": "loki",
+   "label": "Loki",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "baldr",
+   "label": "Baldr",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "heimdall",
+   "label": "Heimdall",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "freyr",
+   "label": "Freyr",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "freyja",
+   "label": "Freyja",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "sulla",
+   "label": "Lucius Cornelius Sulla (Felix)",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "galen",
+   "label": "Galen",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "newton",
+   "label": "Isaac Newton",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "faraday",
+   "label": "Michael Faraday",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "ampere",
+   "label": "André-Marie Ampère",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "joule",
+   "label": "James Prescott Joule",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "alexander-hamilton",
+   "label": "Alexander Hamilton",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "thomas-jefferson",
+   "label": "Thomas Jefferson",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "henry-knox",
+   "label": "Henry Knox",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "john-jay",
+   "label": "John Jay",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "math",
+   "label": "Math fab Mathonwy",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "gwydion",
+   "label": "Gwydion",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 3,
+   "flags": [
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "id": "llew-llaw-gyffes",
+   "label": "Llew Llaw Gyffes",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "blodeuwedd",
+   "label": "Blodeuwedd",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "dylan",
+   "label": "Dylan ail Ton",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "aranrod",
+   "label": "Aranrod",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "taliesin",
+   "label": "Taliesin",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "elphin",
+   "label": "Elffin",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "maelgwn",
+   "label": "Maelgwn Gwynedd",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "nuada",
+   "label": "Nuada of the Silver Hand",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "diancecht",
+   "mode": "no_highlights"
+  },
+  {
+   "id": "miach",
+   "mode": "no_highlights"
+  },
+  {
+   "id": "goibniu",
+   "mode": "no_highlights"
+  },
+  {
+   "id": "dagda",
+   "mode": "no_highlights"
+  },
+  {
+   "id": "manannan",
+   "mode": "no_highlights"
+  },
+  {
+   "id": "brigit",
+   "mode": "no_highlights"
+  },
+  {
+   "id": "morrigan",
+   "mode": "no_highlights"
+  },
+  {
+   "id": "balor",
+   "label": "Balor",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "lugh",
+   "label": "Lugh",
+   "mode": "partial",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    true,
+    false
+   ]
+  },
+  {
+   "id": "cronos",
+   "label": "Cronos",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "rhea",
+   "label": "Rhea",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "oceanus",
+   "label": "Oceanus",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 3,
+   "flags": [
+    false,
+    false,
+    true
+   ]
+  },
+  {
+   "id": "hyperion",
+   "label": "Hyperion",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 4,
+   "flags": [
+    false,
+    false,
+    false,
+    true
+   ]
+  },
+  {
+   "id": "iapetus",
+   "label": "Iapetus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "tethys",
+   "label": "Tethys",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "theia",
+   "label": "Theia",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "phoebe",
+   "label": "Phoebe",
+   "mode": "first_not_direct",
+   "mentions": 1,
+   "total": 2,
+   "flags": [
+    false,
+    true
+   ]
+  },
+  {
+   "id": "coeus",
+   "label": "Coeus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "crius",
+   "label": "Crius",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "helios",
+   "label": "Helios",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "selene",
+   "label": "Selene",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "eos",
+   "label": "Eos",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "leto",
+   "label": "Leto",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 3,
+   "flags": [
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "id": "asteria",
+   "label": "Asteria",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "pontus",
+   "label": "Pontus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "ceto",
+   "label": "Ceto",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "phorcys",
+   "label": "Phorcys",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "tartarus",
+   "label": "Tartarus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "benedict-arnold",
+   "label": "Benedict Arnold",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "charles-lee",
+   "label": "Charles Lee",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "aaron-burr",
+   "label": "Aaron Burr",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "edward-braddock",
+   "label": "Edward Braddock",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "valerius-publicola",
+   "label": "Publicola",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "fabius-maximus",
+   "label": "Fabius Maximus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 3,
+   "flags": [
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "id": "marcius-coriolanus",
+   "label": "Coriolanus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "numa-pompilius",
+   "label": "Numa Pompilius",
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "romulus",
+   "label": "Romulus",
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
+   "flags": [
+    true,
+    true
+   ]
+  },
+  {
+   "id": "marcellus",
+   "label": "Marcellus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "cato-elder",
+   "label": "Cato the Elder",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "aemilius-paullus",
+   "label": "Aemilius Paullus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "agamemnon",
+   "label": "Agamemnon",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "menelaus",
+   "label": "Menelaus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "odysseus",
+   "label": "Odysseus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "ajax-telamonian",
+   "label": "Ajax son of Telamon",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "diomedes",
+   "label": "Diomedes",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "patroclus",
+   "label": "Patroclus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "sarpedon",
+   "label": "Sarpedon",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "helen",
+   "label": "Helen",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "calchas",
+   "label": "Calchas",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "idomeneus",
+   "label": "Idomeneus",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "enoch",
+   "label": "Enoch",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "noah",
+   "label": "Noah",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "abraham",
+   "label": "Abraham",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "isaac",
+   "label": "Isaac",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "jacob",
+   "label": "Jacob",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "joseph",
+   "label": "Joseph",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "sigurd",
+   "label": "Sigurd",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 4,
+   "flags": [
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "id": "fafnir",
+   "label": "Fafnir",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "regin",
+   "label": "Regin",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "brynhild",
+   "label": "Brynhild",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "hel",
+   "label": "Hel",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "fenrir",
+   "label": "Fenrir",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "tyr",
+   "label": "Tyr",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "atli",
+   "label": "Atli",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "psyche",
+   "label": "Psyche",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "cupid",
+   "label": "Cupid",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "cain",
+   "label": "Cain",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "abel",
+   "label": "Abel",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 2,
+   "flags": [
+    false,
+    false
+   ]
+  },
+  {
+   "id": "guthrun",
+   "label": "Guthrun",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "mimir",
+   "label": "Mimir",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "dione",
+   "label": "Dione",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  },
+  {
+   "id": "james-wilson",
+   "label": "James Wilson",
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
+   "flags": [
+    false
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "frm": "asclepius",
+   "to": "machaon",
+   "type": "kinship",
+   "mode": "clean",
+   "dist": 57
+  },
+  {
+   "frm": "asclepius",
+   "to": "podaleirius",
+   "type": "kinship",
+   "mode": "clean",
+   "dist": 42
+  },
+  {
+   "frm": "chiron",
+   "to": "asclepius",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "asclepius",
+   "to": "machaon",
+   "type": "transmission",
+   "mode": "clean",
+   "dist": 57
+  },
+  {
+   "frm": "paris-alexandrus",
+   "to": "machaon",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "nestor",
+   "to": "machaon",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "eurypylus-telephid",
+   "to": "machaon",
+   "type": "conflict",
+   "mode": "clean",
+   "dist": 318
+  },
+  {
+   "frm": "genius",
+   "to": "lares-penates",
+   "type": "comparison",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "juno",
+   "to": "genius",
+   "type": "analogy",
+   "mode": "clean",
+   "dist": 17
+  },
+  {
+   "frm": "silvanus",
+   "to": "genius",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "sandman",
+   "to": "nathanael",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "olympia",
+   "to": "nathanael",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "sandman",
+   "to": "genius",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "prometheus",
+   "to": "hephaestus",
+   "type": "conflict",
+   "mode": "clean",
+   "dist": 86
+  },
+  {
+   "frm": "prometheus",
+   "to": "athene",
+   "type": "conflict",
+   "mode": "clean",
+   "dist": 101
+  },
+  {
+   "frm": "prometheus",
+   "to": "zeus",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "epimetheus",
+   "to": "prometheus",
+   "type": "kinship+interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "heracles",
+   "to": "prometheus",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "gilgamesh",
+   "to": "lilith",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "lilith",
+   "to": "adam",
+   "type": "interaction",
+   "mode": "clean",
+   "dist": 153
+  },
+  {
+   "frm": "eve",
+   "to": "adam",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "lilith",
+   "to": "agrimus",
+   "type": "kinship+conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "methuselah",
+   "to": "agrimus",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "pwyll",
+   "to": "rhiannon",
+   "type": "interaction+marriage",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "arawn",
+   "to": "pwyll",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "gwawl",
+   "to": "rhiannon",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "llwyd",
+   "to": "rhiannon",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "teyrnon",
+   "to": "pryderi",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "rhiannon",
+   "to": "pryderi",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "rhiannon",
+   "to": "manawyddan",
+   "type": "marriage",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "bran",
+   "to": "rhiannon",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "rhiannon",
+   "to": "epona",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "nithuth",
+   "to": "volundr",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "volundr",
+   "to": "nithuth",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "volundr",
+   "to": "bothvild",
+   "type": "conflict+interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "mason-weems",
+   "to": "george-washington",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "cincinnatus",
+   "to": "george-washington",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "brumidi",
+   "to": "george-washington",
+   "type": "transmission",
+   "mode": "clean",
+   "dist": 17
+  },
+  {
+   "frm": "george-washington",
+   "to": "genius",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "zeus",
+   "to": "pandora",
+   "type": "creation",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "pandora",
+   "to": "epimetheus",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "prometheus",
+   "to": "epimetheus",
+   "type": "kinship",
+   "mode": "clean",
+   "dist": 15
+  },
+  {
+   "frm": "epimetheus",
+   "to": "prometheus",
+   "type": "interaction",
+   "mode": "clean",
+   "dist": 15
+  },
+  {
+   "frm": "pandora",
+   "to": "pyrrha",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "prometheus",
+   "to": "deucalion",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "deucalion",
+   "to": "pyrrha",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "zeus",
+   "to": "athene",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "zeus",
+   "to": "metis",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "zeus",
+   "to": "cincinnatus",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "zeus",
+   "to": "hephaestus",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hephaestus",
+   "to": "athene",
+   "type": "interaction",
+   "mode": "clean",
+   "dist": 94
+  },
+  {
+   "frm": "athene",
+   "to": "erinyes",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "zeus",
+   "to": "erinyes",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hera",
+   "to": "heracles",
+   "type": "conflict",
+   "mode": "clean",
+   "dist": 48
+  },
+  {
+   "frm": "zeus",
+   "to": "heracles",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "nithuths-queen",
+   "to": "volundr",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "nithuth",
+   "to": "nithuths-queen",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "nithuth",
+   "to": "bothvild",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "volundr",
+   "to": "bothvild",
+   "type": "agency",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "apollo",
+   "to": "asclepius",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "zeus",
+   "to": "asclepius",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "athene",
+   "to": "asclepius",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "chiron",
+   "to": "achilles",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "podaleirius",
+   "to": "eurypylus-telephid",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "inana",
+   "to": "lilith",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "gilgamesh",
+   "to": "enkidu",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "inana",
+   "to": "gilgamesh",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "lilith",
+   "to": "methuselah",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "lilith",
+   "to": "agrimus",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "eve",
+   "to": "agrimus",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "pwyll",
+   "to": "arawn",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "teyrnon",
+   "to": "pryderi",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "llwyd",
+   "to": "manawyddan",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "manawyddan",
+   "to": "bran",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "brumidi",
+   "to": "victory",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "victory",
+   "to": "george-washington",
+   "type": "transmission",
+   "mode": "clean",
+   "dist": 100
+  },
+  {
+   "frm": "brumidi",
+   "to": "neptune",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "neptune",
+   "to": "george-washington",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "brumidi",
+   "to": "vulcan",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "vulcan",
+   "to": "george-washington",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "brumidi",
+   "to": "mercury",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "mercury",
+   "to": "george-washington",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "brumidi",
+   "to": "venus",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "venus",
+   "to": "george-washington",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "brumidi",
+   "to": "ceres",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "ceres",
+   "to": "george-washington",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "brumidi",
+   "to": "minerva",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "minerva",
+   "to": "george-washington",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "vulcan",
+   "to": "hephaestus",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "james-watt",
+   "to": "prometheus",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "benjamin-franklin",
+   "to": "prometheus",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "benjamin-franklin",
+   "to": "mercury",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "atlas",
+   "to": "zeus",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "poseidon",
+   "to": "neptune",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "iris",
+   "to": "zeus",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "dionysus",
+   "to": "zeus",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "aphrodite",
+   "to": "venus",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "styx",
+   "to": "zeus",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "janus",
+   "to": "zeus",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "mars",
+   "to": "cincinnatus",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "vesta",
+   "to": "genius",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "quirinus",
+   "to": "cincinnatus",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "diana",
+   "to": "juno",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "aeneas",
+   "to": "venus",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "dido",
+   "to": "aeneas",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "sibyl",
+   "to": "apollo",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "evander",
+   "to": "athene",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "camilla",
+   "to": "athene",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hippocrates",
+   "to": "asclepius",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "adam-smith",
+   "to": "mercury",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "matthew-boulton",
+   "to": "james-watt",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hector",
+   "to": "paris-alexandrus",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "thetis",
+   "to": "zeus",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "xanthus-balius",
+   "to": "achilles",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "ares",
+   "to": "athene",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "priam",
+   "to": "hector",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "latinus",
+   "to": "aeneas",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "iopas",
+   "to": "atlas",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "fama",
+   "to": "george-washington",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "tiberinus",
+   "to": "george-washington",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "pericles",
+   "to": "athene",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "fdr",
+   "to": "cincinnatus",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "fdr",
+   "to": "george-washington",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hecate",
+   "to": "zeus",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "mnemosyne",
+   "to": "zeus",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "thetis",
+   "to": "xanthus-balius",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "castor-polydeuces",
+   "to": "paris-alexandrus",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "typhoeus",
+   "to": "zeus",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "odin",
+   "to": "yggdrasil",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "thor",
+   "to": "volundr",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "baldr",
+   "to": "machaon",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "loki",
+   "to": "thor",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "freyr",
+   "to": "freyja",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "heimdall",
+   "to": "odin",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "sulla",
+   "to": "apollo",
+   "type": "transmission",
+   "mode": "clean",
+   "dist": 229
+  },
+  {
+   "frm": "sulla",
+   "to": "cincinnatus",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "galen",
+   "to": "hippocrates",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "newton",
+   "to": "minerva",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "faraday",
+   "to": "benjamin-franklin",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "ampere",
+   "to": "faraday",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "joule",
+   "to": "james-watt",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "zeus",
+   "to": "hera",
+   "type": "marriage",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hera",
+   "to": "hephaestus",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hephaestus",
+   "to": "aphrodite",
+   "type": "marriage",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hephaestus",
+   "to": "ares",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "ares",
+   "to": "aphrodite",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "apollo",
+   "to": "achilles",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "erinyes",
+   "to": "xanthus-balius",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "juno",
+   "to": "erinyes",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "george-washington",
+   "to": "alexander-hamilton",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "george-washington",
+   "to": "thomas-jefferson",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "george-washington",
+   "to": "henry-knox",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "george-washington",
+   "to": "john-jay",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "benjamin-franklin",
+   "to": "george-washington",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "math",
+   "to": "gwydion",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "gwydion",
+   "to": "llew-llaw-gyffes",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "llew-llaw-gyffes",
+   "to": "blodeuwedd",
+   "type": "marriage",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "aranrod",
+   "to": "dylan",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "taliesin",
+   "to": "elphin",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "gwydion",
+   "to": "pryderi",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "goibniu",
+   "to": "nuada",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "manannan",
+   "to": "dagda",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "nuada",
+   "to": "diancecht",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "miach",
+   "to": "diancecht",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "dagda",
+   "to": "brigit",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "morrigan",
+   "to": "dagda",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "epona",
+   "to": "brigit",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "cronos",
+   "to": "zeus",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "rhea",
+   "to": "zeus",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "iapetus",
+   "to": "prometheus",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hyperion",
+   "to": "helios",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hyperion",
+   "to": "selene",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "phoebe",
+   "to": "leto",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "coeus",
+   "to": "leto",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "leto",
+   "to": "apollo",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "asteria",
+   "to": "hecate",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "phorcys",
+   "to": "ceto",
+   "type": "marriage",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "zeus",
+   "to": "tartarus",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "iapetus",
+   "to": "atlas",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hyperion",
+   "to": "eos",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "oceanus",
+   "to": "styx",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "oceanus",
+   "to": "metis",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "pontus",
+   "to": "nereus",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "charles-lee",
+   "to": "george-washington",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "aaron-burr",
+   "to": "alexander-hamilton",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "edward-braddock",
+   "to": "george-washington",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "romulus",
+   "to": "numa-pompilius",
+   "type": "succession",
+   "mode": "clean",
+   "dist": 110
+  },
+  {
+   "frm": "romulus",
+   "to": "quirinus",
+   "type": "transmission",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "cincinnatus",
+   "to": "valerius-publicola",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "fabius-maximus",
+   "to": "cincinnatus",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "marcellus",
+   "to": "fabius-maximus",
+   "type": "comparison",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "marcius-coriolanus",
+   "to": "fabius-maximus",
+   "type": "contrast",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "cato-elder",
+   "to": "aemilius-paullus",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "aemilius-paullus",
+   "to": "pericles",
+   "type": "analogy",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "agamemnon",
+   "to": "menelaus",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "menelaus",
+   "to": "machaon",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "odysseus",
+   "to": "agamemnon",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "ajax-telamonian",
+   "to": "hector",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "diomedes",
+   "to": "ares",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "patroclus",
+   "to": "achilles",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "sarpedon",
+   "to": "zeus",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "helen",
+   "to": "priam",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "calchas",
+   "to": "apollo",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "idomeneus",
+   "to": "machaon",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "enoch",
+   "to": "noah",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "noah",
+   "to": "abraham",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "abraham",
+   "to": "isaac",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "isaac",
+   "to": "jacob",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "jacob",
+   "to": "joseph",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "regin",
+   "to": "sigurd",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "sigurd",
+   "to": "fafnir",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "brynhild",
+   "to": "sigurd",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hel",
+   "to": "odin",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "fenrir",
+   "to": "odin",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "tyr",
+   "to": "fenrir",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "atli",
+   "to": "brynhild",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "psyche",
+   "to": "cupid",
+   "type": "marriage",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "psyche",
+   "to": "venus",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "cain",
+   "to": "abel",
+   "type": "conflict",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "abel",
+   "to": "adam",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "guthrun",
+   "to": "sigurd",
+   "type": "marriage",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "mimir",
+   "to": "odin",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "dione",
+   "to": "aphrodite",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "george-washington",
+   "to": "james-wilson",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "maelgwn",
+   "to": "taliesin",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "balor",
+   "to": "lugh",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "lugh",
+   "to": "nuada",
+   "type": "succession",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "oceanus",
+   "to": "tethys",
+   "type": "marriage",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "hyperion",
+   "to": "theia",
+   "type": "marriage",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "benedict-arnold",
+   "to": "aaron-burr",
+   "type": "comparison",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "crius",
+   "to": "phoebe",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "anzud-bird",
+   "to": "lilith",
+   "type": "interaction",
+   "mode": "none_both",
+   "dist": null
+  },
+  {
+   "frm": "themis",
+   "to": "zeus",
+   "type": "kinship",
+   "mode": "none_both",
+   "dist": null
+  }
+ ],
+ "summary": {
+  "nodes_total": 200,
+  "node_modes": {
+   "no_highlights": [
+    7,
+    [
+     "diancecht",
+     "miach",
+     "goibniu",
+     "dagda",
+     "manannan",
+     "brigit",
+     "morrigan"
+    ]
+   ],
+   "none_mention": [
+    111,
+    [
+     "eurypylus-telephid",
+     "nathanael",
+     "teyrnon",
+     "manawyddan",
+     "nithuth",
+     "mason-weems",
+     "metis",
+     "achilles",
+     "neptune",
+     "vulcan",
+     "ceres",
+     "james-watt",
+     "benjamin-franklin",
+     "styx",
+     "janus",
+     "mars",
+     "vesta",
+     "quirinus",
+     "diana",
+     "aeneas",
+     "dido",
+     "sibyl",
+     "evander",
+     "camilla",
+     "hippocrates",
+     "adam-smith",
+     "matthew-boulton",
+     "xanthus-balius",
+     "latinus",
+     "iopas",
+     "fama",
+     "tiberinus",
+     "pericles",
+     "fdr",
+     "mnemosyne",
+     "themis",
+     "castor-polydeuces",
+     "typhoeus",
+     "heimdall",
+     "galen"
+    ]
+   ],
+   "first_not_direct": [
+    20,
+    [
+     "machaon",
+     "asclepius",
+     "zeus",
+     "hephaestus",
+     "lilith",
+     "gilgamesh",
+     "adam",
+     "methuselah",
+     "pwyll",
+     "bothvild",
+     "brumidi",
+     "pandora",
+     "erinyes",
+     "victory",
+     "minerva",
+     "aphrodite",
+     "thor",
+     "oceanus",
+     "hyperion",
+     "phoebe"
+    ]
+   ],
+   "partial": [
+    16,
+    [
+     "juno",
+     "olympia",
+     "athene",
+     "eve",
+     "agrimus",
+     "rhiannon",
+     "gwawl",
+     "llwyd",
+     "volundr",
+     "nithuths-queen",
+     "george-washington",
+     "cincinnatus",
+     "hera",
+     "apollo",
+     "hector",
+     "lugh"
+    ]
+   ],
+   "clean": [
+    46,
+    [
+     "podaleirius",
+     "chiron",
+     "paris-alexandrus",
+     "nestor",
+     "genius",
+     "lares-penates",
+     "silvanus",
+     "sandman",
+     "prometheus",
+     "epimetheus",
+     "heracles",
+     "inana",
+     "anzud-bird",
+     "arawn",
+     "pryderi",
+     "bran",
+     "epona",
+     "pyrrha",
+     "deucalion",
+     "enkidu",
+     "mercury",
+     "venus",
+     "atlas",
+     "poseidon",
+     "iris",
+     "dionysus",
+     "thetis",
+     "ares",
+     "priam",
+     "hecate",
+     "nereus",
+     "yggdrasil",
+     "odin",
+     "loki",
+     "baldr",
+     "freyr",
+     "freyja",
+     "sulla",
+     "maelgwn",
+     "balor"
+    ]
+   ]
+  },
+  "edges_total": 234,
+  "edge_modes": {
+   "no_excerpts": [
+    1,
+    [
+     [
+      "volundr",
+      "prometheus",
+      "analogy"
+     ]
+    ]
+   ],
+   "none_both": [
+    217,
+    [
+     [
+      "chiron",
+      "asclepius",
+      "transmission"
+     ],
+     [
+      "paris-alexandrus",
+      "machaon",
+      "conflict"
+     ],
+     [
+      "nestor",
+      "machaon",
+      "interaction"
+     ],
+     [
+      "genius",
+      "lares-penates",
+      "comparison"
+     ],
+     [
+      "silvanus",
+      "genius",
+      "interaction"
+     ],
+     [
+      "sandman",
+      "nathanael",
+      "conflict"
+     ],
+     [
+      "olympia",
+      "nathanael",
+      "interaction"
+     ],
+     [
+      "sandman",
+      "genius",
+      "analogy"
+     ],
+     [
+      "prometheus",
+      "zeus",
+      "conflict"
+     ],
+     [
+      "epimetheus",
+      "prometheus",
+      "kinship+interaction"
+     ],
+     [
+      "heracles",
+      "prometheus",
+      "interaction"
+     ],
+     [
+      "gilgamesh",
+      "lilith",
+      "conflict"
+     ],
+     [
+      "eve",
+      "adam",
+      "kinship"
+     ],
+     [
+      "lilith",
+      "agrimus",
+      "kinship+conflict"
+     ],
+     [
+      "methuselah",
+      "agrimus",
+      "conflict"
+     ],
+     [
+      "pwyll",
+      "rhiannon",
+      "interaction+marriage"
+     ],
+     [
+      "arawn",
+      "pwyll",
+      "interaction"
+     ],
+     [
+      "gwawl",
+      "rhiannon",
+      "conflict"
+     ],
+     [
+      "llwyd",
+      "rhiannon",
+      "conflict"
+     ],
+     [
+      "teyrnon",
+      "pryderi",
+      "interaction"
+     ],
+     [
+      "rhiannon",
+      "pryderi",
+      "kinship"
+     ],
+     [
+      "rhiannon",
+      "manawyddan",
+      "marriage"
+     ],
+     [
+      "bran",
+      "rhiannon",
+      "interaction"
+     ],
+     [
+      "rhiannon",
+      "epona",
+      "analogy"
+     ],
+     [
+      "nithuth",
+      "volundr",
+      "conflict"
+     ],
+     [
+      "volundr",
+      "nithuth",
+      "conflict"
+     ],
+     [
+      "volundr",
+      "bothvild",
+      "conflict+interaction"
+     ],
+     [
+      "mason-weems",
+      "george-washington",
+      "transmission"
+     ],
+     [
+      "cincinnatus",
+      "george-washington",
+      "analogy"
+     ],
+     [
+      "george-washington",
+      "genius",
+      "analogy"
+     ],
+     [
+      "zeus",
+      "pandora",
+      "creation"
+     ],
+     [
+      "pandora",
+      "epimetheus",
+      "interaction"
+     ],
+     [
+      "pandora",
+      "pyrrha",
+      "kinship"
+     ],
+     [
+      "prometheus",
+      "deucalion",
+      "kinship"
+     ],
+     [
+      "deucalion",
+      "pyrrha",
+      "kinship"
+     ],
+     [
+      "zeus",
+      "athene",
+      "kinship"
+     ],
+     [
+      "zeus",
+      "metis",
+      "conflict"
+     ],
+     [
+      "zeus",
+      "cincinnatus",
+      "analogy"
+     ],
+     [
+      "zeus",
+      "hephaestus",
+      "conflict"
+     ],
+     [
+      "athene",
+      "erinyes",
+      "interaction"
+     ]
+    ]
+   ],
+   "far_apart": [
+    0,
+    []
+   ],
+   "clean": [
+    16,
+    [
+     [
+      "asclepius",
+      "machaon"
+     ],
+     [
+      "asclepius",
+      "podaleirius"
+     ],
+     [
+      "asclepius",
+      "machaon"
+     ],
+     [
+      "eurypylus-telephid",
+      "machaon"
+     ],
+     [
+      "juno",
+      "genius"
+     ],
+     [
+      "prometheus",
+      "hephaestus"
+     ],
+     [
+      "prometheus",
+      "athene"
+     ],
+     [
+      "lilith",
+      "adam"
+     ],
+     [
+      "brumidi",
+      "george-washington"
+     ],
+     [
+      "prometheus",
+      "epimetheus"
+     ],
+     [
+      "epimetheus",
+      "prometheus"
+     ],
+     [
+      "hephaestus",
+      "athene"
+     ],
+     [
+      "hera",
+      "heracles"
+     ],
+     [
+      "victory",
+      "george-washington"
+     ],
+     [
+      "sulla",
+      "apollo"
+     ],
+     [
+      "romulus",
+      "numa-pompilius"
+     ]
+    ]
+   ]
+  }
+ }
+}
