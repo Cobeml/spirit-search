@@ -33,7 +33,7 @@ for n in sorted(g['nodes'], key=lambda x:(x.get('date_added',''),x['label'])):
         'proposals':n.get('proposals',[]),
         'review':n.get('review')})
 
-edges=[{'frm':e['from'],'to':e['to'],'type':e['type'],'title':e['title'],'essay':e['essay'],'source':e.get('source',''),'date_added':e.get('date_added'),'era':e.get('era'),'excerpts':e.get('excerpts',[]),'influence':e.get('influence'),'review':e.get('review')} for e in g['edges']]
+edges=[{'frm':e['from'],'to':e['to'],'type':e['type'],'title':e['title'],'essay':e['essay'],'source':e.get('source',''),'date_added':e.get('date_added'),'era':e.get('era'),'excerpts':e.get('excerpts',[]),'influence':e.get('influence'),'review':e.get('review'),'audit':e.get('audit'),'pairing_note':e.get('pairing_note')} for e in g['edges']]
 
 data={'nodes':nodes,'edges':edges,
       'sources':[{'id':i,'url':urls[i],'title':titles[i]} for i in sorted(urls)],

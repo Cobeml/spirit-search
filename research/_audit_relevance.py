@@ -104,7 +104,12 @@ def main():
                                 "flags": flags})
 
     e_modes = {"no_excerpts": [], "none_both": [], "far_apart": [], "clean": []}
+    RULED = {"two_sided", "fetched_witness", "identification", "same_scene"}
     for e in g["edges"]:
+        # edges Cobe has ruled on (two-sided pairing, fetched witnesses,
+        # identification convention, same-scene pairs) keep their ruling
+        if e.get("audit", {}).get("ok") and e.get("audit", {}).get("mode") in RULED:
+            continue
         pf, pt = pats_of.get(e["from"]), pats_of.get(e["to"])
         exc = e.get("excerpts", [])
         if not exc:
