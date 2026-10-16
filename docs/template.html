@@ -338,14 +338,24 @@ document.getElementById('drawerClose').onclick=closeDrawer;
 (function(){
   const btn=document.getElementById('reviewBtn');
   const pending=()=>DATA.nodes.filter(n=>n.review&&n.review.status==='auto-added');
-  function refresh(){ btn.textContent='Review: '+pending().length; }
+  const flaggedEdges=()=>DATA.edges.filter(e=>e.audit&&!e.audit.ok);
+  function refresh(){ btn.textContent='Review: '+(pending().length+flaggedEdges().length); }
   btn.onclick=()=>{
     const p=pending();
-    drawerBody.innerHTML=`<div class="meta">${p.length} auto-added nodes and their edges awaiting review (from the 2026-10-14 corpus-growth waves)</div>
+    const fe=flaggedEdges();
+    drawerBody.innerHTML=`<div class="meta">${p.length} auto-added nodes · ${fe.length} edges whose quote does not substantiate both endpoints</div>
       <h2>Review queue</h2>
       ${p.map(n=>`<div class="edge"><div class="etype">${esc(n.tradition||'')}</div>
-        <div class="t" data-reviewgo="${esc(n.id)}" style="cursor:pointer">${esc(n.label)} <span class="hint">· ${esc(n.id)}</span></div></div>`).join('')}`;
-    drawerBody.querySelectorAll('[data-reviewgo]').forEach(el=>el.onclick=()=>{ if(window.byId) {}; document.getElementById('q').value=el.dataset.reviewgo; document.getElementById('q').dispatchEvent(new Event('change',{bubbles:true})); });
+        <div class="t" data-reviewgo="${esc(n.id)}" style="cursor:pointer">${esc(n.label)} <span class="hint">· ${esc(n.id)}</span></div></div>`).join('')}
+      ${fe.length?'<h4 class="sec">Quotes pending a ruling (a: two-sided / b: fetch witness / c: delete)</h4>':''}
+      ${fe.map(e=>`<div class="edge"><div class="etype">${esc(e.type)} · ${e.audit.mode||''}</div>
+        <div class="t" data-edgego="${esc(e.frm)}|${esc(e.type)}|${esc(e.to)}" style="cursor:pointer">${esc(byId[e.frm]?byId[e.frm].label:e.frm)} → ${esc(byId[e.to]?byId[e.to].label:e.to)} <span class="hint">· ${esc(e.title)}</span></div></div>`).join('')}`;
+    drawerBody.querySelectorAll('[data-reviewgo]').forEach(el=>el.onclick=()=>{ document.getElementById('q').value=el.dataset.reviewgo; document.getElementById('q').dispatchEvent(new Event('change',{bubbles:true})); });
+    drawerBody.querySelectorAll('[data-edgego]').forEach(el=>el.onclick=()=>{
+      const [f,ty,t2]=el.dataset.edgego.split('|');
+      const ed=DATA.edges.find(x=>x.frm===f&&x.type===ty&&x.to===t2);
+      if(ed&&window.openEdge) openEdge(ed);
+    });
     openDrawer();
   };
   refresh();

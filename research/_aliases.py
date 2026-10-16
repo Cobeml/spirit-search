@@ -142,7 +142,8 @@ ALIASES = {
     "blodeuwedd": ["blodeuwedd", "blodeuedd"],
     "taliesin": ["taliesin", "taliessin"],
     # Apuleius
-    "psyche": ["psyche"],
+    "psyche": ["psyche", "psyches"],
+    "nathanael": ["nathanael", "nathaniel"],
     "cupid": ["cupid", "amor", "eros"],
     # Hoffmann / Freud
     "sandman": ["sandman", "sandmann", "coppelius", "coppola"],
