@@ -61,6 +61,11 @@ SELF-CHECK — DATA fields this template now relies on:
   details.wattWhy summary b:hover{text-decoration:underline dotted}
   details.wattWhy .hint{margin-top:.45rem;line-height:1.5}
   details.wattWhy .method{opacity:.75;font-size:.82rem}
+  details.eraWhy{margin:0 0 .1rem}
+  details.eraWhy summary{list-style:none;cursor:pointer}
+  details.eraWhy summary::-webkit-details-marker{display:none}
+  details.eraWhy summary:hover{color:var(--ink)}
+  details.eraWhy .hint{margin-top:.35rem;line-height:1.5}
   .meta{font-size:.82rem;color:var(--faint);}
   .etype{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);}
   .edge{border-top:1px dashed var(--line);padding:.6rem 0;}
@@ -291,7 +296,7 @@ function initGraph(){
     })
     .nodeLabel(n=>`<div style="font-family:Georgia,serif">
         <b>${esc(n.label)}</b><br>${esc(n.tradition)}<br>
-        attested ${yearFmt(n.era)} · ⚡ ${fmtW(n.pw_t)}</div>`)
+        ${yearFmt(n.era)} · ⚡ ${fmtW(n.pw_t)}</div>`)
     .linkColor(l=>{ const w=edgeWeight(l,currentT()); return `rgba(122,74,31,${(0.12+0.6*w).toFixed(3)})`; })
     .linkWidth(l=> 0.4+2.6*edgeWeight(l,currentT()))
     .linkVisibility(l=> l.era<=currentT())
@@ -380,8 +385,16 @@ function openNode(id){
         <span class="method">Method: pool × claim-share × witness-strength; single-hop proxy routing.</span>
       </div>
     </details>`;
+  const eraSrcs=[...new Set((n.highlights||[]).map(h=>h.source_title).filter(Boolean))];
+  const eraDetail = `
+    <details class="eraWhy">
+      <summary class="meta">${yearFmt(n.era)}${n.review?' · <b style=\"color:#ffb020\">auto-added, needs review</b>':''}</summary>
+      <div class="hint">Year of this figure's earliest attestation in the fetched witnesses (negative = BCE on the slider).
+        Witnesses on file: ${eraSrcs.length?eraSrcs.map(s=>esc(s)).join('; '):'none registered yet'}.
+        Where the only witness is a modern collection, the year is that collection's date.</div>
+    </details>`;
   drawerBody.innerHTML=`
-    <div class="meta">attested ${yearFmt(n.era)}${n.review?' · <b style=\"color:#ffb020\">auto-added, needs review</b>':''}</div>
+    ${eraDetail}
     <h2>${esc(n.label)}</h2>
     ${pwDetail}
     ${mainBlock}
