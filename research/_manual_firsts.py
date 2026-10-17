@@ -25,8 +25,8 @@ def sentence_pair(t, i):
     return s
 
 def alias_ok(text, pats):
-    tc = " " + re.sub(r"[^a-z0-9]+", " ", text).strip() + " "
-    tsq = re.sub(r"\s+", "", text)
+    tc = " " + re.sub(r"[^a-z0-9]+", " ", text.lower()).strip() + " "
+    tsq = re.sub(r"\s+", "", text.lower())
     return any(p["na"] in tc or (p["long"] and p["sq"] in tsq) for p in pats)
 
 # file keys -> relative paths (all already in FILES)
@@ -145,9 +145,10 @@ for nid, (fkey, patterns) in OVERRIDES.items():
         missed += 1
         continue
     t = FILES[fp]
+    tl = t.lower()          # length-preserving: match indices valid on t
     chosen = None
     for pat in patterns:
-        for m in re.finditer(pat, t):
+        for m in re.finditer(pat, tl):
             s = sentence_pair(t, m.start())
             if len(s) < 60 or TOCISH.search(s) or junk_score(s) > 0.55:
                 continue

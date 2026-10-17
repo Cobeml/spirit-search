@@ -12,22 +12,16 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _audit_relevance import alias_patterns  # noqa: E402
+from _textclean import norm_file  # noqa: E402  (case-preserving, scrubbed)
 
 REPO = Path(__file__).resolve().parent.parent
 GP = REPO / "research" / "graph.json"
 LP = REPO / "research" / "ledger.json"
 
-SENT_END = re.compile(r"(?<=[.!?])[\"'\)\]]?\s+(?=[A-Z'\"\u201c\(\[]|$)")
-
 def tr(t):
     t = t.lower()
     return (t.replace("š", "sh").replace("ž", "zh")
              .replace("þ", "th").replace("ð", "d"))
-
-def norm_file(raw):
-    t = _html.unescape(raw)
-    t = re.sub(r"<[^>]+>", " ", t) if t.count("<") > 100 else re.sub(r"[<>]", " ", t)
-    return re.sub(r"\s+", " ", tr(t))
 
 FILES, SQMAP = {}, {}
 for p in sorted(REPO.glob("evidence/**/*.txt")) + sorted(REPO.glob("evidence/**/*.html")):
@@ -37,14 +31,16 @@ for p in sorted(REPO.glob("evidence/**/*.txt")) + sorted(REPO.glob("evidence/**/
     SQMAP[fp] = [i for i, ch in enumerate(t) if not ch.isspace()]
 
 def positions(t, sqm, pats):
+    """all alias positions in the PADDED coordinate space (text may be cased)"""
     out = []
-    tsq = re.sub(r"\s+", "", t)
+    tl = t.lower()                      # length-preserving: indices valid in t
+    tsq = re.sub(r"\s+", "", tl)
     for p in pats:
         na = " " + re.sub(r"[^a-z0-9]+", " ", tr(p["a"])).strip() + " "
         sq = re.sub(r"\s+", "", na)
         start = 0
         while True:
-            i = t.find(na, start)
+            i = tl.find(na, start)
             if i < 0:
                 break
             out.append((i, p["a"]))
@@ -60,29 +56,23 @@ def positions(t, sqm, pats):
     out.sort()
     return out
 
-def sentence_at(t, pos, max_back=400, max_fwd=500):
-    back = None
-    for m in SENT_END.finditer(t, max(0, pos - max_back), pos):
-        back = m.end()
-    s = back if back is not None else max(0, pos - 100)
-    fwd = None
-    for m in SENT_END.finditer(t, pos, pos + max_fwd):
-        fwd = m.start()
-        break
-    e = fwd if fwd is not None else min(len(t), pos + 400)
-    return t[s:e].strip()
+def sentence_at(t, pos, max_back=40000, max_fwd=40000):
+    """Whole scrubbed sentence containing offset pos; fixed-window fallback."""
+    return expand_span(t, pos, pos + 1, max_back, max_fwd)
 
-def expand_span(t, lo, hi, max_back=2500, max_fwd=800):
-    back = None
-    for m in SENT_END.finditer(t, max(0, lo - max_back), lo):
-        back = m.end()
-    s = back if back is not None else lo
-    fwd = None
-    for m in SENT_END.finditer(t, hi, hi + max_fwd):
-        fwd = m.start()
-        break
-    e = fwd if fwd is not None else min(len(t), hi + max_fwd)
-    return t[s:e].strip()
+def expand_span(t, lo, hi, max_back=40000, max_fwd=40000):
+    """Sentence-bounded + scrubbed passage covering [lo, hi).
+
+    Delegates to _textclean (case-preserving, digit/quote-tolerant boundaries,
+    furniture scrub). Falls back to the legacy fixed-width window only when
+    no sentence boundary exists on disk (audit will flag those).
+    """
+    import _textclean as TC
+    out = TC.expand_span(t, lo, hi, max_back=max_back, max_fwd=max_fwd)
+    if out is None:
+        s, e = max(0, lo - 100), min(len(t), hi + 400)
+        out = t[s:e]
+    return TC.scrub_slice(out)
 
 def junk_score(text):
     if not text:

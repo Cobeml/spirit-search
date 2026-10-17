@@ -35,8 +35,8 @@ def get_pos(nid):
     return POS[nid]
 
 def node_alias_in(text, pats):
-    tc = " " + re.sub(r"[^a-z0-9]+", " ", text).strip() + " "
-    tsq = re.sub(r"\s+", "", text)
+    tc = " " + re.sub(r"[^a-z0-9]+", " ", text.lower()).strip() + " "
+    tsq = re.sub(r"\s+", "", text.lower())
     for p in pats:
         if p["na"] in tc or (p["long"] and p["sq"] in tsq):
             return True

@@ -24,12 +24,8 @@ def tr(t):
     return t
 
 def norm_file(t):
-    t = _html.unescape(t)
-    if t.count("<") > 100:
-        t = re.sub(r"<[^>]+>", " ", t)
-    else:
-        t = re.sub(r"[<>]", " ", t)
-    return re.sub(r"\s+", " ", tr(t))
+    from _textclean import norm_file as _nc
+    return _nc(t)
 
 FILES = {}
 SQMAP = {}
@@ -47,13 +43,13 @@ for p in sorted(REPO.glob("evidence/**/*.txt")) + sorted(REPO.glob("evidence/**/
 def positions(t, sqm, pats):
     """all alias positions in the PADDED coordinate space"""
     out = []
-    tsq = re.sub(r"\s+", "", t)
+    tsq = re.sub(r"\s+", "", t.lower())
     for p in pats:
         na = " " + re.sub(r"[^a-z0-9]+", " ", tr(p["a"])).strip() + " "
         sq = re.sub(r"\s+", "", na)
         start = 0
         while True:
-            i = t.find(na, start)
+            i = t.lower().find(na, start)
             if i < 0:
                 break
             out.append((i, p["a"]))

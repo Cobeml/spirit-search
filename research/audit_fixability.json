@@ -1,19 +1,9 @@
 {
  "nodes": {
-  "machaon": {
-   "fixable": true,
-   "files": {
-    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 4,
-    "evidence/genius/serviusaeneid.txt": 5,
-    "evidence/machaon/homer-iliad-butler-mb.txt": 28,
-    "evidence/machaon/pausanias-3b-jones-theoi.txt": 7,
-    "evidence/machaon/plato-ion-jowett-mit.txt": 2,
-    "evidence/asclepius/apollodorus3-frazer-theoi.html": 1
-   }
-  },
   "asclepius": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/hippocratic-oath.txt": 1,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 5,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 14,
     "evidence/genius/serviusaeneid.txt": 7,
@@ -21,6 +11,7 @@
     "evidence/machaon/homer-iliad-butler-mb.txt": 9,
     "evidence/machaon/pausanias-3b-jones-theoi.txt": 40,
     "evidence/machaon/plato-ion-jowett-mit.txt": 1,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 2,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 5,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 1,
     "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 5,
@@ -32,6 +23,7 @@
    "fixable": true,
    "files": {
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 8,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 28,
     "evidence/cincinnatus/livy3-roberts-wikisource.txt": 1,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 23,
     "evidence/genius/pliny_NH_2.5_perseus.txt": 1,
@@ -40,6 +32,7 @@
     "evidence/machaon/pausanias-3b-jones-theoi.txt": 3,
     "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 5,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 3,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 8,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 4,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 9,
@@ -72,6 +65,7 @@
     "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 21,
     "evidence/sandmann/freud-on-the-uncanny-strachey-1925.txt": 11,
     "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 1,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 2,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 4,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
@@ -86,7 +80,11 @@
   "zeus": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 3,
+    "evidence/_corpus/eb1911-newton.txt": 14,
+    "evidence/_corpus/livy1-roberts.txt": 34,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 140,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 49,
     "evidence/cincinnatus/livy3-roberts-wikisource.txt": 14,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 256,
     "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 1,
@@ -105,6 +103,7 @@
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 10,
     "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 2,
     "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 3,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 29,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 50,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 15,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 42,
@@ -117,40 +116,6 @@
     "evidence/zeus/callimachus-hymn-zeus-theoi.html": 13
    }
   },
-  "hephaestus": {
-   "fixable": true,
-   "files": {
-    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
-    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 35,
-    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 1,
-    "evidence/genius/censorinus_de_die_natali_lacuscurtius.txt": 1,
-    "evidence/genius/serviusaeneid.txt": 59,
-    "evidence/machaon/homer-iliad-butler-mb.txt": 64,
-    "evidence/machaon/pausanias-3b-jones-theoi.txt": 4,
-    "evidence/prometheus/plato_protagoras_jowett.txt": 5,
-    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 3,
-    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 6,
-    "evidence/washington/brumidi-apotheosis-aoc.txt": 2,
-    "evidence/asclepius/apollodorus3-frazer-theoi.html": 9,
-    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
-    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 15,
-    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 4,
-    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 2,
-    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 4,
-    "evidence/genius/augustine_city_of_god_7.html": 4,
-    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 9,
-    "evidence/heracles/apollodorus2-frazer-theoi.html": 4,
-    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 4
-   }
-  },
-  "lilith": {
-   "fixable": true,
-   "files": {
-    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 6,
-    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 11,
-    "evidence/lilith/kjv-isaiah-gutenberg.txt": 2
-   }
-  },
   "gilgamesh": {
    "fixable": true,
    "files": {
@@ -160,6 +125,9 @@
   "adam": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 18,
+    "evidence/_corpus/eb1911-adam-smith.txt": 10,
+    "evidence/_corpus/hippocratic-oath.txt": 2,
     "evidence/lilith/ginzberg-legends1-gutenberg.txt": 180,
     "evidence/lilith/kjv-isaiah-gutenberg.txt": 20,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
@@ -168,46 +136,29 @@
     "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 5
    }
   },
-  "methuselah": {
-   "fixable": true,
-   "files": {
-    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 41,
-    "evidence/lilith/kjv-isaiah-gutenberg.txt": 11
-   }
-  },
-  "agrimus": {
-   "fixable": true,
-   "files": {
-    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 1
-   }
-  },
-  "rhiannon": {
-   "fixable": true,
-   "files": {
-    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 77,
-    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 4,
-    "evidence/rhiannon/pwyll-branch.txt": 49
-   }
-  },
   "pwyll": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 40,
     "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 1,
     "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 34,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 11,
     "evidence/rhiannon/pwyll-branch.txt": 30
    }
   },
-  "gwawl": {
+  "arawn": {
    "fixable": true,
    "files": {
-    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 10,
-    "evidence/rhiannon/pwyll-branch.txt": 8
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 6,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 6,
+    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 4,
+    "evidence/rhiannon/pwyll-branch.txt": 5
    }
   },
   "llwyd": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 4,
     "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 1
    }
   },
@@ -220,6 +171,7 @@
   "manawyddan": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 60,
     "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 2,
     "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 54,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 27,
@@ -229,6 +181,9 @@
   "nithuth": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 2,
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 5,
+    "evidence/_corpus/livy1-roberts.txt": 2,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 5,
     "evidence/cincinnatus/livy3-roberts-wikisource.txt": 2,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 1,
@@ -246,7 +201,12 @@
   "nithuths-queen": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 20,
+    "evidence/_corpus/eb1911-newton.txt": 5,
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 6,
+    "evidence/_corpus/livy1-roberts.txt": 2,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 22,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 53,
     "evidence/cincinnatus/livy3-roberts-wikisource.txt": 1,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 10,
     "evidence/genius/serviusaeneid.txt": 2,
@@ -263,6 +223,7 @@
     "evidence/volundr/bellows-poetic-edda-1923-full.txt": 12,
     "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 9,
     "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 9,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 1,
     "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 1,
     "evidence/genius/augustine_city_of_god_7.html": 2,
     "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 3,
@@ -276,14 +237,6 @@
     "evidence/volundr/bellows-poetic-edda-1923-full.txt": 28
    }
   },
-  "george-washington": {
-   "fixable": true,
-   "files": {
-    "evidence/washington/brumidi-apotheosis-aoc.txt": 12,
-    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 833,
-    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 907
-   }
-  },
   "mason-weems": {
    "fixable": false,
    "files": {}
@@ -292,14 +245,6 @@
    "fixable": true,
    "files": {
     "evidence/washington/brumidi-apotheosis-aoc.txt": 10
-   }
-  },
-  "cincinnatus": {
-   "fixable": true,
-   "files": {
-    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 70,
-    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 1,
-    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1
    }
   },
   "pandora": {
@@ -312,19 +257,11 @@
     "evidence/epimetheus/hesiod-wd-ew-theoi.html": 6
    }
   },
-  "metis": {
-   "fixable": true,
-   "files": {
-    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 2,
-    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
-    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 2,
-    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 2
-   }
-  },
   "erinyes": {
    "fixable": true,
    "files": {
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 17,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 4,
     "evidence/genius/serviusaeneid.txt": 5,
     "evidence/machaon/homer-iliad-butler-mb.txt": 9,
@@ -334,6 +271,7 @@
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 2,
     "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 1,
     "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 1,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 2,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 3,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 40,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 3,
@@ -347,7 +285,11 @@
   "apollo": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 1,
+    "evidence/_corpus/hippocratic-oath.txt": 2,
+    "evidence/_corpus/livy1-roberts.txt": 2,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 144,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 56,
     "evidence/cincinnatus/livy3-roberts-wikisource.txt": 2,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 343,
     "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 2,
@@ -362,6 +304,7 @@
     "evidence/prometheus/plato_protagoras_jowett.txt": 5,
     "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 11,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 38,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 9,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 49,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 99,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 46,
@@ -375,37 +318,16 @@
     "evidence/zeus/callimachus-hymn-zeus-theoi.html": 114
    }
   },
-  "achilles": {
-   "fixable": true,
-   "files": {
-    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 26,
-    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 62,
-    "evidence/genius/horace-epistles2-smart-wikisource.txt": 2,
-    "evidence/genius/horace_epist2_latin.txt": 1,
-    "evidence/genius/horace_epistles_smart_wikisource.txt": 2,
-    "evidence/genius/serviusaeneid.txt": 41,
-    "evidence/machaon/homer-iliad-butler-mb.txt": 780,
-    "evidence/machaon/pausanias-3b-jones-theoi.txt": 29,
-    "evidence/machaon/plato-ion-jowett-mit.txt": 2,
-    "evidence/prometheus/plato_protagoras_jowett.txt": 1,
-    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 7,
-    "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 2,
-    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 2,
-    "evidence/asclepius/apollodorus3-frazer-theoi.html": 14,
-    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
-    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
-    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 3,
-    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 2,
-    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 1,
-    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 2,
-    "evidence/heracles/apollodorus2-frazer-theoi.html": 2,
-    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 3
-   }
-  },
   "victory": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 8,
+    "evidence/_corpus/eb1911-newton.txt": 1,
+    "evidence/_corpus/fdr-first-inaugural.txt": 1,
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 2,
+    "evidence/_corpus/livy1-roberts.txt": 14,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 505,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 16,
     "evidence/cincinnatus/livy3-roberts-wikisource.txt": 26,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 31,
     "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 2,
@@ -438,7 +360,10 @@
   "neptune": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 2,
+    "evidence/_corpus/livy1-roberts.txt": 1,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 18,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 30,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 44,
     "evidence/genius/serviusaeneid.txt": 2,
     "evidence/machaon/homer-iliad-butler-mb.txt": 112,
@@ -459,36 +384,12 @@
     "evidence/zeus/callimachus-hymn-zeus-theoi.html": 1
    }
   },
-  "vulcan": {
-   "fixable": true,
-   "files": {
-    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
-    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 35,
-    "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 1,
-    "evidence/genius/censorinus_de_die_natali_lacuscurtius.txt": 1,
-    "evidence/genius/serviusaeneid.txt": 59,
-    "evidence/machaon/homer-iliad-butler-mb.txt": 64,
-    "evidence/machaon/pausanias-3b-jones-theoi.txt": 4,
-    "evidence/prometheus/plato_protagoras_jowett.txt": 5,
-    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 3,
-    "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 4,
-    "evidence/washington/brumidi-apotheosis-aoc.txt": 2,
-    "evidence/asclepius/apollodorus3-frazer-theoi.html": 9,
-    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 1,
-    "evidence/epimetheus/apollodorus1-frazer-theoi.html": 15,
-    "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 4,
-    "evidence/epimetheus/hesiod-wd-ew-theoi.html": 2,
-    "evidence/epimetheus/plato-protagoras-jowett-mit.html": 4,
-    "evidence/genius/augustine_city_of_god_7.html": 4,
-    "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 9,
-    "evidence/heracles/apollodorus2-frazer-theoi.html": 4,
-    "evidence/zeus/callimachus-hymn-zeus-theoi.html": 4
-   }
-  },
   "ceres": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 17,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 12,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 1,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 84,
     "evidence/genius/serviusaeneid.txt": 6,
     "evidence/lilith/kjv-isaiah-gutenberg.txt": 1,
@@ -500,6 +401,7 @@
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 12,
     "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 2,
     "evidence/washington/brumidi-apotheosis-aoc.txt": 2,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 2,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 8,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 13,
     "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 3,
@@ -514,6 +416,7 @@
    "fixable": true,
    "files": {
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 56,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 91,
     "evidence/cincinnatus/livy3-roberts-wikisource.txt": 1,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 25,
     "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 1,
@@ -526,6 +429,7 @@
     "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 5,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 17,
     "evidence/washington/brumidi-apotheosis-aoc.txt": 2,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 31,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 6,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 20,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 5,
@@ -538,22 +442,30 @@
    }
   },
   "james-watt": {
-   "fixable": false,
-   "files": {}
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/eb1911-joule.txt": 1,
+    "evidence/_corpus/eb1911-watt.txt": 9
+   }
   },
   "benjamin-franklin": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 19,
+    "evidence/_corpus/fdr-first-inaugural.txt": 1,
     "evidence/washington/brumidi-apotheosis-aoc.txt": 2,
     "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 21,
-    "evidence/washington/weems_life_of_washington.txt": 4,
+    "evidence/washington/weems_life_of_washington.txt": 2,
     "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 21
    }
   },
   "aphrodite": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/eb1911-newton.txt": 1,
+    "evidence/_corpus/livy1-roberts.txt": 1,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 11,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 15,
     "evidence/cincinnatus/livy3-roberts-wikisource.txt": 1,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 112,
     "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 3,
@@ -565,6 +477,7 @@
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 2,
     "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 8,
     "evidence/washington/brumidi-apotheosis-aoc.txt": 1,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 4,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 15,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 8,
@@ -578,9 +491,11 @@
   "styx": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 1,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 7,
     "evidence/genius/serviusaeneid.txt": 7,
     "evidence/volundr/bellows-poetic-edda-1923-full.txt": 1,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 1,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
     "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 5,
     "evidence/zeus/callimachus-hymn-zeus-theoi.html": 3
@@ -589,6 +504,8 @@
   "janus": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/livy1-roberts.txt": 2,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 2,
     "evidence/genius/horace-epistles2-smart-wikisource.txt": 3,
     "evidence/genius/horace_epistles_smart_wikisource.txt": 3,
     "evidence/genius/augustine_city_of_god_7.html": 29
@@ -597,7 +514,9 @@
   "mars": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/livy1-roberts.txt": 2,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 4,
     "evidence/cincinnatus/livy3-roberts-wikisource.txt": 1,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 23,
     "evidence/genius/serviusaeneid.txt": 12,
@@ -608,6 +527,7 @@
     "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 1,
     "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 2,
     "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 2,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 10,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 3,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
@@ -623,23 +543,31 @@
    "fixable": true,
    "files": {
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 2,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 2,
     "evidence/genius/serviusaeneid.txt": 5,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 3,
     "evidence/genius/augustine_city_of_god_7.html": 1
    }
   },
   "quirinus": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/livy1-roberts.txt": 2,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 8,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 3,
     "evidence/genius/horace-epistles2-smart-wikisource.txt": 1,
     "evidence/genius/horace_epistles_smart_wikisource.txt": 1,
-    "evidence/genius/serviusaeneid.txt": 21
+    "evidence/genius/serviusaeneid.txt": 21,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 1
    }
   },
   "diana": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 4,
+    "evidence/_corpus/livy1-roberts.txt": 3,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 22,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 2,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 48,
     "evidence/genius/serviusaeneid.txt": 13,
     "evidence/lilith/kjv-isaiah-gutenberg.txt": 3,
@@ -648,6 +576,7 @@
     "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 3,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 14,
     "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 1,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 2,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 20,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 21,
     "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 4,
@@ -659,13 +588,16 @@
   "aeneas": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/livy1-roberts.txt": 24,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 16,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 173,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 16,
     "evidence/genius/horace_epist2_latin.txt": 1,
     "evidence/genius/serviusaeneid.txt": 490,
     "evidence/lilith/kjv-isaiah-gutenberg.txt": 2,
     "evidence/machaon/homer-iliad-butler-mb.txt": 137,
     "evidence/machaon/pausanias-3b-jones-theoi.txt": 3,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 13,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 2,
     "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 2,
     "evidence/hephaestus/homeric-hymns3-ew-theoi.html": 3
@@ -674,19 +606,25 @@
   "dido": {
    "fixable": true,
    "files": {
-    "evidence/genius/serviusaeneid.txt": 49
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 17,
+    "evidence/genius/serviusaeneid.txt": 49,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 6
    }
   },
   "sibyl": {
    "fixable": true,
    "files": {
-    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 3
+    "evidence/_corpus/livy1-roberts.txt": 1,
+    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 3,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 14
    }
   },
   "evander": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/livy1-roberts.txt": 6,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 6,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 24,
     "evidence/genius/serviusaeneid.txt": 2,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 1
    }
@@ -694,6 +632,7 @@
   "camilla": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 23,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 1,
     "evidence/genius/serviusaeneid.txt": 62
    }
@@ -701,6 +640,7 @@
   "hippocrates": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/hippocratic-oath.txt": 10,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 12,
     "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 6,
     "evidence/genius/censorinus_de_die_natali_lacuscurtius.txt": 5,
@@ -710,17 +650,18 @@
    }
   },
   "adam-smith": {
-   "fixable": false,
-   "files": {}
-  },
-  "matthew-boulton": {
-   "fixable": false,
-   "files": {}
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 11,
+    "evidence/_corpus/eb1911-adam-smith.txt": 11
+   }
   },
   "hector": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 22,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 10,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 37,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 13,
     "evidence/genius/serviusaeneid.txt": 69,
     "evidence/machaon/homer-iliad-butler-mb.txt": 873,
@@ -733,6 +674,7 @@
    "fixable": true,
    "files": {
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 3,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 8,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 3,
     "evidence/genius/serviusaeneid.txt": 4,
     "evidence/machaon/homer-iliad-butler-mb.txt": 36,
@@ -743,37 +685,29 @@
   "latinus": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/livy1-roberts.txt": 23,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 13,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 26,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 4,
     "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 2,
     "evidence/genius/serviusaeneid.txt": 103,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 2,
     "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 2
    }
   },
   "iopas": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 1,
     "evidence/genius/serviusaeneid.txt": 2
-   }
-  },
-  "fama": {
-   "fixable": true,
-   "files": {
-    "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 30,
-    "evidence/cincinnatus/livy3-roberts-wikisource.txt": 8,
-    "evidence/genius/serviusaeneid.txt": 37,
-    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 2,
-    "evidence/lilith/kjv-isaiah-gutenberg.txt": 24,
-    "evidence/machaon/homer-iliad-butler-mb.txt": 1,
-    "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 2,
-    "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
-    "evidence/genius/pliny-nh2-latin-lacuscurtius.html": 5
    }
   },
   "tiberinus": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/livy1-roberts.txt": 7,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 5,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 18,
     "evidence/genius/serviusaeneid.txt": 25,
     "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 7
    }
@@ -787,8 +721,10 @@
    }
   },
   "fdr": {
-   "fixable": false,
-   "files": {}
+   "fixable": true,
+   "files": {
+    "evidence/_corpus/fdr-first-inaugural.txt": 2
+   }
   },
   "mnemosyne": {
    "fixable": true,
@@ -801,32 +737,34 @@
   "themis": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 22,
+    "evidence/_corpus/eb1911-newton.txt": 1,
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 15,
+    "evidence/_corpus/livy1-roberts.txt": 1,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 237,
-    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 30,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 8,
+    "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 28,
     "evidence/genius/horace-epistles2-smart-wikisource.txt": 1,
     "evidence/genius/horace_epistles_smart_wikisource.txt": 1,
     "evidence/genius/serviusaeneid.txt": 5,
-    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 16,
-    "evidence/lilith/kjv-isaiah-gutenberg.txt": 30,
+    "evidence/lilith/ginzberg-legends1-gutenberg.txt": 14,
+    "evidence/lilith/kjv-isaiah-gutenberg.txt": 28,
     "evidence/machaon/homer-iliad-butler-mb.txt": 8,
     "evidence/machaon/pausanias-3b-jones-theoi.txt": 1,
     "evidence/machaon/plato-ion-jowett-mit.txt": 1,
     "evidence/prometheus/aeschylus_pb_lines436.txt": 1,
     "evidence/prometheus/heidegger_qct_archive.txt": 1,
     "evidence/prometheus/plato_protagoras_jowett.txt": 5,
-    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 21,
-    "evidence/rhiannon/guest-mabinogion-vol1-gutenberg.txt": 2,
-    "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 12,
-    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 7,
+    "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 19,
+    "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 10,
+    "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 5,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 37,
     "evidence/rhiannon/pwyll-branch.txt": 1,
     "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 9,
-    "evidence/sandmann/hoffmann-der-sandmann-gutenberg-6341.txt": 2,
     "evidence/volundr/bellows-poetic-edda-1923-full.txt": 30,
     "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 12,
-    "evidence/washington/weems_life_of_washington.txt": 2,
     "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 17,
-    "evidence/washington/weems_life_of_washington_gutenberg682.txt": 2,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 4,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 3,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 7,
@@ -842,6 +780,7 @@
    "fixable": true,
    "files": {
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 2,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 21,
     "evidence/genius/serviusaeneid.txt": 15,
     "evidence/machaon/homer-iliad-butler-mb.txt": 4,
@@ -872,22 +811,17 @@
     "evidence/lilith/ginzberg-legends1-gutenberg.txt": 1
    }
   },
-  "newton": {
-   "fixable": true,
-   "files": {
-    "evidence/lilith/kjv-isaiah-gutenberg.txt": 1,
-    "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 2
-   }
-  },
   "faraday": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/eb1911-faraday.txt": 49,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1
    }
   },
   "ampere": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 2,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 8,
     "evidence/cincinnatus/livy3-roberts-wikisource.txt": 2,
     "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 1,
@@ -897,13 +831,11 @@
     "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 2
    }
   },
-  "joule": {
-   "fixable": false,
-   "files": {}
-  },
   "alexander-hamilton": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 10,
+    "evidence/_corpus/eb1911-watt.txt": 1,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
     "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 6,
     "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 11
@@ -934,6 +866,7 @@
   "math": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 39,
     "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 35,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 9,
     "evidence/washington/weems_life_of_washington.txt": 1
@@ -942,6 +875,7 @@
   "gwydion": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 88,
     "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 87,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 49
    }
@@ -949,6 +883,7 @@
   "llew-llaw-gyffes": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 43,
     "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 41,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 19
    }
@@ -956,6 +891,7 @@
   "blodeuwedd": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 22,
     "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 22,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 14
    }
@@ -963,6 +899,7 @@
   "dylan": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 2,
     "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 2,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 7
    }
@@ -977,6 +914,7 @@
   "taliesin": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 61,
     "evidence/rhiannon/guest-mabinogion-vol1-gutenberg.txt": 2,
     "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 2,
     "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 58,
@@ -987,6 +925,8 @@
   "elphin": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 14,
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 81,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 3,
     "evidence/genius/serviusaeneid.txt": 17,
@@ -1004,6 +944,7 @@
   "lugh": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 1,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 28
    }
   },
@@ -1025,6 +966,7 @@
   "rhea": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 1,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 9,
     "evidence/genius/serviusaeneid.txt": 3,
     "evidence/machaon/homer-iliad-butler-mb.txt": 1,
@@ -1038,7 +980,10 @@
   "oceanus": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 5,
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 2,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 18,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 32,
     "evidence/genius/serviusaeneid.txt": 2,
     "evidence/lilith/ginzberg-legends1-gutenberg.txt": 3,
@@ -1053,6 +998,7 @@
     "evidence/volundr/bellows-poetic-edda-1923-full.txt": 3,
     "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 3,
     "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt": 3,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 1,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 2,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
     "evidence/epimetheus/hesiod-theogony-ew-theoi.html": 21,
@@ -1088,6 +1034,7 @@
   "phoebe": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 7,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 4,
     "evidence/genius/serviusaeneid.txt": 13,
     "evidence/machaon/pausanias-3b-jones-theoi.txt": 1,
@@ -1145,6 +1092,7 @@
    "fixable": true,
    "files": {
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 3,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 3,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 30,
     "evidence/genius/serviusaeneid.txt": 22,
     "evidence/machaon/homer-iliad-butler-mb.txt": 7,
@@ -1200,9 +1148,11 @@
   "tartarus": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 2,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 24,
     "evidence/genius/serviusaeneid.txt": 2,
     "evidence/machaon/homer-iliad-butler-mb.txt": 4,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 1,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 1,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 9,
@@ -1213,6 +1163,7 @@
   "charles-lee": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 1,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 1,
     "evidence/volundr/bellows-poetic-edda-1923-full.txt": 1,
     "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 8,
@@ -1237,12 +1188,14 @@
   "valerius-publicola": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/livy1-roberts.txt": 3,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 153,
     "evidence/cincinnatus/livy3-roberts-wikisource.txt": 72,
     "evidence/genius/censorinus-de-die-natali-latin-cholodniak-lacuscurtius.txt": 4,
     "evidence/genius/serviusaeneid.txt": 9,
     "evidence/machaon/pausanias-3b-jones-theoi.txt": 2,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 2,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 2,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 2,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 2,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
@@ -1258,6 +1211,7 @@
   "fabius-maximus": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/livy1-roberts.txt": 4,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 247,
     "evidence/cincinnatus/livy3-roberts-wikisource.txt": 36,
     "evidence/genius/serviusaeneid.txt": 15,
@@ -1268,6 +1222,7 @@
   "marcius-coriolanus": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/livy1-roberts.txt": 2,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 179,
     "evidence/genius/serviusaeneid.txt": 3
    }
@@ -1275,7 +1230,9 @@
   "marcellus": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/livy1-roberts.txt": 1,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 243,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 6,
     "evidence/genius/serviusaeneid.txt": 6,
     "evidence/rhiannon/apuleius-golden-ass-adlington-gutenberg.txt": 1,
     "evidence/volundr/bellows-poetic-edda-1923-full.txt": 2
@@ -1284,7 +1241,9 @@
   "cato-elder": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 1,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 299,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 1,
     "evidence/genius/serviusaeneid.txt": 36,
     "evidence/lilith/kjv-isaiah-gutenberg.txt": 2
    }
@@ -1300,7 +1259,9 @@
   "agamemnon": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/livy1-roberts.txt": 2,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 16,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 4,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 36,
     "evidence/genius/serviusaeneid.txt": 42,
     "evidence/machaon/homer-iliad-butler-mb.txt": 359,
@@ -1309,6 +1270,7 @@
     "evidence/prometheus/aeschylus_pb_lines472.txt": 1,
     "evidence/prometheus/aeschylus_pb_lines507.txt": 1,
     "evidence/volundr/bellows-poetic-edda-1923-full.txt": 1,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 5,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 9,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 12,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 5,
@@ -1323,6 +1285,7 @@
    "fixable": true,
    "files": {
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 6,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 1,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 42,
     "evidence/genius/serviusaeneid.txt": 12,
     "evidence/machaon/homer-iliad-butler-mb.txt": 269,
@@ -1334,7 +1297,10 @@
   "odysseus": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 1,
+    "evidence/_corpus/livy1-roberts.txt": 2,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 13,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 25,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 66,
     "evidence/machaon/homer-iliad-butler-mb.txt": 206,
     "evidence/machaon/pausanias-3b-jones-theoi.txt": 9,
@@ -1353,7 +1319,9 @@
   "ajax-telamonian": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 1,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 3,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 1,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 13,
     "evidence/machaon/homer-iliad-butler-mb.txt": 180,
     "evidence/machaon/pausanias-3b-jones-theoi.txt": 5,
@@ -1363,7 +1331,9 @@
   "diomedes": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 1,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 9,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 15,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 20,
     "evidence/genius/serviusaeneid.txt": 127,
     "evidence/machaon/homer-iliad-butler-mb.txt": 184,
@@ -1389,6 +1359,7 @@
    "fixable": true,
    "files": {
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 4,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 5,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 13,
     "evidence/genius/serviusaeneid.txt": 21,
     "evidence/machaon/homer-iliad-butler-mb.txt": 80,
@@ -1399,11 +1370,15 @@
   "helen": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/eb1911-newton.txt": 2,
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 6,
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 6,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 2,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 14,
     "evidence/machaon/homer-iliad-butler-mb.txt": 24,
     "evidence/machaon/pausanias-3b-jones-theoi.txt": 11,
     "evidence/rhiannon/guest-mabinogion-vol2-gutenberg.txt": 7,
+    "evidence/_corpus/ovid-fasti-3-frazer.html": 1,
     "evidence/asclepius/apollodorus3-frazer-theoi.html": 7,
     "evidence/athene/aeschylus-eumenides-smyth-theoi.html": 1,
     "evidence/epimetheus/apollodorus1-frazer-theoi.html": 2,
@@ -1417,6 +1392,8 @@
   "calchas": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 1,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 7,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 14,
     "evidence/genius/serviusaeneid.txt": 3,
     "evidence/machaon/homer-iliad-butler-mb.txt": 13,
@@ -1427,6 +1404,7 @@
    "fixable": true,
    "files": {
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 17,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 5,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 4,
     "evidence/genius/serviusaeneid.txt": 7,
     "evidence/machaon/homer-iliad-butler-mb.txt": 131,
@@ -1445,6 +1423,7 @@
   "noah": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 1,
     "evidence/lilith/ginzberg-legends1-gutenberg.txt": 84,
     "evidence/lilith/kjv-isaiah-gutenberg.txt": 29,
     "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 1
@@ -1453,6 +1432,7 @@
   "abraham": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/eb1911-newton.txt": 2,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 2,
     "evidence/lilith/ginzberg-legends1-gutenberg.txt": 1213,
     "evidence/lilith/kjv-isaiah-gutenberg.txt": 427,
@@ -1463,6 +1443,8 @@
   "isaac": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 3,
+    "evidence/_corpus/eb1911-newton.txt": 28,
     "evidence/lilith/ginzberg-legends1-gutenberg.txt": 199,
     "evidence/lilith/kjv-isaiah-gutenberg.txt": 78,
     "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 2,
@@ -1473,6 +1455,8 @@
   "jacob": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 10,
+    "evidence/_corpus/eb1911-newton.txt": 1,
     "evidence/lilith/ginzberg-legends1-gutenberg.txt": 551,
     "evidence/lilith/kjv-isaiah-gutenberg.txt": 4099,
     "evidence/lilith/wycliffe-isaiah-wikisource.txt": 143,
@@ -1487,6 +1471,11 @@
   "joseph": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 20,
+    "evidence/_corpus/eb1911-faraday.txt": 2,
+    "evidence/_corpus/eb1911-newton.txt": 2,
+    "evidence/_corpus/eb1911-watt.txt": 4,
+    "evidence/_corpus/fdr-first-inaugural.txt": 2,
     "evidence/lilith/ginzberg-legends1-gutenberg.txt": 33,
     "evidence/lilith/kjv-isaiah-gutenberg.txt": 385,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 4,
@@ -1558,6 +1547,7 @@
    "fixable": true,
    "files": {
     "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt": 2,
+    "evidence/_corpus/virgil-aeneid-dryden.txt": 3,
     "evidence/epimetheus/hesiod-evelynwhite-gutenberg348.txt": 2,
     "evidence/genius/serviusaeneid.txt": 30,
     "evidence/machaon/pausanias-3b-jones-theoi.txt": 1,
@@ -1570,6 +1560,7 @@
   "cain": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/guest-mabinogion-1877-full.txt": 1,
     "evidence/lilith/ginzberg-legends1-gutenberg.txt": 38,
     "evidence/lilith/kjv-isaiah-gutenberg.txt": 11,
     "evidence/rhiannon/guest-mabinogion-vol3-gutenberg.txt": 1
@@ -1578,6 +1569,7 @@
   "abel": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 1,
     "evidence/lilith/ginzberg-legends1-gutenberg.txt": 23,
     "evidence/lilith/kjv-isaiah-gutenberg.txt": 9,
     "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 6
@@ -1606,6 +1598,7 @@
   "james-wilson": {
    "fixable": true,
    "files": {
+    "evidence/_corpus/boswell-life-of-johnson-vol2.txt": 3,
     "evidence/rhiannon/macculloch-religion-ancient-celts-1911.txt": 1,
     "evidence/sandmann/freud-cp4-1925-full-djvu.txt": 2,
     "evidence/washington/weems-life-of-washington-1800s-archive-full.txt": 2,
@@ -1613,119 +1606,5 @@
    }
   }
  },
- "edges": {
-  "olympia|nathanael|interaction": {
-   "fixable": true,
-   "dist": 10,
-   "file": "evidence/sandmann/freud-cp4-1925-full-djvu.txt"
-  },
-  "sandman|genius|analogy": {
-   "fixable": false
-  },
-  "gilgamesh|lilith|conflict": {
-   "fixable": false
-  },
-  "rhiannon|epona|analogy": {
-   "fixable": false
-  },
-  "volundr|prometheus|analogy": {
-   "fixable": false
-  },
-  "mason-weems|george-washington|transmission": {
-   "fixable": false
-  },
-  "zeus|cincinnatus|analogy": {
-   "fixable": false
-  },
-  "inana|lilith|interaction": {
-   "fixable": false
-  },
-  "eve|agrimus|analogy": {
-   "fixable": false
-  },
-  "llwyd|manawyddan|conflict": {
-   "fixable": false
-  },
-  "brumidi|neptune|transmission": {
-   "fixable": false
-  },
-  "brumidi|vulcan|transmission": {
-   "fixable": false
-  },
-  "brumidi|mercury|transmission": {
-   "fixable": false
-  },
-  "brumidi|venus|transmission": {
-   "fixable": false
-  },
-  "brumidi|ceres|transmission": {
-   "fixable": false
-  },
-  "brumidi|minerva|transmission": {
-   "fixable": false
-  },
-  "james-watt|prometheus|transmission": {
-   "fixable": false
-  },
-  "benjamin-franklin|prometheus|transmission": {
-   "fixable": false
-  },
-  "mars|cincinnatus|analogy": {
-   "fixable": false
-  },
-  "quirinus|cincinnatus|analogy": {
-   "fixable": false
-  },
-  "sibyl|apollo|transmission": {
-   "fixable": false
-  },
-  "hippocrates|asclepius|transmission": {
-   "fixable": false
-  },
-  "adam-smith|mercury|transmission": {
-   "fixable": false
-  },
-  "matthew-boulton|james-watt|transmission": {
-   "fixable": false
-  },
-  "fama|george-washington|analogy": {
-   "fixable": false
-  },
-  "tiberinus|george-washington|analogy": {
-   "fixable": false
-  },
-  "fdr|cincinnatus|analogy": {
-   "fixable": false
-  },
-  "fdr|george-washington|transmission": {
-   "fixable": false
-  },
-  "thor|volundr|analogy": {
-   "fixable": false
-  },
-  "baldr|machaon|analogy": {
-   "fixable": false
-  },
-  "sulla|cincinnatus|conflict": {
-   "fixable": false
-  },
-  "newton|minerva|analogy": {
-   "fixable": false
-  },
-  "faraday|benjamin-franklin|transmission": {
-   "fixable": false
-  },
-  "ampere|faraday|transmission": {
-   "fixable": false
-  },
-  "joule|james-watt|transmission": {
-   "fixable": false
-  },
-  "juno|erinyes|interaction": {
-   "fixable": false
-  },
-  "anzud-bird|lilith|interaction": {
-   "fixable": false
-  }
- }
+ "edges": {}
 }

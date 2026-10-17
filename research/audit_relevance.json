@@ -19,12 +19,11 @@
    "label": "Asclepius",
    "mode": "partial",
    "mentions": 3,
-   "total": 5,
+   "total": 4,
    "flags": [
     true,
-    false,
-    false,
     true,
+    false,
     true
    ]
   },
@@ -43,10 +42,9 @@
    "id": "chiron",
    "label": "Chiron",
    "mode": "clean",
-   "mentions": 5,
-   "total": 5,
+   "mentions": 4,
+   "total": 4,
    "flags": [
-    true,
     true,
     true,
     true,
@@ -92,10 +90,9 @@
    "id": "genius",
    "label": "Genius (tutelary)",
    "mode": "clean",
-   "mentions": 5,
-   "total": 5,
+   "mentions": 4,
+   "total": 4,
    "flags": [
-    true,
     true,
     true,
     true,
@@ -116,15 +113,13 @@
   {
    "id": "juno",
    "label": "Juno (as female counterpart-genius)",
-   "mode": "partial",
-   "mentions": 4,
-   "total": 5,
+   "mode": "clean",
+   "mentions": 3,
+   "total": 3,
    "flags": [
     true,
     true,
-    true,
-    true,
-    false
+    true
    ]
   },
   {
@@ -152,13 +147,12 @@
    "id": "nathanael",
    "label": "Nathanael",
    "mode": "partial",
-   "mentions": 3,
-   "total": 5,
+   "mentions": 2,
+   "total": 4,
    "flags": [
     true,
-    true,
-    true,
     false,
+    true,
     false
    ]
   },
@@ -203,12 +197,13 @@
    "id": "zeus",
    "label": "Zeus",
    "mode": "partial",
-   "mentions": 4,
-   "total": 5,
+   "mentions": 5,
+   "total": 6,
    "flags": [
     true,
-    false,
     true,
+    true,
+    false,
     true,
     true
    ]
@@ -216,12 +211,11 @@
   {
    "id": "hephaestus",
    "label": "Hephaestus",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 4,
-   "total": 5,
+   "total": 4,
    "flags": [
     true,
-    false,
     true,
     true,
     true
@@ -231,10 +225,9 @@
    "id": "athene",
    "label": "Athene",
    "mode": "clean",
-   "mentions": 5,
-   "total": 5,
+   "mentions": 4,
+   "total": 4,
    "flags": [
-    true,
     true,
     true,
     true,
@@ -271,13 +264,13 @@
    "id": "gilgamesh",
    "label": "Gilgamesh",
    "mode": "partial",
-   "mentions": 2,
+   "mentions": 1,
    "total": 4,
    "flags": [
     true,
     false,
     false,
-    true
+    false
    ]
   },
   {
@@ -306,13 +299,14 @@
    "id": "adam",
    "label": "Adam",
    "mode": "partial",
-   "mentions": 4,
-   "total": 5,
+   "mentions": 5,
+   "total": 6,
    "flags": [
     true,
     true,
-    false,
     true,
+    true,
+    false,
     true
    ]
   },
@@ -335,10 +329,9 @@
    "label": "Methuselah",
    "mode": "partial",
    "mentions": 2,
-   "total": 4,
+   "total": 3,
    "flags": [
     true,
-    false,
     false,
     true
    ]
@@ -346,36 +339,35 @@
   {
    "id": "agrimus",
    "label": "Agrimus",
-   "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
    "flags": [
-    true,
-    true,
-    false
+    true
    ]
   },
   {
    "id": "rhiannon",
    "label": "Rhiannon",
-   "mode": "partial",
-   "mentions": 4,
+   "mode": "clean",
+   "mentions": 5,
    "total": 5,
    "flags": [
     true,
     true,
     true,
     true,
-    false
+    true
    ]
   },
   {
    "id": "pwyll",
    "label": "Pwyll",
    "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     false,
@@ -385,16 +377,30 @@
   {
    "id": "arawn",
    "label": "Arawn",
-   "mode": "clean",
+   "mode": "partial",
    "mentions": 1,
-   "total": 1,
+   "total": 2,
    "flags": [
-    true
+    true,
+    false
    ]
   },
   {
    "id": "gwawl",
    "label": "Gwawl",
+   "mode": "clean",
+   "mentions": 4,
+   "total": 4,
+   "flags": [
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "llwyd",
+   "label": "Llwyd",
    "mode": "partial",
    "mentions": 3,
    "total": 4,
@@ -406,26 +412,14 @@
    ]
   },
   {
-   "id": "llwyd",
-   "label": "Llwyd",
+   "id": "teyrnon",
+   "label": "Teyrnon",
    "mode": "partial",
    "mentions": 2,
    "total": 3,
    "flags": [
     true,
     true,
-    false
-   ]
-  },
-  {
-   "id": "teyrnon",
-   "label": "Teyrnon",
-   "mode": "partial",
-   "mentions": 1,
-   "total": 3,
-   "flags": [
-    true,
-    false,
     false
    ]
   },
@@ -444,11 +438,11 @@
    "id": "manawyddan",
    "label": "Manawyddan fab Llyr",
    "mode": "partial",
-   "mentions": 1,
+   "mentions": 2,
    "total": 3,
    "flags": [
     true,
-    false,
+    true,
     false
    ]
   },
@@ -491,74 +485,66 @@
    "id": "nithuth",
    "label": "Nithuth/Niðhad",
    "mode": "partial",
-   "mentions": 2,
+   "mentions": 4,
    "total": 5,
    "flags": [
     true,
     true,
-    false,
-    false,
+    true,
+    true,
     false
    ]
   },
   {
    "id": "nithuths-queen",
    "label": "Nithuth's queen",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
    "id": "bothvild",
    "label": "Bothvild / Beadohild",
-   "mode": "partial",
-   "mentions": 4,
-   "total": 5,
+   "mode": "clean",
+   "mentions": 6,
+   "total": 6,
    "flags": [
     true,
     true,
     true,
-    false,
+    true,
+    true,
     true
    ]
   },
   {
    "id": "george-washington",
    "label": "George Washington",
-   "mode": "partial",
-   "mentions": 4,
-   "total": 5,
+   "mode": "clean",
+   "mentions": 3,
+   "total": 3,
    "flags": [
     true,
     true,
-    true,
-    true,
-    false
+    true
    ]
   },
   {
    "id": "mason-weems",
-   "label": "Mason Locke Weems",
-   "mode": "first_not_direct",
-   "mentions": 1,
-   "total": 3,
-   "flags": [
-    false,
-    true,
-    false
-   ]
+   "mode": "no_highlights"
   },
   {
    "id": "brumidi",
    "label": "Constantino Brumidi",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     false,
     true
@@ -567,15 +553,16 @@
   {
    "id": "cincinnatus",
    "label": "Cincinnatus",
-   "mode": "partial",
-   "mentions": 4,
-   "total": 5,
+   "mode": "clean",
+   "mentions": 6,
+   "total": 6,
    "flags": [
     true,
     true,
     true,
     true,
-    false
+    true,
+    true
    ]
   },
   {
@@ -583,10 +570,9 @@
    "label": "Pandora",
    "mode": "partial",
    "mentions": 2,
-   "total": 4,
+   "total": 3,
    "flags": [
     true,
-    false,
     false,
     true
    ]
@@ -626,13 +612,11 @@
    "id": "erinyes",
    "label": "The Erinyes (Spirits of Wrath/Blessing)",
    "mode": "partial",
-   "mentions": 3,
-   "total": 5,
+   "mentions": 2,
+   "total": 3,
    "flags": [
     true,
     true,
-    true,
-    false,
     false
    ]
   },
@@ -653,13 +637,11 @@
   {
    "id": "apollo",
    "label": "Apollo",
-   "mode": "partial",
-   "mentions": 4,
-   "total": 5,
+   "mode": "clean",
+   "mentions": 3,
+   "total": 3,
    "flags": [
     true,
-    true,
-    false,
     true,
     true
    ]
@@ -690,10 +672,9 @@
    "id": "victory",
    "label": "Nike / Victory",
    "mode": "partial",
-   "mentions": 4,
-   "total": 5,
+   "mentions": 3,
+   "total": 4,
    "flags": [
-    true,
     true,
     true,
     false,
@@ -703,12 +684,12 @@
   {
    "id": "neptune",
    "label": "Neptune",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
@@ -756,26 +737,25 @@
   {
    "id": "minerva",
    "label": "Minerva",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 4,
-   "total": 5,
+   "total": 4,
    "flags": [
     true,
     true,
     true,
-    true,
-    false
+    true
    ]
   },
   {
    "id": "james-watt",
    "label": "James Watt",
-   "mode": "first_not_direct",
+   "mode": "partial",
    "mentions": 1,
    "total": 3,
    "flags": [
-    false,
     true,
+    false,
     false
    ]
   },
@@ -834,14 +814,13 @@
   {
    "id": "aphrodite",
    "label": "Aphrodite",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 4,
-   "total": 5,
+   "total": 4,
    "flags": [
     true,
     true,
     true,
-    false,
     true
    ]
   },
@@ -850,10 +829,9 @@
    "label": "Styx",
    "mode": "partial",
    "mentions": 1,
-   "total": 3,
+   "total": 2,
    "flags": [
     true,
-    false,
     false
    ]
   },
@@ -861,9 +839,10 @@
    "id": "janus",
    "label": "Janus",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -872,9 +851,10 @@
    "id": "mars",
    "label": "Mars",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -883,9 +863,10 @@
    "id": "vesta",
    "label": "Vesta",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -895,10 +876,9 @@
    "label": "Quirinus (Romulus)",
    "mode": "partial",
    "mentions": 1,
-   "total": 3,
+   "total": 2,
    "flags": [
     true,
-    false,
     false
    ]
   },
@@ -906,59 +886,59 @@
    "id": "diana",
    "label": "Diana",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 5,
    "flags": [
     true,
     true,
+    true,
+    false,
     false
    ]
   },
   {
    "id": "aeneas",
    "label": "Aeneas",
-   "mode": "partial",
-   "mentions": 1,
-   "total": 4,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    false,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "dido",
    "label": "Dido",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
    "id": "sibyl",
    "label": "The Cumaean Sibyl",
-   "mode": "partial",
-   "mentions": 2,
+   "mode": "clean",
+   "mentions": 3,
    "total": 3,
    "flags": [
     true,
     true,
-    false
+    true
    ]
   },
   {
    "id": "evander",
    "label": "Evander",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
@@ -976,9 +956,10 @@
    "id": "hippocrates",
    "label": "Hippocrates",
    "mode": "partial",
-   "mentions": 1,
-   "total": 3,
+   "mentions": 2,
+   "total": 4,
    "flags": [
+    true,
     true,
     false,
     false
@@ -1009,13 +990,13 @@
   {
    "id": "hector",
    "label": "Hector",
-   "mode": "partial",
-   "mentions": 2,
+   "mode": "clean",
+   "mentions": 3,
    "total": 3,
    "flags": [
     true,
     true,
-    false
+    true
    ]
   },
   {
@@ -1031,25 +1012,23 @@
   {
    "id": "xanthus-balius",
    "label": "Xanthus and Balius",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 5,
+   "mode": "clean",
+   "mentions": 4,
+   "total": 4,
    "flags": [
     true,
     true,
     true,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "ares",
    "label": "Ares",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 1,
+   "total": 1,
    "flags": [
-    true,
     true
    ]
   },
@@ -1069,33 +1048,45 @@
   {
    "id": "latinus",
    "label": "Latinus",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
    "id": "iopas",
    "label": "Iopas",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
    "id": "fama",
    "label": "Fama (Rumor)",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 4,
-   "total": 5,
+   "total": 4,
    "flags": [
     true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "tiberinus",
+   "label": "Tiberinus",
+   "mode": "partial",
+   "mentions": 3,
+   "total": 4,
+   "flags": [
     true,
     true,
     true,
@@ -1103,8 +1094,8 @@
    ]
   },
   {
-   "id": "tiberinus",
-   "label": "Tiberinus",
+   "id": "pericles",
+   "label": "Pericles",
    "mode": "partial",
    "mentions": 2,
    "total": 3,
@@ -1115,25 +1106,12 @@
    ]
   },
   {
-   "id": "pericles",
-   "label": "Pericles",
-   "mode": "partial",
-   "mentions": 1,
-   "total": 2,
-   "flags": [
-    true,
-    false
-   ]
-  },
-  {
    "id": "fdr",
    "label": "Franklin Delano Roosevelt",
-   "mode": "partial",
-   "mentions": 1,
-   "total": 3,
+   "mode": "none_mention",
+   "mentions": 0,
+   "total": 1,
    "flags": [
-    true,
-    false,
     false
    ]
   },
@@ -1171,24 +1149,21 @@
   {
    "id": "themis",
    "label": "Themis",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    true,
-    true,
-    false
+    true
    ]
   },
   {
    "id": "castor-polydeuces",
    "label": "Castor and Pollux (Dioscuri)",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 1,
+   "total": 1,
    "flags": [
-    true,
     true
    ]
   },
@@ -1206,11 +1181,11 @@
    "id": "typhoeus",
    "label": "Typhoeus",
    "mode": "partial",
-   "mentions": 1,
+   "mentions": 2,
    "total": 3,
    "flags": [
     true,
-    false,
+    true,
     false
    ]
   },
@@ -1229,9 +1204,10 @@
    "id": "thor",
    "label": "Thor",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     false,
     true
@@ -1241,10 +1217,9 @@
    "id": "loki",
    "label": "Loki",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 1,
+   "total": 1,
    "flags": [
-    true,
     true
    ]
   },
@@ -1262,9 +1237,10 @@
    "id": "heimdall",
    "label": "Heimdall",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -1284,10 +1260,9 @@
    "id": "freyja",
    "label": "Freyja",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 1,
+   "total": 1,
    "flags": [
-    true,
     true
    ]
   },
@@ -1330,12 +1305,11 @@
    "label": "Michael Faraday",
    "mode": "partial",
    "mentions": 3,
-   "total": 5,
+   "total": 4,
    "flags": [
     true,
     true,
     true,
-    false,
     false
    ]
   },
@@ -1343,10 +1317,9 @@
    "id": "ampere",
    "label": "André-Marie Ampère",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 1,
+   "total": 2,
    "flags": [
-    true,
     true,
     false
    ]
@@ -1354,161 +1327,143 @@
   {
    "id": "joule",
    "label": "James Prescott Joule",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 2,
-   "total": 3,
+   "total": 2,
    "flags": [
     true,
-    true,
-    false
+    true
    ]
   },
   {
    "id": "alexander-hamilton",
    "label": "Alexander Hamilton",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 5,
+   "mode": "clean",
+   "mentions": 1,
+   "total": 1,
    "flags": [
-    true,
-    true,
-    true,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "thomas-jefferson",
    "label": "Thomas Jefferson",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 3,
-   "total": 4,
+   "total": 3,
    "flags": [
     true,
     true,
-    true,
-    false
+    true
    ]
   },
   {
    "id": "henry-knox",
    "label": "Henry Knox",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    true,
-    true,
-    false
+    true
    ]
   },
   {
    "id": "john-jay",
    "label": "John Jay",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
    "id": "math",
    "label": "Math fab Mathonwy",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 1,
-   "total": 2,
+   "total": 1,
    "flags": [
-    true,
-    false
+    true
    ]
   },
   {
    "id": "gwydion",
    "label": "Gwydion",
-   "mode": "partial",
-   "mentions": 1,
-   "total": 4,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    false,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "llew-llaw-gyffes",
    "label": "Llew Llaw Gyffes",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 3,
-   "total": 5,
+   "total": 3,
    "flags": [
     true,
     true,
-    true,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "blodeuwedd",
    "label": "Blodeuwedd",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
    "id": "dylan",
    "label": "Dylan ail Ton",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 1,
-   "total": 2,
+   "total": 1,
    "flags": [
-    true,
-    false
+    true
    ]
   },
   {
    "id": "aranrod",
    "label": "Aranrod",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 1,
-   "total": 2,
+   "total": 1,
    "flags": [
-    true,
-    false
+    true
    ]
   },
   {
    "id": "taliesin",
    "label": "Taliesin",
-   "mode": "partial",
-   "mentions": 2,
-   "total": 4,
+   "mode": "clean",
+   "mentions": 3,
+   "total": 3,
    "flags": [
     true,
     true,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "elphin",
    "label": "Elffin",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    true,
-    true,
-    false
+    true
    ]
   },
   {
@@ -1525,9 +1480,10 @@
    "id": "nuada",
    "label": "Nuada of the Silver Hand",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -1616,9 +1572,10 @@
    "id": "lugh",
    "label": "Lugh",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -1628,9 +1585,10 @@
    "id": "cronos",
    "label": "Cronos",
    "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     true,
@@ -1642,6 +1600,33 @@
    "label": "Rhea",
    "mode": "partial",
    "mentions": 3,
+   "total": 5,
+   "flags": [
+    true,
+    true,
+    true,
+    false,
+    false
+   ]
+  },
+  {
+   "id": "oceanus",
+   "label": "Oceanus",
+   "mode": "clean",
+   "mentions": 4,
+   "total": 4,
+   "flags": [
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "hyperion",
+   "label": "Hyperion",
+   "mode": "partial",
+   "mentions": 3,
    "total": 4,
    "flags": [
     true,
@@ -1651,42 +1636,14 @@
    ]
   },
   {
-   "id": "oceanus",
-   "label": "Oceanus",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 5,
-   "flags": [
-    true,
-    true,
-    true,
-    false,
-    false
-   ]
-  },
-  {
-   "id": "hyperion",
-   "label": "Hyperion",
-   "mode": "partial",
-   "mentions": 2,
-   "total": 5,
-   "flags": [
-    true,
-    false,
-    false,
-    false,
-    true
-   ]
-  },
-  {
    "id": "iapetus",
    "label": "Iapetus",
    "mode": "partial",
-   "mentions": 1,
+   "mentions": 2,
    "total": 3,
    "flags": [
     true,
-    false,
+    true,
     false
    ]
   },
@@ -1713,14 +1670,14 @@
   {
    "id": "phoebe",
    "label": "Phoebe",
-   "mode": "partial",
-   "mentions": 4,
+   "mode": "clean",
+   "mentions": 5,
    "total": 5,
    "flags": [
     true,
     true,
     true,
-    false,
+    true,
     true
    ]
   },
@@ -1763,39 +1720,37 @@
   {
    "id": "selene",
    "label": "Selene",
-   "mode": "partial",
-   "mentions": 3,
+   "mode": "clean",
+   "mentions": 4,
    "total": 4,
    "flags": [
     true,
     true,
     true,
-    false
+    true
    ]
   },
   {
    "id": "eos",
    "label": "Eos",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 3,
-   "total": 4,
+   "total": 3,
    "flags": [
     true,
     true,
-    true,
-    false
+    true
    ]
   },
   {
    "id": "leto",
    "label": "Leto",
    "mode": "partial",
-   "mentions": 1,
-   "total": 4,
+   "mentions": 2,
+   "total": 3,
    "flags": [
     true,
-    false,
-    false,
+    true,
     false
    ]
   },
@@ -1803,9 +1758,10 @@
    "id": "asteria",
    "label": "Asteria",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -1813,14 +1769,14 @@
   {
    "id": "pontus",
    "label": "Pontus",
-   "mode": "partial",
-   "mentions": 3,
+   "mode": "clean",
+   "mentions": 4,
    "total": 4,
    "flags": [
     true,
     true,
     true,
-    false
+    true
    ]
   },
   {
@@ -1849,9 +1805,10 @@
    "id": "tartarus",
    "label": "Tartarus",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -1869,77 +1826,69 @@
   {
    "id": "charles-lee",
    "label": "Charles Lee",
-   "mode": "partial",
-   "mentions": 3,
+   "mode": "clean",
+   "mentions": 4,
    "total": 4,
    "flags": [
     true,
     true,
     true,
-    false
+    true
    ]
   },
   {
    "id": "aaron-burr",
    "label": "Aaron Burr",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 2,
-   "total": 3,
+   "total": 2,
    "flags": [
     true,
-    false,
     true
    ]
   },
   {
    "id": "edward-braddock",
    "label": "Edward Braddock",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
    "id": "valerius-publicola",
    "label": "Publicola",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    true,
-    true,
-    false
+    true
    ]
   },
   {
    "id": "fabius-maximus",
    "label": "Fabius Maximus",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 5,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    true,
-    true,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "marcius-coriolanus",
    "label": "Coriolanus",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    true,
-    true,
-    false
+    true
    ]
   },
   {
@@ -1956,6 +1905,16 @@
    "id": "romulus",
    "label": "Romulus",
    "mode": "clean",
+   "mentions": 1,
+   "total": 1,
+   "flags": [
+    true
+   ]
+  },
+  {
+   "id": "marcellus",
+   "label": "Marcellus",
+   "mode": "clean",
    "mentions": 2,
    "total": 2,
    "flags": [
@@ -1964,282 +1923,252 @@
    ]
   },
   {
-   "id": "marcellus",
-   "label": "Marcellus",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 4,
-   "flags": [
-    true,
-    true,
-    true,
-    false
-   ]
-  },
-  {
    "id": "cato-elder",
    "label": "Cato the Elder",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 1,
-   "total": 2,
+   "total": 1,
    "flags": [
-    true,
-    false
+    true
    ]
   },
   {
    "id": "aemilius-paullus",
    "label": "Aemilius Paullus",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 5,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    true,
-    true,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "agamemnon",
    "label": "Agamemnon",
-   "mode": "partial",
-   "mentions": 3,
+   "mode": "clean",
+   "mentions": 5,
    "total": 5,
    "flags": [
     true,
     true,
     true,
-    false,
-    false
+    true,
+    true
    ]
   },
   {
    "id": "menelaus",
    "label": "Menelaus",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 5,
+   "mode": "clean",
+   "mentions": 4,
+   "total": 4,
    "flags": [
     true,
     true,
     true,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "odysseus",
    "label": "Odysseus",
-   "mode": "partial",
-   "mentions": 2,
+   "mode": "clean",
+   "mentions": 3,
    "total": 3,
    "flags": [
     true,
     true,
-    false
+    true
    ]
   },
   {
    "id": "ajax-telamonian",
    "label": "Ajax son of Telamon",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
    "id": "diomedes",
    "label": "Diomedes",
-   "mode": "partial",
-   "mentions": 3,
+   "mode": "clean",
+   "mentions": 4,
    "total": 4,
    "flags": [
     true,
     true,
     true,
-    false
+    true
    ]
   },
   {
    "id": "patroclus",
    "label": "Patroclus",
-   "mode": "partial",
-   "mentions": 3,
+   "mode": "clean",
+   "mentions": 4,
    "total": 4,
    "flags": [
     true,
     true,
     true,
-    false
+    true
    ]
   },
   {
    "id": "sarpedon",
    "label": "Sarpedon",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
    "id": "helen",
    "label": "Helen",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    true,
-    true,
-    false
+    true
    ]
   },
   {
    "id": "calchas",
    "label": "Calchas",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
    "id": "idomeneus",
    "label": "Idomeneus",
-   "mode": "partial",
-   "mentions": 3,
+   "mode": "clean",
+   "mentions": 4,
    "total": 4,
    "flags": [
     true,
     true,
     true,
-    false
+    true
    ]
   },
   {
    "id": "enoch",
    "label": "Enoch",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
    "id": "noah",
    "label": "Noah",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 3,
-   "total": 5,
+   "total": 3,
    "flags": [
     true,
     true,
-    true,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "abraham",
    "label": "Abraham",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 3,
-   "total": 5,
+   "total": 3,
    "flags": [
     true,
     true,
-    true,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "isaac",
    "label": "Isaac",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 5,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    true,
-    true,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "jacob",
    "label": "Jacob",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 5,
+   "mode": "clean",
+   "mentions": 4,
+   "total": 4,
    "flags": [
     true,
     true,
     true,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "joseph",
    "label": "Joseph",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 3,
-   "total": 4,
+   "total": 3,
    "flags": [
     true,
     true,
-    true,
-    false
+    true
    ]
   },
   {
    "id": "sigurd",
    "label": "Sigurd",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 5,
-   "flags": [
-    true,
-    true,
-    true,
-    false,
-    false
-   ]
-  },
-  {
-   "id": "fafnir",
-   "label": "Fafnir",
-   "mode": "partial",
-   "mentions": 3,
+   "mode": "clean",
+   "mentions": 4,
    "total": 4,
    "flags": [
     true,
     true,
     true,
-    false
+    true
+   ]
+  },
+  {
+   "id": "fafnir",
+   "label": "Fafnir",
+   "mode": "clean",
+   "mentions": 3,
+   "total": 3,
+   "flags": [
+    true,
+    true,
+    true
    ]
   },
   {
    "id": "regin",
    "label": "Regin",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -2250,10 +2179,9 @@
    "label": "Brynhild",
    "mode": "partial",
    "mentions": 1,
-   "total": 3,
+   "total": 2,
    "flags": [
     true,
-    false,
     false
    ]
   },
@@ -2261,9 +2189,10 @@
    "id": "hel",
    "label": "Hel",
    "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     true,
@@ -2275,10 +2204,9 @@
    "label": "Fenrir",
    "mode": "partial",
    "mentions": 1,
-   "total": 3,
+   "total": 2,
    "flags": [
     true,
-    false,
     false
    ]
   },
@@ -2286,9 +2214,10 @@
    "id": "tyr",
    "label": "Tyr",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -2297,9 +2226,10 @@
    "id": "atli",
    "label": "Atli",
    "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     true,
@@ -2309,53 +2239,48 @@
   {
    "id": "psyche",
    "label": "Psyche",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 3,
-   "total": 5,
+   "total": 3,
    "flags": [
     true,
     true,
-    true,
-    false,
-    false
+    true
    ]
   },
   {
    "id": "cupid",
    "label": "Cupid",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    true,
-    true,
-    false
+    true
    ]
   },
   {
    "id": "cain",
    "label": "Cain",
-   "mode": "partial",
-   "mentions": 3,
+   "mode": "clean",
+   "mentions": 4,
    "total": 4,
    "flags": [
     true,
     true,
     true,
-    false
+    true
    ]
   },
   {
    "id": "abel",
    "label": "Abel",
-   "mode": "partial",
-   "mentions": 1,
-   "total": 3,
+   "mode": "clean",
+   "mentions": 2,
+   "total": 2,
    "flags": [
     true,
-    false,
-    false
+    true
    ]
   },
   {
@@ -2385,25 +2310,25 @@
   {
    "id": "dione",
    "label": "Dione",
-   "mode": "partial",
-   "mentions": 1,
+   "mode": "clean",
+   "mentions": 2,
    "total": 2,
    "flags": [
     true,
-    false
+    true
    ]
   },
   {
    "id": "james-wilson",
    "label": "James Wilson",
-   "mode": "partial",
-   "mentions": 3,
+   "mode": "clean",
+   "mentions": 4,
    "total": 4,
    "flags": [
     true,
     true,
     true,
-    false
+    true
    ]
   }
  ],
@@ -2462,7 +2387,7 @@
    "to": "lares-penates",
    "type": "comparison",
    "mode": "clean",
-   "dist": 85
+   "dist": 189
   },
   {
    "frm": "juno",
@@ -2483,35 +2408,21 @@
    "to": "nathanael",
    "type": "conflict",
    "mode": "clean",
-   "dist": 9
-  },
-  {
-   "frm": "olympia",
-   "to": "nathanael",
-   "type": "interaction",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
-   "frm": "sandman",
-   "to": "genius",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
+   "dist": 151
   },
   {
    "frm": "prometheus",
    "to": "hephaestus",
    "type": "conflict",
    "mode": "clean",
-   "dist": 86
+   "dist": 40
   },
   {
    "frm": "prometheus",
    "to": "athene",
    "type": "conflict",
    "mode": "clean",
-   "dist": 101
+   "dist": 29
   },
   {
    "frm": "prometheus",
@@ -2532,14 +2443,14 @@
    "to": "prometheus",
    "type": "interaction",
    "mode": "clean",
-   "dist": 20
+   "dist": 189
   },
   {
    "frm": "gilgamesh",
    "to": "lilith",
    "type": "conflict",
    "mode": "clean",
-   "dist": 372
+   "dist": 203
   },
   {
    "frm": "lilith",
@@ -2553,7 +2464,7 @@
    "to": "adam",
    "type": "kinship",
    "mode": "clean",
-   "dist": 68
+   "dist": 142
   },
   {
    "frm": "lilith",
@@ -2623,14 +2534,7 @@
    "to": "rhiannon",
    "type": "interaction",
    "mode": "clean",
-   "dist": 197
-  },
-  {
-   "frm": "rhiannon",
-   "to": "epona",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
+   "dist": 192
   },
   {
    "frm": "nithuth",
@@ -2654,18 +2558,11 @@
    "dist": 11
   },
   {
-   "frm": "volundr",
-   "to": "prometheus",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "mason-weems",
    "to": "george-washington",
    "type": "transmission",
-   "mode": "clean",
-   "dist": 329
+   "mode": "none_both",
+   "dist": null
   },
   {
    "frm": "cincinnatus",
@@ -2686,14 +2583,14 @@
    "to": "genius",
    "type": "analogy",
    "mode": "clean",
-   "dist": 75
+   "dist": 121
   },
   {
    "frm": "zeus",
    "to": "pandora",
    "type": "creation",
-   "mode": "clean",
-   "dist": 25
+   "mode": "none_both",
+   "dist": null
   },
   {
    "frm": "pandora",
@@ -2735,7 +2632,7 @@
    "to": "pyrrha",
    "type": "kinship",
    "mode": "clean",
-   "dist": 12
+   "dist": 13
   },
   {
    "frm": "zeus",
@@ -2749,14 +2646,7 @@
    "to": "metis",
    "type": "conflict",
    "mode": "clean",
-   "dist": 74
-  },
-  {
-   "frm": "zeus",
-   "to": "cincinnatus",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
+   "dist": 26
   },
   {
    "frm": "zeus",
@@ -2770,14 +2660,14 @@
    "to": "athene",
    "type": "interaction",
    "mode": "clean",
-   "dist": 94
+   "dist": 89
   },
   {
    "frm": "athene",
    "to": "erinyes",
    "type": "interaction",
    "mode": "clean",
-   "dist": 7
+   "dist": 286
   },
   {
    "frm": "zeus",
@@ -2819,7 +2709,7 @@
    "to": "bothvild",
    "type": "kinship",
    "mode": "clean",
-   "dist": 29
+   "dist": 174
   },
   {
    "frm": "volundr",
@@ -2840,7 +2730,7 @@
    "to": "asclepius",
    "type": "conflict",
    "mode": "clean",
-   "dist": 29
+   "dist": 223
   },
   {
    "frm": "athene",
@@ -2854,7 +2744,7 @@
    "to": "achilles",
    "type": "transmission",
    "mode": "clean",
-   "dist": 20
+   "dist": 165
   },
   {
    "frm": "podaleirius",
@@ -2881,8 +2771,8 @@
    "frm": "inana",
    "to": "gilgamesh",
    "type": "interaction",
-   "mode": "clean",
-   "dist": 26
+   "mode": "none_both",
+   "dist": null
   },
   {
    "frm": "lilith",
@@ -2913,13 +2803,6 @@
    "dist": 96
   },
   {
-   "frm": "llwyd",
-   "to": "manawyddan",
-   "type": "conflict",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "manawyddan",
    "to": "bran",
    "type": "kinship",
@@ -2941,25 +2824,11 @@
    "dist": 100
   },
   {
-   "frm": "brumidi",
-   "to": "neptune",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "neptune",
    "to": "george-washington",
    "type": "transmission",
    "mode": "clean",
    "dist": 303
-  },
-  {
-   "frm": "brumidi",
-   "to": "vulcan",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
   },
   {
    "frm": "vulcan",
@@ -2969,25 +2838,11 @@
    "dist": 454
   },
   {
-   "frm": "brumidi",
-   "to": "mercury",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "mercury",
    "to": "george-washington",
    "type": "transmission",
    "mode": "clean",
    "dist": 389
-  },
-  {
-   "frm": "brumidi",
-   "to": "venus",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
   },
   {
    "frm": "venus",
@@ -2997,25 +2852,11 @@
    "dist": 335
   },
   {
-   "frm": "brumidi",
-   "to": "ceres",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "ceres",
    "to": "george-washington",
    "type": "transmission",
    "mode": "clean",
    "dist": 541
-  },
-  {
-   "frm": "brumidi",
-   "to": "minerva",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
   },
   {
    "frm": "minerva",
@@ -3032,20 +2873,6 @@
    "dist": 0
   },
   {
-   "frm": "james-watt",
-   "to": "prometheus",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
-   "frm": "benjamin-franklin",
-   "to": "prometheus",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "benjamin-franklin",
    "to": "mercury",
    "type": "analogy",
@@ -3057,7 +2884,7 @@
    "to": "zeus",
    "type": "transmission",
    "mode": "clean",
-   "dist": 56
+   "dist": 52
   },
   {
    "frm": "poseidon",
@@ -3102,13 +2929,6 @@
    "dist": 10
   },
   {
-   "frm": "mars",
-   "to": "cincinnatus",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "vesta",
    "to": "genius",
    "type": "analogy",
@@ -3116,18 +2936,11 @@
    "dist": 448
   },
   {
-   "frm": "quirinus",
-   "to": "cincinnatus",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "diana",
    "to": "juno",
    "type": "analogy",
    "mode": "clean",
-   "dist": 50
+   "dist": 106
   },
   {
    "frm": "aeneas",
@@ -3165,27 +2978,6 @@
    "dist": 321
   },
   {
-   "frm": "hippocrates",
-   "to": "asclepius",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
-   "frm": "adam-smith",
-   "to": "mercury",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
-   "frm": "matthew-boulton",
-   "to": "james-watt",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "hector",
    "to": "paris-alexandrus",
    "type": "conflict",
@@ -3218,7 +3010,7 @@
    "to": "hector",
    "type": "kinship",
    "mode": "clean",
-   "dist": 10
+   "dist": 176
   },
   {
    "frm": "latinus",
@@ -3235,39 +3027,11 @@
    "dist": 119
   },
   {
-   "frm": "fama",
-   "to": "george-washington",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
-   "frm": "tiberinus",
-   "to": "george-washington",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "pericles",
    "to": "athene",
    "type": "transmission",
    "mode": "clean",
-   "dist": 134
-  },
-  {
-   "frm": "fdr",
-   "to": "cincinnatus",
-   "type": "analogy",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
-   "frm": "fdr",
-   "to": "george-washington",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
+   "dist": 130
   },
   {
    "frm": "hecate",
@@ -3295,7 +3059,7 @@
    "to": "paris-alexandrus",
    "type": "conflict",
    "mode": "clean",
-   "dist": 110
+   "dist": 285
   },
   {
    "frm": "typhoeus",
@@ -3347,20 +3111,6 @@
    "dist": 33
   },
   {
-   "frm": "faraday",
-   "to": "benjamin-franklin",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
-   "frm": "ampere",
-   "to": "faraday",
-   "type": "transmission",
-   "mode": "none_both",
-   "dist": null
-  },
-  {
    "frm": "joule",
    "to": "james-watt",
    "type": "transmission",
@@ -3372,7 +3122,7 @@
    "to": "hera",
    "type": "marriage",
    "mode": "clean",
-   "dist": 58
+   "dist": 123
   },
   {
    "frm": "hera",
@@ -3386,14 +3136,14 @@
    "to": "aphrodite",
    "type": "marriage",
    "mode": "clean",
-   "dist": 39
+   "dist": 22
   },
   {
    "frm": "hephaestus",
    "to": "ares",
    "type": "conflict",
    "mode": "clean",
-   "dist": 43
+   "dist": 47
   },
   {
    "frm": "ares",
@@ -3456,21 +3206,21 @@
    "to": "george-washington",
    "type": "interaction",
    "mode": "clean",
-   "dist": 57
+   "dist": 237
   },
   {
    "frm": "math",
    "to": "gwydion",
    "type": "kinship",
    "mode": "clean",
-   "dist": 9
+   "dist": 22
   },
   {
    "frm": "gwydion",
    "to": "llew-llaw-gyffes",
    "type": "interaction",
    "mode": "clean",
-   "dist": 9
+   "dist": 76
   },
   {
    "frm": "llew-llaw-gyffes",
@@ -3491,7 +3241,7 @@
    "to": "elphin",
    "type": "interaction",
    "mode": "clean",
-   "dist": 9
+   "dist": 142
   },
   {
    "frm": "gwydion",
@@ -3512,14 +3262,14 @@
    "to": "dagda",
    "type": "interaction",
    "mode": "clean",
-   "dist": 48
+   "dist": 143
   },
   {
    "frm": "nuada",
    "to": "diancecht",
    "type": "interaction",
    "mode": "clean",
-   "dist": 34
+   "dist": 190
   },
   {
    "frm": "miach",
@@ -3533,7 +3283,7 @@
    "to": "brigit",
    "type": "kinship",
    "mode": "clean",
-   "dist": 517
+   "dist": 515
   },
   {
    "frm": "morrigan",
@@ -3554,7 +3304,7 @@
    "to": "zeus",
    "type": "kinship",
    "mode": "clean",
-   "dist": 29
+   "dist": 106
   },
   {
    "frm": "rhea",
@@ -3715,7 +3465,7 @@
    "to": "fabius-maximus",
    "type": "comparison",
    "mode": "clean",
-   "dist": 25
+   "dist": 252
   },
   {
    "frm": "marcius-coriolanus",
@@ -3750,7 +3500,7 @@
    "to": "machaon",
    "type": "interaction",
    "mode": "clean",
-   "dist": 63
+   "dist": 159
   },
   {
    "frm": "odysseus",
@@ -3764,14 +3514,14 @@
    "to": "hector",
    "type": "conflict",
    "mode": "clean",
-   "dist": 23
+   "dist": 25
   },
   {
    "frm": "diomedes",
    "to": "ares",
    "type": "conflict",
    "mode": "clean",
-   "dist": 68
+   "dist": 64
   },
   {
    "frm": "patroclus",
@@ -3827,7 +3577,7 @@
    "to": "isaac",
    "type": "kinship",
    "mode": "clean",
-   "dist": 12
+   "dist": 63
   },
   {
    "frm": "isaac",
@@ -3848,14 +3598,14 @@
    "to": "sigurd",
    "type": "interaction",
    "mode": "clean",
-   "dist": 20
+   "dist": 24
   },
   {
    "frm": "sigurd",
    "to": "fafnir",
    "type": "conflict",
    "mode": "clean",
-   "dist": 7
+   "dist": 86
   },
   {
    "frm": "brynhild",
@@ -3953,7 +3703,7 @@
    "to": "taliesin",
    "type": "interaction",
    "mode": "clean",
-   "dist": 22
+   "dist": 452
   },
   {
    "frm": "balor",
@@ -4016,67 +3766,68 @@
   "nodes_total": 200,
   "node_modes": {
    "no_highlights": [
-    0,
-    []
-   ],
-   "none_mention": [
-    0,
-    []
-   ],
-   "first_not_direct": [
-    2,
+    1,
     [
-     "mason-weems",
-     "james-watt"
+     "mason-weems"
     ]
    ],
+   "none_mention": [
+    1,
+    [
+     "fdr"
+    ]
+   ],
+   "first_not_direct": [
+    0,
+    []
+   ],
    "partial": [
-    137,
+    64,
     [
      "machaon",
      "asclepius",
-     "juno",
      "nathanael",
      "olympia",
      "zeus",
-     "hephaestus",
      "gilgamesh",
      "adam",
      "methuselah",
-     "agrimus",
-     "rhiannon",
      "pwyll",
-     "gwawl",
+     "arawn",
      "llwyd",
      "teyrnon",
      "manawyddan",
      "nithuth",
-     "nithuths-queen",
-     "bothvild",
-     "george-washington",
      "brumidi",
-     "cincinnatus",
      "pandora",
      "metis",
      "erinyes",
-     "apollo",
      "achilles",
      "victory",
-     "neptune",
      "vulcan",
      "ceres",
-     "minerva",
+     "james-watt",
      "benjamin-franklin",
-     "aphrodite",
      "styx",
      "janus",
      "mars",
      "vesta",
-     "quirinus"
+     "quirinus",
+     "diana",
+     "camilla",
+     "hippocrates",
+     "adam-smith",
+     "tiberinus",
+     "pericles",
+     "mnemosyne",
+     "typhoeus",
+     "thor",
+     "heimdall",
+     "galen"
     ]
    ],
    "clean": [
-    61,
+    134,
     [
      "podaleirius",
      "chiron",
@@ -4085,39 +3836,39 @@
      "eurypylus-telephid",
      "genius",
      "lares-penates",
+     "juno",
      "silvanus",
      "sandman",
      "prometheus",
      "epimetheus",
+     "hephaestus",
      "athene",
      "heracles",
      "lilith",
      "inana",
      "anzud-bird",
      "eve",
-     "arawn",
+     "agrimus",
+     "rhiannon",
+     "gwawl",
      "pryderi",
      "bran",
      "epona",
      "volundr",
+     "nithuths-queen",
+     "bothvild",
+     "george-washington",
+     "cincinnatus",
      "pyrrha",
      "deucalion",
      "hera",
+     "apollo",
      "enkidu",
+     "neptune",
      "mercury",
      "venus",
-     "atlas",
-     "poseidon",
-     "iris",
-     "dionysus",
-     "matthew-boulton",
-     "thetis",
-     "ares",
-     "priam",
-     "hecate",
-     "nereus",
-     "castor-polydeuces",
-     "yggdrasil"
+     "minerva",
+     "atlas"
     ]
    ]
   },
@@ -4128,132 +3879,22 @@
     []
    ],
    "none_both": [
-    25,
+    3,
     [
      [
-      "olympia",
-      "nathanael",
-      "interaction"
-     ],
-     [
-      "sandman",
-      "genius",
-      "analogy"
-     ],
-     [
-      "rhiannon",
-      "epona",
-      "analogy"
-     ],
-     [
-      "volundr",
-      "prometheus",
-      "analogy"
+      "mason-weems",
+      "george-washington",
+      "transmission"
      ],
      [
       "zeus",
-      "cincinnatus",
-      "analogy"
+      "pandora",
+      "creation"
      ],
      [
-      "llwyd",
-      "manawyddan",
-      "conflict"
-     ],
-     [
-      "brumidi",
-      "neptune",
-      "transmission"
-     ],
-     [
-      "brumidi",
-      "vulcan",
-      "transmission"
-     ],
-     [
-      "brumidi",
-      "mercury",
-      "transmission"
-     ],
-     [
-      "brumidi",
-      "venus",
-      "transmission"
-     ],
-     [
-      "brumidi",
-      "ceres",
-      "transmission"
-     ],
-     [
-      "brumidi",
-      "minerva",
-      "transmission"
-     ],
-     [
-      "james-watt",
-      "prometheus",
-      "transmission"
-     ],
-     [
-      "benjamin-franklin",
-      "prometheus",
-      "transmission"
-     ],
-     [
-      "mars",
-      "cincinnatus",
-      "analogy"
-     ],
-     [
-      "quirinus",
-      "cincinnatus",
-      "analogy"
-     ],
-     [
-      "hippocrates",
-      "asclepius",
-      "transmission"
-     ],
-     [
-      "adam-smith",
-      "mercury",
-      "transmission"
-     ],
-     [
-      "matthew-boulton",
-      "james-watt",
-      "transmission"
-     ],
-     [
-      "fama",
-      "george-washington",
-      "analogy"
-     ],
-     [
-      "tiberinus",
-      "george-washington",
-      "analogy"
-     ],
-     [
-      "fdr",
-      "cincinnatus",
-      "analogy"
-     ],
-     [
-      "fdr",
-      "george-washington",
-      "transmission"
-     ],
-     [
-      "faraday",
-      "benjamin-franklin",
-      "transmission"
-     ],
-     [
-      "ampere",
-      "faraday",
-      "transmission"
+      "inana",
+      "gilgamesh",
+      "interaction"
      ]
     ]
    ],
@@ -4262,7 +3903,7 @@
     []
    ],
    "clean": [
-    204,
+    201,
     [
      [
       "asclepius",
@@ -4393,10 +4034,6 @@
       "bothvild"
      ],
      [
-      "mason-weems",
-      "george-washington"
-     ],
-     [
       "cincinnatus",
       "george-washington"
      ],
@@ -4409,10 +4046,6 @@
       "genius"
      ],
      [
-      "zeus",
-      "pandora"
-     ],
-     [
       "pandora",
       "epimetheus"
      ],
@@ -4423,6 +4056,14 @@
      [
       "epimetheus",
       "prometheus"
+     ],
+     [
+      "pandora",
+      "pyrrha"
+     ],
+     [
+      "prometheus",
+      "deucalion"
      ]
     ]
    ]

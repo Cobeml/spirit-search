@@ -62,6 +62,29 @@ def mentions(t, pats):
     tsq = squeeze(t)
     return first_hit(t, tsq, pats) is not None
 
+JUNK_PATTERNS = [
+    ("invisible_or_mojibake", re.compile(r"[\u200b\u200c\u200d\ufeff\ufffd\x91\x92\x93\x94]")),
+    ("boilerplate", re.compile(r"project gutenberg|digitized by the internet archive", re.I)),
+    ("locator_prefix", re.compile(r"^\s*[\(\[]?\s*l{1,2}\.\s*\d")),
+    ("inline_pagenum", re.compile(r"[.!?][\"'\u2019\u201d]?\s+\d{1,4}(?::\d{1,4})?\s+[A-Z]")),
+    ("markup_garbage", re.compile(r"thumb\|right\||\u25a0|■\^|\[\[File:")),
+    ("chapter_heading", re.compile(r"^\s*(?:BOOK|CHAPTER|Book|Chapter)\s+[IVXLC0-9]+\.?\s*$")),
+]
+
+def text_quality(raw):
+    """Segmentation + document-furniture flags for a stored quote (Cobe
+    doctrine 2026-10-16: highlights must read as whole sentences and carry
+    no document-specific furniture). Returns (seg_issues, junk_issues)."""
+    s = (raw or "").strip()
+    seg = []
+    if s:
+        if s[0].islower():
+            seg.append("mid_start")
+        if not re.search(r'[.!?\u201d\u2019"\)\]]$', s):
+            seg.append("mid_end")
+    junk = [name for name, pat in JUNK_PATTERNS if pat.search(s)]
+    return seg, junk
+
 def main():
     g = json.load(open(GP))
     byid = {n["id"]: n for n in g["nodes"]}
@@ -84,7 +107,8 @@ def main():
             m = mentions(t, pats)
             hit = first_hit(t, squeeze(h["text"].lower()), pats)
             flags.append(m)
-            h["audit"] = {"name_mention": m}
+            seg, junk = text_quality(h["text"])
+            h["audit"] = {"name_mention": m, "seg": seg, "junk": junk}
             if m:
                 nm += 1
         first = flags[0]
@@ -123,7 +147,9 @@ def main():
             hf, ht = first_hit(t, tsq, pf), first_hit(t, tsq, pt)
             has_f, has_t = hf is not None, ht is not None
             dist = abs((hf[0] if hf else 0) - (ht[0] if ht else 0)) if (has_f and has_t) else None
-            x["audit"] = {"has_from": has_f, "has_to": has_t, "dist": dist}
+            seg, junk = text_quality(x["text"])
+            x["audit"] = {"has_from": has_f, "has_to": has_t, "dist": dist,
+                          "seg": seg, "junk": junk}
             if has_f and has_t:
                 if best is None or (dist or 0) < best[0]:
                     best = (dist or 0, x)
@@ -157,6 +183,23 @@ def main():
     print("== EDGES ==")
     for k, v in e_modes.items():
         print(f"{k}: {len(v)}")
+    # text-quality tallies (segmentation + junk), the 2026-10-16 gate
+    seg_ct = junk_ct = 0
+    for n in g["nodes"]:
+        for h in n.get("highlights", []):
+            a = h.get("audit", {})
+            if a.get("seg"):
+                seg_ct += 1
+            if a.get("junk"):
+                junk_ct += 1
+    for e in g.get("edges", []):
+        for x in e.get("excerpts", []):
+            a = x.get("audit", {})
+            if a.get("seg"):
+                seg_ct += 1
+            if a.get("junk"):
+                junk_ct += 1
+    print(f"== TEXT QUALITY ==\nseg_fail: {seg_ct}\njunk_fail: {junk_ct}")
     print("\nfirst_not_direct sample:", n_modes["first_not_direct"][:15])
     print("none_mention sample:", n_modes["none_mention"][:15])
     print("edges none_both sample:", [x for x in e_modes["none_both"][:15]])
