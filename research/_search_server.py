@@ -62,5 +62,5 @@ class H(BaseHTTPRequestHandler):
         pass
 
 if __name__ == "__main__":
-    print("search server on http://127.0.0.1:8788/search?q=...")
-    ThreadingHTTPServer(("127.0.0.1", 8788), H).serve_forever()
+    print("search server on 0.0.0.0:8788 (reachable via localhost and tailnet IP) http://127.0.0.1:8788/search?q=...")
+    ThreadingHTTPServer(("", 8788), H).serve_forever()
