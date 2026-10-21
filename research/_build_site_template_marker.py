@@ -3,6 +3,9 @@ ROOT='/home/cobe-liu/Developing/spirit-search'
 SITE=ROOT+'/docs'
 g=json.load(open(ROOT+'/research/graph.json'))
 ledger=json.load(open(ROOT+'/research/ledger.json'))
+wiki={}
+try: wiki=json.load(open(ROOT+'/research/wikipedia.json'))
+except Exception: pass
 urls={s['id']:s['url'] for s in ledger['sources']}
 titles={s['id']:s['title'] for s in ledger['sources']}
 
@@ -20,7 +23,7 @@ support_essay="Supporting figure. Registered because a primary narrative names t
 
 nodes=[]
 for n in sorted(g['nodes'], key=lambda x:(x.get('date_added',''),x['label'])):
-    nodes.append({
+    d={
         'id':n['id'],'label':n['label'],'tradition':n.get('tradition',''),
         'batch':n.get('batch'),'date_added':n.get('date_added'),
         'era':n.get('era'),
@@ -31,7 +34,14 @@ for n in sorted(g['nodes'], key=lambda x:(x.get('date_added',''),x['label'])):
         'essay':n.get('essay') or support_essay,
         'highlights':n.get('highlights',[]),
         'proposals':n.get('proposals',[]),
-        'review':n.get('review')})
+        'review':n.get('review')}
+    # Wikipedia context (Cobe 2026-10-21): name links to the page, lead blurb
+    # renders before the highlights. CONTEXT ONLY — never a citation for a
+    # highlight or edge; corpus witnesses substantiate everything else.
+    w=wiki.get(n['id'])
+    if w and w.get('status')=='ok' and w.get('blurb'):
+        d['wiki']={'title':w.get('title'),'url':w.get('url'),'blurb':w['blurb']}
+    nodes.append(d)
 
 edges=[{'frm':e['from'],'to':e['to'],'type':e['type'],'title':e['title'],'essay':e['essay'],'source':e.get('source',''),'date_added':e.get('date_added'),'era':e.get('era'),'excerpts':e.get('excerpts',[]),'influence':e.get('influence'),'review':e.get('review'),'audit':e.get('audit'),'pairing_note':e.get('pairing_note')} for e in g['edges']]
 

@@ -7,6 +7,9 @@ SELF-CHECK — DATA fields this template now relies on:
   edges[]: frm,to,type,title,essay,source,date_added,era
   edges[] NEW: excerpts[] of {text, source_title, source_url, cluster} (essay is FALLBACK when empty)
   edges[] NEW: influence (float), shown in edge detail
+  nodes[] NEW: wiki {title,url,blurb} — Wikipedia context: h2 name links to the
+    page, blurb renders in .wiki-blurb BEFORE the highlights (null when no page).
+    CONTEXT ONLY: never a citation for a highlight or edge.
   Search bar GETs http://127.0.0.1:8788/search?q=..&k=10&mode=(hybrid|bm25|vec)
     -> {results:[{snippet, text, cluster, title, url, path}]}
   Sanity: node 'machaon' highlights include text like "A physician is worth more than several other men put together..."
@@ -148,6 +151,11 @@ SELF-CHECK — DATA fields this template now relies on:
     border:1px dashed var(--faint);border-radius:4px;padding:0 .25rem;margin-right:.3rem;}
   details.proposals{margin:.4rem 0;}
   details.proposals summary{cursor:pointer;font-size:.85rem;color:var(--faint);}
+  /* wikipedia context: neutral gray rail (not the accent evidence rail) */
+  .wiki-blurb{border-left:3px solid var(--line);margin:.55rem 0 .9rem;padding:.15rem 0 .15rem .8rem;}
+  .wiki-blurb p{margin:.15rem 0;}
+  h2 a.nname{color:inherit;text-decoration:none;border-bottom:1px dotted var(--accent);}
+  h2 a.nname:hover{color:var(--accent);border-bottom-style:solid;}
 </style>
 </head>
 <body>
@@ -497,6 +505,13 @@ function openNode(id){
   const rel=DATA.edges.filter(e=>e.frm===id||e.to===id);
   const hl=(n.highlights||[]);
   const props=(n.proposals||[]);
+  const nameHtml = (n.wiki&&n.wiki.url)
+    ? `<a class="nname" href="${esc(n.wiki.url)}" target="_blank" rel="noopener" title="Wikipedia: ${esc(n.wiki.title||'')}">${esc(n.label)}</a>`
+    : esc(n.label);
+  const wikiBlock = (n.wiki&&n.wiki.blurb)
+    ? `<div class="wiki-blurb"><p>${esc(n.wiki.blurb)}</p>
+        <div class="cite-line">— <a class="cite" href="${esc(n.wiki.url)}" target="_blank" rel="noopener">Wikipedia</a></div></div>`
+    : '';
   const mainBlock = hl.length
     ? `<h4 class="sec">Highlights (${hl.length})</h4>${hl.map(x=>excerptHtml(x,false)).join('')}`
     : `<p id="essayNode" data-id="${esc(n.id)}">${linkify(n.essay)}</p>`;
@@ -522,8 +537,9 @@ function openNode(id){
     </details>`;
   drawerBody.innerHTML=`
     ${eraDetail}
-    <h2>${esc(n.label)}</h2>
+    <h2>${nameHtml}</h2>
     ${pwDetail}
+    ${wikiBlock}
     ${mainBlock}
     ${propBlock}
     <h4>Documented interactions (${rel.length})</h4>
