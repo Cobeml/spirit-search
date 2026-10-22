@@ -29,6 +29,7 @@ for n in sorted(g['nodes'], key=lambda x:(x.get('date_added',''),x['label'])):
         'era':n.get('era'),
         'pw_d':n.get('power_watts_direct',0),'pw_p':n.get('power_watts_proxy',0),
         'pw_t':n.get('power_watts_total',0),'pw_e':n.get('power_watts_at_era',0),
+        'pw_status':n.get('power_status','unpriced'),
         'pw_pool':n.get('power_pool'),'pw_why':n.get('power_rationale'),
         'pw_ws':n.get('power_witness_strength'),
         'essay':n.get('essay') or support_essay,
