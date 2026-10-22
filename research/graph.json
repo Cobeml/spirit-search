@@ -366,10 +366,10 @@
       "date_added": "2026-10-11",
       "essay": "The war's author enters on the back foot. At the sight of Menelaus, Alexandrus 'quailed... and shrank in fear of his life under cover of his men', compared by the narrator to one who starts back at 'a serpent in some mountain glade' [1]. Hector's rebuke is the tradition's own thumbnail of the defendant: 'evil-hearted Paris, fair to see, but woman-mad, and false of tongue' [1]. And yet the same archer, taunting Diomed with an arrow through the foot, laughs from cover: 'my arrow has not been shot in vain; would that it had hit you in the belly and killed you' [1]. His puncture wounds, the remoter damage to Eurypylus, and Machaon's dragging-off are one casualty network. The Iliad's power-verdict on him is demographic rather than heroic: he removes three Achaeans from field-medicine, not sword-hand. He commands ranged damage and reproductive calamity; his era sees him fined by no higher office except Zeus's bookkeeping.\n\nThe Cypria summary preserves the judgment scene whole: 'The three are led by Hermes at the command of Zeus to Alexandrus on Mount Ida for his decision, and Alexandrus, lured by his promised marriage with Helen, decides in favour of Aphrodite' [26]. The tradition's own valuation: he is the one man whose taste could start the war, bribed by a wedding. The Aeneid, putting the cost where its enemy can pay it, lodges the deepest Roman scar in Juno's breast: 'Deep graven in her heart the doom remain'd Of partial Paris' [35]. The great poems agree that his one durable act was an aesthetic purchase.",
       "era": -750,
-      "power_watts_direct": 0.0,
-      "power_watts_total": 1500000000.0,
+      "power_watts_direct": 750000000.0,
+      "power_watts_total": 2250000000.0,
       "power_watts_proxy": 1500000000.0,
-      "power_watts_at_era": 15151644.87,
+      "power_watts_at_era": 22727467.306,
       "highlights": [
         {
           "text": "As one who starts back affrighted, trembling and pale, when he comes suddenly upon a serpent in some mountain glade, even so did Alexandrus plunge into the throng of Trojan warriors, terror-stricken at the sight of the son Atreus.",
@@ -444,7 +444,10 @@
         "mentions": 4,
         "total": 4
       },
-      "power_status": "routed"
+      "power_status": "direct",
+      "power_rationale": "The judgment of the apple: the binding decision among the bribes of three goddesses that launched the war. Pricing activates the Hector route.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 1.0
     },
     {
       "id": "nestor",
@@ -3312,9 +3315,9 @@
       "power_pool": "P_military",
       "power_witness_strength": 1.0,
       "power_watts_direct": 1000000000.0,
-      "power_watts_total": 31000000000.0,
-      "power_watts_proxy": 30000000000.0,
-      "power_watts_at_era": 1487408593.324,
+      "power_watts_total": 31150000000.0,
+      "power_watts_proxy": 30150000000.0,
+      "power_watts_at_era": 1494605731.679,
       "highlights": [
         {
           "text": "The V'6lundark'vitlid\"i% full of prose narrative links, including an introduction. The nature of such prose links has already been discussed in the introductory note to the Grimnismol ; the Volundark'vitha is a striking illustration of the way in which the funrtinn nf fViP parlipf Eddic verse was limited chiefly to dialogue or description^ the narrative outline bemg provided, if al all; iiT\" prose. This prose was put in by each reciter according to hisj fancy and knowledge, and his estimate of his hearers' need for ! such explanations; some of it, as in this instance, eventually' found its way into the written record. The manuscript of the Volundarkvitha is in such bad shape, and the conjectural emendations have been so numerous, that in the notes I have attempted to record only the most important of them. [253] Poetic Edda There was a king in Sweden named Nithuth. He had two sons and one daughter; her name was Bothvild. There were three brothers, sons of a king of the Finns: one was called Slagfith, another Egil, the third Volund. They went on snowshoes and hunted wild beasts. They came into Ulfdalir and there they built themselves a house ; there was a lake there which is called Ulfsjar. Early one morning they found on the shore of the lake three women, who were spinning flax.",
@@ -3417,10 +3420,10 @@
       "date_added": "2026-10-12",
       "essay": "The Lay's explicit oracle of power and fear: she 'spake: The glow of his eyes is like gleaming snakes, His teeth he gnashes if now is shown / The sword... Let them straightway cut his sinews of strength' [24]. What other characters must summon as proof, she reads off the smith's face at once. Yet her counsel generates the very thing it warned of; the maiming creates its avenger. Her closing inventory is domestic and macabre in equal parts: Volund's confession assigns her the quarry of her murdered sons' eyes, 'gems full fair... To Nithuth's wife so wise he gave them' [24]. In testimony she is the highest-fidelity sensor in the poem; in action she enables the loss her sensor detected. That pairing is her character in the fetched witness, and it is thin by function: a queen who exists to say 'now'.",
       "era": 900,
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 750000000.0,
+      "power_watts_total": 750000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_at_era": 35985691.774,
       "highlights": [
         {
           "text": "Volundarkvitha house, and he himself wore the sword that Volund had had. The queen spake: 1 8. \"The glow of his eyes is like gleaming snakes, His teeth he gnashes if now is shown The sword, or Bothvild's ring he sees; Let them straightway cut his sinews of strength, And set him then in Saevarstath.\"",
@@ -3475,7 +3478,10 @@
         "mentions": 2,
         "total": 2
       },
-      "power_status": "unpriced"
+      "power_status": "direct",
+      "power_rationale": "The queen who reads the ring and commands the hamstringing; the instigating throne beside Nithuth.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 1.0
     },
     {
       "id": "bothvild",
@@ -3820,10 +3826,10 @@
       "date_added": "2026-10-12",
       "essay": "Livy prefaces the whole episode with an editorial sneer at his readers: the story is worth hearing precisely for 'those who despise all human interests in comparison with riches'. Then he shows the machine: Three miles across the Tiber, 'the one hope of Rome, L. Quinctius, used to cultivate a four-acre field', and the senate's deputation finds him 'intent on his husbandry' and must ask him to put on his toga before telling him the state needs him [33]. The power transfer is narrated as an interruption of ditch-digging. It ends the same way it began, by act of the holder, not the moment: 'Quinctius resigned on the sixteenth day the dictatorship which had been conferred upon him for six months' [33]. Between those brackets the man does what the office exists for; the memorable item our witness wants remembered is the giving-back. Livy's own ink tells on the myth: the citizen far above the details is sketched entirely through details, four acres, the toga request, sixteen days. Two millennia later the American republic rented the same dramaturgy for Washington, first in the Society of the Cincinnati, then in Weems' biography [15]; the connection remains analogy, for the transmission passes through institutions, not this text.",
       "era": -450,
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 5625000000.0,
+      "power_watts_total": 5625000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_at_era": 77491559.239,
       "highlights": [
         {
           "text": "They made a night attack on his camp, but as they gained little by a direct assault they proceeded the following day to invest it. Before all the exits were closed by the circumvallation, five mounted men got through the enemies' outposts and brought to Rome the news that the consul and his army were blockaded. Nothing could have happened so unlooked for, so undreamed of; the panic and confusion were as great as if it had been the City and not the camp that was invested. The consul Nautius was summoned home, but as he did nothing equal to the emergency, they decided to appoint a Dictator to retrieve the threatening position of affairs. By universal consent L. Quinctius Cincinnatus was called to the office. It is worth while for those who despise all human interests in comparison with riches, and think that there is no scope for high honours or for virtue except where lavish wealth abounds, to listen to this story. The one hope of Rome, L. Quinctius, used to cultivate a four-acre field on the other side of the Tiber, just opposite the place where the dockyard and arsenal are now situated; it bears the name of the \" Quinctian Meadows.\" There he was found by the deputation from the senate either digging out a ditch or ploughing, at all events, as is generally agreed, intent on his husbandry.",
@@ -3928,7 +3934,10 @@
         "mentions": 6,
         "total": 6
       },
-      "power_status": "unpriced"
+      "power_status": "direct",
+      "power_rationale": "The civil-military restraint template every modern republic cites; FDR borrowed the loan in his first inaugural.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 0.75
     },
     {
       "id": "pandora",
@@ -4384,10 +4393,10 @@
       "essay": "Apollo enters this ledger from the Asclepius file: here his attested acts are punishing the informant ('cursed the raven that brought the tidings and made him black instead of white'), killing his pregnant Coronis, and snatching the child from her pyre to hand it to Chiron [34]. He stands at the origin of the healing cult and at the origin of its casualties in the same paragraph. Everything further about him waits on witnesses not yet fetched.\n\nThe Iliad opens on his invoice. Chryses comes to ransom his daughter bearing 'the sceptre of Apollo wreathed with a suppliant's wreath' [1]; refused, the priest prays, and 'Apollo heard his prayer. He came down furious' [1], shooting mules and dogs first, then men, 'and all day long the pyres of the dead were burning' [1]. Thence the god's etiquette, constant through the poem: he pays his own servants with arrows and repels trespassers in person. Diomedes, charging Aeneas 'as though he were a god', gets the message shouted to his face: 'think not to match yourself against gods, for men that walk the earth cannot hold their own with the immortals' [1]; Patroclus at the wall is struck three times by no proxy but Apollo's 'own immortal hands' [1], the softening-up that makes Hector easy after. The Odyssey's epithet for the same weapon is the painless shaft, Apollo killing Menelaus' steersman 'then and there with the helm in his hand' [54]. Between the plague book and that verb the god's character is fixed: distance, contract, and a killing that leaves its date.",
       "date_added": "2026-10-12",
       "batch": 3,
-      "power_watts_direct": 0.0,
-      "power_watts_total": 6000000000.0,
+      "power_watts_direct": 1500000000.0,
+      "power_watts_total": 7500000000.0,
       "power_watts_proxy": 6000000000.0,
-      "power_watts_at_era": 60606579.481,
+      "power_watts_at_era": 75758224.352,
       "notes": [
         {
           "date": "2026-10-12",
@@ -4462,7 +4471,10 @@
         "mentions": 3,
         "total": 3
       },
-      "power_status": "routed"
+      "power_status": "direct",
+      "power_rationale": "The archer whose arrows are plague and whose son is Asclepius; the healing claim the Pythian voice disciplined. Pricing activates the sibyl and Sulla routes.",
+      "power_pool": "P_health",
+      "power_witness_strength": 0.75
     },
     {
       "id": "achilles",
@@ -4842,10 +4854,10 @@
       "date_added": "2026-10-12",
       "essay": "His charter myth is a trade executed at sword's length. The newborn Hermes steals Apollo's cattle, invents the lyre from a tortoise, and when Apollo comes to collect, the two settle not by combat but by barter: 'He held out the lyre: and Phoebus Apollo took it, and readily put his shining whip in Hermes' hand, and ordained him keeper of herds' [38]. The thief keeps the herd, the victim gets music, and exchange is born as the mechanism by which theft becomes relationship. That is why commerce still prays to him: he is the god of the transaction that converts what you took into what you own. He wears this résumé into the Capitol's Commerce panel [16], where the republic that runs on tariffs and Manifest Destiny hangs the professional boundary-crosser over its ledgers without apparent irony.",
       "era": -650,
-      "power_watts_direct": 0.0,
-      "power_watts_total": 18000000000.0,
+      "power_watts_direct": 1500000000.0,
+      "power_watts_total": 19500000000.0,
       "power_watts_proxy": 18000000000.0,
-      "power_watts_at_era": 197015144.57,
+      "power_watts_at_era": 213433073.284,
       "highlights": [
         {
           "text": "And now there is no need for you, bargainer though you are, to be furiously angry.’ (ll. 496-502) When Hermes had said this, he held out the lyre: and Phoebus Apollo took it, and readily put his shining whip in Hermes’ hand, and ordained him keeper of herds.",
@@ -4887,7 +4899,10 @@
         "mentions": 1,
         "total": 1
       },
-      "power_status": "routed"
+      "power_status": "direct",
+      "power_rationale": "God of merchants and messengers; the exchange-coordination archetype the market still invokes. Pricing activates the Adam Smith route.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 0.5
     },
     {
       "id": "venus",
@@ -5274,10 +5289,10 @@
       "tradition": "Greek Titan",
       "era": -700,
       "essay": "Hesiod keeps his file next to Prometheus' since the punishment section is shared copy: 'Atlas through hard constraint upholds the wide heaven with unwearying head and arms... for this lot wise Zeus assigned to him. And ready-witted Prometheus he bound with inextricable bonds' [26]. Two brothers adjacent in the catalogue of coerced labor, one holding up the sky so the other can hold the fire. The assignment language is the tell: a lot, assigned, which means the sky is not carried by nature but by sentence. Atlas is what the authority pool does with a body it cannot pardon.\n\nThe Odyssey knows a different work order, perhaps the older one: Calypso is 'daughter of the magician Atlas, who looks after the bottom of the ocean, and carries the great columns that keep heaven and earth asunder' [54]. Not the sky-bearer of the Titanomachy file but the pillar-man stationed at the seam, with earth under his charge as well as heaven. Between the two earliest poems the sentence has already hardened into civil engineering.",
-      "power_watts_direct": 0.0,
-      "power_watts_total": 375000000000.0,
+      "power_watts_direct": 1500000000.0,
+      "power_watts_total": 376500000000.0,
       "power_watts_proxy": 375000000000.0,
-      "power_watts_at_era": 3943020934.07,
+      "power_watts_at_era": 3958793017.806,
       "highlights": [
         {
           "text": "And Atlas through hard constraint upholds the wide heaven with unwearying head and arms, standing at the borders of the earth before the clear-voiced Hesperides; for this lot wise Zeus assigned to him. And ready-witted Prometheus he bound with inextricable bonds, cruel chains, and drove a shaft through his middle, and set on him a long-winged eagle, which used to eat his immortal liver; but by night the liver grew as much again everyway as the long-winged bird devoured in the whole day.",
@@ -5319,7 +5334,10 @@
         "mentions": 1,
         "total": 1
       },
-      "power_status": "routed"
+      "power_status": "direct",
+      "power_rationale": "The sky-bearer; every atlas of maps and every load-bearing name descends from the Titan condemned to carry. Pricing activates the Iopas route.",
+      "power_pool": "P_energy",
+      "power_witness_strength": 0.75
     },
     {
       "batch": 5,
@@ -6079,10 +6097,10 @@
       "tradition": "Roman epic founder",
       "era": -19,
       "essay": "Vergil packs the entire thesis into his proem's checklist: the man 'forc'd by fate... 'bore' the Trojan shore, and 'his banish'd gods restor'd to rites divine' in Italy [35]. The nation's founder is defined by cargo: the little tutelaries in his trunk survive the state's defeat and the sea. He carries less power than Prometheus and more freight; his labour is logistics, moving the Penates to a new jurisdiction where, per the Fasti, they will become Mars and Venus's revenue stream [36]. Washington's biographer will steal precisely this maneuver for the American founder: the country is his household gods, unpacked on federal land [15][16].",
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 1500000000.0,
+      "power_watts_total": 1500000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_at_era": 53171723.564,
       "highlights": [
         {
           "text": "Sev'n ships within this happy harbor meet, The thin remainders of the scatter'd fleet. The Trojans, worn with toils, and spent with woes, Leap on the welcome land, and seek their wish'd repose. First, good Achates, with repeated strokes Of clashing flints, their hidden fire provokes: Short flame succeeds; a bed of wither'd leaves The dying sparkles in their fall receives: Caught into life, in fiery fumes they rise, And, fed with stronger food, invade the skies. The Trojans, dropping wet, or stand around The cheerful blaze, or lie along the ground: Some dry their corn, infected with the brine, Then grind with marbles, and prepare to dine. Aeneas climbs the mountain's airy brow, And takes a prospect of the seas below, If Capys thence, or Antheus he could spy, Or see the streamers of Caicus fly.",
@@ -6137,7 +6155,10 @@
         "mentions": 2,
         "total": 2
       },
-      "power_status": "unpriced"
+      "power_status": "direct",
+      "power_rationale": "Founder-commander carrying the household gods to Latium; the exile-claim at the root of the Roman order.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 1.0
     },
     {
       "batch": 5,
@@ -6216,9 +6237,9 @@
       "era": -19,
       "essay": "Her memo to Aeneas is the graph's only honest access-policy document: 'The gates of hell are open night and day; smooth the descent, and easy is the way: but to return, and view the cheerful skies, in this the task and mighty labor lies. To few great Jupiter imparts this grace' [35]. The underworld as a building with symmetric entry controls and asymmetric exit controls. She is Apollo's office manager in the Aeneid, the one flesh person in the epic whose job description grants her the password list. Rome institutionalized her books as the state's emergency manual; the Sibylline shelf was consulted by the Senate for five centuries. The model: prophecy as filings, accessible on petition.",
       "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
-      "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_total": 450000000.0,
+      "power_watts_proxy": 450000000.0,
+      "power_watts_at_era": 15951517.069,
       "highlights": [
         {
           "text": "Avenging pow'rs! with justice if I pray, That fortune be their own another day! But answer you; and in your turn relate, What brought you, living, to the Stygian state: Driv'n by the winds and errors of the sea, Or did you Heav'n's superior doom obey? Or tell what other chance conducts your way, To view with mortal eyes our dark retreats, Tumults and torments of th' infernal seats.\" While thus in talk the flying hours they pass, The sun had finish'd more than half his race: And they, perhaps, in words and tears had spent The little time of stay which Heav'n had lent; But thus the Sibyl chides their long delay: \"Night rushes down, and headlong drives the day: 'T is here, in different paths, the way divides; The right to Pluto's golden palace guides; The left to that unhappy region tends, Which to the depth of Tartarus descends; The seat of night profound, and punish'd fiends.\" Then thus Deiphobus: \"O sacred maid, Forbear to chide, and be your will obey'd!",
@@ -6286,7 +6307,7 @@
         "mentions": 3,
         "total": 3
       },
-      "power_status": "unpriced"
+      "power_status": "routed"
     },
     {
       "batch": 5,
@@ -6296,10 +6317,10 @@
       "tradition": "Roman epic, Greek emigrant king",
       "era": -19,
       "essay": "Vergil's map-annotation for the future Rome gives Evander's band the address and the genealogy in three lines: 'Have planted here, and plac'd on high their walls; their town the founder Pallanteum calls, Deriv'd from Pallas, his great-grandsire's name' [35]. Before there is Rome there is a Greek ark, named for the ancestral Pallas, sitting on the Palatine's exact footprint. The tradition keeps the chain of title transparent: the land was Greek before it was Roman, and the state's founder conducts his first alliance negotiation on the site with a man whose city is named after a goddess nobody has built yet.",
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 750000000.0,
+      "power_watts_total": 750000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_at_era": 26585861.782,
       "highlights": [
         {
           "text": "A banish'd band, Driv'n with Evander from th' Arcadian land, Have planted here, and plac'd on high their walls; Their town the founder Pallanteum calls, Deriv'd from Pallas, his great-grandsire's name: But the fierce Latians old possession claim, With war infesting the new colony.",
@@ -6354,7 +6375,10 @@
         "mentions": 2,
         "total": 2
       },
-      "power_status": "unpriced"
+      "power_status": "direct",
+      "power_rationale": "Arcadian king on the future site of Rome; hosts the Trojan remnant.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 1.0
     },
     {
       "batch": 5,
@@ -6526,9 +6550,9 @@
       "era": 1776,
       "essay": "Smith's ledger-book has one sentence that behaves like an oracle: the producer 'intends only his own gain; and he is in this, as in many other cases, led by an invisible hand to promote an end which was no part of his intention' [43]. The invisible hand is Mercury's in modern dress: the boundary-crosser of exchange acting without custody of any one transaction. Smith documents the mechanism as impersonally as Ovid documents the schoolmaster's penny: the woollen coat of the day-labourer requires 'the joint labour of a great multitude of workmen' whose cooperation no one orders [43]. The commerce god finally gets a systematic theologian, and the theology is that no one is in charge, which is precisely how the god likes it.",
       "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
-      "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_total": 450000000.0,
+      "power_watts_proxy": 450000000.0,
+      "power_watts_at_era": 52558758.151,
       "highlights": [
         {
           "text": "It appears, however, from Boswell's Life, under date of 29th April 1778, that Johnson had on one occasion quarrelled with Smith at Strahan's house, apparently in London ; it is clear that the \"unlucky altercation\" at Strahan's must have occurred in 1761 or 1763, and could have had nothing to do with the letter on Hume's death. ↑ See Catalogue of the Library of Adam Smith, edited with notes and introduction, by James Bonar (1894). ↑ An interesting letter of Smith to Dundas (1st November 1779) on free trade for Ireland is printed in the Eng.",
@@ -6596,7 +6620,7 @@
         "mentions": 2,
         "total": 3
       },
-      "power_status": "unpriced"
+      "power_status": "routed"
     },
     {
       "batch": 5,
@@ -6663,9 +6687,9 @@
       "batch": 6,
       "date_added": "2026-10-12",
       "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
-      "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_total": 225000000.0,
+      "power_watts_proxy": 225000000.0,
+      "power_watts_at_era": 2272746.731,
       "highlights": [
         {
           "text": "You shun this as you do death itself. You had rather go round and rob his prizes from any man who contradicts you. You devour your people, for you are king over a feeble folk; otherwise, son of Atreus, henceforward you would insult no man. Therefore I say, and swear it with a great oath- nay, by this my sceptre which shalt sprout neither leaf nor shoot, nor bud anew from the day on which it left its parent stem upon the mountains- for the axe stripped it of leaf and bark, and now the sons of the Achaeans bear it as judges and guardians of the decrees of heaven- so surely and solemnly do I swear that hereafter they shall look fondly for Achilles and shall not find him. In the day of your distress, when your men fall dying by the murderous hand of Hector, you shall not know how to help them, and shall rend your heart with rage for the hour when you offered insult to the bravest of the Achaeans.\"",
@@ -6731,7 +6755,7 @@
         "mentions": 3,
         "total": 3
       },
-      "power_status": "unpriced"
+      "power_status": "routed"
     },
     {
       "id": "thetis",
@@ -6945,10 +6969,10 @@
       "essay": "His great negotiation is conducted in the idiom of kinship inventory: 'Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age... he is glad, and his days are full of hope that he shall see his dear son come home to him from Troy; but I, wretched man that I am, had children not a few in far-famed Troy, and of all these there is none left' [1] (Il. 24). The ransom is purchased not in talents but in staged equivalents: one old man swapped for another, one sonless father teaching the victor's filial arithmetic. The king retrieves his son's body by performing a mortgage on memory. It is the oldest leveraged buyout in the tradition.",
       "batch": 6,
       "date_added": "2026-10-12",
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 1500000000.0,
+      "power_watts_total": 1500000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_at_era": 15151644.87,
       "highlights": [
         {
           "text": "His mother tore her hair, and flung her veil from her with a loud cry as she looked upon her son. His father made piteous moan, and throughout the city the people fell to weeping and wailing. It was as though the whole of frowning Ilius was being smirched with fire. Hardly could the people hold Priam back in his hot haste to rush without the gates of the city. He grovelled in the mire and besought them, calling each one of them by his name.",
@@ -7029,7 +7053,10 @@
         "mentions": 4,
         "total": 4
       },
-      "power_status": "unpriced"
+      "power_status": "direct",
+      "power_rationale": "King of Troy; the throne the whole Iliad pressures.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 1.0
     },
     {
       "id": "latinus",
@@ -7039,10 +7066,10 @@
       "essay": "Vergil gives him the longest track-record announcement of any minor king in epic: 'Latinus, old and mild, had long possess'd the Latin scepter... His father Faunus; a Laurentian dame his mother; fair Marica was her name. But Faunus came from Picus: Picus drew his birth from Saturn, if records be true' [35]. In four lines the scepter's chain of title runs king to faun to woodpecker-man to the Titan who ate his children. The 'if records be true' is not skepticism, it is the Roman office of records keeping its hand in the register. Latinus is the graph's demonstration that the founder myth requires not only a founder but a prior king with impeccable paperwork waiting to hand over the land.",
       "batch": 6,
       "date_added": "2026-10-12",
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
-      "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_direct": 750000000.0,
+      "power_watts_total": 1050000000.0,
+      "power_watts_proxy": 300000000.0,
+      "power_watts_at_era": 37220206.495,
       "highlights": [
         {
           "text": "From the same parts of heav'n his navy stands, To the same parts on earth; his army lands; The town he conquers, and the tow'r commands.\" Yet more, when fair Lavinia fed the fire Before the gods, and stood beside her sire, (Strange to relate!) the flames, involv'd in smoke Of incense, from the sacred altar broke, Caught her dishevel'd hair and rich attire; Her crown and jewels crackled in the fire: From thence the fuming trail began to spread And lambent glories danc'd about her head. This new portent the seer with wonder views, Then pausing, thus his prophecy renews: \"The nymph, who scatters flaming fires around, Shall shine with honor, shall herself be crown'd; But, caus'd by her irrevocable fate, War shall the country waste, and change the state.\" Latinus, frighted with this dire ostent, For counsel to his father Faunus went, And sought the shades renown'd for prophecy Which near Albunea's sulph'rous fountain lie. To these the Latian and the Sabine land Fly, when distress'd, and thence relief demand. The priest on skins of off'rings takes his ease, And nightly visions in his slumber sees; A swarm of thin aerial shapes appears, And, flutt'ring round his temples, deafs his ears: These he consults, the future fates to know, From pow'rs above, and from the fiends below.",
@@ -7097,7 +7124,10 @@
         "mentions": 2,
         "total": 2
       },
-      "power_status": "unpriced"
+      "power_status": "direct",
+      "power_rationale": "Latin king whose daughter transfers the kingship line.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 1.0
     },
     {
       "id": "iopas",
@@ -7108,9 +7138,9 @@
       "batch": 6,
       "date_added": "2026-10-12",
       "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
-      "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_total": 300000000.0,
+      "power_watts_proxy": 300000000.0,
+      "power_watts_at_era": 10634344.713,
       "highlights": [
         {
           "text": "'T was Bitias whom she call'd, a thirsty soul; He took challenge, and embrac'd the bowl, With pleasure swill'd the gold, nor ceas'd to draw, Till he the bottom of the brimmer saw. The goblet goes around: Iopas brought His golden lyre, and sung what ancient Atlas taught: The various labors of the wand'ring moon, And whence proceed th' eclipses of the sun; Th' original of men and beasts; and whence The rains arise, and fires their warmth dispense, And fix'd and erring stars dispose their influence; What shakes the solid earth; what cause delays The summer nights and shortens winter days.",
@@ -7165,7 +7195,7 @@
         "mentions": 2,
         "total": 2
       },
-      "power_status": "unpriced"
+      "power_status": "routed"
     },
     {
       "id": "fama",
@@ -7937,10 +7967,10 @@
       "essay": "The rune-purchase is narrated as a self-transaction with no purchaser's regret: 'I know that I hung, on a wind-rocked tree, nine whole nights, with a spear wounded, and to Odin offered, myself to myself... Bread no one gave me... downward I peered, to runes applied myself, wailing learnt them' [46]. The offering is the offerer; the office buys its own knowledge with its own body. The Edda's All-Father is not the father of Olympus' desk-temper; he is a one-man research staff, self-sacrificed on the world-tree's branch to acquire the alphabet. The model's thinnest premise, that power is sustained by pain, is his entire job description.",
       "batch": 7,
       "date_added": "2026-10-12",
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 7500000000.0,
+      "power_watts_total": 7500000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_at_era": 387273908.367,
       "highlights": [
         {
           "text": "I know that I hung, on a wind-rocked tree, nine whole nights, with a spear wounded, and to Odin offered, myself to myself; on that tree, of which no one knows from what root it springs.",
@@ -7995,7 +8025,10 @@
         "mentions": 2,
         "total": 2
       },
-      "power_status": "unpriced"
+      "power_status": "direct",
+      "power_rationale": "The All-Father; hanged for wisdom, one-eyed for the runes; sovereign of the Norse pantheon.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 1.0
     },
     {
       "id": "thor",
@@ -8210,9 +8243,9 @@
       "batch": 7,
       "date_added": "2026-10-12",
       "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
-      "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_total": 750000000.0,
+      "power_watts_proxy": 750000000.0,
+      "power_watts_at_era": 38727390.837,
       "highlights": [
         {
           "text": "In stanza i the Volva, or wise-woman, called upon by Othin, answers him and demands a hearing. Evidently she be- longs to the race of the giants (cf. stanza 2), and thus speaks to Othin unwillingly, being compelled to do so by his magic power. Holy: omitted in Regius; the phrase \"holy races\" probably means little more than mankind in general. Heimdall: the watchman of the gods; cf. stanza 46 and note. Why mankind should be referred to as Heimdall's sons is uncertain, and the phrase has caused much perplexity. Heimdall seems to have had various at- tributes, and in the Rtgsthula, wherein a certain Rig appears as the ancestor of the three great classes of men, a fourteenth century annotator identifies Rig with Heimdall, on what au- thority we do not know, for the Rig of the poem seems much more like Othin (cf. Rtgsthula, introductory prose and note).",
@@ -8278,7 +8311,7 @@
         "mentions": 2,
         "total": 3
       },
-      "power_status": "unpriced"
+      "power_status": "routed"
     },
     {
       "id": "freyr",
@@ -8412,10 +8445,10 @@
       "essay": "His totem fit in a toga: 'he had a small golden image of Apollo from Delphi, which ... in battle to carry about him in his bosom, and that he then kisst it with these words: O Apollo Pythius, who in so many battles hast raised to honour and greatness the Fortunate Cornelius Sylla, wilt thou now cast him down...?' [47]. The man named himself the god's client while campaigning, surname Felix filed in the records as a corporate designation of the relationship. Then the exit that breaks the Roman pattern's own rule: 'In 79 Sulla resigned his dictatorship and retired to Puteoli, where he died in the following year' [48]. Cincinnatus hands back the office at day sixteen to keep the plough [33]; Sulla attends to it after the proscriptions, a longer rent on the dictator's lease. The god kept the amulet's end of the bargain: the tenant died in bed, unpunished. The tradition records him as the exception that proved rule by walking away late and unpursued.",
       "batch": 9,
       "date_added": "2026-10-12",
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
-      "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_direct": 5625000000.0,
+      "power_watts_total": 6075000000.0,
+      "power_watts_proxy": 450000000.0,
+      "power_watts_at_era": 187559245.883,
       "highlights": [
         {
           "text": "There is a story that he had a small golden image of Apollo from Delphi, which he was always wont in battle to carry about him in his bosom, and that he then kissed it with these words, \"O Apollo Pythius, who in so many battles hast raised to honor and greatness the Fortunate Cornelius Sylla, wilt thou now cast him down, bringing him before the gate of his country, to perish shamefully with his fellow-citizens?\"",
@@ -8469,7 +8502,10 @@
         "mentions": 2,
         "total": 2
       },
-      "power_status": "unpriced"
+      "power_status": "direct",
+      "power_rationale": "The strongman template the modern authority pool still measures itself against.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 0.75
     },
     {
       "id": "galen",
@@ -8547,10 +8583,10 @@
       "essay": "The Principia was kept almost tribally internal before publication: Halley 'entered on the register his notions about motion,' and De Motu 'was the germ of the Principia' [50], intended as a summary of the yet unwritten whole. The county-line between private reckoning and public law is the Register itself: the Royal Society's book where motion's theorems were deposited under a date. Pallas's pool extends to him by computation: Minerva does the wars of the mind [36] and the schoolmasters pay their pennies [36]; Newton is the tithe-collector's nightmare because the account is apparently recordable by anyone who can compute, yet produced by only one hand.",
       "batch": 9,
       "date_added": "2026-10-12",
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 20000000000.0,
+      "power_watts_total": 20000000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_at_era": 1901765706.56,
       "highlights": [
         {
           "text": "NEWTON, SIR ISAAC (1642–1727), English natural philosopher, was born on the 25th of December 1642 ( o.s. ), at Woolsthorpe, a hamlet in the parish of Colsterworth, Lincolnshire, about 6 m. from Grantham. His father (also Isaac Newton) who farmed a small freehold property of his own, died before his son’s birth, a few months after his marriage to Hannah Ayscough, a daughter of James Ayscough of Market-Overton. When Newton was little more than two years old his mother married Barnabas Smith, rector of North Witham. Of this marriage there was issue, Benjamin, Mary and Hannah Smith, and to their children Sir Isaac Newton subsequently left the greater part of his property. After having acquired the rudiments of education at two small schools in hamlets close to Woolsthorpe, Newton was sent at the age of twelve to the grammar school of Grantham. While attending Grantham school Newton lived in the house of Mr Clark, an apothecary of that town. According to his own confession he was far from industrious, and stood very low in his class. An unprovoked attack from the boy next above him led to a fight, in which Newton’s pluck gave him the victory. This success seems to have led him to greater exertions, and he rose to be the head boy of the school.",
@@ -8617,7 +8653,10 @@
         "mentions": 2,
         "total": 3
       },
-      "power_status": "unpriced"
+      "power_status": "direct",
+      "power_rationale": "The mechanics every engine is computed in; pool alternative P_metals (Mint coinage) if you prefer the office over the frame.",
+      "power_pool": "P_energy",
+      "power_witness_strength": 0.5
     },
     {
       "id": "faraday",
@@ -8627,10 +8666,10 @@
       "essay": "The induction discovery is logged with the tenacity of a working diary: 'In December 1824 he had attempted to obtain an electric current by means of a magnet, and on three occasions he had made elaborate but unsuccessful attempts to produce a current in one wire by means of a current in another wire... He still persevered, and on the 29th of August 1831' the conversion succeeded [51]. Seven years of negative entries, one positive line-item on a Tuesday. The Britannica obituary-with-accounting calls him a genius of experiment just before this passage; the ledger itself is the evidence. The Prometheus line finally has its auditor: on the record is the man who made magnetism pay current income.",
       "batch": 9,
       "date_added": "2026-10-12",
-      "power_watts_direct": 0.0,
-      "power_watts_total": 20000000000.0,
+      "power_watts_direct": 100000000000.0,
+      "power_watts_total": 120000000000.0,
       "power_watts_proxy": 20000000000.0,
-      "power_watts_at_era": 2883799083.638,
+      "power_watts_at_era": 17302794501.83,
       "highlights": [
         {
           "text": "Faraday’s earliest chemical work was in the paths opened by Davy, to whom he acted as assistant. He made a special study of chlorine, and discovered two new chlorides of carbon. He also made the first rough experiments on the diffusion of gases, a phenomenon first pointed out by John Dalton, the physical importance of which was more fully brought to light by Thomas Graham and Joseph Loschmidt. He succeeded in liquefying several gases; he investigated the alloys of steel, and produced several new kinds of glass intended for optical purposes. A specimen of one of these heavy glasses afterwards became historically important as the substance in which Faraday detected the rotation of the plane of polarization of light when the glass was placed in the magnetic field, and also as the substance which was first repelled by the poles of the magnet.",
@@ -8709,7 +8748,10 @@
         "mentions": 3,
         "total": 4
       },
-      "power_status": "routed"
+      "power_status": "direct",
+      "power_rationale": "Every generator on the grid runs on the effect; parallel to Watt's denomination claim.",
+      "power_pool": "P_energy",
+      "power_witness_strength": 0.5
     },
     {
       "id": "ampere",
@@ -8720,9 +8762,9 @@
       "batch": 9,
       "date_added": "2026-10-12",
       "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
-      "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
+      "power_watts_total": 30000000000.0,
+      "power_watts_proxy": 30000000000.0,
+      "power_watts_at_era": 3495830787.71,
       "highlights": [
         {
           "text": "AMPÈRE, ANDRÉ MARIE (1775–1836), French physicist, was born at Polémieux, near Lyons, on the 22nd of January 1775. He took a passionate delight in the pursuit of knowledge from his very infancy, and is reported to have worked out long arithmetical sums by means of pebbles and biscuit crumbs before he knew the figures. His father began to teach him Latin, but ceased on discovering the boy’s greater inclination and aptitude for mathematical studies. The young Ampère, however, soon resumed his Latin lessons, to enable him to master the works of Euler and Bernouilli . In later life he was accustomed to say that he knew as much about mathematics when he was eighteen as ever he knew; but his reading embraced nearly the whole round of knowledge—history, travels, poetry, philosophy and the natural sciences. When Lyons was taken by the army of the Convention in 1793, the father of Ampère, who, holding the office of juge de paix , had stood out resolutely against the previous revolutionary excesses, was at once thrown into prison, and soon after perished on the scaffold.",
@@ -8778,7 +8820,7 @@
         "mentions": 1,
         "total": 2
       },
-      "power_status": "unpriced"
+      "power_status": "routed"
     },
     {
       "id": "joule",
@@ -8908,11 +8950,14 @@
         "mentions": 1,
         "total": 1
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 12000000000.0,
+      "power_watts_total": 12000000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 1481481481.481,
+      "power_status": "direct",
+      "power_rationale": "The Treasury he built still issues the credit of the pool Washington organizes.",
+      "power_pool": "P_nation",
+      "power_witness_strength": 0.5
     },
     {
       "id": "thomas-jefferson",
@@ -8998,11 +9043,14 @@
         "mentions": 3,
         "total": 3
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 3000000000.0,
+      "power_watts_total": 3000000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 370370370.37,
+      "power_status": "direct",
+      "power_rationale": "State department and the organizing creed of the same nation-pool.",
+      "power_pool": "P_nation",
+      "power_witness_strength": 0.5
     },
     {
       "id": "henry-knox",
@@ -9076,11 +9124,14 @@
         "mentions": 2,
         "total": 2
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 250000000.0,
+      "power_watts_total": 250000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 30864197.531,
+      "power_status": "direct",
+      "power_rationale": "The artillery branch and the War Department both descend from his office; bodies under command documented in the cabinet roster witness.",
+      "power_pool": "P_military",
+      "power_witness_strength": 0.5
     },
     {
       "id": "john-jay",
@@ -9153,11 +9204,14 @@
         "mentions": 2,
         "total": 2
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 300000000.0,
+      "power_watts_total": 300000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 37037037.037,
+      "power_status": "direct",
+      "power_rationale": "The judicial arm of the same national coordination pool.",
+      "power_pool": "P_nation",
+      "power_witness_strength": 0.5
     },
     {
       "id": "math",
@@ -9219,11 +9273,14 @@
         "mentions": 1,
         "total": 1
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 1500000000.0,
+      "power_watts_total": 1500000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 86597078.502,
+      "power_status": "direct",
+      "power_rationale": "Lord of Gwynedd in the Fourth Branch; the name-making and flower-making uncle holds the northern throne.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 0.5
     },
     {
       "id": "gwydion",
@@ -9828,11 +9885,14 @@
         "mentions": 1,
         "total": 1
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 750000000.0,
+      "power_watts_total": 750000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 43298539.251,
+      "power_status": "direct",
+      "power_rationale": "Historical king of Gwynedd cast in the Taliesin tale as captor and judge of poets.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 0.5
     },
     {
       "id": "nuada",
@@ -9916,11 +9976,14 @@
         "mentions": 2,
         "total": 3
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 1500000000.0,
+      "power_watts_total": 1500000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 335537620.842,
+      "power_status": "direct",
+      "power_rationale": "King of the Tuatha De Danann; the hand-lost king re-armed in silver, the sovereignty that must be whole.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 0.5
     },
     {
       "id": "diancecht",
@@ -10241,11 +10304,14 @@
         "mentions": 1,
         "total": 1
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 375000000.0,
+      "power_watts_total": 375000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 83884405.211,
+      "power_status": "direct",
+      "power_rationale": "Sea-lord named in the euhemerist lists; the otherworld ferryman-king.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 0.5
     },
     {
       "id": "brigit",
@@ -10435,11 +10501,14 @@
         "mentions": 1,
         "total": 1
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 750000000.0,
+      "power_watts_total": 750000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 167768810.421,
+      "power_status": "direct",
+      "power_rationale": "Fomorian king whose death-eye held a host; the tyrant-eye his grandson closes at Moytura.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 0.5
     },
     {
       "id": "lugh",
@@ -11058,9 +11127,9 @@
         "total": 3
       },
       "power_watts_direct": 0.0,
-      "power_watts_total": 2400000000000.0,
-      "power_watts_proxy": 2400000000000.0,
-      "power_watts_at_era": 25235333978.045,
+      "power_watts_total": 2400300000000.0,
+      "power_watts_proxy": 2400300000000.0,
+      "power_watts_at_era": 25238488394.793,
       "power_status": "routed"
     },
     {
@@ -11852,10 +11921,10 @@
         "total": 3
       },
       "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
-      "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_total": 300000000.0,
+      "power_watts_proxy": 300000000.0,
+      "power_watts_at_era": 3154416.747,
+      "power_status": "routed"
     },
     {
       "id": "asteria",
@@ -12346,11 +12415,14 @@
         "mentions": 1,
         "total": 1
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 12500000.0,
+      "power_watts_total": 12500000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 1543209.877,
+      "power_status": "direct",
+      "power_rationale": "Documented command of a strategic garrison before the defection.",
+      "power_pool": "P_military",
+      "power_witness_strength": 0.5
     },
     {
       "id": "charles-lee",
@@ -12449,11 +12521,14 @@
         "mentions": 4,
         "total": 4
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 5000000.0,
+      "power_watts_total": 5000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 617283.951,
+      "power_status": "direct",
+      "power_rationale": "Commanded at Monmouth against Washington's order; command documented, conduct separate.",
+      "power_pool": "P_military",
+      "power_witness_strength": 0.5
     },
     {
       "id": "aaron-burr",
@@ -12526,11 +12601,14 @@
         "mentions": 2,
         "total": 2
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 120000000.0,
+      "power_watts_total": 120000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 14814814.815,
+      "power_status": "direct",
+      "power_rationale": "One heartbeat from the pool's command; Weems' roll of damned talent.",
+      "power_pool": "P_nation",
+      "power_witness_strength": 0.5
     },
     {
       "id": "edward-braddock",
@@ -12603,11 +12681,14 @@
         "mentions": 2,
         "total": 2
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 5000000.0,
+      "power_watts_total": 5000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 617283.951,
+      "power_status": "direct",
+      "power_rationale": "Led the expedition Washington survived; command of the Redcoat column is documented.",
+      "power_pool": "P_military",
+      "power_witness_strength": 0.5
     },
     {
       "id": "valerius-publicola",
@@ -12681,11 +12762,14 @@
         "mentions": 2,
         "total": 2
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 1500000000.0,
+      "power_watts_total": 1500000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 57162183.681,
+      "power_status": "direct",
+      "power_rationale": "The republican handover exemplar, in Plutarch and Livy both.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 1.0
     },
     {
       "id": "fabius-maximus",
@@ -12759,11 +12843,14 @@
         "mentions": 2,
         "total": 2
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 50000000.0,
+      "power_watts_total": 50000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 1905406.123,
+      "power_status": "direct",
+      "power_rationale": "Fabian strategy is taught by name in every staff college; the doctrine of strategic patience.",
+      "power_pool": "P_military",
+      "power_witness_strength": 1.0
     },
     {
       "id": "marcius-coriolanus",
@@ -12837,11 +12924,14 @@
         "mentions": 2,
         "total": 2
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 7500000.0,
+      "power_watts_total": 7500000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 285810.918,
+      "power_status": "direct",
+      "power_rationale": "The commander-against-state template.",
+      "power_pool": "P_military",
+      "power_witness_strength": 0.75
     },
     {
       "id": "numa-pompilius",
@@ -12901,11 +12991,14 @@
         "mentions": 1,
         "total": 1
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 4500000000.0,
+      "power_watts_total": 4500000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 171486551.044,
+      "power_status": "direct",
+      "power_rationale": "The pontifical and calendar architecture he instituted organized Roman religion for centuries.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 1.0
     },
     {
       "id": "romulus",
@@ -12965,11 +13058,14 @@
         "mentions": 1,
         "total": 1
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 7500000000.0,
+      "power_watts_total": 7500000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 285810918.406,
+      "power_status": "direct",
+      "power_rationale": "The founder-exemplar every nation-founding ritual borrows.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 1.0
     },
     {
       "id": "marcellus",
@@ -13043,11 +13139,14 @@
         "mentions": 2,
         "total": 2
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 10000000.0,
+      "power_watts_total": 10000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 381081.225,
+      "power_status": "direct",
+      "power_rationale": "The general's triumph ritual and siege command, documented in two primaries.",
+      "power_pool": "P_military",
+      "power_witness_strength": 1.0
     },
     {
       "id": "cato-elder",
@@ -13108,11 +13207,14 @@
         "mentions": 1,
         "total": 1
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 2250000000.0,
+      "power_watts_total": 2250000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 85743275.522,
+      "power_status": "direct",
+      "power_rationale": "The censor's audit of senators and contracts is the ancestral form of the accountability office.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 0.75
     },
     {
       "id": "aemilius-paullus",
@@ -13186,11 +13288,14 @@
         "mentions": 2,
         "total": 2
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 10000000.0,
+      "power_watts_total": 10000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 381081.225,
+      "power_status": "direct",
+      "power_rationale": "Commanded the legion that ended the Macedonian phalanx.",
+      "power_pool": "P_military",
+      "power_witness_strength": 1.0
     },
     {
       "id": "agamemnon",
@@ -13302,11 +13407,14 @@
         "mentions": 5,
         "total": 5
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 5000000.0,
+      "power_watts_total": 5000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 50505.483,
+      "power_status": "direct",
+      "power_rationale": "Leader of the host at Troy; the epic archcommander whose summons binds the Achaean kings.",
+      "power_pool": "P_military",
+      "power_witness_strength": 1.0
     },
     {
       "id": "menelaus",
@@ -15134,11 +15242,14 @@
         "mentions": 4,
         "total": 5
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 750000000.0,
+      "power_watts_total": 750000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 35471264.096,
+      "power_status": "direct",
+      "power_rationale": "Half-dead ruler of the ninth world and its low house; the underworld throne Odin granted her.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 1.0
     },
     {
       "id": "fenrir",
@@ -16119,11 +16230,14 @@
         "mentions": 4,
         "total": 4
       },
-      "power_watts_direct": 0.0,
-      "power_watts_total": 0.0,
+      "power_watts_direct": 1500000000.0,
+      "power_watts_total": 1500000000.0,
       "power_watts_proxy": 0.0,
-      "power_watts_at_era": 0,
-      "power_status": "unpriced"
+      "power_watts_at_era": 185185185.185,
+      "power_status": "direct",
+      "power_rationale": "The court's claim on sovereign order runs through the frame he signed.",
+      "power_pool": "P_authority",
+      "power_witness_strength": 0.5
     }
   ],
   "edges": [
@@ -24229,8 +24343,8 @@
     },
     "method": "pool x claim-share x witness-strength = direct; influence edges route i x downstream DIRECT power upstream, single-hop only (R6: no recursion, cycle-safe); power_status per node: direct | routed | unpriced (gate state, not a zero-power finding)",
     "claims_file": "research/power_claims.json",
-    "claims_sha": "e2778a9fa0cae187",
-    "computed_at": "2026-10-21T20:48:05",
+    "claims_sha": "94c7020aab04b66f",
+    "computed_at": "2026-10-21T21:32:14",
     "recalc_rules": [
       "R1 node split: subtract inherited share from old node before recompute",
       "R2 new edge: re-run single-hop proxy",

@@ -1,0 +1,107 @@
+{
+ "staleness": {
+  "claims_sha_now": "94c7020aab04b66f",
+  "claims_sha_in_graph": "94c7020aab04b66f",
+  "stale": false,
+  "fix": null
+ },
+ "tier1_proposals": [],
+ "tier2_roles": [],
+ "dead_routes": [],
+ "unreviewed_inheritance": [
+  {
+   "id": "iapetus",
+   "label": "Iapetus",
+   "total": 2400300000000.0,
+   "default_edges": [
+    "iapetus->prometheus:kinship=0.2",
+    "iapetus->atlas:kinship=0.2"
+   ]
+  },
+  {
+   "id": "dionysus",
+   "label": "Dionysus",
+   "total": 1500000000000.0,
+   "default_edges": [
+    "dionysus->zeus:kinship=0.2"
+   ]
+  },
+  {
+   "id": "styx",
+   "label": "Styx",
+   "total": 1500000000000.0,
+   "default_edges": [
+    "styx->zeus:transmission=0.2"
+   ]
+  },
+  {
+   "id": "hecate",
+   "label": "Hecate",
+   "total": 1500000000000.0,
+   "default_edges": [
+    "hecate->zeus:transmission=0.2"
+   ]
+  },
+  {
+   "id": "mnemosyne",
+   "label": "Mnemosyne (Memory)",
+   "total": 1500000000000.0,
+   "default_edges": [
+    "mnemosyne->zeus:kinship=0.2"
+   ]
+  },
+  {
+   "id": "themis",
+   "label": "Themis",
+   "total": 1500000000000.0,
+   "default_edges": [
+    "themis->zeus:kinship=0.2"
+   ]
+  },
+  {
+   "id": "cronos",
+   "label": "Cronos",
+   "total": 1500000000000.0,
+   "default_edges": [
+    "cronos->zeus:kinship=0.2"
+   ]
+  },
+  {
+   "id": "rhea",
+   "label": "Rhea",
+   "total": 1500000000000.0,
+   "default_edges": [
+    "rhea->zeus:kinship=0.2"
+   ]
+  },
+  {
+   "id": "sarpedon",
+   "label": "Sarpedon",
+   "total": 1500000000000.0,
+   "default_edges": [
+    "sarpedon->zeus:kinship=0.2"
+   ]
+  },
+  {
+   "id": "hera",
+   "label": "Hera",
+   "total": 60000000000.0,
+   "default_edges": [
+    "hera->hephaestus:kinship=0.2"
+   ]
+  },
+  {
+   "id": "leto",
+   "label": "Leto",
+   "total": 300000000.0,
+   "default_edges": [
+    "leto->apollo:kinship=0.2"
+   ]
+  }
+ ],
+ "status_counts": {
+  "direct": 60,
+  "unpriced": 104,
+  "routed": 36
+ }
+}
