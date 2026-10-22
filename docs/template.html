@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
 SELF-CHECK — DATA fields this template now relies on:
-  nodes[]: id,label,tradition,batch,date_added,era,pw_d,pw_p,pw_t,pw_pool,pw_why,pw_ws,essay
+  nodes[]: id,label,tradition,batch,date_added,era,pw_d,pw_p,pw_t,pw_status,pw_pool,pw_why,pw_ws,essay
   nodes[] NEW: highlights[] of {text, source_title, source_url, cluster} (essay is FALLBACK when empty)
   nodes[] NEW: proposals[]  of {text, source_title, source_url, cluster} (+proposed:true), shown collapsed
   edges[]: frm,to,type,title,essay,source,date_added,era
@@ -265,6 +265,8 @@ function fmtW(w){ if(!w) return '0 W';
   if(w>=1e12) return (w/1e12).toPrecision(3)+' TW'; if(w>=1e9) return (w/1e9).toPrecision(3)+' GW';
   if(w>=1e6) return (w/1e6).toPrecision(3)+' MW'; if(w>=1e3) return (w/1e3).toPrecision(3)+' kW';
   return Math.round(w)+' W'; }
+/* unpriced is a gate state (no ruled pool claim, no proxy route): never render it as a verdict of 0 W */
+function pwLabel(n){ return (n.pw_status==='unpriced') ? 'unpriced' : fmtW(n.pw_t); }
 function yearFmt(y){ return y<0? (-y)+' BCE' : y+' CE'; }
 
 /* ---------- time model ---------- */
@@ -415,7 +417,7 @@ function initGraph(){
     })
     .nodeLabel(n=>`<div style="font-family:Georgia,serif">
         <b>${esc(n.label)}</b><br>${esc(n.tradition)}<br>
-        ${yearFmt(n.era)} · ⚡ ${fmtW(n.pw_t)}</div>`)
+        ${yearFmt(n.era)} · ⚡ ${pwLabel(n)}</div>`)
     .linkColor(l=>{ const w=edgeWeight(l,currentT()); return `rgba(122,74,31,${(0.12+0.6*w).toFixed(3)})`; })
     .linkWidth(l=> 0.4+2.6*edgeWeight(l,currentT()))
     .linkVisibility(l=> l.era<=currentT())
@@ -561,12 +563,15 @@ function openNode(id){
   const propBlock = props.length
     ? `<details class="proposals"><summary>Proposed connections (from corpus) · ${props.length}</summary>
          ${props.map(x=>excerptHtml(x,true)).join('')}</details>` : '';
+  const unpriced = n.pw_status==='unpriced';
   const pwDetail = `
     <details class="wattWhy">
-      <summary class="meta">⚡ <b>${fmtW(n.pw_t)}</b></summary>
+      <summary class="meta">⚡ <b>${unpriced?'unpriced':fmtW(n.pw_t)}</b></summary>
       <div class="hint">
-        ${fmtW(n.pw_d)} direct${n.pw_p?` + ${fmtW(n.pw_p)} by proxy`:''}${n.pw_pool?` · pool: ${esc(n.pw_pool)} × witness ${n.pw_ws}`:''}<br>
-        ${n.pw_why?esc(n.pw_why):'No industry pool attributed; power flows to it, if at all, by proxy (see edges).'}<br>
+        ${unpriced
+          ? `Unpriced: no pool claim has been ruled for this figure and no proxy route reaches them. Zero watts is a gate state, not a finding of powerlessness; documented commanders and office-holders carry standing proposals in the power audit awaiting a pricing ruling.<br>`
+          : `${fmtW(n.pw_d)} direct${n.pw_p?` + ${fmtW(n.pw_p)} by proxy`:''}${n.pw_pool?` · pool: ${esc(n.pw_pool)} × witness ${n.pw_ws}`:''}<br>
+        ${n.pw_why?esc(n.pw_why):'No industry pool attributed; power flows to it, if at all, by proxy (see edges).'}<br>`}
         <span class="method">Method: pool × claim-share × witness-strength; single-hop proxy routing.</span>
       </div>
     </details>`;
