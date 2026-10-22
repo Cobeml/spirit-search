@@ -7,9 +7,11 @@ SELF-CHECK — DATA fields this template now relies on:
   edges[]: frm,to,type,title,essay,source,date_added,era
   edges[] NEW: excerpts[] of {text, source_title, source_url, cluster} (essay is FALLBACK when empty)
   edges[] NEW: influence (float), shown in edge detail
-  nodes[] NEW: wiki {title,url,blurb} — Wikipedia context: h2 name links to the
-    page, blurb renders in .wiki-blurb BEFORE the highlights (null when no page).
-    CONTEXT ONLY: never a citation for a highlight or edge.
+  nodes[] NEW: wiki {title,url,blurb,img} — Wikipedia context: h2 name links to
+    the page, blurb + circular lead image render in .wiki-blurb BEFORE the
+    highlights (null when no page). Nodes with wiki.img render as camera-facing
+    medallions (circle-cropped image, tradition-color ring); others keep the
+    plain sphere. CONTEXT ONLY: never a citation for a highlight or edge.
   Search bar GETs http://127.0.0.1:8788/search?q=..&k=10&mode=(hybrid|bm25|vec)
     -> {results:[{snippet, text, cluster, title, url, path}]}
   Sanity: node 'machaon' highlights include text like "A physician is worth more than several other men put together..."
@@ -154,6 +156,8 @@ SELF-CHECK — DATA fields this template now relies on:
   /* wikipedia context: neutral gray rail (not the accent evidence rail) */
   .wiki-blurb{border-left:3px solid var(--line);margin:.55rem 0 .9rem;padding:.15rem 0 .15rem .8rem;}
   .wiki-blurb p{margin:.15rem 0;}
+  .wiki-blurb img.wiki-img{float:right;width:112px;height:112px;border-radius:50%;object-fit:cover;
+    margin:.1rem 0 .35rem .85rem;border:1px solid var(--line);background:var(--panel);}
   h2 a.nname{color:inherit;text-decoration:none;border-bottom:1px dotted var(--accent);}
   h2 a.nname:hover{color:var(--accent);border-bottom-style:solid;}
 </style>
@@ -305,6 +309,38 @@ function makeLabelSprite(text){
   return spr;
 }
 
+/* ---------- wikipedia medallions (Cobe 2026-10-21) ---------- */
+/* A node with a wiki image renders as a camera-facing medallion: the
+   circle-cropped lead image with the tradition-color ring baked around it.
+   Sprites always face the camera, so the node reads as the same
+   circle-cropped image from EVERY angle. Nodes without an image (or whose
+   image fails to load) keep the plain tradition-colored sphere. */
+const IMG={};
+function medallionTexture(img, color){
+  const S=200, cv=document.createElement('canvas'); cv.width=S; cv.height=S;
+  const ctx=cv.getContext('2d');
+  ctx.beginPath(); ctx.arc(S/2,S/2,S/2-4,0,Math.PI*2); ctx.fillStyle=color; ctx.fill();
+  ctx.save(); ctx.beginPath(); ctx.arc(S/2,S/2,S/2-24,0,Math.PI*2); ctx.clip();
+  const m=Math.min(img.width,img.height);
+  ctx.drawImage(img,(img.width-m)/2,(img.height-m)/2,m,m,24,24,S-48,S-48);
+  ctx.restore();
+  ctx.beginPath(); ctx.arc(S/2,S/2,S/2-4,0,Math.PI*2);
+  ctx.strokeStyle='rgba(43,38,32,.5)'; ctx.lineWidth=3; ctx.stroke();
+  const tex=new THREE.CanvasTexture(cv);
+  tex.anisotropy=4; tex.minFilter=THREE.LinearFilter; tex.needsUpdate=true;
+  return tex;
+}
+function preloadWikiImages(cb){
+  if(typeof THREE==='undefined'){ cb(); return; }
+  const jobs=DATA.nodes.filter(n=>n.wiki&&n.wiki.img).map(n=>new Promise(res=>{
+    const im=new Image();
+    im.onload=()=>{ try{ IMG[n.id]=medallionTexture(im, tradColor(n.tradition)); }catch(e){ IMG[n.id]=null; } res(); };
+    im.onerror=()=>{ IMG[n.id]=null; res(); };
+    im.src=n.wiki.img;
+  }));
+  Promise.race([Promise.all(jobs), new Promise(res=>setTimeout(res,4000))]).then(cb);
+}
+
 function styleNode(n,T){
   const g=n.__group; if(!g) return;
   const vis = n.era<=T;
@@ -312,6 +348,7 @@ function styleNode(n,T){
   if(!vis) return;
   const s=nodeSize(n,T);
   n.__mesh.scale.setScalar(s);
+  if(n.__med) n.__med.scale.set(2*s,2*s,1);
   n.__sprite.position.set(0, s+3.2, 0);
 }
 
@@ -364,9 +401,15 @@ function initGraph(){
         new THREE.SphereGeometry(1,16,12),
         new THREE.MeshLambertMaterial({color:tradColor(n.tradition)}));
       group.add(mesh);
+      let med=null;
+      if(IMG[n.id]){
+        med=new THREE.Sprite(new THREE.SpriteMaterial({map:IMG[n.id],transparent:true,depthWrite:false}));
+        mesh.visible=false;
+        group.add(med);
+      }
       const sprite=makeLabelSprite(n.label);
       group.add(sprite);
-      n.__group=group; n.__mesh=mesh; n.__sprite=sprite;
+      n.__group=group; n.__mesh=mesh; n.__sprite=sprite; n.__med=med;
       styleNode(n, currentT());
       return group;
     })
@@ -509,7 +552,7 @@ function openNode(id){
     ? `<a class="nname" href="${esc(n.wiki.url)}" target="_blank" rel="noopener" title="Wikipedia: ${esc(n.wiki.title||'')}">${esc(n.label)}</a>`
     : esc(n.label);
   const wikiBlock = (n.wiki&&n.wiki.blurb)
-    ? `<div class="wiki-blurb"><p>${esc(n.wiki.blurb)}</p>
+    ? `<div class="wiki-blurb">${n.wiki.img?`<img class="wiki-img" src="${esc(n.wiki.img)}" alt="${esc(n.wiki.title||n.label)}" loading="lazy" onerror="this.style.display='none'">`:''}<p>${esc(n.wiki.blurb)}</p>
         <div class="cite-line">— <a class="cite" href="${esc(n.wiki.url)}" target="_blank" rel="noopener">Wikipedia</a></div></div>`
     : '';
   const mainBlock = hl.length
@@ -738,7 +781,7 @@ document.getElementById('q').addEventListener('change',()=>{
 /* ---------- boot ---------- */
 layoutChrome();
 applyEdits();
-initGraph();
+preloadWikiImages(initGraph);
 </script>
 </body>
 </html>

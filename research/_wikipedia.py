@@ -15,7 +15,7 @@ a script); run it as a process. Output keyed by node id:
   {status:'unresolved', via, checked}
   {status:'none', reason, checked}   (explicit OVERRIDES[nid] = None)
 """
-import json, re, time, unicodedata, urllib.error, urllib.parse, urllib.request
+import json, os, re, time, unicodedata, urllib.error, urllib.parse, urllib.request
 
 ROOT = '/home/cobe-liu/Developing/spirit-search'
 OUT = ROOT + '/research/wikipedia.json'
@@ -177,6 +177,66 @@ def ok_entry(s, via):
             'checked': time.strftime('%Y-%m-%d')}
 
 
+def img_ext(url):
+    low = (url or '').lower()
+    if '.png' in low:
+        return '.png'
+    if '.webp' in low:
+        return '.webp'
+    if '.gif' in low:
+        return '.gif'
+    return '.jpg'
+
+
+def looks_image(b):
+    return (b[:2] == b'\xff\xd8' or b[:8] == b'\x89PNG\r\n\x1a\n'
+            or (b[:4] == b'RIFF' and b[8:12] == b'WEBP')
+            or b[:4] == b'GIF8')
+
+
+def download_images(cache):
+    """Save each node's Wikipedia lead thumbnail to docs/img/<id>.<ext>.
+
+    Local files, not runtime CDN fetches: the site stays offline-first and
+    the posted single HTML file degrades gracefully (missing images fall
+    back to the plain sphere via onerror). Idempotent: existing files are
+    kept. Every saved file is magic-byte checked (impostor-page doctrine).
+    """
+    d = ROOT + '/docs/img'
+    os.makedirs(d, exist_ok=True)
+    fetched = have = noimg = 0
+    for nid, e in cache.items():
+        if e.get('status') != 'ok':
+            e['img'] = None
+            continue
+        url = e.get('thumb')
+        if not url:
+            e['img'] = None
+            noimg += 1
+            continue
+        path = d + '/' + nid + img_ext(url)
+        if os.path.exists(path) and os.path.getsize(path) > 200:
+            e['img'] = 'img/' + nid + img_ext(url)
+            have += 1
+            continue
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': UA})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                b = r.read()
+            time.sleep(PAUSE)
+            if not looks_image(b):
+                e['img'] = None
+                noimg += 1
+                continue
+            open(path, 'wb').write(b)
+            e['img'] = 'img/' + nid + img_ext(url)
+            fetched += 1
+        except Exception:
+            e['img'] = None
+            noimg += 1
+    return fetched, have, noimg
+
+
 def resolve(node):
     nid, label = node['id'], node['label']
     core = core_label(label)
@@ -241,9 +301,11 @@ def main():
         if i % 25 == 0:
             json.dump(cache, open(OUT, 'w'), ensure_ascii=False, indent=1)
             print('  ...', i, 'of', len(todo))
+    fetched, have, noimg = download_images(cache)
     json.dump(cache, open(OUT, 'w'), ensure_ascii=False, indent=1)
     ok = sum(1 for v in cache.values() if v['status'] == 'ok')
     print('resolved:', ok, 'of', len(g['nodes']), '; new this run:', done)
+    print('images: fetched', fetched, '; cached', have, '; none', noimg)
     if unresolved:
         print('UNRESOLVED:')
         for nid, label, via in unresolved:

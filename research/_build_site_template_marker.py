@@ -40,7 +40,7 @@ for n in sorted(g['nodes'], key=lambda x:(x.get('date_added',''),x['label'])):
     # highlight or edge; corpus witnesses substantiate everything else.
     w=wiki.get(n['id'])
     if w and w.get('status')=='ok' and w.get('blurb'):
-        d['wiki']={'title':w.get('title'),'url':w.get('url'),'blurb':w['blurb']}
+        d['wiki']={'title':w.get('title'),'url':w.get('url'),'blurb':w['blurb'],'img':w.get('img')}
     nodes.append(d)
 
 edges=[{'frm':e['from'],'to':e['to'],'type':e['type'],'title':e['title'],'essay':e['essay'],'source':e.get('source',''),'date_added':e.get('date_added'),'era':e.get('era'),'excerpts':e.get('excerpts',[]),'influence':e.get('influence'),'review':e.get('review'),'audit':e.get('audit'),'pairing_note':e.get('pairing_note')} for e in g['edges']]
