@@ -1,0 +1,1013 @@
+{
+  "workflow": "Queue = graph nodes lacking essays; else candidates named within 2 hops of the worked cluster. Score = neighbor-routed watts now GW. New nodes inherit the worked cluster's batch number+1.",
+  "built": "2026-10-12",
+  "done": [
+    {
+      "id": "epimetheus",
+      "date": "2026-10-12",
+      "actions": "essay; evidence fetch (Gutenberg 348 Hesiod WD+Theogony; MIT Plato Protagoras; theoi Apollodorus B1); ledger 26-28 w/ verbatim quotes; new nodes pandora/pyrrha/deucalion w/ essays; 7 new edges; power recalc; neighbor check: prometheus direct unchanged (witness 1.0; Plato prosecution line confirms existing rationale), no R1/R3 triggers",
+      "new_edges": [
+        "zeus->pandora",
+        "pandora->epimetheus",
+        "prometheus->epimetheus",
+        "epimetheus->prometheus",
+        "pandora->pyrrha",
+        "prometheus->deucalion",
+        "deucalion->pyrrha"
+      ]
+    },
+    {
+      "id": "zeus",
+      "date": "2026-10-12",
+      "actions": "essay (Hesiod Gutenberg 348 existing + new Callimachus Hymn to Zeus theoi fetch in evidence/zeus); ledger 29; new node metis w/ essay; edges zeus->athene birth, zeus->metis swallowed (0.3), zeus->cincinnatus analogy labeled; power recalc; neighbor check: prometheus/others unchanged, zeus claim-share 0.5 authority strengthened by [29] but witness already 1.0, no edit"
+    },
+    {
+      "id": "hephaestus",
+      "date": "2026-10-12",
+      "actions": "essay; evidence/zeus reused? no: evidence/hephaestus/homeric-hymns3-ew-theoi.html + existing Iliad Butler + Plato Protagoras; ledger 30; edges zeus->hephaestus (the fall), hephaestus->athene co-crafts; recalc adds zeus 20GW proxy via new zeus->hephaestus 0? no, zeus proxy came from nithuth duplicate edge fix? neighbors fine"
+    },
+    {
+      "id": "athene",
+      "date": "2026-10-12",
+      "actions": "essay (Eum. 681-700 ordinance + neither-anarchy-nor-tyranny + thunderbolt keys, all Smyth translation from theoi); ledger 31; new node erinyes w/ essay; edges athene->erinyes settlement, zeus->erinyes analogy escrow; direct power unchanged (metals claim documented by births/craft; court doctrine noted in essay, no R3/R4 trigger)"
+    },
+    {
+      "id": "heracles",
+      "date": "2026-10-12",
+      "actions": "essay (Th. 526-534 licensed release; Apollodorus 2.4.12 Hera madness; 2.5.1 Molorchus hero-cult protocol); ledger 32; new node hera w/ essay; edges hera->heracles, zeus->heracles licensed liberation; recalc ran"
+    },
+    {
+      "id": "cincinnatus",
+      "date": "2026-10-12",
+      "actions": "essay; fetched Livy Book 3 Roberts-Wikisource (Perseus 503, Thayer 404 fallbacks hit); ledger 33 two verbatims (four-acre field deputation; sixteenth-day resignation); existing cincinnatus->washington analogy edge kept labeled analogy; no new nodes; washington direct power unchanged"
+    },
+    {
+      "id": "mason-weems",
+      "date": "2026-10-12",
+      "actions": "essay from saved Weems evidence ([15]); attached 2nd verbatim (I cant tell a lie, Pa smoothed-quote finding); no new nodes/edges; washington P_nation unchanged"
+    },
+    {
+      "id": "brumidi",
+      "date": "2026-10-12",
+      "actions": "essay strictly from AOC caption [16] (180 ft, 4664 sq ft, $40k, 11 months, six groups, thirteen maidens, apotheosis gloss); attached verbatim quote to source 16; no power changes"
+    },
+    {
+      "id": "nithuth",
+      "date": "2026-10-12",
+      "actions": "essay (queen stanza 18 diagnosis/order, island monopoly, stanzas 36-39 boasted receipts, altitude conceded); 4 new edges incl. queen (hamstring order 0.3, kinship spill), bothvild vector edges; ledger quotes attached to [24]; volundr/nithuth direct power unchanged"
+    },
+    {
+      "id": "bothvild",
+      "date": "2026-10-12",
+      "actions": "essay centered on stanza 42-43 sworn testimony, brooch-from-teeth coda; edges volundr->bothvild agency(coercion reading logged), nithuth->bothvild kinship"
+    },
+    {
+      "id": "asclepius",
+      "date": "2026-10-12",
+      "actions": "essay; new apollo node; edges apollo->asclepius (pyre to centaur), zeus->asclepius thunderbolt (0.3: authority pool fires on health pool), athene->asclepius Gorgon bloods; ledger 34; asclepius direct 0.30 P_health unchanged (re-raising-the-dead confirms rationale)"
+    },
+    {
+      "id": "chiron",
+      "date": "2026-10-12",
+      "actions": "essay (drugs to Asclepius, herbs to Achilles, spear to Peleus from Iliad; birth Apo [28]); new achilles node stub; edge chiron->achilles 0.5"
+    },
+    {
+      "id": "podaleirius",
+      "date": "2026-10-12",
+      "actions": "essay on twin-shadow + Il 11.833 logistics inversion; edge podaleirius->eurypylus (the unavailable doctor), 0 influence"
+    },
+    {
+      "id": "nestor",
+      "date": "2026-10-12",
+      "actions": "essay (Il 1.247 honey-speech three-generation uptime; relay-node reading); quotes to [1]"
+    },
+    {
+      "id": "eurypylus-telephid",
+      "date": "2026-10-12",
+      "actions": "essay + CORRECTION: corpus attests Thessalian Eurypylus son of Euaemon; Telephid label conflation flagged; quotes to [1]"
+    },
+    {
+      "id": "lares-penates",
+      "date": "2026-10-12",
+      "actions": "essay (Smith conflation caveat; Pliny Fever temple); quotes to 12,11"
+    },
+    {
+      "id": "juno",
+      "date": "2026-10-12",
+      "actions": "essay (Pliny own-Juno; Smith; Augustine reductio); flagged argument-from-silence; quotes to 11,12,13"
+    },
+    {
+      "id": "silvanus",
+      "date": "2026-10-12",
+      "actions": "essay from single Horace offering; quote to 9"
+    },
+    {
+      "id": "paris-alexandrus",
+      "date": "2026-10-12",
+      "actions": "essay (Il 3 quail + Hector rebuke; Il 11 Diomed taunt); quotes to 1"
+    },
+    {
+      "id": "gilgamesh",
+      "date": "2026-10-12",
+      "actions": "essay (tree-clearing, ball nether-world, funerary census); edges + enkidu node; quotes to 17"
+    },
+    {
+      "id": "inana",
+      "date": "2026-10-12",
+      "actions": "essay (first-person tree narrative; throne/bed property ambition); edges inana->lilith eviction-context, inana->gilgamesh office; quotes to 17"
+    },
+    {
+      "id": "anzud-bird",
+      "date": "2026-10-12",
+      "actions": "essay; conjecture (Zu/Etana identity) explicitly flagged; quotes to 17"
+    },
+    {
+      "id": "methuselah",
+      "date": "2026-10-12",
+      "actions": "essay (sword/94 myriads per minute); edge lilith->methuselah conflict 0.3"
+    },
+    {
+      "id": "agrimus",
+      "date": "2026-10-12",
+      "actions": "essay; edge lilith->agrimus kinship 0.2; weakest-link flagged"
+    },
+    {
+      "id": "adam",
+      "date": "2026-10-12",
+      "actions": "essay (three-race paternity in Ginzberg strata)"
+    },
+    {
+      "id": "eve",
+      "date": "2026-10-12",
+      "actions": "essay; edge eve->agrimus labeled analogy only"
+    },
+    {
+      "id": "pwyll",
+      "date": "2026-10-12",
+      "actions": "essay (semblance-year, bag game); edge pwyll->arawn; quotes to 21"
+    },
+    {
+      "id": "arawn",
+      "date": "2026-10-12",
+      "actions": "essay (delegated enforcement, one-bow rule); quotes to 21"
+    },
+    {
+      "id": "gwawl",
+      "date": "2026-10-12",
+      "actions": "essay (petition->Badger in the Bag); edge gwawl->rhiannon conflict; quotes to 21"
+    },
+    {
+      "id": "llwyd",
+      "date": "2026-10-12",
+      "actions": "essay (revenge economics: mouse/wheat/confession); edge llwyd->manawyddan 0.4; quotes to 21"
+    },
+    {
+      "id": "teyrnon",
+      "date": "2026-10-12",
+      "actions": "essay (Teirnyon vigil, claw, fosterage); edge teyrnon->pryderi 0.4; quotes to 21"
+    },
+    {
+      "id": "pryderi",
+      "date": "2026-10-12",
+      "actions": "essay (claw birth, craft exile sequence, offer-of-Rhiannon line); quotes to 21"
+    },
+    {
+      "id": "manawyddan",
+      "date": "2026-10-12",
+      "actions": "essay (saddler/shoemaker supply chains, trap-mouse courtroom); edge manawyddan->bran; quotes to 21"
+    },
+    {
+      "id": "bran",
+      "date": "2026-10-12",
+      "actions": "essay (cauldron of silent resurrection, beheading procession, birds of Rhiannon); quotes to 21"
+    },
+    {
+      "id": "epona",
+      "date": "2026-10-12",
+      "actions": "essay strictly epigraphic (Anwyl 26-count, horse-goddess inscription line); quotes to 23; conjecture flagged"
+    },
+    {
+      "id": "nithuths-queen",
+      "date": "2026-10-12",
+      "actions": "essay (stanza-18 diagnostic, sons-eyes coda); thinness flagged"
+    },
+    {
+      "id": "nathanael",
+      "date": "2026-10-12",
+      "actions": "essay (Jentsch uncertainty rule, Ring of fire); quotes to 5,4"
+    },
+    {
+      "id": "olympia",
+      "date": "2026-10-12",
+      "actions": "essay (automaton custody/optics); quotes to 5 + German [4]"
+    },
+    {
+      "id": "victory",
+      "date": "2026-10-12",
+      "actions": "essay (Th. 383 Nike/Zelus/Kratos/Bia as permanent housemates of Zeus [26]; Brumidi flanks the demigod with Victory/Fame [16]); quote appended to source 26; edges brumidi->victory, victory->washington rent 0.1"
+    },
+    {
+      "id": "neptune",
+      "date": "2026-10-12",
+      "actions": "essay (Aen. 1 jurisdiction scene, \"the liquid empire fell\" [35]; Marine panel [16]); sources 35; edges x2"
+    },
+    {
+      "id": "vulcan",
+      "date": "2026-10-12",
+      "actions": "essay (Il. 18 self-moving golden tripods [1]; Mechanics panel forging cannon [16]); edges x2 + vulcan->hephaestus analogy name-graft"
+    },
+    {
+      "id": "mercury",
+      "date": "2026-10-12",
+      "actions": "essay (HH4 lyre-for-whip barter, theft converted to ownership by exchange [38]); sources 38; edges x2"
+    },
+    {
+      "id": "venus",
+      "date": "2026-10-12",
+      "actions": "essay (Fasti 4: April allotted to Venus as ruling-house genealogy dividend [37]); sources 37; edges x2"
+    },
+    {
+      "id": "ceres",
+      "date": "2026-10-12",
+      "actions": "essay (Fasti 4 acorn-for-grain first exchange, bulls yoked [37]); sources 37; edges x2"
+    },
+    {
+      "id": "minerva",
+      "date": "2026-10-12",
+      "actions": "essay (Fasti 3 Quinquatrus payroll: schoolmasters, wool-carders, shoemakers; \"goddess of a thousand works\" [36]); sources 36; edges x2; NEW power claim: P_school 0.02 ws 1.0 (documented fee stream)"
+    },
+    {
+      "id": "james-watt",
+      "date": "2026-10-12",
+      "actions": "essay (Boswell Soho 1776, \"I sell here, Sir... POWER\" [39]); source 39; edge watt->prometheus 0.02; NEW claim P_energy 0.01 ws 1.0 (the unit itself) -> 440 GW total, #3 node"
+    },
+    {
+      "id": "benjamin-franklin",
+      "date": "2026-10-12",
+      "actions": "essay (kite directions + anti-patent stove maxim [40]); source 40; edges franklin->prometheus 0.01, ->washington/->mercury analogies 0.0; NEW claim P_energy 0.005 -> 220 GW"
+    },
+    {
+      "id": "hecate",
+      "date": "2026-10-12",
+      "actions": "essay (Th. 404 Hecate grandfathered in all jurisdictions: \"the son of Cronos did her no wrong\" [26]); edges to zeus 0.2"
+    },
+    {
+      "id": "nereus",
+      "date": "2026-10-12",
+      "actions": "essay (Old Man of the Sea as the family's truthful son [26])"
+    },
+    {
+      "id": "mnemosyne",
+      "date": "2026-10-12",
+      "actions": "essay (memory married into the throne; Muses' mother [26])"
+    },
+    {
+      "id": "themis",
+      "date": "2026-10-12",
+      "actions": "essay (the chart the pools are drawn on [26])"
+    },
+    {
+      "id": "castor-polydeuces",
+      "date": "2026-10-12",
+      "actions": "essay (Helen's absentee twin report [1]); edge vs paris-alexandrus reputational-risk conflict"
+    },
+    {
+      "id": "yggdrasil",
+      "date": "2026-10-12",
+      "actions": "essay (\"nine worlds... great central tree\" as filing system [46])"
+    },
+    {
+      "id": "typhoeus",
+      "date": "2026-10-12",
+      "actions": "essay (last firewall test; raw kilowatts [26]); conflict vs zeus 0.3"
+    },
+    {
+      "id": "odin",
+      "date": "2026-10-12",
+      "actions": "essay (self-sacrifice on the wind-rocked tree [46]); edge to yggdrasil"
+    },
+    {
+      "id": "thor",
+      "date": "2026-10-12",
+      "actions": "essay (nine feet bowed by the serpent [46]); analogy to volundr tools"
+    },
+    {
+      "id": "loki",
+      "date": "2026-10-12",
+      "actions": "essay (wolf will the father of men devour [46]); conflict to thor as joint tenancy"
+    },
+    {
+      "id": "baldr",
+      "date": "2026-10-12",
+      "actions": "essay (mistletoe; blind fratricide [46]); analogy to machaon"
+    },
+    {
+      "id": "heimdall",
+      "date": "2026-10-12",
+      "actions": "essay (horn under the bright tree, prepaid alarm [46]); transmission odin 0.1"
+    },
+    {
+      "id": "freyr",
+      "date": "2026-10-12",
+      "actions": "essay (\"from bonds looses all\" [46]); kinship freyja"
+    },
+    {
+      "id": "freyja",
+      "date": "2026-10-12",
+      "actions": "essay (weeping gold; Odur leaves [46]); kinship freyr"
+    },
+    {
+      "id": "hector",
+      "date": "2026-10-12",
+      "actions": "essay (ritual hygiene mid-siege [1])"
+    },
+    {
+      "id": "thetis",
+      "date": "2026-10-12",
+      "actions": "essay (the span cannot be amended [1])"
+    },
+    {
+      "id": "xanthus-balius",
+      "date": "2026-10-12",
+      "actions": "essay (ageless horses loaned to a mortal [1])"
+    },
+    {
+      "id": "ares",
+      "date": "2026-10-12",
+      "actions": "essay (scheduled out of the room [1])"
+    },
+    {
+      "id": "priam",
+      "date": "2026-10-12",
+      "actions": "essay (ransom by staged equivalences [1])"
+    },
+    {
+      "id": "latinus",
+      "date": "2026-10-12",
+      "actions": "essay (chain of title runs Saturn-Faunus-Picus [35])"
+    },
+    {
+      "id": "iopas",
+      "date": "2026-10-12",
+      "actions": "essay (Atlas becomes curriculum at Dido's table [35])"
+    },
+    {
+      "id": "fama",
+      "date": "2026-10-12",
+      "actions": "essay (Fame the last Titan, rumor at Rotunda [35][16])"
+    },
+    {
+      "id": "tiberinus",
+      "date": "2026-10-12",
+      "actions": "essay (drowned king kept as river [37])"
+    },
+    {
+      "id": "pericles",
+      "date": "2026-10-12",
+      "actions": "essay (Athens as the school of Hellas [44])"
+    },
+    {
+      "id": "fdr",
+      "date": "2026-10-12",
+      "actions": "essay (fear itself; \"broad Executive power\" [45]); P_nation 0.05"
+    },
+    {
+      "id": "sulla",
+      "date": "2026-10-12",
+      "actions": "essay (Apollo amulet; resigned 79, died unpursued [47][48]); P_authority pending gate"
+    },
+    {
+      "id": "galen",
+      "date": "2026-10-12",
+      "actions": "essay (Nature artistic and equitable [53]); hippocrates transmission 0.3"
+    },
+    {
+      "id": "newton",
+      "date": "2026-10-12",
+      "actions": "essay (De Motu germ of the Principia [50])"
+    },
+    {
+      "id": "faraday",
+      "date": "2026-10-12",
+      "actions": "essay (seven years of negative entries to 29 Aug 1831 [51])"
+    },
+    {
+      "id": "ampere",
+      "date": "2026-10-12",
+      "actions": "essay (arithmetic by pebbles and biscuit crumbs [49])"
+    },
+    {
+      "id": "joule",
+      "date": "2026-10-12",
+      "actions": "essay (783 vs 772.55, no rounding [52])"
+    }
+  ],
+  "queue_initial": [
+    [
+      "epimetheus",
+      -380,
+      14250.0
+    ],
+    [
+      "zeus",
+      -750,
+      14250.0
+    ],
+    [
+      "hephaestus",
+      -750,
+      14250.0
+    ],
+    [
+      "athene",
+      -750,
+      14250.0
+    ],
+    [
+      "heracles",
+      -458,
+      14250.0
+    ],
+    [
+      "mason-weems",
+      1800,
+      180.0
+    ],
+    [
+      "brumidi",
+      1865,
+      180.0
+    ],
+    [
+      "cincinnatus",
+      -450,
+      180.0
+    ],
+    [
+      "nithuth",
+      900,
+      101.2
+    ],
+    [
+      "bothvild",
+      900,
+      50.6
+    ],
+    [
+      "podaleirius",
+      -750,
+      35.0
+    ],
+    [
+      "chiron",
+      -750,
+      35.0
+    ],
+    [
+      "asclepius",
+      -750,
+      34.0
+    ],
+    [
+      "paris-alexandrus",
+      -750,
+      5.0
+    ],
+    [
+      "nestor",
+      -750,
+      5.0
+    ],
+    [
+      "eurypylus-telephid",
+      -600,
+      5.0
+    ],
+    [
+      "lares-penates",
+      -200,
+      4.0
+    ],
+    [
+      "juno",
+      -400,
+      4.0
+    ],
+    [
+      "silvanus",
+      -20,
+      4.0
+    ],
+    [
+      "nathanael",
+      1816,
+      0.5
+    ],
+    [
+      "pwyll",
+      1350,
+      0.45
+    ],
+    [
+      "gwawl",
+      1350,
+      0.45
+    ],
+    [
+      "llwyd",
+      1350,
+      0.45
+    ],
+    [
+      "pryderi",
+      1350,
+      0.45
+    ],
+    [
+      "manawyddan",
+      1350,
+      0.45
+    ],
+    [
+      "bran",
+      1350,
+      0.45
+    ],
+    [
+      "epona",
+      150,
+      0.45
+    ]
+  ],
+  "note": "values = [id, era, neighbor_watts_GW]; gilgamesh/inana/anzud/adam/eve/methuselah/agrimus/olympia/arawn/teyrnon/nithuths-queen tail, ~0 neighbor power",
+  "queue_empty": true,
+  "queue": [
+    [
+      "thomas-edison",
+      null,
+      14270.0
+    ],
+    [
+      "john-d-rockefeller",
+      null,
+      14268.0
+    ],
+    [
+      "sigmund-freud-flesh",
+      null,
+      14250.5
+    ],
+    [
+      "lycurgus",
+      null,
+      7620.8
+    ],
+    [
+      "solon",
+      null,
+      7620.8
+    ],
+    [
+      "agamemnon",
+      null,
+      7620.8
+    ],
+    [
+      "augustus",
+      null,
+      7526.8
+    ],
+    [
+      "pompey",
+      null,
+      7520.8
+    ],
+    [
+      "menelaus",
+      null,
+      7520.8
+    ],
+    [
+      "sarpedon",
+      null,
+      7520.8
+    ],
+    [
+      "mezentius",
+      null,
+      7520.8
+    ],
+    [
+      "liber",
+      null,
+      1500.0
+    ],
+    [
+      "soho-manufactory",
+      null,
+      520.0
+    ],
+    [
+      "robert-stirling",
+      null,
+      500.0
+    ],
+    [
+      "robert-bosch",
+      null,
+      458.0
+    ],
+    [
+      "nicolas-otto",
+      null,
+      440.0
+    ],
+    [
+      "henry-bessemer",
+      null,
+      318.0
+    ],
+    [
+      "enlil",
+      null,
+      300.0
+    ],
+    [
+      "ninlil",
+      null,
+      300.0
+    ],
+    [
+      "dionysius-of-halicarnassus",
+      null,
+      162.0
+    ],
+    [
+      "frederick-taylor",
+      null,
+      118.0
+    ],
+    [
+      "diomedes",
+      null,
+      100.0
+    ],
+    [
+      "epeus",
+      null,
+      100.0
+    ],
+    [
+      "sadi-carnot",
+      null,
+      80.0
+    ],
+    [
+      "nidud-line-egil",
+      null,
+      50.6
+    ],
+    [
+      "slagfith",
+      null,
+      50.6
+    ],
+    [
+      "joseph-lister",
+      null,
+      36.5
+    ],
+    [
+      "alexander-fleming",
+      null,
+      36.5
+    ],
+    [
+      "henry-ford",
+      null,
+      36.0
+    ],
+    [
+      "machaon-line-lemos",
+      null,
+      35.0
+    ],
+    [
+      "paracelsus",
+      null,
+      21.5
+    ],
+    [
+      "caesar",
+      null,
+      20.5
+    ],
+    [
+      "aristotle-note",
+      null,
+      18.4
+    ],
+    [
+      "lavinia",
+      null,
+      18.0
+    ],
+    [
+      "consus",
+      null,
+      18.0
+    ],
+    [
+      "flora",
+      null,
+      18.0
+    ],
+    [
+      "cybele",
+      null,
+      18.0
+    ],
+    [
+      "pales",
+      null,
+      18.0
+    ],
+    [
+      "nero",
+      null,
+      6.0
+    ],
+    [
+      "cassandra",
+      null,
+      6.0
+    ],
+    [
+      "helenus",
+      null,
+      6.0
+    ],
+    [
+      "marius",
+      null,
+      2.5
+    ],
+    [
+      "erasistratus",
+      null,
+      1.5
+    ],
+    [
+      "helen",
+      null,
+      1.5
+    ],
+    [
+      "math",
+      null,
+      0.5
+    ],
+    [
+      "lleu",
+      null,
+      0.5
+    ],
+    [
+      "enkidu",
+      null,
+      0.1
+    ],
+    [
+      "utnapishtim",
+      null,
+      0.1
+    ],
+    [
+      "humbaba",
+      null,
+      0.1
+    ],
+    [
+      "lucius-quinctius-wait",
+      null,
+      0.0
+    ],
+    [
+      "ajax",
+      null,
+      0.0
+    ],
+    [
+      "glaucus",
+      null,
+      0
+    ],
+    [
+      "andromache",
+      null,
+      0.0
+    ],
+    [
+      "deiphobus",
+      null,
+      0.0
+    ],
+    [
+      "turnus",
+      null,
+      0.0
+    ],
+    [
+      "juturna",
+      null,
+      0
+    ],
+    [
+      "terminus",
+      null,
+      0.0
+    ],
+    [
+      "anna-perenna",
+      null,
+      0.0
+    ],
+    [
+      "tyr",
+      null,
+      0.0
+    ],
+    [
+      "frigg",
+      null,
+      0.0
+    ],
+    [
+      "vidar",
+      null,
+      0.0
+    ],
+    [
+      "fenrir",
+      null,
+      0.0
+    ],
+    [
+      "hels-progeny",
+      null,
+      0.0
+    ],
+    [
+      "gwydion",
+      null,
+      0
+    ],
+    [
+      "arianrhod",
+      null,
+      0
+    ],
+    [
+      "blodeuwedd",
+      null,
+      0
+    ],
+    [
+      "spalanzani",
+      null,
+      0.0
+    ],
+    [
+      "clara",
+      null,
+      0.0
+    ],
+    [
+      "royal-society-register",
+      null,
+      0.0
+    ]
+  ],
+  "queue_notes": {
+    "libertas": "Roman personification; Brumidi's other flanking figure [16]; thin primary file (Livy 24.16 temple, Sallust temple-of-Libertas housing records) - needs fetch",
+    "aphrodite": "Greek aspect of venus; Homeric Hymn 5 already fetched (theoi Hymns3)",
+    "poseidon": "Greek aspect of neptune; Theogony 14 hymn exists in corpus [26]",
+    "hermes": "Greek aspect of mercury; HH4 fetched [38]",
+    "styx": "victory's mother; first to the levy, appointed great oath of the gods [26]",
+    "kratos-bia": "victory's siblings Strength and Force, same household zoning [26]",
+    "aeolus": "jailer of the winds, holds office from Juno's bribery [35]",
+    "society-of-the-cincinnati": "institution not spirit; possible out-of-scope node per project doctrine (spirits only) - gate with user",
+    "livy": "author-witness; weems precedent says fabricator-nodes allowed; gate with user",
+    "_batch4": "flesh-record men per user directive: gods and stories are real, so are men of flesh record. Watt/Franklin done; queue holds remaining named candidates scored by neighbor watts GW.",
+    "_batch9": "Units theme cluster added (ampere/faraday/joule/newton) + sulla as the anti-Cincinnatus. Sulla P_authority claim left zero pending user gate."
+  },
+  "queue_target": "grow to 150 essayed nodes; power-proximity sort (neighbor-routed GW sum). Loose-edge neighbor candidates enumerated here stay queued until essay+source logged.",
+  "thin_nodes": [
+    [
+      "fdr",
+      1,
+      185.62
+    ],
+    [
+      "alexander-hamilton",
+      1,
+      180.12
+    ],
+    [
+      "numa-pompilius",
+      1,
+      7.5
+    ],
+    [
+      "romulus",
+      1,
+      4.5
+    ],
+    [
+      "diancecht",
+      1,
+      1.5
+    ],
+    [
+      "goibniu",
+      1,
+      1.5
+    ],
+    [
+      "dagda",
+      1,
+      0.38
+    ],
+    [
+      "benedict-arnold",
+      1,
+      0.12
+    ],
+    [
+      "brigit",
+      1,
+      0.11
+    ],
+    [
+      "cato-elder",
+      1,
+      0.01
+    ],
+    [
+      "math",
+      1,
+      0.0
+    ],
+    [
+      "dylan",
+      1,
+      0.0
+    ],
+    [
+      "aranrod",
+      1,
+      0.0
+    ],
+    [
+      "maelgwn",
+      1,
+      0.0
+    ],
+    [
+      "miach",
+      1,
+      0.0
+    ],
+    [
+      "manannan",
+      1,
+      0.0
+    ],
+    [
+      "morrigan",
+      1,
+      0.0
+    ],
+    [
+      "balor",
+      1,
+      0.0
+    ],
+    [
+      "tethys",
+      1,
+      0.0
+    ],
+    [
+      "theia",
+      1,
+      0.0
+    ],
+    [
+      "crius",
+      1,
+      0.0
+    ]
+  ],
+  "thin_nodes_note": "2026-10-21 thin-node audit: graph nodes added from edges but not fleshed out, ranked by neighbor watts after the power scaling. Work top-down per queue-mode; Cobe gates salience before each batch."
+}
