@@ -147,22 +147,24 @@
    "id": "nathanael",
    "label": "Nathanael",
    "mode": "partial",
-   "mentions": 2,
-   "total": 4,
+   "mentions": 4,
+   "total": 5,
    "flags": [
     true,
-    false,
     true,
-    false
+    true,
+    false,
+    true
    ]
   },
   {
    "id": "olympia",
    "label": "Olympia the automaton",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -197,15 +199,14 @@
    "id": "zeus",
    "label": "Zeus",
    "mode": "partial",
-   "mentions": 5,
-   "total": 6,
+   "mentions": 4,
+   "total": 5,
    "flags": [
     true,
     true,
     true,
-    false,
     true,
-    true
+    false
    ]
   },
   {
@@ -225,9 +226,10 @@
    "id": "athene",
    "label": "Athene",
    "mode": "clean",
-   "mentions": 4,
-   "total": 4,
+   "mentions": 5,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     true,
@@ -298,15 +300,14 @@
   {
    "id": "adam",
    "label": "Adam",
-   "mode": "partial",
+   "mode": "clean",
    "mentions": 5,
-   "total": 6,
+   "total": 5,
    "flags": [
     true,
     true,
     true,
     true,
-    false,
     true
    ]
   },
@@ -328,9 +329,10 @@
    "id": "methuselah",
    "label": "Methuselah",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     false,
     true
@@ -378,9 +380,10 @@
    "id": "arawn",
    "label": "Arawn",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -402,9 +405,10 @@
    "id": "llwyd",
    "label": "Llwyd",
    "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     true,
@@ -415,9 +419,10 @@
    "id": "teyrnon",
    "label": "Teyrnon",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -484,15 +489,15 @@
   {
    "id": "nithuth",
    "label": "Nithuth/Niðhad",
-   "mode": "partial",
-   "mentions": 4,
+   "mode": "clean",
+   "mentions": 5,
    "total": 5,
    "flags": [
     true,
     true,
     true,
     true,
-    false
+    true
    ]
   },
   {
@@ -510,10 +515,9 @@
    "id": "bothvild",
    "label": "Bothvild / Beadohild",
    "mode": "clean",
-   "mentions": 6,
-   "total": 6,
+   "mentions": 5,
+   "total": 5,
    "flags": [
-    true,
     true,
     true,
     true,
@@ -525,9 +529,10 @@
    "id": "george-washington",
    "label": "George Washington",
    "mode": "clean",
-   "mentions": 3,
-   "total": 3,
+   "mentions": 4,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     true
@@ -554,10 +559,9 @@
    "id": "cincinnatus",
    "label": "Cincinnatus",
    "mode": "clean",
-   "mentions": 6,
-   "total": 6,
+   "mentions": 5,
+   "total": 5,
    "flags": [
-    true,
     true,
     true,
     true,
@@ -569,9 +573,11 @@
    "id": "pandora",
    "label": "Pandora",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
+    true,
     true,
     false,
     true
@@ -601,9 +607,10 @@
    "id": "metis",
    "label": "Metis (Thought)",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -650,9 +657,10 @@
    "id": "achilles",
    "label": "Achilles",
    "mode": "partial",
-   "mentions": 1,
-   "total": 3,
+   "mentions": 2,
+   "total": 4,
    "flags": [
+    true,
     true,
     false,
     false
@@ -672,9 +680,10 @@
    "id": "victory",
    "label": "Nike / Victory",
    "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     false,
@@ -696,9 +705,10 @@
    "id": "vulcan",
    "label": "Vulcan",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -727,9 +737,10 @@
    "id": "ceres",
    "label": "Ceres",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -763,9 +774,10 @@
    "id": "benjamin-franklin",
    "label": "Benjamin Franklin",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -839,9 +851,10 @@
    "id": "janus",
    "label": "Janus",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -851,9 +864,10 @@
    "id": "mars",
    "label": "Mars",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -863,9 +877,10 @@
    "id": "vesta",
    "label": "Vesta",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -875,9 +890,10 @@
    "id": "quirinus",
    "label": "Quirinus (Romulus)",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -886,13 +902,13 @@
    "id": "diana",
    "label": "Diana",
    "mode": "partial",
-   "mentions": 3,
+   "mentions": 4,
    "total": 5,
    "flags": [
     true,
     true,
     true,
-    false,
+    true,
     false
    ]
   },
@@ -945,9 +961,10 @@
    "id": "camilla",
    "label": "Camilla",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -956,9 +973,10 @@
    "id": "hippocrates",
    "label": "Hippocrates",
    "mode": "partial",
-   "mentions": 2,
-   "total": 4,
+   "mentions": 3,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     false,
@@ -969,9 +987,10 @@
    "id": "adam-smith",
    "label": "Adam Smith",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -1084,9 +1103,10 @@
    "id": "tiberinus",
    "label": "Tiberinus",
    "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     true,
@@ -1097,9 +1117,10 @@
    "id": "pericles",
    "label": "Pericles",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -1108,10 +1129,11 @@
   {
    "id": "fdr",
    "label": "Franklin Delano Roosevelt",
-   "mode": "none_mention",
-   "mentions": 0,
-   "total": 1,
+   "mode": "partial",
+   "mentions": 1,
+   "total": 2,
    "flags": [
+    true,
     false
    ]
   },
@@ -1150,9 +1172,10 @@
    "id": "themis",
    "label": "Themis",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 3,
+   "total": 3,
    "flags": [
+    true,
     true,
     true
    ]
@@ -1181,9 +1204,10 @@
    "id": "typhoeus",
    "label": "Typhoeus",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -1204,9 +1228,10 @@
    "id": "thor",
    "label": "Thor",
    "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     false,
@@ -1237,9 +1262,10 @@
    "id": "heimdall",
    "label": "Heimdall",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -1281,17 +1307,6 @@
    "id": "galen",
    "label": "Galen",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
-   "flags": [
-    true,
-    false
-   ]
-  },
-  {
-   "id": "newton",
-   "label": "Isaac Newton",
-   "mode": "partial",
    "mentions": 2,
    "total": 3,
    "flags": [
@@ -1301,8 +1316,8 @@
    ]
   },
   {
-   "id": "faraday",
-   "label": "Michael Faraday",
+   "id": "newton",
+   "label": "Isaac Newton",
    "mode": "partial",
    "mentions": 3,
    "total": 4,
@@ -1314,12 +1329,27 @@
    ]
   },
   {
+   "id": "faraday",
+   "label": "Michael Faraday",
+   "mode": "partial",
+   "mentions": 4,
+   "total": 5,
+   "flags": [
+    true,
+    true,
+    true,
+    true,
+    false
+   ]
+  },
+  {
    "id": "ampere",
    "label": "André-Marie Ampère",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -1339,9 +1369,10 @@
    "id": "alexander-hamilton",
    "label": "Alexander Hamilton",
    "mode": "clean",
-   "mentions": 1,
-   "total": 1,
+   "mentions": 2,
+   "total": 2,
    "flags": [
+    true,
     true
    ]
   },
@@ -1349,9 +1380,10 @@
    "id": "thomas-jefferson",
    "label": "Thomas Jefferson",
    "mode": "clean",
-   "mentions": 3,
-   "total": 3,
+   "mentions": 4,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     true
@@ -1361,9 +1393,10 @@
    "id": "henry-knox",
    "label": "Henry Knox",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 3,
+   "total": 3,
    "flags": [
+    true,
     true,
     true
    ]
@@ -1383,9 +1416,10 @@
    "id": "math",
    "label": "Math fab Mathonwy",
    "mode": "clean",
-   "mentions": 1,
-   "total": 1,
+   "mentions": 2,
+   "total": 2,
    "flags": [
+    true,
     true
    ]
   },
@@ -1447,9 +1481,10 @@
    "id": "taliesin",
    "label": "Taliesin",
    "mode": "clean",
-   "mentions": 3,
-   "total": 3,
+   "mentions": 4,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     true
@@ -1480,9 +1515,10 @@
    "id": "nuada",
    "label": "Nuada of the Silver Hand",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -1572,9 +1608,10 @@
    "id": "lugh",
    "label": "Lugh",
    "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     true,
@@ -1584,15 +1621,15 @@
   {
    "id": "cronos",
    "label": "Cronos",
-   "mode": "partial",
-   "mentions": 4,
+   "mode": "clean",
+   "mentions": 5,
    "total": 5,
    "flags": [
     true,
     true,
     true,
     true,
-    false
+    true
    ]
   },
   {
@@ -1626,9 +1663,10 @@
    "id": "hyperion",
    "label": "Hyperion",
    "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     true,
@@ -1708,9 +1746,10 @@
    "id": "helios",
    "label": "Helios",
    "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mentions": 4,
+   "total": 5,
    "flags": [
+    true,
     true,
     true,
     true,
@@ -1746,9 +1785,10 @@
    "id": "leto",
    "label": "Leto",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -1794,9 +1834,10 @@
    "id": "phorcys",
    "label": "Phorcys",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -1805,9 +1846,10 @@
    "id": "tartarus",
    "label": "Tartarus",
    "mode": "partial",
-   "mentions": 2,
-   "total": 3,
+   "mentions": 3,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     false
@@ -1851,9 +1893,10 @@
    "id": "edward-braddock",
    "label": "Edward Braddock",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 3,
+   "total": 3,
    "flags": [
+    true,
     true,
     true
    ]
@@ -1862,9 +1905,10 @@
    "id": "valerius-publicola",
    "label": "Publicola",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 3,
+   "total": 3,
    "flags": [
+    true,
     true,
     true
    ]
@@ -1873,9 +1917,10 @@
    "id": "fabius-maximus",
    "label": "Fabius Maximus",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 3,
+   "total": 3,
    "flags": [
+    true,
     true,
     true
    ]
@@ -1884,9 +1929,10 @@
    "id": "marcius-coriolanus",
    "label": "Coriolanus",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 3,
+   "total": 3,
    "flags": [
+    true,
     true,
     true
    ]
@@ -1915,9 +1961,10 @@
    "id": "marcellus",
    "label": "Marcellus",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 3,
+   "total": 3,
    "flags": [
+    true,
     true,
     true
    ]
@@ -1936,9 +1983,10 @@
    "id": "aemilius-paullus",
    "label": "Aemilius Paullus",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 3,
+   "total": 3,
    "flags": [
+    true,
     true,
     true
    ]
@@ -1974,9 +2022,10 @@
    "id": "odysseus",
    "label": "Odysseus",
    "mode": "clean",
-   "mentions": 3,
-   "total": 3,
+   "mentions": 4,
+   "total": 4,
    "flags": [
+    true,
     true,
     true,
     true
@@ -2164,23 +2213,25 @@
   {
    "id": "regin",
    "label": "Regin",
-   "mode": "partial",
-   "mentions": 3,
-   "total": 4,
+   "mode": "clean",
+   "mentions": 5,
+   "total": 5,
    "flags": [
     true,
     true,
     true,
-    false
+    true,
+    true
    ]
   },
   {
    "id": "brynhild",
    "label": "Brynhild",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -2203,17 +2254,6 @@
    "id": "fenrir",
    "label": "Fenrir",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
-   "flags": [
-    true,
-    false
-   ]
-  },
-  {
-   "id": "tyr",
-   "label": "Tyr",
-   "mode": "partial",
    "mentions": 2,
    "total": 3,
    "flags": [
@@ -2223,17 +2263,30 @@
    ]
   },
   {
+   "id": "tyr",
+   "label": "Tyr",
+   "mode": "partial",
+   "mentions": 3,
+   "total": 4,
+   "flags": [
+    true,
+    true,
+    true,
+    false
+   ]
+  },
+  {
    "id": "atli",
    "label": "Atli",
-   "mode": "partial",
-   "mentions": 4,
+   "mode": "clean",
+   "mentions": 5,
    "total": 5,
    "flags": [
     true,
     true,
     true,
     true,
-    false
+    true
    ]
   },
   {
@@ -2252,9 +2305,10 @@
    "id": "cupid",
    "label": "Cupid",
    "mode": "clean",
-   "mentions": 2,
-   "total": 2,
+   "mentions": 3,
+   "total": 3,
    "flags": [
+    true,
     true,
     true
    ]
@@ -2300,9 +2354,10 @@
    "id": "mimir",
    "label": "Mimir",
    "mode": "partial",
-   "mentions": 1,
-   "total": 2,
+   "mentions": 2,
+   "total": 3,
    "flags": [
+    true,
     true,
     false
    ]
@@ -2589,8 +2644,8 @@
    "frm": "zeus",
    "to": "pandora",
    "type": "creation",
-   "mode": "none_both",
-   "dist": null
+   "mode": "clean",
+   "dist": 25
   },
   {
    "frm": "pandora",
@@ -2771,8 +2826,8 @@
    "frm": "inana",
    "to": "gilgamesh",
    "type": "interaction",
-   "mode": "none_both",
-   "dist": null
+   "mode": "clean",
+   "dist": 7
   },
   {
    "frm": "lilith",
@@ -3772,17 +3827,15 @@
     ]
    ],
    "none_mention": [
-    1,
-    [
-     "fdr"
-    ]
+    0,
+    []
    ],
    "first_not_direct": [
     0,
     []
    ],
    "partial": [
-    64,
+    60,
     [
      "machaon",
      "asclepius",
@@ -3790,14 +3843,12 @@
      "olympia",
      "zeus",
      "gilgamesh",
-     "adam",
      "methuselah",
      "pwyll",
      "arawn",
      "llwyd",
      "teyrnon",
      "manawyddan",
-     "nithuth",
      "brumidi",
      "pandora",
      "metis",
@@ -3819,15 +3870,17 @@
      "adam-smith",
      "tiberinus",
      "pericles",
+     "fdr",
      "mnemosyne",
      "typhoeus",
      "thor",
      "heimdall",
-     "galen"
+     "galen",
+     "newton"
     ]
    ],
    "clean": [
-    134,
+    139,
     [
      "podaleirius",
      "chiron",
@@ -3847,6 +3900,7 @@
      "lilith",
      "inana",
      "anzud-bird",
+     "adam",
      "eve",
      "agrimus",
      "rhiannon",
@@ -3855,6 +3909,7 @@
      "bran",
      "epona",
      "volundr",
+     "nithuth",
      "nithuths-queen",
      "bothvild",
      "george-washington",
@@ -3866,9 +3921,7 @@
      "enkidu",
      "neptune",
      "mercury",
-     "venus",
-     "minerva",
-     "atlas"
+     "venus"
     ]
    ]
   },
@@ -3879,22 +3932,12 @@
     []
    ],
    "none_both": [
-    3,
+    1,
     [
      [
       "mason-weems",
       "george-washington",
       "transmission"
-     ],
-     [
-      "zeus",
-      "pandora",
-      "creation"
-     ],
-     [
-      "inana",
-      "gilgamesh",
-      "interaction"
      ]
     ]
    ],
@@ -3903,7 +3946,7 @@
     []
    ],
    "clean": [
-    201,
+    203,
     [
      [
       "asclepius",
@@ -4046,6 +4089,10 @@
       "genius"
      ],
      [
+      "zeus",
+      "pandora"
+     ],
+     [
       "pandora",
       "epimetheus"
      ],
@@ -4060,10 +4107,6 @@
      [
       "pandora",
       "pyrrha"
-     ],
-     [
-      "prometheus",
-      "deucalion"
      ]
     ]
    ]

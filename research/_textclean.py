@@ -107,10 +107,13 @@ def load_case(path):
 # boundary = sentence punctuation (+closing quotes) + whitespace, followed by
 # a capital or a furniture number token then a capital. The capital lookahead
 # is also the guard against stripping real quantities ("pounds. 200 men").
+# A em/en dash after the closing quote is accepted (2026-10-21: Weems prints
+# 'me." — And'; without this every slice near the cabinet roster walked back
+# two sentences into Washington's speech).
 CAND = re.compile(
-    r"([.!?])([\"'\u2019\u201d\)\]]*)\s+"
+    r"([.!?])([\"'\u2019\u201d\)\]]*)\s*[\u2014\u2013]?\s+"
     r"(?=(?:\d{1,4}(?::\d{1,4})?(?:[-\u2013,]\s?\d{1,4})*\s+)?"
-    r"[A-Z\u201c\"'(\[])"
+    r"[A-Z\u201c\"(\[])"
 )
 # tokens after whose period a capital does NOT start a new sentence
 ABBR = {"st", "no", "nr", "mr", "mrs", "ms", "dr", "prof", "rev", "hon",
@@ -236,6 +239,11 @@ def expand_span(t, lo, hi, max_back=None, max_fwd=40000):
     s = _prev_boundary(t, lo, max_back)
     s = 0 if s is None else s
     e = _next_boundary(t, max(hi, s), max_fwd)
+    if e is not None and e <= s:
+        # lo sits exactly at a sentence start: the frm-4 back-scan in
+        # _next_boundary returns the PREVIOUS sentence's end. Rescan from
+        # s+1 (frm-4 => s-3 would re-find the same previous boundary).
+        e = _next_boundary(t, s + 5, max_fwd)
     if e is None:
         return None
     return t[s:e].strip()

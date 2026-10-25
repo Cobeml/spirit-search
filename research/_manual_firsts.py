@@ -83,13 +83,14 @@ OVERRIDES = {
     "atli": ("edda", [r"atli .{0,80}(buthli|brother of brynhild|spake)", r"\batli\b"]),
     # Apuleius (Adlington spells her 'Psyches')
     "psyche": ("apul", [r"psyches .{0,250}(fair|beautiful|younger|daughter)", r"cupid and psyches\. there was sometimes", r"\bpsyche\b|\bpsyches\b"]),
-    "cupid": ("apul", [r"cupid being more and more in love"]),
+    "cupid": ("apul", [r"but cupid being now healed of his wound", r"cupid being more and more in love"]),
     # Weems
     "george-washington": ("weems", [r"great washington was born"]),
     "thomas-jefferson": ("weems", [r"secretary of foreign aifairs", r"berkley, jefferson"]),
     "henry-knox": ("weems", [r"gen\. knox, secretary of war"]),
     "james-wilson": ("weems", [r"joliii rtitledge, james wilson, john cushing", r"james wilson"]),
-    "charles-lee": ("weems", [r"general lee.{0,40}said washington|for god.{0,20}sake, general lee"]),
+    "charles-lee": ("weems", [r"general lee.{0,40}said washington", r"for god.{0,20}sake, general lee"]),
+    "edward-braddock": ("weems", [r"i long to see him", r"general braddock"]),
     "alexander-hamilton": ("weems", [r"col\. hamilton, secretary of the treasury"]),
     # Livy
     "cincinnatus": ("livy", [r"by universal consent .{0,60}cincinnatus was called", r"cincinnatus .{0,120}(dictator|farm|four acres|plough)"]),
@@ -107,6 +108,10 @@ OVERRIDES = {
     "minerva": ("horace", [r"minerva .{0,200}(quinquatrus|festival|school)", r"\bminerva\b"]),
     "diana": ("theog", [r"artemis who delights in arrows"]),
     "pandora": ("theog", [r"pandora"]),
+    # FDR: the witness never names him in the address body; pin the document
+    # header block (title + date + opening sentence) as the naming first card.
+    "fdr": ("fdr", [r"first inaugural address of franklin d\. roosevelt\s+saturday, march 4, 1933\s+i am certain",
+                    r"first inaugural address of franklin d\. roosevelt"]),
 }
 
 # map override file keys to real FILES keys
@@ -124,6 +129,7 @@ FILEALIAS = {
     "eum": "evidence/athene/aeschylus-eumenides-smyth-theoi.html",
     "sand": "evidence/sandmann/freud-cp4-1925-full-djvu.txt",
     "horace": "evidence/genius/horace_epistles_smart_wikisource.txt",
+    "fdr": "evidence/_corpus/fdr-first-inaugural.txt",
 }
 
 g = json.load(open(GP))
