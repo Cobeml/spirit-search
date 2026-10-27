@@ -52,6 +52,10 @@ OVERRIDES = {
     'helen': 'Helen of Troy',
     'odysseus': 'Odysseus',
     'dionysus': 'Dionysus',
+    # explicitly commissioned nodes (2026-10-27): plain labels resolve to set-index
+    # or wrong-domain pages; the intended articles are the primary topics
+    'god': 'God',
+    'jesus': 'Jesus',
     'loki': 'Loki',
     'pandora': 'Pandora',
     'pyrrha': 'Pyrrha',

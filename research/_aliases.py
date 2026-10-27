@@ -89,6 +89,13 @@ ALIASES = {
     "abraham": ["abraham", "abram"],
     "noah": ["noah", "noe"],
     "methuselah": ["methuselah", "mathusala"],
+    # Christian scriptures (Cobe commission 2026-10-27)
+    # 'lord' alone is excluded: in the KJV New Testament 'the Lord' names Jesus;
+    # for God the phrase forms ('the lord', 'lord god') carry the Old Testament usage.
+    "god": ["god", "the lord", "lord god", "the lord god", "jehovah",
+            "the almighty", "almighty god", "the most high", "most high"],
+    "jesus": ["jesus", "christ", "jesus christ", "christ jesus", "christus",
+              "jesus of nazareth"],
     # Mesopotamian
     "inana": ["inana", "inanna", "ishtar"],
     "anzud-bird": ["anzud", "anzu", "imdugud", "imdugan"],

@@ -1,950 +1,1067 @@
 {
- "version": 2,
- "updated": "2026-10-21",
- "note": "Power claims as reviewable data (Cobe's pricing gate). pools/direct/influence carry the ruled state; proposals await Cobe's ruling and are promoted into direct only by his word. The model (_power_model.py) reads this file and writes power fields into graph.json; do not hand-edit graph.json power fields.",
- "pools": {
-  "P_energy": 20000000000000.0,
-  "P_health": 100000000000.0,
-  "P_military": 50000000000.0,
-  "P_school": 20000000000.0,
-  "P_nation": 1200000000000.0,
-  "P_metals": 1000000000000.0,
-  "P_horses": 3000000000.0,
-  "P_sleep": 1000000000.0,
-  "P_amulet": 500000000.0,
-  "P_self": 10000000000.0,
-  "P_authority": 15000000000000.0
- },
- "direct": {
-  "prometheus": {
-   "pool": "P_energy",
-   "share": 0.6,
-   "witness": 1.0,
-   "why": "Fire and all arts as the mythic origin of combustion and craft; Aeschylus PB 505-506 outright sums it [6]; Plato documents the transfer [7]."
-  },
-  "volundr": {
-   "pool": "P_metals",
-   "share": 0.05,
-   "witness": 1.0,
-   "why": "Smith-king of the Germanic tradition; revenge executed precisely through metalwork [24][25]; share small but the attribution is absolute within its domain."
-  },
-  "machaon": {
-   "pool": "P_health",
-   "share": 0.05,
-   "witness": 1.0,
-   "why": "Battlefield medicine personified; the Iliad prices the healer explicitly at several men [1]; Gerenia cult sustained a healing economy locally [3]."
-  },
-  "asclepius": {
-   "pool": "P_health",
-   "share": 0.3,
-   "witness": 1.0,
-   "why": "Pandemic-scale healing cult of the ancient world; father-source of Machaon line [1][3]; Apollo/Asculapius branding persists on modern medicine."
-  },
-  "genius": {
-   "pool": "P_self",
-   "share": 0.4,
-   "witness": 1.0,
-   "why": "Tutelary of every person and place [9][10][14]: the pool of selfhood-ritual answers to it structurally, no myth needed."
-  },
-  "sandman": {
-   "pool": "P_sleep",
-   "share": 0.5,
-   "witness": 1.0,
-   "why": "The sleep-enforcer of the nursery [4]; psychoanalytic tradition (Freud) made it the canonical figure of the unheimlich night [5]."
-  },
-  "lilith": {
-   "pool": "P_amulet",
-   "share": 0.5,
-   "witness": 1.0,
-   "why": "Infant-protection economy literally documented as her price (amulet with three angel names) [19]; night-fear persists in Isaiah/Huluppu strata [17][18][20]."
-  },
-  "rhiannon": {
-   "pool": "P_horses",
-   "share": 0.2,
-   "witness": 0.75,
-   "why": "Horse association is a penance in the primary witness [21] and the goddess claim scholarship [23]; the equine economy still runs under her modern name."
-  },
-  "george-washington": {
-   "pool": "P_nation",
-   "share": 0.15,
-   "witness": 1.0,
-   "why": "State-commissioned national tutelary [16]; his biography industry was Weems [15]; the US national pool is the pool the name organizes."
-  },
-  "zeus": {
-   "pool": "P_authority",
-   "share": 0.5,
-   "witness": 1.0,
-   "why": "The distribution of political wisdom itself stays in his keeping [7]; ancient sovereign order answers to the name."
-  },
-  "hephaestus": {
-   "pool": "P_metals",
-   "share": 0.3,
-   "witness": 1.0,
-   "why": "The forge the fire was stolen from [7]; divine artisan of the Greek pool."
-  },
-  "heracles": {
-   "pool": "P_military",
-   "share": 0.1,
-   "witness": 0.75,
-   "why": "Labors as licensed force; release of Prometheus anchors him into the machine [6]."
-  },
-  "nithuth": {
-   "pool": "P_military",
-   "share": 0.02,
-   "witness": 1.0,
-   "why": "A king who commands force sufficient to maim an elf-smith [24]; pool share is a throne-share, small."
-  },
-  "inana": {
-   "pool": "P_authority",
-   "share": 0.02,
-   "witness": 1.0,
-   "why": "Owner of the halub-tree and its throne/bed claim [17]; Sumerian sovereignty-adjacent."
-  },
-  "athene": {
-   "pool": "P_metals",
-   "share": 0.1,
-   "witness": 1.0,
-   "why": "Co-owner of the burgled crafts with Hephaestus [7]."
-  },
-  "epona": {
-   "pool": "P_horses",
-   "share": 0.05,
-   "witness": 0.75,
-   "why": "Epigraphic horse-cult, carried by cavalry [23]; absorbed into the modern equine economy only residually."
-  },
-  "minerva": {
-   "pool": "P_school",
-   "share": 0.02,
-   "witness": 1.0,
-   "why": "Ovid logs schoolmasters paying her fees at the Quinquatrus and credits her with attracting new pupils [36]; the education economy has a named patroness with a documented revenue stream."
-  },
-  "james-watt": {
-   "pool": "P_energy",
-   "share": 0.01,
-   "witness": 1.0,
-   "why": "The SI unit of every pool in this graph is his name; the Soho works sold power itself as a commodity [39]. The man is the denomination of the modern fire economy Prometheus claims as mythic origin."
-  },
-  "benjamin-franklin": {
-   "pool": "P_energy",
-   "share": 0.005,
-   "witness": 1.0,
-   "why": "Drew lightning into a Leyden jar and published directions [40]; the lightning rod and the unpatented stove make electrification and heating his personal doing, gift-form intact."
-  },
-  "mars": {
-   "pool": "P_military",
-   "share": 0.05,
-   "witness": 1.0,
-   "why": "Ovid's census: the god of Latium 'the patron of the sword; 'twas the sword that won for a fierce race empire and glory' [36]. The Roman military economy worshipped him by name, at the month-charging start of the year."
-  },
-  "hippocrates": {
-   "pool": "P_health",
-   "share": 0.05,
-   "witness": 1.0,
-   "why": "Founder of the first billing discipline in medicine [42]; the Asclepiadae descent claim [3] makes the descent-line explicit rather than analogy."
-  },
-  "fdr": {
-   "pool": "P_nation",
-   "share": 0.05,
-   "witness": 1.0,
-   "why": "Asked for and received the war-emergency office in peacetime words [45]; the national pool was his instrument for four terms, the Cincinnatus-loan never visibly returned."
-  },
-  "henry-knox": {
-   "pool": "P_military",
-   "share": 0.01,
-   "witness": 0.5,
-   "why": "The artillery branch and the War Department both descend from his office; bodies under command documented in the cabinet roster witness.",
-   "role": "Chief of the Continental Army artillery; first U.S. Secretary of War",
-   "witness_files": [
-    "weems_life_of_washington_archive_org_1800_djvu.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "alexander-hamilton": {
-   "pool": "P_nation",
-   "share": 0.02,
-   "witness": 0.5,
-   "why": "The Treasury he built still issues the credit of the pool Washington organizes.",
-   "role": "First Secretary of the Treasury",
-   "witness_files": [
-    "weems_life_of_washington_archive_org_1800_djvu.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "thomas-jefferson": {
-   "pool": "P_nation",
-   "share": 0.005,
-   "witness": 0.5,
-   "why": "State department and the organizing creed of the same nation-pool.",
-   "role": "Secretary of State in the first cabinet",
-   "witness_files": [
-    "weems_life_of_washington_archive_org_1800_djvu.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "john-jay": {
-   "pool": "P_nation",
-   "share": 0.0005,
-   "witness": 0.5,
-   "why": "The judicial arm of the same national coordination pool.",
-   "role": "First Chief Justice",
-   "witness_files": [
-    "weems_life_of_washington_archive_org_1800_djvu.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "james-wilson": {
-   "pool": "P_authority",
-   "share": 0.0002,
-   "witness": 0.5,
-   "why": "The court's claim on sovereign order runs through the frame he signed.",
-   "role": "Supreme Court justice; Constitution signer",
-   "witness_files": [
-    "weems_life_of_washington_archive_org_1800_djvu.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "aaron-burr": {
-   "pool": "P_nation",
-   "share": 0.0002,
-   "witness": 0.5,
-   "why": "One heartbeat from the pool's command; Weems' roll of damned talent.",
-   "role": "Vice President",
-   "witness_files": [
-    "weems_life_of_washington_archive_org_1800_djvu.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "benedict-arnold": {
-   "pool": "P_military",
-   "share": 0.0005,
-   "witness": 0.5,
-   "why": "Documented command of a strategic garrison before the defection.",
-   "role": "Major General; commanded West Point",
-   "witness_files": [
-    "weems_life_of_washington_archive_org_1800_djvu.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "charles-lee": {
-   "pool": "P_military",
-   "share": 0.0002,
-   "witness": 0.5,
-   "why": "Commanded at Monmouth against Washington's order; command documented, conduct separate.",
-   "role": "Major General",
-   "witness_files": [
-    "weems_life_of_washington_archive_org_1800_djvu.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "edward-braddock": {
-   "pool": "P_military",
-   "share": 0.0002,
-   "witness": 0.5,
-   "why": "Led the expedition Washington survived; command of the Redcoat column is documented.",
-   "role": "British commander of the 1755 expedition",
-   "witness_files": [
-    "weems_life_of_washington_archive_org_1800_djvu.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "faraday": {
-   "pool": "P_energy",
-   "share": 0.01,
-   "witness": 0.5,
-   "why": "Every generator on the grid runs on the effect; parallel to Watt's denomination claim.",
-   "role": "Discovered electromagnetic induction",
-   "witness_files": [
-    "eb1911-faraday.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "newton": {
-   "pool": "P_energy",
-   "share": 0.002,
-   "witness": 0.5,
-   "why": "The mechanics every engine is computed in; pool alternative P_metals (Mint coinage) if you prefer the office over the frame.",
-   "role": "Principia; Master of the Mint; Royal Society president",
-   "witness_files": [
-    "eb1911-newton.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "cincinnatus": {
-   "pool": "P_authority",
-   "share": 0.0005,
-   "witness": 0.75,
-   "why": "The civil-military restraint template every modern republic cites; FDR borrowed the loan in his first inaugural.",
-   "role": "Roman dictator who returned the fasces",
-   "witness_files": [
-    "livy3-roberts-wikisource.txt",
-    "weems_life_of_washington_archive_org_1800_djvu.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "sulla": {
-   "pool": "P_authority",
-   "share": 0.0005,
-   "witness": 0.75,
-   "why": "The strongman template the modern authority pool still measures itself against.",
-   "role": "Roman dictator; the proscription",
-   "witness_files": [
-    "serviusaeneid.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "romulus": {
-   "pool": "P_authority",
-   "share": 0.0005,
-   "witness": 1.0,
-   "why": "The founder-exemplar every nation-founding ritual borrows.",
-   "role": "Founder-king of Rome",
-   "witness_files": [
-    "plutarch-lives-dryden-clough-gutenberg.txt",
-    "livy1-roberts.txt",
-    "ovid-fasti-3-frazer.html"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "numa-pompilius": {
-   "pool": "P_authority",
-   "share": 0.0003,
-   "witness": 1.0,
-   "why": "The pontifical and calendar architecture he instituted organized Roman religion for centuries.",
-   "role": "Second king of Rome; cult author",
-   "witness_files": [
-    "plutarch-lives-dryden-clough-gutenberg.txt",
-    "livy1-roberts.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "fabius-maximus": {
-   "pool": "P_military",
-   "share": 0.001,
-   "witness": 1.0,
-   "why": "Fabian strategy is taught by name in every staff college; the doctrine of strategic patience.",
-   "role": "Five-time consul; the Delayer",
-   "witness_files": [
-    "plutarch-lives-dryden-clough-gutenberg.txt",
-    "livy3-roberts-wikisource.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "marcellus": {
-   "pool": "P_military",
-   "share": 0.0002,
-   "witness": 1.0,
-   "why": "The general's triumph ritual and siege command, documented in two primaries.",
-   "role": "Five-time consul; spolia opima; took Syracuse",
-   "witness_files": [
-    "plutarch-lives-dryden-clough-gutenberg.txt",
-    "livy3-roberts-wikisource.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "marcius-coriolanus": {
-   "pool": "P_military",
-   "share": 0.0002,
-   "witness": 0.75,
-   "why": "The commander-against-state template.",
-   "role": "Exiled general who turned on his own city",
-   "witness_files": [
-    "plutarch-lives-dryden-clough-gutenberg.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "aemilius-paullus": {
-   "pool": "P_military",
-   "share": 0.0002,
-   "witness": 1.0,
-   "why": "Commanded the legion that ended the Macedonian phalanx.",
-   "role": "Consul; victor of Pydna",
-   "witness_files": [
-    "plutarch-lives-dryden-clough-gutenberg.txt",
-    "livy3-roberts-wikisource.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "cato-elder": {
-   "pool": "P_authority",
-   "share": 0.0002,
-   "witness": 0.75,
-   "why": "The censor's audit of senators and contracts is the ancestral form of the accountability office.",
-   "role": "Censor of Rome",
-   "witness_files": [
-    "plutarch-lives-dryden-clough-gutenberg.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "valerius-publicola": {
-   "pool": "P_authority",
-   "share": 0.0001,
-   "witness": 1.0,
-   "why": "The republican handover exemplar, in Plutarch and Livy both.",
-   "role": "The consul who yielded the fasces",
-   "witness_files": [
-    "plutarch-lives-dryden-clough-gutenberg.txt",
-    "livy3-roberts-wikisource.txt"
-   ],
-   "proposed": "2026-10-21",
-   "ruled": "2026-10-21"
-  },
-  "agamemnon": {
-   "pool": "P_military",
-   "share": 0.0001,
-   "witness": 1.0,
-   "why": "Leader of the host at Troy; the epic archcommander whose summons binds the Achaean kings.",
-   "role": "Commander of the Achaean host",
-   "witness_files": [
-    "plutarch-lives-dryden-clough-gutenberg.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "priam": {
-   "pool": "P_authority",
-   "share": 0.0001,
-   "witness": 1.0,
-   "why": "King of Troy; the throne the whole Iliad pressures.",
-   "role": "King of Troy",
-   "witness_files": [
-    "plutarch-lives-dryden-clough-gutenberg.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "aeneas": {
-   "pool": "P_authority",
-   "share": 0.0001,
-   "witness": 1.0,
-   "why": "Founder-commander carrying the household gods to Latium; the exile-claim at the root of the Roman order.",
-   "role": "Founder-commander of the Trojans",
-   "witness_files": [
-    "virgil-aeneid-dryden.txt",
-    "serviusaeneid.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "evander": {
-   "pool": "P_authority",
-   "share": 5e-05,
-   "witness": 1.0,
-   "why": "Arcadian king on the future site of Rome; hosts the Trojan remnant.",
-   "role": "Arcadian king",
-   "witness_files": [
-    "virgil-aeneid-dryden.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "latinus": {
-   "pool": "P_authority",
-   "share": 5e-05,
-   "witness": 1.0,
-   "why": "Latin king whose daughter transfers the kingship line.",
-   "role": "King of the Latins",
-   "witness_files": [
-    "virgil-aeneid-dryden.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "odin": {
-   "pool": "P_authority",
-   "share": 0.0005,
-   "witness": 1.0,
-   "why": "The All-Father; hanged for wisdom, one-eyed for the runes; sovereign of the Norse pantheon.",
-   "role": "All-Father, sovereign of the Aesir",
-   "witness_files": [
-    "poeticedda00belluoft_djvu.txt",
-    "bellows-poetic-edda-1923-full.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "math": {
-   "pool": "P_authority",
-   "share": 0.0002,
-   "witness": 0.5,
-   "why": "Lord of Gwynedd in the Fourth Branch; the name-making and flower-making uncle holds the northern throne.",
-   "role": "Lord of Gwynedd",
-   "witness_files": [
-    "guest-mabinogion-1877-full.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "maelgwn": {
-   "pool": "P_authority",
-   "share": 0.0001,
-   "witness": 0.5,
-   "why": "Historical king of Gwynedd cast in the Taliesin tale as captor and judge of poets.",
-   "role": "King of Gwynedd",
-   "witness_files": [
-    "guest-mabinogion-1877-full.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "nuada": {
-   "pool": "P_authority",
-   "share": 0.0002,
-   "witness": 0.5,
-   "why": "King of the Tuatha De Danann; the hand-lost king re-armed in silver, the sovereignty that must be whole.",
-   "role": "King of the Tuatha",
-   "witness_files": [
-    "macculloch-religion-ancient-celts-1911.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "balor": {
-   "pool": "P_authority",
-   "share": 0.0001,
-   "witness": 0.5,
-   "why": "Fomorian king whose death-eye held a host; the tyrant-eye his grandson closes at Moytura.",
-   "role": "Fomorian king",
-   "witness_files": [
-    "macculloch-religion-ancient-celts-1911.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "manannan": {
-   "pool": "P_authority",
-   "share": 5e-05,
-   "witness": 0.5,
-   "why": "Sea-lord named in the euhemerist lists; the otherworld ferryman-king.",
-   "role": "Sea-lord",
-   "witness_files": [
-    "macculloch-religion-ancient-celts-1911.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "hel": {
-   "pool": "P_authority",
-   "share": 5e-05,
-   "witness": 1.0,
-   "why": "Half-dead ruler of the ninth world and its low house; the underworld throne Odin granted her.",
-   "role": "Ruler of the ninth world",
-   "witness_files": [
-    "poeticedda00belluoft_djvu.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "nithuths-queen": {
-   "pool": "P_authority",
-   "share": 5e-05,
-   "witness": 1.0,
-   "why": "The queen who reads the ring and commands the hamstringing; the instigating throne beside Nithuth.",
-   "role": "Queen beside the throne",
-   "witness_files": [
-    "poeticedda00belluoft_djvu.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "apollo": {
-   "pool": "P_health",
-   "share": 0.02,
-   "witness": 0.75,
-   "why": "The archer whose arrows are plague and whose son is Asclepius; the healing claim the Pythian voice disciplined. Pricing activates the sibyl and Sulla routes.",
-   "witness_files": [
-    "virgil-aeneid-dryden.txt",
-    "serviusaeneid.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "mercury": {
-   "pool": "P_authority",
-   "share": 0.0002,
-   "witness": 0.5,
-   "why": "God of merchants and messengers; the exchange-coordination archetype the market still invokes. Pricing activates the Adam Smith route.",
-   "witness_files": [
-    "eb1911-adam-smith.txt",
-    "boswell-life-of-johnson-vol2.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "atlas": {
-   "pool": "P_energy",
-   "share": 0.0001,
-   "witness": 0.75,
-   "why": "The sky-bearer; every atlas of maps and every load-bearing name descends from the Titan condemned to carry. Pricing activates the Iopas route.",
-   "witness_files": [
-    "virgil-aeneid-dryden.txt"
-   ],
-   "ruled": "2026-10-21"
-  },
-  "paris-alexandrus": {
-   "pool": "P_authority",
-   "share": 5e-05,
-   "witness": 1.0,
-   "why": "The judgment of the apple: the binding decision among the bribes of three goddesses that launched the war. Pricing activates the Hector route.",
-   "witness_files": [
-    "plutarch-lives-dryden-clough-gutenberg.txt"
-   ],
-   "ruled": "2026-10-21"
-  }
- },
- "influence": [
-  {
-   "from": "asclepius",
-   "to": "machaon",
-   "type": "transmission",
-   "fraction": 0.8
-  },
-  {
-   "from": "chiron",
-   "to": "asclepius",
-   "type": "transmission",
-   "fraction": 0.8
-  },
-  {
-   "from": "prometheus",
-   "to": "zeus",
-   "type": "conflict",
-   "fraction": 0.3
-  },
-  {
-   "from": "epimetheus",
-   "to": "prometheus",
-   "type": "kinship+interaction",
-   "fraction": 0.4
-  },
-  {
-   "from": "mason-weems",
-   "to": "george-washington",
-   "type": "transmission",
-   "fraction": 0.9
-  },
-  {
-   "from": "brumidi",
-   "to": "george-washington",
-   "type": "transmission",
-   "fraction": 0.7
-  },
-  {
-   "from": "nithuth",
-   "to": "volundr",
-   "type": "conflict",
-   "fraction": 0.6
-  },
-  {
-   "from": "volundr",
-   "to": "nithuth",
-   "type": "conflict",
-   "fraction": 0.6
-  },
-  {
-   "from": "gilgamesh",
-   "to": "lilith",
-   "type": "conflict",
-   "fraction": 0.5
-  },
-  {
-   "from": "llwyd",
-   "to": "rhiannon",
-   "type": "conflict",
-   "fraction": 0.5
-  },
-  {
-   "from": "paris-alexandrus",
-   "to": "machaon",
-   "type": "conflict",
-   "fraction": 0.3
-  },
-  {
-   "from": "eurypylus-telephid",
-   "to": "machaon",
-   "type": "conflict",
-   "fraction": 0.3
-  },
-  {
-   "from": "brumidi",
-   "to": "victory",
-   "type": "transmission",
-   "fraction": 0.0,
-   "why": "provenance-only commission edge"
-  },
-  {
-   "from": "brumidi",
-   "to": "neptune",
-   "type": "transmission",
-   "fraction": 0.0,
-   "why": "provenance-only commission edge"
-  },
-  {
-   "from": "brumidi",
-   "to": "vulcan",
-   "type": "transmission",
-   "fraction": 0.0,
-   "why": "provenance-only commission edge"
-  },
-  {
-   "from": "brumidi",
-   "to": "mercury",
-   "type": "transmission",
-   "fraction": 0.0,
-   "why": "provenance-only commission edge"
-  },
-  {
-   "from": "brumidi",
-   "to": "venus",
-   "type": "transmission",
-   "fraction": 0.0,
-   "why": "provenance-only commission edge"
-  },
-  {
-   "from": "brumidi",
-   "to": "ceres",
-   "type": "transmission",
-   "fraction": 0.0,
-   "why": "provenance-only commission edge"
-  },
-  {
-   "from": "brumidi",
-   "to": "minerva",
-   "type": "transmission",
-   "fraction": 0.0,
-   "why": "provenance-only commission edge"
-  },
-  {
-   "from": "victory",
-   "to": "george-washington",
-   "type": "transmission",
-   "fraction": 0.1,
-   "why": "Capitol faculty state-rent share"
-  },
-  {
-   "from": "neptune",
-   "to": "george-washington",
-   "type": "transmission",
-   "fraction": 0.1,
-   "why": "Capitol faculty state-rent share"
-  },
-  {
-   "from": "vulcan",
-   "to": "george-washington",
-   "type": "transmission",
-   "fraction": 0.1,
-   "why": "Capitol faculty state-rent share"
-  },
-  {
-   "from": "mercury",
-   "to": "george-washington",
-   "type": "transmission",
-   "fraction": 0.1,
-   "why": "Capitol faculty state-rent share"
-  },
-  {
-   "from": "venus",
-   "to": "george-washington",
-   "type": "transmission",
-   "fraction": 0.1,
-   "why": "Capitol faculty state-rent share"
-  },
-  {
-   "from": "ceres",
-   "to": "george-washington",
-   "type": "transmission",
-   "fraction": 0.1,
-   "why": "Capitol faculty state-rent share"
-  },
-  {
-   "from": "minerva",
-   "to": "george-washington",
-   "type": "transmission",
-   "fraction": 0.1,
-   "why": "Capitol faculty state-rent share"
-  },
-  {
-   "from": "vulcan",
-   "to": "hephaestus",
-   "type": "analogy",
-   "fraction": 0.0
-  },
-  {
-   "from": "james-watt",
-   "to": "prometheus",
-   "type": "transmission",
-   "fraction": 0.02
-  },
-  {
-   "from": "benjamin-franklin",
-   "to": "prometheus",
-   "type": "transmission",
-   "fraction": 0.01
-  },
-  {
-   "from": "benjamin-franklin",
-   "to": "george-washington",
-   "type": "analogy",
-   "fraction": 0.0
-  },
-  {
-   "from": "benjamin-franklin",
-   "to": "mercury",
-   "type": "analogy",
-   "fraction": 0.0
-  },
-  {
-   "from": "atlas",
-   "to": "zeus",
-   "type": "transmission",
-   "fraction": 0.05
-  },
-  {
-   "from": "iris",
-   "to": "zeus",
-   "type": "transmission",
-   "fraction": 0.1
-  },
-  {
-   "from": "sibyl",
-   "to": "apollo",
-   "type": "transmission",
-   "fraction": 0.3
-  },
-  {
-   "from": "hippocrates",
-   "to": "asclepius",
-   "type": "transmission",
-   "fraction": 0.5
-  },
-  {
-   "from": "adam-smith",
-   "to": "mercury",
-   "type": "transmission",
-   "fraction": 0.3
-  },
-  {
-   "from": "matthew-boulton",
-   "to": "james-watt",
-   "type": "transmission",
-   "fraction": 0.4
-  },
-  {
-   "from": "hector",
-   "to": "paris-alexandrus",
-   "type": "conflict",
-   "fraction": 0.3
-  },
-  {
-   "from": "typhoeus",
-   "to": "zeus",
-   "type": "conflict",
-   "fraction": 0.3
-  },
-  {
-   "from": "thetis",
-   "to": "zeus",
-   "type": "transmission",
-   "fraction": 0.1
-  },
-  {
-   "from": "iopas",
-   "to": "atlas",
-   "type": "transmission",
-   "fraction": 0.2
-  },
-  {
-   "from": "pericles",
-   "to": "athene",
-   "type": "transmission",
-   "fraction": 0.3
-  },
-  {
-   "from": "fdr",
-   "to": "george-washington",
-   "type": "transmission",
-   "fraction": 0.2
-  },
-  {
-   "from": "heimdall",
-   "to": "odin",
-   "type": "transmission",
-   "fraction": 0.1
-  },
-  {
-   "from": "xanthus-balius",
-   "to": "achilles",
-   "type": "kinship",
-   "fraction": 0.0
-  },
-  {
-   "from": "thetis",
-   "to": "xanthus-balius",
-   "type": "transmission",
-   "fraction": 0.0
-  },
-  {
-   "from": "priam",
-   "to": "hector",
-   "type": "kinship",
-   "fraction": 0.0
-  },
-  {
-   "from": "sulla",
-   "to": "apollo",
-   "type": "transmission",
-   "fraction": 0.3
-  },
-  {
-   "from": "galen",
-   "to": "hippocrates",
-   "type": "transmission",
-   "fraction": 0.3
-  },
-  {
-   "from": "ampere",
-   "to": "faraday",
-   "type": "transmission",
-   "fraction": 0.3
-  },
-  {
-   "from": "joule",
-   "to": "james-watt",
-   "type": "transmission",
-   "fraction": 0.3
-  },
-  {
-   "from": "faraday",
-   "to": "benjamin-franklin",
-   "type": "transmission",
-   "fraction": 0.2
-  }
- ],
- "pop_anchors": {
-  "-2000": 30000000.0,
-  "-500": 100000000.0,
-  "1": 300000000.0,
-  "1000": 400000000.0,
-  "1500": 500000000.0,
-  "1800": 1000000000.0,
-  "1900": 1650000000.0,
-  "1950": 2525000000.0,
-  "2000": 6145000000.0,
-  "2026": 8100000000.0
- },
- "pop_anchors_why": "watts_at_era prices a figure in the coin of their own time: watts_now x world-pop(era)/pop(2026), population as the energy proxy, log-linear between cited anchors (replaces the two-endpoint curve that overpriced 1800 ~6x and underpriced -750 ~2x).",
- "proposals": {},
- "proposal_note": "Proposed 2026-10-21 from the zero-power audit. Shares are order-of-magnitude anchors calibrated against the ruled table (Washington 0.15 P_nation; Mars 0.05 P_military; Watt 0.01 P_energy). Cobe rescales or rejects; promotion into direct happens only on his word.",
- "rulings": [
-  {
-   "date": "2026-10-21",
-   "ruling": "Cobe: 'Do power scaling for all the ones awaiting'",
-   "applied": "21 Tier-1 proposals promoted to direct; 13 Tier-2 role-attested figures priced (epic command earns claims); 4 dead-route targets priced (apollo, mercury, paris-alexandrus, atlas) activating all 7 explicit dead routes under R6 single-hop.",
-   "rescalable": "Every line individually rescalable; name a node and a new share."
-  }
- ]
+  "version": 2,
+  "updated": "2026-10-21",
+  "note": "Power claims as reviewable data (Cobe's pricing gate). pools/direct/influence carry the ruled state; proposals await Cobe's ruling and are promoted into direct only by his word. The model (_power_model.py) reads this file and writes power fields into graph.json; do not hand-edit graph.json power fields.",
+  "pools": {
+    "P_energy": 20000000000000.0,
+    "P_health": 100000000000.0,
+    "P_military": 50000000000.0,
+    "P_school": 20000000000.0,
+    "P_nation": 1200000000000.0,
+    "P_metals": 1000000000000.0,
+    "P_horses": 3000000000.0,
+    "P_sleep": 1000000000.0,
+    "P_amulet": 500000000.0,
+    "P_self": 10000000000.0,
+    "P_authority": 15000000000000.0
+  },
+  "direct": {
+    "prometheus": {
+      "pool": "P_energy",
+      "share": 0.6,
+      "witness": 1.0,
+      "why": "Fire and all arts as the mythic origin of combustion and craft; Aeschylus PB 505-506 outright sums it [6]; Plato documents the transfer [7]."
+    },
+    "volundr": {
+      "pool": "P_metals",
+      "share": 0.05,
+      "witness": 1.0,
+      "why": "Smith-king of the Germanic tradition; revenge executed precisely through metalwork [24][25]; share small but the attribution is absolute within its domain."
+    },
+    "machaon": {
+      "pool": "P_health",
+      "share": 0.05,
+      "witness": 1.0,
+      "why": "Battlefield medicine personified; the Iliad prices the healer explicitly at several men [1]; Gerenia cult sustained a healing economy locally [3]."
+    },
+    "asclepius": {
+      "pool": "P_health",
+      "share": 0.3,
+      "witness": 1.0,
+      "why": "Pandemic-scale healing cult of the ancient world; father-source of Machaon line [1][3]; Apollo/Asculapius branding persists on modern medicine."
+    },
+    "genius": {
+      "pool": "P_self",
+      "share": 0.4,
+      "witness": 1.0,
+      "why": "Tutelary of every person and place [9][10][14]: the pool of selfhood-ritual answers to it structurally, no myth needed."
+    },
+    "sandman": {
+      "pool": "P_sleep",
+      "share": 0.5,
+      "witness": 1.0,
+      "why": "The sleep-enforcer of the nursery [4]; psychoanalytic tradition (Freud) made it the canonical figure of the unheimlich night [5]."
+    },
+    "lilith": {
+      "pool": "P_amulet",
+      "share": 0.5,
+      "witness": 1.0,
+      "why": "Infant-protection economy literally documented as her price (amulet with three angel names) [19]; night-fear persists in Isaiah/Huluppu strata [17][18][20]."
+    },
+    "rhiannon": {
+      "pool": "P_horses",
+      "share": 0.2,
+      "witness": 0.75,
+      "why": "Horse association is a penance in the primary witness [21] and the goddess claim scholarship [23]; the equine economy still runs under her modern name."
+    },
+    "george-washington": {
+      "pool": "P_nation",
+      "share": 0.15,
+      "witness": 1.0,
+      "why": "State-commissioned national tutelary [16]; his biography industry was Weems [15]; the US national pool is the pool the name organizes."
+    },
+    "zeus": {
+      "pool": "P_authority",
+      "share": 0.5,
+      "witness": 1.0,
+      "why": "The distribution of political wisdom itself stays in his keeping [7]; ancient sovereign order answers to the name."
+    },
+    "hephaestus": {
+      "pool": "P_metals",
+      "share": 0.3,
+      "witness": 1.0,
+      "why": "The forge the fire was stolen from [7]; divine artisan of the Greek pool."
+    },
+    "heracles": {
+      "pool": "P_military",
+      "share": 0.1,
+      "witness": 0.75,
+      "why": "Labors as licensed force; release of Prometheus anchors him into the machine [6]."
+    },
+    "nithuth": {
+      "pool": "P_military",
+      "share": 0.02,
+      "witness": 1.0,
+      "why": "A king who commands force sufficient to maim an elf-smith [24]; pool share is a throne-share, small."
+    },
+    "inana": {
+      "pool": "P_authority",
+      "share": 0.02,
+      "witness": 1.0,
+      "why": "Owner of the halub-tree and its throne/bed claim [17]; Sumerian sovereignty-adjacent."
+    },
+    "athene": {
+      "pool": "P_metals",
+      "share": 0.1,
+      "witness": 1.0,
+      "why": "Co-owner of the burgled crafts with Hephaestus [7]."
+    },
+    "epona": {
+      "pool": "P_horses",
+      "share": 0.05,
+      "witness": 0.75,
+      "why": "Epigraphic horse-cult, carried by cavalry [23]; absorbed into the modern equine economy only residually."
+    },
+    "minerva": {
+      "pool": "P_school",
+      "share": 0.02,
+      "witness": 1.0,
+      "why": "Ovid logs schoolmasters paying her fees at the Quinquatrus and credits her with attracting new pupils [36]; the education economy has a named patroness with a documented revenue stream."
+    },
+    "james-watt": {
+      "pool": "P_energy",
+      "share": 0.01,
+      "witness": 1.0,
+      "why": "The SI unit of every pool in this graph is his name; the Soho works sold power itself as a commodity [39]. The man is the denomination of the modern fire economy Prometheus claims as mythic origin."
+    },
+    "benjamin-franklin": {
+      "pool": "P_energy",
+      "share": 0.005,
+      "witness": 1.0,
+      "why": "Drew lightning into a Leyden jar and published directions [40]; the lightning rod and the unpatented stove make electrification and heating his personal doing, gift-form intact."
+    },
+    "mars": {
+      "pool": "P_military",
+      "share": 0.05,
+      "witness": 1.0,
+      "why": "Ovid's census: the god of Latium 'the patron of the sword; 'twas the sword that won for a fierce race empire and glory' [36]. The Roman military economy worshipped him by name, at the month-charging start of the year."
+    },
+    "hippocrates": {
+      "pool": "P_health",
+      "share": 0.05,
+      "witness": 1.0,
+      "why": "Founder of the first billing discipline in medicine [42]; the Asclepiadae descent claim [3] makes the descent-line explicit rather than analogy."
+    },
+    "fdr": {
+      "pool": "P_nation",
+      "share": 0.05,
+      "witness": 1.0,
+      "why": "Asked for and received the war-emergency office in peacetime words [45]; the national pool was his instrument for four terms, the Cincinnatus-loan never visibly returned."
+    },
+    "henry-knox": {
+      "pool": "P_military",
+      "share": 0.01,
+      "witness": 0.5,
+      "why": "The artillery branch and the War Department both descend from his office; bodies under command documented in the cabinet roster witness.",
+      "role": "Chief of the Continental Army artillery; first U.S. Secretary of War",
+      "witness_files": [
+        "weems_life_of_washington_archive_org_1800_djvu.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "alexander-hamilton": {
+      "pool": "P_nation",
+      "share": 0.02,
+      "witness": 0.5,
+      "why": "The Treasury he built still issues the credit of the pool Washington organizes.",
+      "role": "First Secretary of the Treasury",
+      "witness_files": [
+        "weems_life_of_washington_archive_org_1800_djvu.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "thomas-jefferson": {
+      "pool": "P_nation",
+      "share": 0.005,
+      "witness": 0.5,
+      "why": "State department and the organizing creed of the same nation-pool.",
+      "role": "Secretary of State in the first cabinet",
+      "witness_files": [
+        "weems_life_of_washington_archive_org_1800_djvu.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "john-jay": {
+      "pool": "P_nation",
+      "share": 0.0005,
+      "witness": 0.5,
+      "why": "The judicial arm of the same national coordination pool.",
+      "role": "First Chief Justice",
+      "witness_files": [
+        "weems_life_of_washington_archive_org_1800_djvu.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "james-wilson": {
+      "pool": "P_authority",
+      "share": 0.0002,
+      "witness": 0.5,
+      "why": "The court's claim on sovereign order runs through the frame he signed.",
+      "role": "Supreme Court justice; Constitution signer",
+      "witness_files": [
+        "weems_life_of_washington_archive_org_1800_djvu.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "aaron-burr": {
+      "pool": "P_nation",
+      "share": 0.0002,
+      "witness": 0.5,
+      "why": "One heartbeat from the pool's command; Weems' roll of damned talent.",
+      "role": "Vice President",
+      "witness_files": [
+        "weems_life_of_washington_archive_org_1800_djvu.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "benedict-arnold": {
+      "pool": "P_military",
+      "share": 0.0005,
+      "witness": 0.5,
+      "why": "Documented command of a strategic garrison before the defection.",
+      "role": "Major General; commanded West Point",
+      "witness_files": [
+        "weems_life_of_washington_archive_org_1800_djvu.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "charles-lee": {
+      "pool": "P_military",
+      "share": 0.0002,
+      "witness": 0.5,
+      "why": "Commanded at Monmouth against Washington's order; command documented, conduct separate.",
+      "role": "Major General",
+      "witness_files": [
+        "weems_life_of_washington_archive_org_1800_djvu.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "edward-braddock": {
+      "pool": "P_military",
+      "share": 0.0002,
+      "witness": 0.5,
+      "why": "Led the expedition Washington survived; command of the Redcoat column is documented.",
+      "role": "British commander of the 1755 expedition",
+      "witness_files": [
+        "weems_life_of_washington_archive_org_1800_djvu.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "faraday": {
+      "pool": "P_energy",
+      "share": 0.01,
+      "witness": 0.5,
+      "why": "Every generator on the grid runs on the effect; parallel to Watt's denomination claim.",
+      "role": "Discovered electromagnetic induction",
+      "witness_files": [
+        "eb1911-faraday.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "newton": {
+      "pool": "P_energy",
+      "share": 0.002,
+      "witness": 0.5,
+      "why": "The mechanics every engine is computed in; pool alternative P_metals (Mint coinage) if you prefer the office over the frame.",
+      "role": "Principia; Master of the Mint; Royal Society president",
+      "witness_files": [
+        "eb1911-newton.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "cincinnatus": {
+      "pool": "P_authority",
+      "share": 0.0005,
+      "witness": 0.75,
+      "why": "The civil-military restraint template every modern republic cites; FDR borrowed the loan in his first inaugural.",
+      "role": "Roman dictator who returned the fasces",
+      "witness_files": [
+        "livy3-roberts-wikisource.txt",
+        "weems_life_of_washington_archive_org_1800_djvu.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "sulla": {
+      "pool": "P_authority",
+      "share": 0.0005,
+      "witness": 0.75,
+      "why": "The strongman template the modern authority pool still measures itself against.",
+      "role": "Roman dictator; the proscription",
+      "witness_files": [
+        "serviusaeneid.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "romulus": {
+      "pool": "P_authority",
+      "share": 0.0005,
+      "witness": 1.0,
+      "why": "The founder-exemplar every nation-founding ritual borrows.",
+      "role": "Founder-king of Rome",
+      "witness_files": [
+        "plutarch-lives-dryden-clough-gutenberg.txt",
+        "livy1-roberts.txt",
+        "ovid-fasti-3-frazer.html"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "numa-pompilius": {
+      "pool": "P_authority",
+      "share": 0.0003,
+      "witness": 1.0,
+      "why": "The pontifical and calendar architecture he instituted organized Roman religion for centuries.",
+      "role": "Second king of Rome; cult author",
+      "witness_files": [
+        "plutarch-lives-dryden-clough-gutenberg.txt",
+        "livy1-roberts.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "fabius-maximus": {
+      "pool": "P_military",
+      "share": 0.001,
+      "witness": 1.0,
+      "why": "Fabian strategy is taught by name in every staff college; the doctrine of strategic patience.",
+      "role": "Five-time consul; the Delayer",
+      "witness_files": [
+        "plutarch-lives-dryden-clough-gutenberg.txt",
+        "livy3-roberts-wikisource.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "marcellus": {
+      "pool": "P_military",
+      "share": 0.0002,
+      "witness": 1.0,
+      "why": "The general's triumph ritual and siege command, documented in two primaries.",
+      "role": "Five-time consul; spolia opima; took Syracuse",
+      "witness_files": [
+        "plutarch-lives-dryden-clough-gutenberg.txt",
+        "livy3-roberts-wikisource.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "marcius-coriolanus": {
+      "pool": "P_military",
+      "share": 0.0002,
+      "witness": 0.75,
+      "why": "The commander-against-state template.",
+      "role": "Exiled general who turned on his own city",
+      "witness_files": [
+        "plutarch-lives-dryden-clough-gutenberg.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "aemilius-paullus": {
+      "pool": "P_military",
+      "share": 0.0002,
+      "witness": 1.0,
+      "why": "Commanded the legion that ended the Macedonian phalanx.",
+      "role": "Consul; victor of Pydna",
+      "witness_files": [
+        "plutarch-lives-dryden-clough-gutenberg.txt",
+        "livy3-roberts-wikisource.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "cato-elder": {
+      "pool": "P_authority",
+      "share": 0.0002,
+      "witness": 0.75,
+      "why": "The censor's audit of senators and contracts is the ancestral form of the accountability office.",
+      "role": "Censor of Rome",
+      "witness_files": [
+        "plutarch-lives-dryden-clough-gutenberg.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "valerius-publicola": {
+      "pool": "P_authority",
+      "share": 0.0001,
+      "witness": 1.0,
+      "why": "The republican handover exemplar, in Plutarch and Livy both.",
+      "role": "The consul who yielded the fasces",
+      "witness_files": [
+        "plutarch-lives-dryden-clough-gutenberg.txt",
+        "livy3-roberts-wikisource.txt"
+      ],
+      "proposed": "2026-10-21",
+      "ruled": "2026-10-21"
+    },
+    "agamemnon": {
+      "pool": "P_military",
+      "share": 0.0001,
+      "witness": 1.0,
+      "why": "Leader of the host at Troy; the epic archcommander whose summons binds the Achaean kings.",
+      "role": "Commander of the Achaean host",
+      "witness_files": [
+        "plutarch-lives-dryden-clough-gutenberg.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "priam": {
+      "pool": "P_authority",
+      "share": 0.0001,
+      "witness": 1.0,
+      "why": "King of Troy; the throne the whole Iliad pressures.",
+      "role": "King of Troy",
+      "witness_files": [
+        "plutarch-lives-dryden-clough-gutenberg.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "aeneas": {
+      "pool": "P_authority",
+      "share": 0.0001,
+      "witness": 1.0,
+      "why": "Founder-commander carrying the household gods to Latium; the exile-claim at the root of the Roman order.",
+      "role": "Founder-commander of the Trojans",
+      "witness_files": [
+        "virgil-aeneid-dryden.txt",
+        "serviusaeneid.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "evander": {
+      "pool": "P_authority",
+      "share": 5e-05,
+      "witness": 1.0,
+      "why": "Arcadian king on the future site of Rome; hosts the Trojan remnant.",
+      "role": "Arcadian king",
+      "witness_files": [
+        "virgil-aeneid-dryden.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "latinus": {
+      "pool": "P_authority",
+      "share": 5e-05,
+      "witness": 1.0,
+      "why": "Latin king whose daughter transfers the kingship line.",
+      "role": "King of the Latins",
+      "witness_files": [
+        "virgil-aeneid-dryden.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "odin": {
+      "pool": "P_authority",
+      "share": 0.0005,
+      "witness": 1.0,
+      "why": "The All-Father; hanged for wisdom, one-eyed for the runes; sovereign of the Norse pantheon.",
+      "role": "All-Father, sovereign of the Aesir",
+      "witness_files": [
+        "poeticedda00belluoft_djvu.txt",
+        "bellows-poetic-edda-1923-full.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "math": {
+      "pool": "P_authority",
+      "share": 0.0002,
+      "witness": 0.5,
+      "why": "Lord of Gwynedd in the Fourth Branch; the name-making and flower-making uncle holds the northern throne.",
+      "role": "Lord of Gwynedd",
+      "witness_files": [
+        "guest-mabinogion-1877-full.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "maelgwn": {
+      "pool": "P_authority",
+      "share": 0.0001,
+      "witness": 0.5,
+      "why": "Historical king of Gwynedd cast in the Taliesin tale as captor and judge of poets.",
+      "role": "King of Gwynedd",
+      "witness_files": [
+        "guest-mabinogion-1877-full.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "nuada": {
+      "pool": "P_authority",
+      "share": 0.0002,
+      "witness": 0.5,
+      "why": "King of the Tuatha De Danann; the hand-lost king re-armed in silver, the sovereignty that must be whole.",
+      "role": "King of the Tuatha",
+      "witness_files": [
+        "macculloch-religion-ancient-celts-1911.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "balor": {
+      "pool": "P_authority",
+      "share": 0.0001,
+      "witness": 0.5,
+      "why": "Fomorian king whose death-eye held a host; the tyrant-eye his grandson closes at Moytura.",
+      "role": "Fomorian king",
+      "witness_files": [
+        "macculloch-religion-ancient-celts-1911.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "manannan": {
+      "pool": "P_authority",
+      "share": 5e-05,
+      "witness": 0.5,
+      "why": "Sea-lord named in the euhemerist lists; the otherworld ferryman-king.",
+      "role": "Sea-lord",
+      "witness_files": [
+        "macculloch-religion-ancient-celts-1911.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "hel": {
+      "pool": "P_authority",
+      "share": 5e-05,
+      "witness": 1.0,
+      "why": "Half-dead ruler of the ninth world and its low house; the underworld throne Odin granted her.",
+      "role": "Ruler of the ninth world",
+      "witness_files": [
+        "poeticedda00belluoft_djvu.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "nithuths-queen": {
+      "pool": "P_authority",
+      "share": 5e-05,
+      "witness": 1.0,
+      "why": "The queen who reads the ring and commands the hamstringing; the instigating throne beside Nithuth.",
+      "role": "Queen beside the throne",
+      "witness_files": [
+        "poeticedda00belluoft_djvu.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "apollo": {
+      "pool": "P_health",
+      "share": 0.02,
+      "witness": 0.75,
+      "why": "The archer whose arrows are plague and whose son is Asclepius; the healing claim the Pythian voice disciplined. Pricing activates the sibyl and Sulla routes.",
+      "witness_files": [
+        "virgil-aeneid-dryden.txt",
+        "serviusaeneid.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "mercury": {
+      "pool": "P_authority",
+      "share": 0.0002,
+      "witness": 0.5,
+      "why": "God of merchants and messengers; the exchange-coordination archetype the market still invokes. Pricing activates the Adam Smith route.",
+      "witness_files": [
+        "eb1911-adam-smith.txt",
+        "boswell-life-of-johnson-vol2.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "atlas": {
+      "pool": "P_energy",
+      "share": 0.0001,
+      "witness": 0.75,
+      "why": "The sky-bearer; every atlas of maps and every load-bearing name descends from the Titan condemned to carry. Pricing activates the Iopas route.",
+      "witness_files": [
+        "virgil-aeneid-dryden.txt"
+      ],
+      "ruled": "2026-10-21"
+    },
+    "paris-alexandrus": {
+      "pool": "P_authority",
+      "share": 5e-05,
+      "witness": 1.0,
+      "why": "The judgment of the apple: the binding decision among the bribes of three goddesses that launched the war. Pricing activates the Hector route.",
+      "witness_files": [
+        "plutarch-lives-dryden-clough-gutenberg.txt"
+      ],
+      "ruled": "2026-10-21"
+    }
+  },
+  "influence": [
+    {
+      "from": "asclepius",
+      "to": "machaon",
+      "type": "transmission",
+      "fraction": 0.8
+    },
+    {
+      "from": "chiron",
+      "to": "asclepius",
+      "type": "transmission",
+      "fraction": 0.8
+    },
+    {
+      "from": "prometheus",
+      "to": "zeus",
+      "type": "conflict",
+      "fraction": 0.3
+    },
+    {
+      "from": "epimetheus",
+      "to": "prometheus",
+      "type": "kinship+interaction",
+      "fraction": 0.4
+    },
+    {
+      "from": "mason-weems",
+      "to": "george-washington",
+      "type": "transmission",
+      "fraction": 0.9
+    },
+    {
+      "from": "brumidi",
+      "to": "george-washington",
+      "type": "transmission",
+      "fraction": 0.7
+    },
+    {
+      "from": "nithuth",
+      "to": "volundr",
+      "type": "conflict",
+      "fraction": 0.6
+    },
+    {
+      "from": "volundr",
+      "to": "nithuth",
+      "type": "conflict",
+      "fraction": 0.6
+    },
+    {
+      "from": "gilgamesh",
+      "to": "lilith",
+      "type": "conflict",
+      "fraction": 0.5
+    },
+    {
+      "from": "llwyd",
+      "to": "rhiannon",
+      "type": "conflict",
+      "fraction": 0.5
+    },
+    {
+      "from": "paris-alexandrus",
+      "to": "machaon",
+      "type": "conflict",
+      "fraction": 0.3
+    },
+    {
+      "from": "eurypylus-telephid",
+      "to": "machaon",
+      "type": "conflict",
+      "fraction": 0.3
+    },
+    {
+      "from": "brumidi",
+      "to": "victory",
+      "type": "transmission",
+      "fraction": 0.0,
+      "why": "provenance-only commission edge"
+    },
+    {
+      "from": "brumidi",
+      "to": "neptune",
+      "type": "transmission",
+      "fraction": 0.0,
+      "why": "provenance-only commission edge"
+    },
+    {
+      "from": "brumidi",
+      "to": "vulcan",
+      "type": "transmission",
+      "fraction": 0.0,
+      "why": "provenance-only commission edge"
+    },
+    {
+      "from": "brumidi",
+      "to": "mercury",
+      "type": "transmission",
+      "fraction": 0.0,
+      "why": "provenance-only commission edge"
+    },
+    {
+      "from": "brumidi",
+      "to": "venus",
+      "type": "transmission",
+      "fraction": 0.0,
+      "why": "provenance-only commission edge"
+    },
+    {
+      "from": "brumidi",
+      "to": "ceres",
+      "type": "transmission",
+      "fraction": 0.0,
+      "why": "provenance-only commission edge"
+    },
+    {
+      "from": "brumidi",
+      "to": "minerva",
+      "type": "transmission",
+      "fraction": 0.0,
+      "why": "provenance-only commission edge"
+    },
+    {
+      "from": "victory",
+      "to": "george-washington",
+      "type": "transmission",
+      "fraction": 0.1,
+      "why": "Capitol faculty state-rent share"
+    },
+    {
+      "from": "neptune",
+      "to": "george-washington",
+      "type": "transmission",
+      "fraction": 0.1,
+      "why": "Capitol faculty state-rent share"
+    },
+    {
+      "from": "vulcan",
+      "to": "george-washington",
+      "type": "transmission",
+      "fraction": 0.1,
+      "why": "Capitol faculty state-rent share"
+    },
+    {
+      "from": "mercury",
+      "to": "george-washington",
+      "type": "transmission",
+      "fraction": 0.1,
+      "why": "Capitol faculty state-rent share"
+    },
+    {
+      "from": "venus",
+      "to": "george-washington",
+      "type": "transmission",
+      "fraction": 0.1,
+      "why": "Capitol faculty state-rent share"
+    },
+    {
+      "from": "ceres",
+      "to": "george-washington",
+      "type": "transmission",
+      "fraction": 0.1,
+      "why": "Capitol faculty state-rent share"
+    },
+    {
+      "from": "minerva",
+      "to": "george-washington",
+      "type": "transmission",
+      "fraction": 0.1,
+      "why": "Capitol faculty state-rent share"
+    },
+    {
+      "from": "vulcan",
+      "to": "hephaestus",
+      "type": "analogy",
+      "fraction": 0.0
+    },
+    {
+      "from": "james-watt",
+      "to": "prometheus",
+      "type": "transmission",
+      "fraction": 0.02
+    },
+    {
+      "from": "benjamin-franklin",
+      "to": "prometheus",
+      "type": "transmission",
+      "fraction": 0.01
+    },
+    {
+      "from": "benjamin-franklin",
+      "to": "george-washington",
+      "type": "analogy",
+      "fraction": 0.0
+    },
+    {
+      "from": "benjamin-franklin",
+      "to": "mercury",
+      "type": "analogy",
+      "fraction": 0.0
+    },
+    {
+      "from": "atlas",
+      "to": "zeus",
+      "type": "transmission",
+      "fraction": 0.05
+    },
+    {
+      "from": "iris",
+      "to": "zeus",
+      "type": "transmission",
+      "fraction": 0.1
+    },
+    {
+      "from": "sibyl",
+      "to": "apollo",
+      "type": "transmission",
+      "fraction": 0.3
+    },
+    {
+      "from": "hippocrates",
+      "to": "asclepius",
+      "type": "transmission",
+      "fraction": 0.5
+    },
+    {
+      "from": "adam-smith",
+      "to": "mercury",
+      "type": "transmission",
+      "fraction": 0.3
+    },
+    {
+      "from": "matthew-boulton",
+      "to": "james-watt",
+      "type": "transmission",
+      "fraction": 0.4
+    },
+    {
+      "from": "hector",
+      "to": "paris-alexandrus",
+      "type": "conflict",
+      "fraction": 0.3
+    },
+    {
+      "from": "typhoeus",
+      "to": "zeus",
+      "type": "conflict",
+      "fraction": 0.3
+    },
+    {
+      "from": "thetis",
+      "to": "zeus",
+      "type": "transmission",
+      "fraction": 0.1
+    },
+    {
+      "from": "iopas",
+      "to": "atlas",
+      "type": "transmission",
+      "fraction": 0.2
+    },
+    {
+      "from": "pericles",
+      "to": "athene",
+      "type": "transmission",
+      "fraction": 0.3
+    },
+    {
+      "from": "fdr",
+      "to": "george-washington",
+      "type": "transmission",
+      "fraction": 0.2
+    },
+    {
+      "from": "heimdall",
+      "to": "odin",
+      "type": "transmission",
+      "fraction": 0.1
+    },
+    {
+      "from": "xanthus-balius",
+      "to": "achilles",
+      "type": "kinship",
+      "fraction": 0.0
+    },
+    {
+      "from": "thetis",
+      "to": "xanthus-balius",
+      "type": "transmission",
+      "fraction": 0.0
+    },
+    {
+      "from": "priam",
+      "to": "hector",
+      "type": "kinship",
+      "fraction": 0.0
+    },
+    {
+      "from": "sulla",
+      "to": "apollo",
+      "type": "transmission",
+      "fraction": 0.3
+    },
+    {
+      "from": "galen",
+      "to": "hippocrates",
+      "type": "transmission",
+      "fraction": 0.3
+    },
+    {
+      "from": "ampere",
+      "to": "faraday",
+      "type": "transmission",
+      "fraction": 0.3
+    },
+    {
+      "from": "joule",
+      "to": "james-watt",
+      "type": "transmission",
+      "fraction": 0.3
+    },
+    {
+      "from": "faraday",
+      "to": "benjamin-franklin",
+      "type": "transmission",
+      "fraction": 0.2
+    },
+    {
+      "from": "god",
+      "to": "adam",
+      "type": "creation",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "eve",
+      "type": "interaction",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "cain",
+      "type": "interaction",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "abel",
+      "type": "interaction",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "noah",
+      "type": "interaction",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "abraham",
+      "type": "interaction",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "isaac",
+      "type": "interaction",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "jacob",
+      "type": "interaction",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "joseph",
+      "type": "interaction",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "enoch",
+      "type": "interaction",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "lilith",
+      "type": "conflict",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "jesus",
+      "type": "kinship",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "george-washington",
+      "type": "interaction",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "benjamin-franklin",
+      "type": "interaction",
+      "fraction": 0.0
+    },
+    {
+      "from": "god",
+      "to": "fdr",
+      "type": "interaction",
+      "fraction": 0.0
+    }
+  ],
+  "pop_anchors": {
+    "-2000": 30000000.0,
+    "-500": 100000000.0,
+    "1": 300000000.0,
+    "1000": 400000000.0,
+    "1500": 500000000.0,
+    "1800": 1000000000.0,
+    "1900": 1650000000.0,
+    "1950": 2525000000.0,
+    "2000": 6145000000.0,
+    "2026": 8100000000.0
+  },
+  "pop_anchors_why": "watts_at_era prices a figure in the coin of their own time: watts_now x world-pop(era)/pop(2026), population as the energy proxy, log-linear between cited anchors (replaces the two-endpoint curve that overpriced 1800 ~6x and underpriced -750 ~2x).",
+  "proposals": {
+    "god": {
+      "pool": "P_authority",
+      "share": 0.0001,
+      "witness": 1.0,
+      "role": "named sovereign of the scriptural corpus",
+      "why": "King of kings in the fetched texts (Rev. 19:16 [318]); the flesh-record invocations address him as the seat of authority (Weems [15], Franklin [40], Roosevelt [45]). Share at the Tier-2 anchor; rescale by ruling.",
+      "witness_files": [
+        "evidence/god/kjv-genesis-exodus-gutenberg.txt",
+        "evidence/jesus/kjv-newtestament-gutenberg.txt",
+        "evidence/jesus/josephus-antiquities-whiston-pg2848.txt",
+        "evidence/lilith/ginzberg-legends1-gutenberg.txt"
+      ]
+    },
+    "jesus": {
+      "pool": "P_health",
+      "share": 5e-05,
+      "witness": 1.0,
+      "role": "healing practice and the authority claim",
+      "why": "The gospels document the healing practice ('they brought unto him all that were diseased', Matt. 4:24 [318]) and the authority claim ('All power is given unto me', Matt. 28:18 [318]); Pliny documents the cult addressing him 'as to a god' [321]. Health pool proposed; an authority share is the alternative; rescale by ruling.",
+      "witness_files": [
+        "evidence/jesus/kjv-newtestament-gutenberg.txt",
+        "evidence/jesus/josephus-antiquities-whiston-pg2848.txt",
+        "evidence/jesus/tacitus-annals-mit.txt",
+        "evidence/jesus/pliny-trajan-georgetown.html"
+      ]
+    }
+  },
+  "proposal_note": "Proposed 2026-10-21 from the zero-power audit. Shares are order-of-magnitude anchors calibrated against the ruled table (Washington 0.15 P_nation; Mars 0.05 P_military; Watt 0.01 P_energy). Cobe rescales or rejects; promotion into direct happens only on his word.",
+  "rulings": [
+    {
+      "date": "2026-10-21",
+      "ruling": "Cobe: 'Do power scaling for all the ones awaiting'",
+      "applied": "21 Tier-1 proposals promoted to direct; 13 Tier-2 role-attested figures priced (epic command earns claims); 4 dead-route targets priced (apollo, mercury, paris-alexandrus, atlas) activating all 7 explicit dead routes under R6 single-hop.",
+      "rescalable": "Every line individually rescalable; name a node and a new share."
+    }
+  ]
 }
