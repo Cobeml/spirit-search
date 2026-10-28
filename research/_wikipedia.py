@@ -56,6 +56,9 @@ OVERRIDES = {
     # or wrong-domain pages; the intended articles are the primary topics
     'god': 'God',
     'jesus': 'Jesus',
+    'mary': 'Mary, mother of Jesus',
+    'herod-antipas': 'Herod Antipas',
+    'john-the-baptist': 'John the Baptist',
     'loki': 'Loki',
     'pandora': 'Pandora',
     'pyrrha': 'Pyrrha',

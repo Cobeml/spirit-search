@@ -2210,5 +2210,71 @@
   "via": "override",
   "checked": "2026-10-26",
   "img": "img/jesus.jpg"
+ },
+ "pontius-pilate": {
+  "status": "ok",
+  "title": "Pontius Pilate",
+  "url": "https://en.wikipedia.org/wiki/Pontius_Pilate",
+  "blurb": "Pontius Pilate was the fifth governor of the Roman province of Judaea, serving under Emperor Tiberius from 26/27 to 36/37 AD. He is best known for being the official who presided over the trial of Jesus and ultimately ordered his crucifixion. Pilate's importance in Christianity is underscored by his prominent place in both the Apostles' and Nicene Creeds. Because the gospels portray Pilate as reluctant to execute Jesus, the Ethiopian Orthodox Tewahedo Church believes that Pilate became a Christian and venerates him as both a martyr and a saint.",
+  "description": "Roman governor of Judea and condemner of Jesus",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Ecce_homo_by_Antonio_Ciseri_%281%29.jpg/330px-Ecce_homo_by_Antonio_Ciseri_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "via": "rest:Pontius Pilate",
+  "checked": "2026-10-28",
+  "img": "img/pontius-pilate.jpg"
+ },
+ "moses": {
+  "status": "ok",
+  "title": "Moses",
+  "url": "https://en.wikipedia.org/wiki/Moses",
+  "blurb": "In Abrahamic religions, Moses was the Hebrew prophet who led the Israelites out of slavery in the Exodus from Egypt. He is considered the most important prophet in Judaism and Samaritanism, and one of the most important prophets in Christianity, Islam, the Baháʼí Faith, and other Abrahamic religions. According to the Abrahamic scriptures, God dictated the Mosaic Law to Moses, which he wrote down and which formed part of the Torah.",
+  "description": "Prophet in Abrahamic religions",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Rembrandt_Harmensz._van_Rijn_079.jpg/330px-Rembrandt_Harmensz._van_Rijn_079.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "via": "rest:Moses",
+  "checked": "2026-10-28",
+  "img": "img/moses.jpg"
+ },
+ "mary": {
+  "status": "ok",
+  "title": "Mary, mother of Jesus",
+  "url": "https://en.wikipedia.org/wiki/Mary%2C_mother_of_Jesus",
+  "blurb": "Mary was a first-century Jewish woman of Nazareth, the wife of Joseph and the mother of Jesus. She is an important figure of Christianity, venerated under various titles such as virgin or queen, many of which are mentioned in the Litany of Loreto. The Eastern and Oriental Orthodox, Catholic, Lutheran, Reformed, Anglican, and Methodist churches believe that Mary, as mother of Jesus, is the Mother of God. The Church of the East historically regarded her as Christotokos, a term still used in the liturgy of the Assyrian Church of the East. She has the highest position in Islam among all women and is mentioned numerous times in the Quran, including in a chapter (surah) named after her. She is also revered in the Baháʼí and Druze faiths.",
+  "description": "Mother of Jesus",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Madonna_Advocata.png/330px-Madonna_Advocata.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "via": "override",
+  "checked": "2026-10-28",
+  "img": "img/mary.png"
+ },
+ "tiberius": {
+  "status": "ok",
+  "title": "Tiberius",
+  "url": "https://en.wikipedia.org/wiki/Tiberius",
+  "blurb": "Tiberius Julius Caesar Augustus was the second Roman emperor from AD 14 until his death, reigning as the second ruler of the Julio-Claudian dynasty. He succeeded his stepfather Augustus, the first Roman emperor. Tiberius was born in Rome in 42 BC to politician Tiberius Claudius Nero and his wife, Livia Drusilla. In 38 BC, Livia divorced Nero and married Augustus. Following the untimely deaths of Augustus's two grandsons and adopted heirs, Gaius and Lucius Caesar, Tiberius was designated Augustus's successor. Prior to this, Tiberius had proved himself an able diplomat and one of the most successful Roman generals. His conquests of Pannonia, Dalmatia, Raetia, and (temporarily) parts of Germania laid the foundations for the empire's northern frontier.",
+  "description": "Roman emperor from AD 14 to 37",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/8095_-_Roma_-_Ara_Pacis_-_Tiberio_-_Foto_Giovanni_Dall%27Orto_-_28-Mar-2008.jpg/330px-8095_-_Roma_-_Ara_Pacis_-_Tiberio_-_Foto_Giovanni_Dall%27Orto_-_28-Mar-2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "via": "rest:Tiberius",
+  "checked": "2026-10-28",
+  "img": "img/tiberius.jpg"
+ },
+ "herod-antipas": {
+  "status": "ok",
+  "title": "Herod Antipas",
+  "url": "https://en.wikipedia.org/wiki/Herod_Antipas",
+  "blurb": "Herod Antipas, was a 1st-century Herodian ruler of Galilee and Perea, in the time of the Herodian Tetrarchy. He bore the title of tetrarch and is referred to as both \"Herod the Tetrarch\" and \"King Herod\" in the New Testament. He was a son of Herod the Great and a grandson of Antipater the Idumaean. Known for his role in the executions of John the Baptist and Jesus of Nazareth, his name is often associated with tyranny and persecution.",
+  "description": "1st-century AD tetrarch of Galilee and Perea (r. 1–39)",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Herod_Antipas_medal.svg/330px-Herod_Antipas_medal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "via": "override",
+  "checked": "2026-10-28",
+  "img": "img/herod-antipas.png"
+ },
+ "john-the-baptist": {
+  "status": "ok",
+  "title": "John the Baptist",
+  "url": "https://en.wikipedia.org/wiki/John_the_Baptist",
+  "blurb": "John the Baptist was an itinerant Jewish preacher who was active in the area of the Jordan River in the early 1st century AD. Sometimes referred to as John the Baptizer, he is known as Saint John the Forerunner in Eastern Orthodoxy, Eastern Catholicism, and Oriental Orthodoxy, as Saint John the Immerser in the Baptist tradition, and as the prophet Yahya ibn Zakariya in Islam.",
+  "description": "Prophet (6 BC – AD 30)",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg/330px-Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "via": "override",
+  "checked": "2026-10-28",
+  "img": "img/john-the-baptist.jpg"
  }
 }

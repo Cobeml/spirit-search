@@ -96,6 +96,16 @@ ALIASES = {
             "the almighty", "almighty god", "the most high", "most high"],
     "jesus": ["jesus", "christ", "jesus christ", "christ jesus", "christus",
               "jesus of nazareth"],
+    # Christian-neighborhood flesh record (Cobe commission 2026-10-27, round 2).
+    # Collision notes: 'john' also names the apostle in NT windows, 'herod' also
+    # names Herod the Great (Matt. 2), 'mary' also names Magdalene; curated
+    # windows only, flagged in node notes.
+    "pontius-pilate": ["pilate", "pontius pilate", "pontius pilatus", "pilatus"],
+    "moses": ["moses"],
+    "mary": ["mary", "virgin mary"],
+    "tiberius": ["tiberius", "tiberius caesar"],
+    "herod-antipas": ["herod", "herod antipas", "herod the tetrarch", "antipas"],
+    "john-the-baptist": ["john the baptist", "john", "the baptist"],
     # Mesopotamian
     "inana": ["inana", "inanna", "ishtar"],
     "anzud-bird": ["anzud", "anzu", "imdugud", "imdugan"],

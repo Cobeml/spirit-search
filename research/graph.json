@@ -17023,16 +17023,19 @@
      }
     }
    ],
-   "power_watts_direct": 0.0,
-   "power_watts_total": 0.0,
+   "power_watts_direct": 1500000000.0,
+   "power_watts_total": 1500000000.0,
    "power_watts_proxy": 0.0,
-   "power_status": "unpriced",
-   "power_watts_at_era": 0,
+   "power_status": "direct",
+   "power_watts_at_era": 57047072.765,
    "audit": {
     "mode": "clean",
     "mentions": 4,
     "total": 4
-   }
+   },
+   "power_rationale": "King of kings in the fetched texts (Rev. 19:16 [318]); the flesh-record invocations address him as the seat of authority (Weems [15], Franklin [40], Roosevelt [45]). Share at the Tier-2 anchor; rescale by ruling.",
+   "power_pool": "P_authority",
+   "power_witness_strength": 1.0
   },
   {
    "id": "jesus",
@@ -17128,6 +17131,92 @@
      }
     }
    ],
+   "power_watts_direct": 5000000.0,
+   "power_watts_total": 5000000.0,
+   "power_watts_proxy": 0.0,
+   "power_status": "direct",
+   "power_watts_at_era": 190156.909,
+   "audit": {
+    "mode": "clean",
+    "mentions": 6,
+    "total": 6
+   },
+   "power_rationale": "The gospels document the healing practice ('they brought unto him all that were diseased', Matt. 4:24 [318]) and the authority claim ('All power is given unto me', Matt. 28:18 [318]); Pliny documents the cult addressing him 'as to a god' [321]. Health pool proposed; an authority share is the alternative; rescale by ruling.",
+   "power_pool": "P_health",
+   "power_witness_strength": 1.0
+  },
+  {
+   "id": "pontius-pilate",
+   "label": "Pontius Pilate",
+   "tradition": "Roman prefect of Judaea, flesh record",
+   "batch": null,
+   "date_added": "2026-10-27",
+   "era": 93,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "notes": [
+    {
+     "date": "2026-10-27",
+     "text": "Era 93: Josephus's Antiquities names him (Ant. 18.3.1-3). Office documented in three witnesses (Tacitus procurator, Josephus procurator, Luke 3:1 governor); pricing proposal filed."
+    }
+   ],
+   "essay": "Matthew places the delivery at morning: 'all the chief priests and elders of the people took counsel against Jesus to put him to death. And when they had bound him, they led him away, and delivered him to Pontius Pilate the governor' (Matt. 27:1-2) [318]. Josephus names him inside the execution report: 'when Pilate, at the suggestion of the principal men amongst us, had condemned him to the cross' (Ant. 18.3.3) [319]. Tacitus gives him the imperial title and the responsibility: the movement's founder 'suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus' (Ann. 15.44) [320]. Luke dates his governorship by the emperor: 'Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea' (Luke 3:1) [318]. Matthew preserves the absolution gesture: 'When Pilate saw that he could prevail nothing, but that rather a tumult was made, he took water, and washed his hands before the multitude, saying, I am innocent of the blood of this just person' (Matt. 27:24) [318].",
+   "highlights": [
+    {
+     "text": "When the morning was come, all the chief priests and elders of the people took counsel against Jesus to put him to death: And when they had bound him, they led him away, and delivered him to Pontius Pilate the governor. Then Judas, which had betrayed him, when he saw that he was condemned, repented himself, and brought again the thirty pieces of silver to the chief priests and elders, Saying, I have sinned in that I have betrayed the innocent blood. And they said, What is that to us? see thou to that. And he cast down the pieces of silver in the temple, and departed, and went and hanged himself. And the chief priests took the silver pieces, and said, It is not lawful for to put them into the treasury, because it is the price of blood.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "And when Pilate, at the suggestion of the principal men amongst us, had condemned him to the cross, 9 those that loved him at the first did not forsake him; for he appeared to them alive again the third day; 10 as the divine prophets had foretold these and ten thousand other wonderful things concerning him. And the tribe of Christians, so named from him, are not extinct at this day. 4. About the same time also another sad calamity put the Jews into disorder, and certain shameful practices happened about the temple of Isis that was at Rome. I will now first take notice of the wicked attempt about the temple of Isis, and will then give an account of the Jewish affairs.",
+     "direct": true,
+     "manual": true,
+     "source_id": 319,
+     "source_title": "Josephus, Antiquities of the Jews, trans. Whiston (Gutenberg #2848)",
+     "source_url": "https://www.gutenberg.org/cache/epub/2848/pg2848.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus, and a most mischievous superstition, thus checked for the moment, again broke out not only in Judaea, the first source of the evil, but even in Rome, where all things hideous and shameful from every part of the world find their centre and become popular. Accordingly, an arrest was first made of all who pleaded guilty; then, upon their information, an immense multitude was convicted, not so much of the crime of firing the city, as of hatred against mankind.",
+     "direct": true,
+     "manual": true,
+     "source_id": 320,
+     "source_title": "Tacitus, Annals, trans. Church and Brodribb (MIT Classics)",
+     "source_url": "http://classics.mit.edu/Tacitus/annals.mb.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "But they cried out the more, saying, Let him be crucified. When Pilate saw that he could prevail nothing, but that rather a tumult was made, he took water, and washed his hands before the multitude, saying, I am innocent of the blood of this just person: see ye to it. Then answered all the people, and said, His blood be on us, and on our children. Then released he Barabbas unto them: and when he had scourged Jesus, he delivered him to be crucified. Then the soldiers of the governor took Jesus into the common hall, and gathered unto him the whole band of soldiers. And they stripped him, and put on him a scarlet robe. And when they had platted a crown of thorns, they put it upon his head, and a reed in his right hand: and they bowed the knee before him, and mocked him, saying, Hail, King of the Jews!",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
    "power_watts_direct": 0.0,
    "power_watts_total": 0.0,
    "power_watts_proxy": 0.0,
@@ -17135,8 +17224,410 @@
    "power_watts_at_era": 0,
    "audit": {
     "mode": "clean",
-    "mentions": 6,
-    "total": 6
+    "mentions": 4,
+    "total": 4
+   }
+  },
+  {
+   "id": "moses",
+   "label": "Moses",
+   "tradition": "Hebrew Bible, flesh record",
+   "batch": null,
+   "date_added": "2026-10-27",
+   "era": 93,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "notes": [
+    {
+     "date": "2026-10-27",
+     "text": "Era 93: Josephus's Antiquities (Books 2-4 are the Moses history) names him 466 times; the KJV counts as the 1611 document. Host command documented ([317] the Exodus commission); pricing proposal filed."
+    }
+   ],
+   "essay": "The bush episode puts the address in doubled words: 'God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I' (Exod. 3:4) [317]. The commission follows, and the reluctance with it: 'And Moses said unto God, Who am I, that I should go unto Pharaoh, and that I should bring forth the children of Israel out of Egypt?' (Exod. 3:11) [317]. Josephus reads him as a lawgiver working from a theology: 'Moses deemed it exceeding necessary, that he who would conduct his own life well, and give laws to others, in the first place should consider the Divine nature' (Ant. 2) [319]. The New Testament stages him at the transfiguration: 'there appeared unto them Moses and Elias talking with him' (Matt. 17:3) [318].",
+   "highlights": [
+    {
+     "text": "And Moses said, I will now turn aside, and see this great sight, why the bush is not burnt. And when the LORD saw that he turned aside to see, God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I. And he said, Draw not nigh hither: put off thy shoes from off thy feet, for the place whereon thou standest is holy ground. Moreover he said, I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob. And Moses hid his face; for he was afraid to look upon God. And the LORD said, I have surely seen the affliction of my people which are in Egypt, and have heard their cry by reason of their taskmasters; for I know their sorrows; And I am come down to deliver them out of the hand of the Egyptians, and to bring them up out of that land unto a good land and a large, unto a land flowing with milk and honey; unto the place of the Canaanites, and the Hittites, and the Amorites, and the Perizzites, and the Hivites, and the Jebusites.",
+     "direct": true,
+     "manual": true,
+     "source_id": 317,
+     "source_title": "KJV Bible, Genesis and Exodus (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "And Moses said unto God, Who am I, that I should go unto Pharaoh, and that I should bring forth the children of Israel out of Egypt? And he said, Certainly I will be with thee; and this shall be a token unto thee, that I have sent thee: When thou hast brought forth the people out of Egypt, ye shall serve God upon this mountain. And Moses said unto God, Behold, when I come unto the children of Israel, and shall say unto them, The God of your fathers hath sent me unto you; and they shall say to me, What is his name? what shall I say unto them? And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.",
+     "direct": true,
+     "manual": true,
+     "source_id": 317,
+     "source_title": "KJV Bible, Genesis and Exodus (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "But because almost all our constitution depends on the wisdom of Moses, our legislator, I cannot avoid saying somewhat concerning him beforehand, though I shall do it briefly; I mean, because otherwise those that read my book may wonder how it comes to pass, that my discourse, which promises an account of laws and historical facts, contains so much of philosophy. The reader is therefore to know, that Moses deemed it exceeding necessary, that he who would conduct his own life well, and give laws to others, in the first place should consider the Divine nature; and, upon the contemplation of God's operations, should thereby imitate the best of all patterns, so far as it is possible for human nature to do, and to endeavor to follow after it: neither could the legislator himself have a right mind without such a contemplation; nor would any thing he should write tend to the promotion of virtue in his readers; I mean, unless they be taught first of all, that God is the Father and Lord of all things, and sees all things, and that thence he bestows a happy life upon those that follow him; but plunges such as do not walk in the paths of virtue into inevitable miseries.",
+     "direct": true,
+     "manual": true,
+     "source_id": 319,
+     "source_title": "Josephus, Antiquities of the Jews, trans. Whiston (Gutenberg #2848)",
+     "source_url": "https://www.gutenberg.org/cache/epub/2848/pg2848.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "And after six days Jesus taketh Peter, James, and John his brother, and bringeth them up into an high mountain apart, And was transfigured before them: and his face did shine as the sun, and his raiment was white as the light. And, behold, there appeared unto them Moses and Elias talking with him. Then answered Peter, and said unto Jesus, Lord, it is good for us to be here: if thou wilt, let us make here three tabernacles; one for thee, and one for Moses, and one for Elias. While he yet spake, behold, a bright cloud overshadowed them: and behold a voice out of the cloud, which said, This is my beloved Son, in whom I am well pleased; hear ye him. And when the disciples heard it, they fell on their face, and were sore afraid. And Jesus came and touched them, and said, Arise, and be not afraid.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "power_watts_direct": 0.0,
+   "power_watts_total": 0.0,
+   "power_watts_proxy": 0.0,
+   "power_status": "unpriced",
+   "power_watts_at_era": 0,
+   "audit": {
+    "mode": "clean",
+    "mentions": 4,
+    "total": 4
+   }
+  },
+  {
+   "id": "mary",
+   "label": "Mary (mother of Jesus)",
+   "tradition": "Christian scripture",
+   "batch": null,
+   "date_added": "2026-10-27",
+   "era": 1611,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "notes": [
+    {
+     "date": "2026-10-27",
+     "text": "Era 1611: the earliest fetched witness naming her is the KJV New Testament; Josephus prints no 'Mary' (the Herodian Mariamne is a different name-form). Alias 'mary' also matches Magdalene in NT windows; curated cards only. No office: no pricing proposal."
+    }
+   ],
+   "essay": "The annunciation carries the naming and her consent: 'the angel said unto her, Fear not, Mary: for thou hast found favour with God. And, behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call his name JESUS' (Luke 1:30-31) [318]. Matthew fixes her position in the legal genealogy of the child: 'Now the birth of Jesus Christ was on this wise: When as his mother Mary was espoused to Joseph, before they came together, she was found with child of the Holy Ghost' (Matt. 1:18) [318]. Her own voice survives in the Magnificat: 'And Mary said, My soul doth magnify the Lord, And my spirit hath rejoiced in God my Saviour' (Luke 1:46-47) [318]. Luke records the keeping: 'But Mary kept all these things, and pondered them in her heart' (Luke 2:19) [318].",
+   "highlights": [
+    {
+     "text": "And the angel said unto her, Fear not, Mary: for thou hast found favour with God. And, behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call his name JESUS. He shall be great, and shall be called the Son of the Highest: and the Lord God shall give unto him the throne of his father David: And he shall reign over the house of Jacob for ever; and of his kingdom there shall be no end. Then said Mary unto the angel, How shall this be, seeing I know not a man? And the angel answered and said unto her, The Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "And Mary said, My soul doth magnify the Lord, And my spirit hath rejoiced in God my Saviour. For he hath regarded the low estate of his handmaiden: for, behold, from henceforth all generations shall call me blessed. For he that is mighty hath done to me great things; and holy is his name. And his mercy is on them that fear him from generation to generation. He hath shewed strength with his arm; he hath scattered the proud in the imagination of their hearts. He hath put down the mighty from their seats, and exalted them of low degree.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "Now the birth of Jesus Christ was on this wise: When as his mother Mary was espoused to Joseph, before they came together, she was found with child of the Holy Ghost. Then Joseph her husband, being a just man, and not willing to make her a publick example, was minded to put her away privily. But while he thought on these things, behold, the angel of the LORD appeared unto him in a dream, saying, Joseph, thou son of David, fear not to take unto thee Mary thy wife: for that which is conceived in her is of the Holy Ghost. And she shall bring forth a son, and thou shalt call his name JESUS: for he shall save his people from their sins.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "But Mary kept all these things, and pondered them in her heart. And the shepherds returned, glorifying and praising God for all the things that they had heard and seen, as it was told unto them. And when eight days were accomplished for the circumcising of the child, his name was called JESUS, which was so named of the angel before he was conceived in the womb. And when the days of her purification according to the law of Moses were accomplished, they brought him to Jerusalem, to present him to the Lord; 2:23 (As it is written in the law of the LORD, Every male that openeth the womb shall be called holy to the Lord;) And to offer a sacrifice according to that which is said in the law of the Lord, A pair of turtledoves, or two young pigeons.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "power_watts_direct": 0.0,
+   "power_watts_total": 0.0,
+   "power_watts_proxy": 0.0,
+   "power_status": "unpriced",
+   "power_watts_at_era": 0,
+   "audit": {
+    "mode": "clean",
+    "mentions": 4,
+    "total": 4
+   }
+  },
+  {
+   "id": "tiberius",
+   "label": "Tiberius",
+   "tradition": "Roman emperor, flesh record",
+   "batch": null,
+   "date_added": "2026-10-27",
+   "era": 93,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "notes": [
+    {
+     "date": "2026-10-27",
+     "text": "Era 93: Josephus names Tiberius 90 times. The princeps under whom the execution notice falls in both Roman witnesses; pricing proposal filed."
+    }
+   ],
+   "essay": "Tacitus fixes the execution inside his reign: 'Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus' (Ann. 15.44) [320]. Luke opens John's ministry on the same reign: 'Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea, and Herod being tetrarch of Galilee' (Luke 3:1) [318]. Josephus shows the frontier wars reaching his desk: 'So Herod wrote about these affairs to Tiberius, who being very angry at the attempt made by Aretas, wrote to Vitellius to make war upon him' (Ant. 18.5.1) [319].",
+   "highlights": [
+    {
+     "text": "Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus, and a most mischievous superstition, thus checked for the moment, again broke out not only in Judaea, the first source of the evil, but even in Rome, where all things hideous and shameful from every part of the world find their centre and become popular. Accordingly, an arrest was first made of all who pleaded guilty; then, upon their information, an immense multitude was convicted, not so much of the crime of firing the city, as of hatred against mankind.",
+     "direct": true,
+     "manual": true,
+     "source_id": 320,
+     "source_title": "Tacitus, Annals, trans. Church and Brodribb (MIT Classics)",
+     "source_url": "http://classics.mit.edu/Tacitus/annals.mb.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of Ituraea and of the region of Trachonitis, and Lysanias the tetrarch of Abilene, Annas and Caiaphas being the high priests, the word of God came unto John the son of Zacharias in the wilderness. And he came into all the country about Jordan, preaching the baptism of repentance for the remission of sins; As it is written in the book of the words of Esaias the prophet, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "So they raised armies on both sides, and prepared for war, and sent their generals to fight instead of themselves; and when they had joined battle, all Herod's army was destroyed by the treachery of some fugitives, who, though they were of the tetrarchy of Philip, joined with Aretas's army.. So Herod wrote about these affairs to Tiberius, who being very angry at the attempt made by Aretas, wrote to Vitellius to make war upon him, and either to take him alive, and bring him to him in bonds, or to kill him, and send him his head. This was the charge that Tiberius gave to the president of Syria. 2. Now some of the Jews thought that the destruction of Herod's army came from God, and that very justly, as a punishment of what he did against John, that was called the Baptist: for Herod slew him, who was a good man, and commanded the Jews to exercise virtue, both as to righteousness towards one another, and piety towards God, and so to come to baptism; for that the washing [with water] would be acceptable to him, if they made use of it, not in order to the putting away [or the remission] of some sins [only], but for the purification of the body; supposing still that the soul was thoroughly purified beforehand by righteousness.",
+     "direct": true,
+     "manual": true,
+     "source_id": 319,
+     "source_title": "Josephus, Antiquities of the Jews, trans. Whiston (Gutenberg #2848)",
+     "source_url": "https://www.gutenberg.org/cache/epub/2848/pg2848.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "power_watts_direct": 0.0,
+   "power_watts_total": 0.0,
+   "power_watts_proxy": 0.0,
+   "power_status": "unpriced",
+   "power_watts_at_era": 0,
+   "audit": {
+    "mode": "clean",
+    "mentions": 3,
+    "total": 3
+   }
+  },
+  {
+   "id": "herod-antipas",
+   "label": "Herod Antipas",
+   "tradition": "Tetrarch of Galilee, flesh record",
+   "batch": null,
+   "date_added": "2026-10-27",
+   "era": 93,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "notes": [
+    {
+     "date": "2026-10-27",
+     "text": "Era 93: Josephus's Antiquities 18 names 'Herod the tetrarch'. Alias 'herod' also matches Herod the Great (Matt. 2) and Archelaus's reign; this node is the tetrarch of the trial, the Baptist's death, and Josephus 18.5. Curated windows only. Tetrarch office documented; pricing proposal filed."
+    }
+   ],
+   "essay": "Luke places him over Galilee at the same date as Pilate's governorship: 'Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea, and Herod being tetrarch of Galilee' (Luke 3:1) [318]. The trial scene gives him his one audience: 'And when Herod saw Jesus, he was exceeding glad... and he questioned with him in many words; but he answered him nothing' (Luke 23:8-9) [318]. Matthew reports the identification rumor: 'At that time Herod the tetrarch heard of the fame of Jesus, And said unto his servants, This is John the Baptist; he is risen from the dead' (Matt. 14:1-2) [318]. Josephus gives the Baptist's death its politics: 'Herod, who feared lest the great influence John had over the people might put it into his power and inclination to raise a rebellion, thought it best, by putting him to death, to prevent any mischief he might do' (Ant. 18.5.2) [319].",
+   "highlights": [
+    {
+     "text": "And as soon as he knew that he belonged unto Herod’s jurisdiction, he sent him to Herod, who himself also was at Jerusalem at that time. And when Herod saw Jesus, he was exceeding glad: for he was desirous to see him of a long season, because he had heard many things of him; and he hoped to have seen some miracle done by him. Then he questioned with him in many words; but he answered him nothing. And the chief priests and scribes stood and vehemently accused him. And Herod with his men of war set him at nought, and mocked him, and arrayed him in a gorgeous robe, and sent him again to Pilate. And the same day Pilate and Herod were made friends together: for before they were at enmity between themselves.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "At that time Herod the tetrarch heard of the fame of Jesus, And said unto his servants, This is John the Baptist; he is risen from the dead; and therefore mighty works do shew forth themselves in him. For Herod had laid hold on John, and bound him, and put him in prison for Herodias’ sake, his brother Philip’s wife. For John said unto him, It is not lawful for thee to have her. And when he would have put him to death, he feared the multitude, because they counted him as a prophet. But when Herod’s birthday was kept, the daughter of Herodias danced before them, and pleased Herod.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "Now some of the Jews thought that the destruction of Herod's army came from God, and that very justly, as a punishment of what he did against John, that was called the Baptist: for Herod slew him, who was a good man, and commanded the Jews to exercise virtue, both as to righteousness towards one another, and piety towards God, and so to come to baptism; for that the washing [with water] would be acceptable to him, if they made use of it, not in order to the putting away [or the remission] of some sins [only], but for the purification of the body; supposing still that the soul was thoroughly purified beforehand by righteousness. Now when [many] others came in crowds about him, for they were very greatly moved [or pleased] by hearing his words, Herod, who feared lest the great influence John had over the people might put it into his power and inclination to raise a rebellion, [for they seemed ready to do any thing he should advise,] thought it best, by putting him to death, to prevent any mischief he might cause, and not bring himself into difficulties, by sparing a man who might make him repent of it when it would be too late. Accordingly he was sent a prisoner, out of Herod's suspicious temper, to Macherus, the castle I before mentioned, and was there put to death. Now the Jews had an opinion that the destruction of this army was sent as a punishment upon Herod, and a mark of God's displeasure to him. 3.",
+     "direct": true,
+     "manual": true,
+     "source_id": 319,
+     "source_title": "Josephus, Antiquities of the Jews, trans. Whiston (Gutenberg #2848)",
+     "source_url": "https://www.gutenberg.org/cache/epub/2848/pg2848.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of Ituraea and of the region of Trachonitis, and Lysanias the tetrarch of Abilene, Annas and Caiaphas being the high priests, the word of God came unto John the son of Zacharias in the wilderness. And he came into all the country about Jordan, preaching the baptism of repentance for the remission of sins; As it is written in the book of the words of Esaias the prophet, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "power_watts_direct": 0.0,
+   "power_watts_total": 0.0,
+   "power_watts_proxy": 0.0,
+   "power_status": "unpriced",
+   "power_watts_at_era": 0,
+   "audit": {
+    "mode": "clean",
+    "mentions": 4,
+    "total": 4
+   }
+  },
+  {
+   "id": "john-the-baptist",
+   "label": "John the Baptist",
+   "tradition": "Judean prophet, flesh record",
+   "batch": null,
+   "date_added": "2026-10-27",
+   "era": 93,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "notes": [
+    {
+     "date": "2026-10-27",
+     "text": "Era 93: Josephus 18.5.2 names him. Alias 'john' also matches the apostle in NT windows; curated cards only (the wilderness, the baptism, Josephus's prisoner, the Herod rumor). No office: no pricing proposal."
+    }
+   ],
+   "essay": "Matthew introduces him by the full style: 'In those days came John the Baptist, preaching in the wilderness of Judaea' (Matt. 3:1) [318]. The baptism is his office's central act: 'Then cometh Jesus from Galilee to Jordan unto John, to be baptized of him. But John forbad him, saying, I have need to be baptized of thee, and comest thou to me?' (Matt. 3:13-14) [318]. Josephus reports the same man under the tetrarch's custody: 'John, that was called the Baptist... commanded the Jews to exercise virtue... was sent a prisoner, out of Herod's suspicious temper, to Macherus... and there put to death' (Ant. 18.5.2) [319].",
+   "highlights": [
+    {
+     "text": "In those days came John the Baptist, preaching in the wilderness of Judaea, And saying, Repent ye: for the kingdom of heaven is at hand. For this is he that was spoken of by the prophet Esaias, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight. And the same John had his raiment of camel’s hair, and a leathern girdle about his loins; and his meat was locusts and wild honey. Then went out to him Jerusalem, and all Judaea, and all the region round about Jordan, And were baptized of him in Jordan, confessing their sins.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "Then cometh Jesus from Galilee to Jordan unto John, to be baptized of him. But John forbad him, saying, I have need to be baptized of thee, and comest thou to me? And Jesus answering said unto him, Suffer it to be so now: for thus it becometh us to fulfil all righteousness. Then he suffered him. And Jesus, when he was baptized, went up straightway out of the water: and, lo, the heavens were opened unto him, and he saw the Spirit of God descending like a dove, and lighting upon him: And lo a voice from heaven, saying, This is my beloved Son, in whom I am well pleased.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "Now some of the Jews thought that the destruction of Herod's army came from God, and that very justly, as a punishment of what he did against John, that was called the Baptist: for Herod slew him, who was a good man, and commanded the Jews to exercise virtue, both as to righteousness towards one another, and piety towards God, and so to come to baptism; for that the washing [with water] would be acceptable to him, if they made use of it, not in order to the putting away [or the remission] of some sins [only], but for the purification of the body; supposing still that the soul was thoroughly purified beforehand by righteousness. Now when [many] others came in crowds about him, for they were very greatly moved [or pleased] by hearing his words, Herod, who feared lest the great influence John had over the people might put it into his power and inclination to raise a rebellion, [for they seemed ready to do any thing he should advise,] thought it best, by putting him to death, to prevent any mischief he might cause, and not bring himself into difficulties, by sparing a man who might make him repent of it when it would be too late.",
+     "direct": true,
+     "manual": true,
+     "source_id": 319,
+     "source_title": "Josephus, Antiquities of the Jews, trans. Whiston (Gutenberg #2848)",
+     "source_url": "https://www.gutenberg.org/cache/epub/2848/pg2848.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    },
+    {
+     "text": "At that time Herod the tetrarch heard of the fame of Jesus, And said unto his servants, This is John the Baptist; he is risen from the dead; and therefore mighty works do shew forth themselves in him. For Herod had laid hold on John, and bound him, and put him in prison for Herodias’ sake, his brother Philip’s wife. For John said unto him, It is not lawful for thee to have her. And when he would have put him to death, he feared the multitude, because they counted him as a prophet. But when Herod’s birthday was kept, the daughter of Herodias danced before them, and pleased Herod.",
+     "direct": true,
+     "manual": true,
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "name_mention": true,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "power_watts_direct": 0.0,
+   "power_watts_total": 0.0,
+   "power_watts_proxy": 0.0,
+   "power_status": "unpriced",
+   "power_watts_at_era": 0,
+   "audit": {
+    "mode": "clean",
+    "mentions": 4,
+    "total": 4
    }
   }
  ],
@@ -25685,6 +26176,426 @@
     "status": "auto-added",
     "date": "2026-10-27"
    }
+  },
+  {
+   "from": "god",
+   "to": "moses",
+   "type": "interaction",
+   "title": "Moses, Moses",
+   "source": "[317] KJV Bible, Genesis and Exodus (Gutenberg #10)",
+   "essay": null,
+   "date_added": "2026-10-27",
+   "era": 1611,
+   "influence": 0.0,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "excerpts": [
+    {
+     "text": "And Moses said, I will now turn aside, and see this great sight, why the bush is not burnt. And when the LORD saw that he turned aside to see, God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I. And he said, Draw not nigh hither: put off thy shoes from off thy feet, for the place whereon thou standest is holy ground. Moreover he said, I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob. And Moses hid his face; for he was afraid to look upon God. And the LORD said, I have surely seen the affliction of my people which are in Egypt, and have heard their cry by reason of their taskmasters; for I know their sorrows; And I am come down to deliver them out of the hand of the Egyptians, and to bring them up out of that land unto a good land and a large, unto a land flowing with milk and honey; unto the place of the Canaanites, and the Hittites, and the Amorites, and the Perizzites, and the Hivites, and the Jebusites.",
+     "source_id": 317,
+     "source_title": "KJV Bible, Genesis and Exodus (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 93,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "audit": {
+    "ok": true,
+    "mode": "clean",
+    "dist": 93
+   }
+  },
+  {
+   "from": "moses",
+   "to": "jesus",
+   "type": "transmission",
+   "title": "Moses and Elias, talking with him",
+   "source": "[318] KJV Bible, New Testament (Gutenberg #10)",
+   "essay": null,
+   "date_added": "2026-10-27",
+   "era": 1611,
+   "influence": 0.0,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "excerpts": [
+    {
+     "text": "And after six days Jesus taketh Peter, James, and John his brother, and bringeth them up into an high mountain apart, And was transfigured before them: and his face did shine as the sun, and his raiment was white as the light. And, behold, there appeared unto them Moses and Elias talking with him. Then answered Peter, and said unto Jesus, Lord, it is good for us to be here: if thou wilt, let us make here three tabernacles; one for thee, and one for Moses, and one for Elias. While he yet spake, behold, a bright cloud overshadowed them: and behold a voice out of the cloud, which said, This is my beloved Son, in whom I am well pleased; hear ye him. And when the disciples heard it, they fell on their face, and were sore afraid. And Jesus came and touched them, and said, Arise, and be not afraid.",
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 237,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "audit": {
+    "ok": true,
+    "mode": "clean",
+    "dist": 237
+   }
+  },
+  {
+   "from": "pontius-pilate",
+   "to": "jesus",
+   "type": "interaction",
+   "title": "Delivered him to Pontius Pilate the governor",
+   "source": "[318] KJV Bible, New Testament (Gutenberg #10)",
+   "essay": null,
+   "date_added": "2026-10-27",
+   "era": 1611,
+   "influence": 0.0,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "excerpts": [
+    {
+     "text": "And Peter remembered the word of Jesus, which said unto him, Before the cock crow, thou shalt deny me thrice. And he went out, and wept bitterly. When the morning was come, all the chief priests and elders of the people took counsel against Jesus to put him to death: And when they had bound him, they led him away, and delivered him to Pontius Pilate the governor. Then Judas, which had betrayed him, when he saw that he was condemned, repented himself, and brought again the thirty pieces of silver to the chief priests and elders, Saying, I have sinned in that I have betrayed the innocent blood. And they said, What is that to us? see thou to that. And he cast down the pieces of silver in the temple, and departed, and went and hanged himself. And the chief priests took the silver pieces, and said, It is not lawful for to put them into the treasury, because it is the price of blood.",
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 294,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "audit": {
+    "ok": true,
+    "mode": "clean",
+    "dist": 294
+   }
+  },
+  {
+   "from": "tiberius",
+   "to": "jesus",
+   "type": "interaction",
+   "title": "The extreme penalty in the reign of Tiberius",
+   "source": "[320] Tacitus, Annals, trans. Church and Brodribb (MIT Classics)",
+   "essay": null,
+   "date_added": "2026-10-27",
+   "era": 116,
+   "influence": 0.0,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "excerpts": [
+    {
+     "text": "Consequently, to get rid of the report, Nero fastened the guilt and inflicted the most exquisite tortures on a class hated for their abominations, called Christians by the populace. Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus, and a most mischievous superstition, thus checked for the moment, again broke out not only in Judaea, the first source of the evil, but even in Rome, where all things hideous and shameful from every part of the world find their centre and become popular. Accordingly, an arrest was first made of all who pleaded guilty; then, upon their information, an immense multitude was convicted, not so much of the crime of firing the city, as of hatred against mankind.",
+     "source_id": 320,
+     "source_title": "Tacitus, Annals, trans. Church and Brodribb (MIT Classics)",
+     "source_url": "http://classics.mit.edu/Tacitus/annals.mb.txt",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 115,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "audit": {
+    "ok": true,
+    "mode": "clean",
+    "dist": 115
+   }
+  },
+  {
+   "from": "tiberius",
+   "to": "pontius-pilate",
+   "type": "agency",
+   "title": "Governor of Judaea under Tiberius Caesar",
+   "source": "[318] KJV Bible, New Testament (Gutenberg #10)",
+   "essay": null,
+   "date_added": "2026-10-27",
+   "era": 1611,
+   "influence": 0.0,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "excerpts": [
+    {
+     "text": "And he went down with them, and came to Nazareth, and was subject unto them: but his mother kept all these sayings in her heart. And Jesus increased in wisdom and stature, and in favour with God and man. Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of Ituraea and of the region of Trachonitis, and Lysanias the tetrarch of Abilene, Annas and Caiaphas being the high priests, the word of God came unto John the son of Zacharias in the wilderness. And he came into all the country about Jordan, preaching the baptism of repentance for the remission of sins; As it is written in the book of the words of Esaias the prophet, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.",
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 16,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "audit": {
+    "ok": true,
+    "mode": "clean",
+    "dist": 16
+   }
+  },
+  {
+   "from": "tiberius",
+   "to": "herod-antipas",
+   "type": "agency",
+   "title": "Tetrarch of Galilee under Tiberius Caesar",
+   "source": "[318] KJV Bible, New Testament (Gutenberg #10)",
+   "essay": null,
+   "date_added": "2026-10-27",
+   "era": 1611,
+   "influence": 0.0,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "excerpts": [
+    {
+     "text": "And he went down with them, and came to Nazareth, and was subject unto them: but his mother kept all these sayings in her heart. And Jesus increased in wisdom and stature, and in favour with God and man. Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of Ituraea and of the region of Trachonitis, and Lysanias the tetrarch of Abilene, Annas and Caiaphas being the high priests, the word of God came unto John the son of Zacharias in the wilderness. And he came into all the country about Jordan, preaching the baptism of repentance for the remission of sins; As it is written in the book of the words of Esaias the prophet, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.",
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 60,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "audit": {
+    "ok": true,
+    "mode": "clean",
+    "dist": 60
+   }
+  },
+  {
+   "from": "mary",
+   "to": "jesus",
+   "type": "kinship",
+   "title": "Shalt call his name JESUS",
+   "source": "[318] KJV Bible, New Testament (Gutenberg #10)",
+   "essay": null,
+   "date_added": "2026-10-27",
+   "era": 1611,
+   "influence": 0.0,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "excerpts": [
+    {
+     "text": "And when she saw him, she was troubled at his saying, and cast in her mind what manner of salutation this should be. And the angel said unto her, Fear not, Mary: for thou hast found favour with God. And, behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call his name JESUS. He shall be great, and shall be called the Son of the Highest: and the Lord God shall give unto him the throne of his father David: And he shall reign over the house of Jacob for ever; and of his kingdom there shall be no end. Then said Mary unto the angel, How shall this be, seeing I know not a man? And the angel answered and said unto her, The Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God.",
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 130,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "audit": {
+    "ok": true,
+    "mode": "clean",
+    "dist": 130
+   }
+  },
+  {
+   "from": "god",
+   "to": "mary",
+   "type": "interaction",
+   "title": "Thou hast found favour with God",
+   "source": "[318] KJV Bible, New Testament (Gutenberg #10)",
+   "essay": null,
+   "date_added": "2026-10-27",
+   "era": 1611,
+   "influence": 0.0,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "excerpts": [
+    {
+     "text": "And when she saw him, she was troubled at his saying, and cast in her mind what manner of salutation this should be. And the angel said unto her, Fear not, Mary: for thou hast found favour with God. And, behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call his name JESUS. He shall be great, and shall be called the Son of the Highest: and the Lord God shall give unto him the throne of his father David: And he shall reign over the house of Jacob for ever; and of his kingdom there shall be no end. Then said Mary unto the angel, How shall this be, seeing I know not a man? And the angel answered and said unto her, The Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God.",
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 37,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "audit": {
+    "ok": true,
+    "mode": "clean",
+    "dist": 37
+   }
+  },
+  {
+   "from": "herod-antipas",
+   "to": "jesus",
+   "type": "interaction",
+   "title": "When Herod saw Jesus",
+   "source": "[318] KJV Bible, New Testament (Gutenberg #10)",
+   "essay": null,
+   "date_added": "2026-10-27",
+   "era": 1611,
+   "influence": 0.0,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "excerpts": [
+    {
+     "text": "And as soon as he knew that he belonged unto Herod’s jurisdiction, he sent him to Herod, who himself also was at Jerusalem at that time. And when Herod saw Jesus, he was exceeding glad: for he was desirous to see him of a long season, because he had heard many things of him; and he hoped to have seen some miracle done by him. Then he questioned with him in many words; but he answered him nothing. And the chief priests and scribes stood and vehemently accused him. And Herod with his men of war set him at nought, and mocked him, and arrayed him in a gorgeous robe, and sent him again to Pilate. And the same day Pilate and Herod were made friends together: for before they were at enmity between themselves.",
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 108,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "audit": {
+    "ok": true,
+    "mode": "clean",
+    "dist": 108
+   }
+  },
+  {
+   "from": "herod-antipas",
+   "to": "john-the-baptist",
+   "type": "conflict",
+   "title": "Out of Herod's suspicious temper",
+   "source": "[319] Josephus, Antiquities of the Jews, trans. Whiston (Gutenberg #2848)",
+   "essay": null,
+   "date_added": "2026-10-27",
+   "era": 93,
+   "influence": 0.0,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "excerpts": [
+    {
+     "text": "Now some of the Jews thought that the destruction of Herod's army came from God, and that very justly, as a punishment of what he did against John, that was called the Baptist: for Herod slew him, who was a good man, and commanded the Jews to exercise virtue, both as to righteousness towards one another, and piety towards God, and so to come to baptism; for that the washing [with water] would be acceptable to him, if they made use of it, not in order to the putting away [or the remission] of some sins [only], but for the purification of the body; supposing still that the soul was thoroughly purified beforehand by righteousness. Now when [many] others came in crowds about him, for they were very greatly moved [or pleased] by hearing his words, Herod, who feared lest the great influence John had over the people might put it into his power and inclination to raise a rebellion, [for they seemed ready to do any thing he should advise,] thought it best, by putting him to death, to prevent any mischief he might cause, and not bring himself into difficulties, by sparing a man who might make him repent of it when it would be too late. Accordingly he was sent a prisoner, out of Herod's suspicious temper, to Macherus, the castle I before mentioned, and was there put to death. Now the Jews had an opinion that the destruction of this army was sent as a punishment upon Herod, and a mark of God's displeasure to him. 3.",
+     "source_id": 319,
+     "source_title": "Josephus, Antiquities of the Jews, trans. Whiston (Gutenberg #2848)",
+     "source_url": "https://www.gutenberg.org/cache/epub/2848/pg2848.txt",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 87,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "audit": {
+    "ok": true,
+    "mode": "clean",
+    "dist": 87
+   }
+  },
+  {
+   "from": "john-the-baptist",
+   "to": "jesus",
+   "type": "interaction",
+   "title": "To be baptized of him",
+   "source": "[318] KJV Bible, New Testament (Gutenberg #10)",
+   "essay": null,
+   "date_added": "2026-10-27",
+   "era": 1611,
+   "influence": 0.0,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "excerpts": [
+    {
+     "text": "I indeed baptize you with water unto repentance. but he that cometh after me is mightier than I, whose shoes I am not worthy to bear: he shall baptize you with the Holy Ghost, and with fire: Whose fan is in his hand, and he will throughly purge his floor, and gather his wheat into the garner; but he will burn up the chaff with unquenchable fire. Then cometh Jesus from Galilee to Jordan unto John, to be baptized of him. But John forbad him, saying, I have need to be baptized of thee, and comest thou to me? And Jesus answering said unto him, Suffer it to be so now: for thus it becometh us to fulfil all righteousness. Then he suffered him. And Jesus, when he was baptized, went up straightway out of the water: and, lo, the heavens were opened unto him, and he saw the Spirit of God descending like a dove, and lighting upon him: And lo a voice from heaven, saying, This is my beloved Son, in whom I am well pleased.",
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 34,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "audit": {
+    "ok": true,
+    "mode": "clean",
+    "dist": 34
+   }
+  },
+  {
+   "from": "pontius-pilate",
+   "to": "herod-antipas",
+   "type": "interaction",
+   "title": "Belonged unto Herod's jurisdiction",
+   "source": "[318] KJV Bible, New Testament (Gutenberg #10)",
+   "essay": null,
+   "date_added": "2026-10-27",
+   "era": 1611,
+   "influence": 0.0,
+   "review": {
+    "status": "auto-added",
+    "date": "2026-10-27"
+   },
+   "excerpts": [
+    {
+     "text": "And as soon as he knew that he belonged unto Herod’s jurisdiction, he sent him to Herod, who himself also was at Jerusalem at that time. And when Herod saw Jesus, he was exceeding glad: for he was desirous to see him of a long season, because he had heard many things of him; and he hoped to have seen some miracle done by him. Then he questioned with him in many words; but he answered him nothing. And the chief priests and scribes stood and vehemently accused him. And Herod with his men of war set him at nought, and mocked him, and arrayed him in a gorgeous robe, and sent him again to Pilate. And the same day Pilate and Herod were made friends together: for before they were at enmity between themselves.",
+     "source_id": 318,
+     "source_title": "KJV Bible, New Testament (Gutenberg #10)",
+     "source_url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+     "audit": {
+      "has_from": true,
+      "has_to": true,
+      "dist": 532,
+      "seg": [],
+      "junk": []
+     }
+    }
+   ],
+   "audit": {
+    "ok": true,
+    "mode": "clean",
+    "dist": 532
+   }
   }
  ],
  "title": "High Drama",
@@ -25707,8 +26618,8 @@
   },
   "method": "pool x claim-share x witness-strength = direct; influence edges route i x downstream DIRECT power upstream, single-hop only (R6: no recursion, cycle-safe); power_status per node: direct | routed | unpriced (gate state, not a zero-power finding)",
   "claims_file": "research/power_claims.json",
-  "claims_sha": "e24b037a5a3e0119",
-  "computed_at": "2026-10-26T23:26:42",
+  "claims_sha": "2ab789987e9d0316",
+  "computed_at": "2026-10-28T01:32:57",
   "recalc_rules": [
    "R1 node split: subtract inherited share from old node before recompute",
    "R2 new edge: re-run single-hop proxy",
