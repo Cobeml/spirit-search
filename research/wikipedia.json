@@ -2276,5 +2276,27 @@
   "via": "override",
   "checked": "2026-10-28",
   "img": "img/john-the-baptist.jpg"
+ },
+ "constantine": {
+  "status": "ok",
+  "title": "Constantine the Great",
+  "url": "https://en.wikipedia.org/wiki/Constantine_the_Great",
+  "blurb": "Constantine I, also known as Constantine the Great, was a Roman emperor from AD 306 to 337, co-ruling as part of the Tetrarchy until 324. The first Roman emperor to convert to Christianity, Constantine played a pivotal role in elevating the religion's status in the Roman Empire, with the Edict of Milan decriminalising its practice and ceasing Christian persecution. He founded the city of Constantinople and made it the capital of the Empire, which it remained for over a millennium.",
+  "description": "Roman emperor from 306 to 337",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Statua_di_Costantino_ai_musei_capitolini.jpg/330px-Statua_di_Costantino_ai_musei_capitolini.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "via": "override",
+  "checked": "2026-11-03",
+  "img": "img/constantine.jpg"
+ },
+ "croesus": {
+  "status": "ok",
+  "title": "Croesus",
+  "url": "https://en.wikipedia.org/wiki/Croesus",
+  "blurb": "Croesus was the last king of Lydia from 585 BC to 546 BC. He was renowned for his great wealth, as well as his ultimate defeat by the Persian king Cyrus the Great following the siege of Sardis.",
+  "description": "King of Lydia from 585 or 561 to 547 BC",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Croesus_portrait.jpg/330px-Croesus_portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "via": "override",
+  "checked": "2026-11-03",
+  "img": "img/croesus.jpg"
  }
 }

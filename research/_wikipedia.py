@@ -59,6 +59,9 @@ OVERRIDES = {
     'mary': 'Mary, mother of Jesus',
     'herod-antipas': 'Herod Antipas',
     'john-the-baptist': 'John the Baptist',
+    # v3 demo nodes (2026-10-27)
+    'constantine': 'Constantine the Great',
+    'croesus': 'Croesus',
     'loki': 'Loki',
     'pandora': 'Pandora',
     'pyrrha': 'Pyrrha',

@@ -254,3 +254,23 @@ Transfer demos: constantine->god phys 3% = 272.9 MW; god->jesus phys 30% of rece
 - Transfer shares: ruled per edge (current values are proposals).
 - Witness gaps: Washington's peak command, Croesus's host/mint, Constantine's
   establishment range (Gibbon 583,000-645,000).
+
+
+# WAVE 1 EXECUTED (2026-10-27, third ruling round)
+
+- Creative physics adopted where it holds: creation ex nihilo priced by E=mc2 over the
+  witness's own six-day duration (1.04e36 W, RED-flagged); resurrection priced as a
+  traversable-wormhole exotic-matter requirement c^4/G x b (1.21e44 W one-second act,
+  RED-flagged, with the Landauer information bound 3.0 GJ kept in the row); the Iliad
+  plague priced as the pathogen's host drain at peak (400 kW).
+- Pair reporting: headline = the largest reading; the literal reading stays in the row
+  (thor 26.7 TW headline / 23 kW blow total).
+- Edges carry `mode`: parasitic (fractions, draws down the source pool) or symbiotic
+  (no fractions, no draw). 256 edges stamped symbiotic, 2 parasitic transfers added
+  (constantine->god 3% of 9.10 GW = 273 MW; croesus->apollo 10% of 300 MW = 30 MW).
+  `god->jesus` physical re-transmission (30% of received, per the clarification) is
+  proposed on the existing kinship edge, awaiting the word.
+- constantine and croesus built as nodes (cards, essays, wiki, proposals: 3 GW and
+  300 MW at Tier-1).
+- v3 fields written beside the frozen v2 numbers; the site lens stays v2 until the
+  table is accepted. Relevance gate green: 0 first-card failures, 0 seg, 0 junk.
