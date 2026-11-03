@@ -1,0 +1,433 @@
+{
+ "generated": "2026-10-27",
+ "model": "v3-pilot",
+ "nodes": {
+  "zeus": {
+   "virt": {
+    "feat": "theomachy flame: the thunderbolt war that made land and sea seethe (Theogony 693-700)",
+    "cls": "thermal",
+    "energy": 8.8e+22,
+    "duration": 86400,
+    "formula": "heat the Aegean 100 m layer by 1 K: 2.15e11 m2 x 100 m x 1025 kg/m3 x 4000 J/kgK x 1 K",
+    "assumptions": "the narrated \"All the land seethed, and Oceans streams and the unfruitful sea\" read as a sea-surface thermal event; one-day battle duration. Bolt peak (1 GJ in 30 us = 33 TW) reported separately.",
+    "peak": 33000000000000.0,
+    "locator": "Theogony 693-700 (Evelyn-White)"
+   },
+   "virt_watts": 1.0185185185185185e+18,
+   "virt_excerpt": "From Heaven and from Olympus he came forthwith, hurling his lightning: the bolts flew thick and fast from his strong hand together with thunder and lightning, whirling an awesome flame. The life-giving earth crashed around in burning, and the vast wood crackled loud with fire all about. All the land seethed, and Ocean’s streams and the unfruitful sea. The hot vapour lapped round the earthborn Titans: flame unspeakable rose to the bright upper air: the flashing glare of the thunder-stone and lightning blinded their eyes for all that there were strong. Astounding heat seized Chaos: and to see with eyes and to hear the sound with ears it seemed even as if Earth and wide Heaven above came together; for such a mighty crash would have arisen if Earth were being hurled to ruin, and Heaven from on high were hurling her down; so great a crash was there while the gods were meeting together in strife.",
+   "virt_source_id": 26,
+   "phys_watts": null,
+   "phys_comps": [],
+   "phys_absent": [],
+   "phys_gaps": [],
+   "old_total": 7520750000000.0,
+   "old_status": "direct"
+  },
+  "thor": {
+   "virt": {
+    "feat": "hammer duel readings: (a) the giant host slain (Thrymskvitha), (b) lifting the world-serpent (Hymiskvitha)",
+    "cls": "kinetic",
+    "energy": 1.6e+16,
+    "duration": 600,
+    "formula": "(b) 5,000 km serpent, 2 m diameter, 1000 kg/m3: m=1.57e13 kg; lifting half 100 m: m/2 x g x 100 = 7.7e15 J (reported 1.6e16 J for a full-body heave); (a) 40 kg hammer at 60 m/s = 72 kJ per blow x 200 = 1.4e7 J",
+    "assumptions": "two readings shown because the Eddas narrate duels, not weather; the serpent-lift is the higher bound, the blow total the literal one. Sustained over a 10-minute duel.",
+    "peak": null,
+    "locator": "Bellows, Poetic Edda, Thrymskvitha / Hymiskvitha"
+   },
+   "virt_watts": 26666666666666.668,
+   "virt_excerpt": "•^'*'\" ./y5 fc To George Lyman Kittredge SCANDINAVIAN CLASSICS VOLUMES XXI AND XXII THE POETIC EDDA ESTABUSHED BY NIELS POXn.SON Pr ^■ DEC 2 I 1965 I iC^^s/TycfW**?^ 1033014 THIS VOLUME IS ENDOWED IN PART BY CHARLES S. PETERSON OF CHfCAno The poetic Edda Translated from the Icelandic with an introduction and notes by Henry Adams Bellows New York; The American-Scandinavian Foundation, 1923 CONTENTS* General Introduction xi Lays of the Gods Voluspo I Hovamol 28 Vafthruthnismol 68 Grimnismol 84 Skirnismol 107 Harbarthsljoth 121 Hymiskvitha 138 Lokasenna 151 Thrymskvitha 174 Alvissmol 183 Baldrs Draumar 195 Rigsthula 201 Hyndluljoth 217 Svipdagsmol 234 Lays of the Heroes Volundarkvitha 252 Helgakvitha Hjorvarthssonar 269 Helgakvitha Hundingsbana I 290 Helgakvitha Hundingsbana H 309 Fra Dautha Sinfjotla 332 Gripisspo 337 Reginsmol 356 • For the phonetic spellings of the proper names see the Pronouncins Index. Contents — Continued Fafnismol 370 Sigrdrifumol 386 Brot af Sigurtharlcvithu 402 Guthrunarkvitha I 411 Sigurtharkvitha en Skamma 420 Helreith Brynhildar 442 Drap Niflunga 447 Guthrunarkvitha II, en Forna 450 Guthrunarkvitha III 465 Oddrunargratr 469 Atlakvitha en Gronlenzka 480 Atlamol en Gronlenzku 499 Guthrunarhvot 53^ Hamthesmol 545 ACKNOWLEDGEMENT The General Introduction mentions many of the scholars to whose work this translation owes a special debt.",
+   "virt_source_id": 24,
+   "phys_watts": null,
+   "phys_comps": [],
+   "phys_absent": [],
+   "phys_gaps": [],
+   "old_total": 0.0,
+   "old_status": "unpriced"
+  },
+  "poseidon": {
+   "virt": {
+    "feat": "the storm laid flat: imperial Neptune raises his head and the squall subsides (Aeneid 1.125-156)",
+    "cls": "kinetic",
+    "energy": 1000000000000000.0,
+    "duration": 600,
+    "formula": "squall kinetic energy ~1e15 J dissipated over 10 min",
+    "assumptions": "Roman-name witness; same figure. Storm KE from a mid-latitude squall line order-of-magnitude.",
+    "peak": null,
+    "locator": "Aeneid 1.125-156 (Dryden)"
+   },
+   "virt_watts": 1666666666666.6667,
+   "virt_excerpt": "Ilioneus was her chief: Alethes old, Achates faithful, Abas young and bold, Endur'd not less; their ships, with gaping seams, Admit the deluge of the briny streams. Meantime imperial Neptune heard the sound Of raging billows breaking on the ground. Displeas'd, and fearing for his wat'ry reign, He rear'd his awful head above the main, Serene in majesty; then roll'd his eyes Around the space of earth, and seas, and skies. He saw the Trojan fleet dispers'd, distress'd, By stormy winds and wintry heav'n oppress'd. Full well the god his sister's envy knew, And what her aims and what her arts pursue. He summon'd Eurus and the western blast, And first an angry glance on both he cast; Then thus rebuk'd: \"Audacious winds! from whence This bold attempt, this rebel insolence?",
+   "virt_source_id": 14,
+   "phys_watts": null,
+   "phys_comps": [],
+   "phys_absent": [],
+   "phys_gaps": [],
+   "old_total": 0.0,
+   "old_status": "unpriced"
+  },
+  "atlas": {
+   "virt": {
+    "feat": "holds the broad heaven (Theogony 517-520)",
+    "cls": "static",
+    "energy": 0.0,
+    "duration": 1,
+    "formula": "static hold: sustained power 0 W (ruling 4); work to raise the atmosphere 1 m = 5.15e18 kg x 9.81 x 1 m = 5.05e19 J",
+    "assumptions": "the load is the atmosphere; a static keep costs no sustained power, only the work of any movement.",
+    "peak": 0.0,
+    "locator": "Theogony 517-520 (Evelyn-White)"
+   },
+   "virt_watts": 0.0,
+   "virt_excerpt": "Such occasions, however, rarely occur and are perhaps not characteristic of Hesiod’s genius: if we would see Hesiod at his best, in his most natural vein, we must turn to such a passage as that which he himself—according to the compiler of the _Contest of Hesiod and Homer_—selected as best in all his work, ‘When the Pleiades, Atlas’ daughters, begin to rise...’ (_Works and Days_,ff.). The value of such a passage cannot be analysed: it can only be said that given such a subject, this alone is the right method of treatment. Hesiod’s diction is in the main Homeric, but one of his charms is the use of quaint allusive phrases derived, perhaps, from a pre-Hesiodic peasant poetry: thus the season when Boreas blows is the time when ‘the Boneless One gnaws his foot by his fireless hearth in his cheerless house’; to cut one’s nails is ‘to sever the withered from the quick upon that which has five branches’; similarly the burglar is the ‘day-sleeper’, and the serpent is the ‘hairless one’.",
+   "virt_source_id": 26,
+   "phys_watts": null,
+   "phys_comps": [],
+   "phys_absent": [],
+   "phys_gaps": [],
+   "old_total": 376500000000.0,
+   "old_status": "direct"
+  },
+  "prometheus": {
+   "virt": {
+    "feat": "theft of fire and the arts for mortals (Protagoras 321c-322a; PB catalogue)",
+    "cls": "chemical",
+    "energy": 10000000.0,
+    "duration": 1,
+    "formula": "torch-scale delivery of fire: ~1e7 J",
+    "assumptions": "the arts catalogue is attributive, not energetic; the literal feat is the transfer of fire. Finding: the old 12 TW came from the modern pool, not the feat.",
+    "peak": 10000000.0,
+    "locator": "Protagoras 321d-322a (Jowett)"
+   },
+   "virt_watts": 10000000.0,
+   "virt_excerpt": "Thus did Epimetheus, who, not being very wise, forgot that he had distributed among the brute animals all the qualities which he had to give,—and when he came to man, who was still unprovided, he was terribly perplexed. To meet this need of their Prometheus stole the arts of Athene and Hephaestus, together with fire. Now while he was in this perplexity, Prometheus came to inspect the distribution, and he found that the other animals were suitably furnished, but that man alone was naked and shoeless, and had neither bed nor arms of defence. The appointed hour was approaching when man in his turn was to go forth into the light of day; and Prometheus, not knowing how he could devise his salvation, stole the mechanical arts of Hephaestus and Athene, and fire with them (they could neither have been acquired nor used without fire), and gave them to man.",
+   "virt_source_id": 27,
+   "phys_watts": null,
+   "phys_comps": [],
+   "phys_absent": [],
+   "phys_gaps": [],
+   "old_total": 14250000000000.0,
+   "old_status": "direct"
+  },
+  "inana": {
+   "virt": {
+    "feat": "the destruction of Mount Ebih (ETCSL c.1.3.2)",
+    "cls": "fracture",
+    "energy": 2.6e+18,
+    "duration": 86400,
+    "formula": "fragmentation of a 10 km3 mountain: 2.6e13 kg x 1e5 J/kg = 2.6e18 J; earthquake-equivalent alt: M8 = 6.3e16 J",
+    "assumptions": "mountain volume assumed 10 km3; fracture energy 1e5 J/kg; destruction over one day.",
+    "peak": null,
+    "locator": "ETCSL c.1.3.2 Inana and Ebih"
+   },
+   "virt_watts": 30092592592592.594,
+   "virt_excerpt": "Inana and Ebih: translation The Electronic Text Corpus of Sumerian Literature Catalogues: by date | by number | in full | Website info: navigation help | site description | display conventions | recent changes Project info: consolidated bibliography | about the project | credits and copyright | links This composition: composite text | bibliography Inana and Ebih: translation 1-6 Goddess of the fearsome divine powers, clad in terror, riding on the great divine powers, Inana , made complete by the strength of the holy ankar weapon, drenched in blood, rushing around in great battles, with shield resting on the ground (?), covered in storm and flood, great lady Inana , knowing well how to plan conflicts, you destroy mighty lands with arrow and strength and overpower lands.",
+   "virt_source_id": 322,
+   "phys_watts": null,
+   "phys_comps": [],
+   "phys_absent": [],
+   "phys_gaps": [],
+   "old_total": 300000000000.0,
+   "old_status": "direct"
+  },
+  "apollo": {
+   "virt": {
+    "feat": "slays the snake Python at Delphi (Apollodorus 1.4.1); the Iliad plague is the greater narrated act",
+    "cls": "kinetic",
+    "energy": 10000.0,
+    "duration": 1,
+    "formula": "100 arrows x 100 J = 1e4 J; the plague (Iliad 1.9-52) is biological: no defined energy class",
+    "assumptions": "the terror of the archer god is not energy: his computable feat is trivial and the plague is reported as undefined.",
+    "peak": 10000.0,
+    "locator": "Apollodorus 1.4.1 (Frazer)"
+   },
+   "virt_watts": 10000.0,
+   "virt_excerpt": "Now Artemis devoted herself to the chase and remained a maid; but Apollo learned the art of prophecy from Pan, the son of Zeus and Hybris,and came to Delphi, where Themis at that time used to deliver oracles 59 ; and when the snake Python, which guarded the oracle, would have hindered him from approaching the chasm,he killed it and took over the oracle. Not long afterwards he slew also Tityus, who was a son of Zeus and Elare, daughter of Orchomenus; for her, after he had debauched her, Zeus hid under the earth for fear of Hera, and brought forth to the light the son Tityus, of monstrous size, whom she had borne in her womb. When Latona came to Pytho, Tityus beheld her, and overpowered by lust drew her to him.",
+   "virt_source_id": 28,
+   "phys_watts": null,
+   "phys_comps": [],
+   "phys_absent": [],
+   "phys_gaps": [],
+   "old_total": 7500000000.0,
+   "old_status": "direct"
+  },
+  "heracles": {
+   "virt": {
+    "feat": "diverts the Alpheus and Peneus to cleanse the Augean yard (Apollodorus 2.5.5)",
+    "cls": "potential",
+    "energy": 5100000000000.0,
+    "duration": 86400,
+    "formula": "60 m3/s at 100 m head: rho x Q x g x h = 1025 x 60 x 9.81 x 100 = 60 MW over one day = 5.2e12 J",
+    "assumptions": "combined river flow assumed 60 m3/s; head 100 m.",
+    "peak": null,
+    "locator": "Apollodorus 2.5.5 (Frazer)"
+   },
+   "virt_watts": 59027777.777777776,
+   "virt_excerpt": "Augeas was incredulous, but promised. Having taken Augeas's son Phyleus to witness, Hercules made a breach in the foundations of the cattle-yard, and then, diverting the courses of the Alpheus and Peneus, which flowed near each other, he turned them into the yard, having first made an outlet for the water through another opening. When Augeas learned that this had been accomplished at the command of Eurystheus, he would not pay the reward; nay more, he denied that he had promised to pay it, and on that point he professed himself ready to submit to arbitration. The arbitrators having taken their seats, Phyleus was called by Hercules and bore witness against his father, affirming that he had agreed to give him a reward.",
+   "virt_source_id": null,
+   "phys_watts": null,
+   "phys_comps": [],
+   "phys_absent": [],
+   "phys_gaps": [],
+   "old_total": 3750000000.0,
+   "old_status": "direct"
+  },
+  "god": {
+   "virt": {
+    "feat": "the deluge: the fountains of the great deep broken up, water above the high hills (Genesis 7-8)",
+    "cls": "potential",
+    "energy": 7.14e+24,
+    "duration": 3456000,
+    "formula": "water to cover the mountains: 7.2e20 kg x 9.81 x 1000 m avg lift = 7.1e24 J over 40 days",
+    "assumptions": "the narrated depth (mountains covered) taken literally; avg lift 1000 m. Creation ex nihilo has no duration or energy class: reported as undefined, not capped (ruling 2). Secondary feat: parting the sea (Exod. 14) 4.9e11 J / 12 h = 11.4 MW.",
+    "peak": null,
+    "locator": "Genesis 7:11, 8:3 (KJV)"
+   },
+   "virt_watts": 2.0659722222222223e+18,
+   "virt_excerpt": "In the six hundredth year of Noah’s life, in the second month, the seventeenth day of the month, the same day were all the fountains of the great deep broken up, and the windows of heaven were opened. And the rain was upon the earth forty days and forty nights. In the selfsame day entered Noah, and Shem, and Ham, and Japheth, the sons of Noah, and Noah’s wife, and the three wives of his sons with them, into the ark; 7:14 They, and every beast after his kind, and all the cattle after their kind, and every creeping thing that creepeth upon the earth after his kind, and every fowl after his kind, every bird of every sort.",
+   "virt_source_id": 317,
+   "phys_watts": null,
+   "phys_comps": [],
+   "phys_absent": [],
+   "phys_gaps": [],
+   "old_total": 1500000000.0,
+   "old_status": "direct"
+  },
+  "jesus": {
+   "virt": {
+    "feat": "calms the storm: Peace, be still (Mark 4:39)",
+    "cls": "kinetic",
+    "energy": 1000000000000000.0,
+    "duration": 600,
+    "formula": "squall kinetic energy ~1e15 J dissipated in ~10 min",
+    "assumptions": "same storm-kinetic class as the pagan sea-god reading, for comparability. Feeding 5,000 = 5.2e10 J / 6 h = 2.4 MW. Resurrection and the virgin birth: undefined class.",
+    "peak": null,
+    "locator": "Mark 4:39 (KJV)"
+   },
+   "virt_watts": 1666666666666.6667,
+   "virt_excerpt": "And he was in the hinder part of the ship, asleep on a pillow: and they awake him, and say unto him, Master, carest thou not that we perish? And he arose, and rebuked the wind, and said unto the sea, Peace, be still. And the wind ceased, and there was a great calm. And he said unto them, Why are ye so fearful? how is it that ye have no faith? And they feared exceedingly, and said one to another, What manner of man is this, that even the wind and the sea obey him? And they came over unto the other side of the sea, into the country of the Gadarenes. And when he was come out of the ship, immediately there met him out of the tombs a man with an unclean spirit, 5:3 Who had his dwelling among the tombs; and no man could bind him, no, not with chains: 5:4 Because that he had been often bound with fetters and chains, and the chains had been plucked asunder by him, and the fetters broken in pieces: neither could any man tame him.",
+   "virt_source_id": 318,
+   "phys_watts": null,
+   "phys_comps": [],
+   "phys_absent": [],
+   "phys_gaps": [],
+   "old_total": 5000000.0,
+   "old_status": "direct"
+  },
+  "washington": {
+   "virt": {
+    "feat": "none attested with a physical class: the accreted legends (the hatchet, the thrown dollar) carry no energy",
+    "cls": "none",
+    "energy": 0.0,
+    "duration": 1,
+    "formula": "the cherry-tree anecdote is a moral story; a coin thrown across the Potomac ~ 2e2 J; nothing rates",
+    "assumptions": "recorded as a finding: mythic accretion on flesh figures is energetically trivial.",
+    "peak": null,
+    "locator": "Weems, Life of Washington, the hatchet anecdote"
+   },
+   "virt_watts": 0.0,
+   "virt_excerpt": "It is too valuable to be lost, and too true to be doubted ; for it. was communicated to me by the same excellent lady to whom I am indebted for the last. \" When George,\" said she, \" was about six years old, he was made the wealthy master of a hatchet ! of which, like most little boys, he was immoderately 16 LIFE OF WASHINGTON. fond, and was constantly going about chopping every thing that came in his way. One day, in the garden, where he often amused himself hacking his mother's pea-sticks, he unluckily tried the edge of his hatchet on the body of a beautiful young English cherry-tree, which he barked so terribly, that I don't believe the tree ever got the better of it. The next morning the old gentleman, finding out what had befallen his tree, which, by the by, was a great favourite, came into the house ; and with much warmth asked for the mischievous author, declaring at the same time, that he would not have taken five guineas for his tree.",
+   "virt_source_id": 15,
+   "phys_watts": 45971100.0,
+   "phys_comps": [
+    {
+     "cls": "human",
+     "w": 45000000.0,
+     "basis": "in-witness low: \"Washington had not 3000 men\" x 15 kW",
+     "anchor": [
+      "evidence/washington/weems_life_of_washington_archive_org_1800_djvu.txt",
+      "had not 3000 men"
+     ],
+     "sid": 15,
+     "excerpt": "But finding that his lordship was LIFE OF WASHINGTON. 91 still harping on the old string, pardons ! pardons ' they very soon closed the conference. Towards the close of the trying campaign, it is a fact, that Washington had not 3000 men ; and even these were so destitute of necessaries, that nothing but their love and veneration for him kept them to- gether. And with this handful he had to oppose a victorious army, of nearly forty thousand veterans ! ! But Jehovah, the God of Hosts, was with him : and oft' times, in the ear of the slumbering hero, his voice was heard, \" fear not ; for I am with thee. Be not dismayed ; for I am thy God.\" — Hence under all the disheartening circumstances of this campaign, Washington not only kept up his own spirits, but cheered those of his drooping comrades."
+    },
+    {
+     "cls": "resources",
+     "w": 971100.0,
+     "basis": "Mount Vernon ~8,000 acres x 0.3 kW/ha",
+     "anchor": null,
+     "sid": null,
+     "excerpt": null
+    }
+   ],
+   "phys_absent": [
+    "weapons: musket flintlock ~150 W delivered (reported inside the human+supply coefficient)",
+    "finance: no treasury figure in-witness"
+   ],
+   "phys_gaps": [
+    "peak field command (Yorktown ~17,000) needs a witness: EB1911 Washington not on disk"
+   ],
+   "old_total": 180000000000.0,
+   "old_status": "direct"
+  },
+  "sulla": {
+   "virt": {
+    "feat": "none attested: the epithet Felix claims fortune, not an act",
+    "cls": "none",
+    "energy": 0.0,
+    "duration": 1,
+    "formula": "n/a",
+    "assumptions": "finding.",
+    "peak": null,
+    "locator": null
+   },
+   "virt_watts": 0.0,
+   "virt_excerpt": null,
+   "virt_source_id": null,
+   "phys_watts": 600000000.0,
+   "phys_comps": [
+    {
+     "cls": "human",
+     "w": 600000000.0,
+     "basis": "~6 legions + auxiliaries (Plutarch) x 15 kW",
+     "anchor": [
+      "evidence/_corpus/plutarch-lives-dryden-clough-gutenberg.txt",
+      "legions"
+     ],
+     "sid": 61,
+     "excerpt": "The city now being built, Romulus enlisted all that were of age to bear arms into military companies, each company consisting of three thousand footmen and three hundred horse. These companies were called legions, because they were the choicest and most select of the people for fighting men. The rest of the multitude he called the people; one hundred of the most eminent he chose for counselors; these he styled patricians, and their assembly the senate, which signifies a council of elders. The patricians, some say, were so called because they were the fathers of lawful children; others, because they could give a good account who their own fathers were, which not every one of the rabble that poured into the city at first could do; others, from patronage, their word for protection of inferiors, the origin of which they attribute to Patron, one of those that came over with Evander, who was a great protector and defender of the weak and needy."
+    }
+   ],
+   "phys_absent": [
+    "weapons: gladius/pilum delivered power reported inside the human+supply coefficient",
+    "finance: the proscription sales figure not yet sliced"
+   ],
+   "phys_gaps": [
+    "legion count to be pinned to the Plutarch passage"
+   ],
+   "old_total": 6075000000.0,
+   "old_status": "direct"
+  },
+  "constantine": {
+   "virt": {
+    "feat": "none attested: the Milvian Bridge vision carries no energy claim",
+    "cls": "none",
+    "energy": 0.0,
+    "duration": 1,
+    "formula": "n/a",
+    "assumptions": "finding.",
+    "peak": null,
+    "locator": null
+   },
+   "virt_watts": 0.0,
+   "virt_excerpt": null,
+   "virt_source_id": null,
+   "phys_watts": 9095200000.0,
+   "phys_comps": [
+    {
+     "cls": "human",
+     "w": 9000000000.0,
+     "basis": "Gibbon: the military establishment computed at 583,000-645,000 men; 15 kW each",
+     "anchor": [
+      "evidence/constantine/gibbon-decline-fall-vol2-pg732.txt",
+      "complete force of the military establishment"
+     ],
+     "sid": 324,
+     "excerpt": "A more particular enumeration, drawn from the_ Notitia_, might exercise the diligence of an antiquary; but the historian will content himself with observing, that the number of permanent stations or garrisons established on the frontiers of the empire, amounted to five hundred and eighty-three; and that, under the successors of Constantine, the complete force of the military establishment was computed at six hundred and forty-five thousand soldiers. An effort so prodigious surpassed the wants of a more ancient, and the faculties of a later, period. 131 (return) [ Ammian. l. xix. c. 2. He observes, (c. 5,) that the desperate sallies of two Gallic legions were like a handful of water thrown on a great conflagration.] 132 (return) [ Pancirolus ad Notitiam, p. 96. Mémoires de l’Académie des Inscriptions, tom. xxv. p. 491.]"
+    },
+    {
+     "cls": "resources",
+     "w": 95200000.0,
+     "basis": "Rome's annona ~200,000 t grain/yr x 15 MJ/kg",
+     "anchor": null,
+     "sid": null,
+     "excerpt": null
+    }
+   ],
+   "phys_absent": [
+    "weapons: legionary kit inside the coefficient"
+   ],
+   "phys_gaps": [
+    "church endowments: the transfer fraction needs a ruled share of the fisc"
+   ],
+   "old_total": 0,
+   "old_status": "?"
+  },
+  "croesus": {
+   "virt": {
+    "feat": "none attested as an act; his documented power is the dedications (Herodotus 1.50-51)",
+    "cls": "none",
+    "energy": 0.0,
+    "duration": 1,
+    "formula": "n/a",
+    "assumptions": "weighed in the physical ledger as capital transferred to Delphi.",
+    "peak": null,
+    "locator": null
+   },
+   "virt_watts": 0.0,
+   "virt_excerpt": null,
+   "virt_source_id": null,
+   "phys_watts": 300000000.0,
+   "phys_comps": [
+    {
+     "cls": "human",
+     "w": 300000000.0,
+     "basis": "Lydian host, order-of-magnitude pending a witness number x 15 kW",
+     "anchor": [
+      "evidence/croesus/herodotus-macaulay-pg2707.txt",
+      "Croesus"
+     ],
+     "sid": 323,
+     "excerpt": "These are the tales told by the Persians and the Phenicians severally: and concerning these things I am not going to say that they happened thus or thus,but when I have pointed to the man who first within my own knowledge began to commit wrong against the Hellenes, I shall go forward further with the story, giving an account of the cities of men, small as well as great: for those which in old times were great have for the most part become small, while those that were in my own time great used in former times to be small: so then, since I know that human prosperity never continues steadfast, I shall make mention of both indifferently. 6. Croesus was Lydian by race, the son of Alyattes and ruler of the nations which dwell on this side of the river Halys; which river, flowing from the South between the Syrians 5 and the Paphlagonians, runs out towards the North Wind into that Sea which is called the Euxine. This Croesus, first of all the Barbarians of whom we have knowledge, subdued certain of the Hellenes and forced them to pay tribute, while others he gained over and made them his friends."
+    },
+    {
+     "cls": "capital",
+     "w": 0.0,
+     "basis": "Delphic dedications: 117 ingots at ~2 talents + the golden lion (10 talents) + 6 golden bowls (30 talents): the first large documented capital transfer to a sanctuary",
+     "anchor": [
+      "evidence/croesus/herodotus-macaulay-pg2707.txt",
+      "one hundred and seventeen"
+     ],
+     "sid": 323,
+     "excerpt": "And when he had finished the sacrifice, he melted down a vast quantity of gold, and of it he wrought half-plinths 45 making them six palms 46 in length and three in breadth, and in height one palm; and their number was one hundred and seventeen. Of these four were of pure gold 47 weighing two talents and a half 48 each, and others of gold alloyed with silver 49 weighing two talents. And he caused to be made also an image of a lion of pure gold weighing ten talents; which lion, when the temple of Delphi was being burnt down, fell from off the half-plinths, for upon these it was set,and is placed now in the treasury of the Corinthians, weighing six talents and a half, for three talents and a half were melted away from it. 51."
+    }
+   ],
+   "phys_absent": [
+    "weapons inside the coefficient",
+    "finance: mint output not quantified"
+   ],
+   "phys_gaps": [
+    "host size: Herodotus gives no clean figure for the Lydian levy"
+   ],
+   "old_total": 0,
+   "old_status": "?"
+  }
+ },
+ "transfers": [
+  {
+   "frm": "constantine",
+   "to": "god",
+   "phys_frac": 0.03,
+   "virt_frac": 0.0,
+   "basis": "church endowments, exemptions and state enforcement as a share of the imperial fisc; share to be ruled",
+   "demo": "real power reaching a temple from a state"
+  },
+  {
+   "frm": "god",
+   "to": "jesus",
+   "phys_frac": 0.3,
+   "virt_frac": 0.0,
+   "basis": "the received physical power re-transmitted (ruling clarification): the institution built on his endowment; conservation sum(out) <= 1",
+   "demo": "physical re-transmission, multi-hop, physical pool only"
+  },
+  {
+   "frm": "croesus",
+   "to": "apollo",
+   "phys_frac": 0.1,
+   "virt_frac": 0.0,
+   "basis": "the Delphic dedications as a share of the Lydian treasure (Herodotus 1.50-51); share to be ruled",
+   "demo": "the oldest documented real-to-temple transfer"
+  },
+  {
+   "frm": "zeus",
+   "to": "heracles",
+   "phys_frac": 0.0,
+   "virt_frac": 0.2,
+   "basis": "VIRTUAL transmission only: the patron grants power, no treasury moves",
+   "demo": "virtual pool transmits virtual only"
+  }
+ ],
+ "coefficients": {
+  "soldier_w": 15000.0,
+  "ha_ag_w": 300.0,
+  "hp_w": 745.7
+ }
+}

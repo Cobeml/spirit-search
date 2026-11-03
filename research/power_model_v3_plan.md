@@ -190,3 +190,67 @@ Pilot 12 nodes: one session (evidence is on disk for all but Constantine/Croesus
 which need one fetch each). Full 208 nodes: 10-12 waves, physical ledger first for
 flesh record (already documented), virtual second per tradition. No graph.json
 writes until the rulings in section 4 arrive.
+
+# RULINGS APPLIED (Cobe, 2026-10-27, second reply) — spec v2
+
+1. VIRTUAL = the single highest attested feat, physics computed, PEAK AND SUSTAINED
+   both reported. Domain-budget attribution dropped (Cobe: too abstract and static;
+   accepted — the feat number is a literal statement, which is what the log needs).
+2. NO CAP. Cosmological-scale feats are priced numerically where physics is defined
+   (deluge 2.07 EW, sun-stop 2.1e29 W). Only feats with no defined energy class
+   (creation ex nihilo, resurrection, plague) are reported `undefined` with the
+   reason; that is an absence of physics, not a cap. Site size encoding must be
+   log10 of watts (30 orders of span).
+3. PHYSICAL is componentized and must be COMPLETE: every significant source of power
+   accounted for, class by class — human (per-head, equipment-tiered), weapons,
+   tools, natural resources, capital stock, finance. Each node's inventory either
+   values a class or records it as "none documented". 15 kW/deployed-soldier is the
+   default *human+supply* coefficient ONLY; weapon rows are added wherever the
+   witness documents them (batteries, fleets, engines), resource rows where lands,
+   mines or oil are documented.
+4. Static holds = 0 W sustained; the work figure is reported separately (Atlas:
+   5.05e19 J to raise the atmosphere 1 m).
+5. Constantine and Croesus added as demo nodes (executed as pilot data; graph write
+   pending acceptance).
+6. TRANSFERS are typed per pool and may be multi-hop WITH CONSERVATION: an edge
+   carries `virt_frac` and/or `phys_frac`; a node transmits only from the matching
+   pool; physical power received by transfer may be re-transmitted from the physical
+   pool (God receiving the Constantinian endowment then passing a share on), with
+   sum(outbound fractions) <= 1 per pool per node; cycles cut at the weakest link by
+   era order and flagged. No implicit defaults anywhere (the 0.2 kinship default is
+   deleted).
+
+## Pilot results (research/_power_v3_pilot.py -> power_v3_pilot.json)
+
+14 nodes, all excerpts anchor-verified, transfers routed and conservation-checked.
+
+| node | v2 | v3 physical | v3 virtual |
+|---|---|---|---|
+| zeus | 7.52 TW | - | 1.02 EW (theomachy sea-boil, thermal) |
+| god | 1.50 GW | 272.9 MW (received: Constantinian endowment) | 2.07 EW (deluge) |
+| inana | 300 GW | - | 30.1 TW (Mount Ebih fractured) |
+| thor | 0 W (unpriced) | - | 26.7 TW serpent-lift / 23 kW blow total |
+| poseidon | 0 W (unpriced) | - | 1.67 TW (storm laid flat) |
+| jesus | 5 MW | 81.9 MW (received, multi-hop) | 1.67 TW (storm calmed) |
+| prometheus | 14.25 TW | - | 10 MW (torch) |
+| heracles | 3.75 GW | - | 59 MW (Augean diversion) |
+| apollo | 7.50 GW | - | 10 kW (Python); plague undefined |
+| atlas | 376.5 GW | - | 0 W sustained (5.05e19 J to raise 1 m) |
+| washington | 180 GW | 46 MW (Weems's in-witness low) | none attested |
+| sulla | 6.08 GW | 600 MW | none attested |
+| constantine (new) | - | 9.10 GW | none attested |
+| croesus (new) | - | 300 MW | none attested |
+
+Transfer demos: constantine->god phys 3% = 272.9 MW; god->jesus phys 30% of received
+= 81.9 MW (the clarification's case); croesus->apollo phys 10% = 30 MW (Herodotus
+1.50-51 dedications); zeus->heracles virt 20% = 203.7 PW.
+
+## Residual questions for the wave pass
+
+- Feat-reading spread (Thor 23 kW vs 26.7 TW): report the pair with the largest act
+  as the headline, keep the literal total in the row.
+- Undefined-class feats: symbolic row or unlisted.
+- Weapon/resource rows: confirm they enter as separate components.
+- Transfer shares: ruled per edge (current values are proposals).
+- Witness gaps: Washington's peak command, Croesus's host/mint, Constantine's
+  establishment range (Gibbon 583,000-645,000).
